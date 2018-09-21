@@ -10,31 +10,34 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Soft matter",
+    "Self-assembling systems",
+    "Microgels",
+    "DNA-based materials",
+    "Dipolar fluids"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
+  course = "PhD in Materials Science"
+  institution = "Sapienza Università di Roma"
   year = 2012
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
+  course = "Master Degree in Physics"
+  institution = "Sapienza Università di Roma"
   year = 2009
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "Bachelor Degree in Physics"
+  institution = "Sapienza Università di Roma"
+  year = 2007
  
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My research revolves around soft condensed matter and self assembly. In particular, I am interested in the phase behaviour of systems composed by anisotropically interacting nano- and micro-sized particles.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+My weapons of choice are computer simulations and theoretical approaches devised for the investigation of complex fluids. Some of the systems I have studied throughout my career are presented in the image gallery above.
+

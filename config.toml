@@ -237,7 +237,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
-    link = "//github.com/lorenzo-rovigatti"
+    link = "https://github.com/lorenzo-rovigatti"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -260,9 +260,14 @@ enableGitInfo = false
   weight = 1
 
 [[menu.main]]
+  name = "Didattica"
+  url = "#teaching"
+  weight = 2
+
+[[menu.main]]
   name = "Publications"
   url = "#publications_selected"
-  weight = 2
+  weight = 3
 
 #[[menu.main]]
 #  name = "Posts"
@@ -273,11 +278,6 @@ enableGitInfo = false
 #  name = "Projects"
 #  url = "#projects"
 #  weight = 4
-
-[[menu.main]]
-  name = "Didattica"
-  url = "#teaching"
-  weight = 3
 
 [[menu.main]]
   name = "Contact"
