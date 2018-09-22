@@ -20,7 +20,7 @@ caption = ""
 
 ---
 
-[Orario](#orario-delle-lezioni) -- [Ricevimento](#ricevimento) -- [Programma](#programma) -- [Appunti](#appunti)
+[Orario](#orario-delle-lezioni) -- [Ricevimento](#ricevimento) -- [Materiale](#materiale-didattico) -- [Programma](#programma) -- [Appunti](#appunti)
 
 ---
 
@@ -33,21 +33,72 @@ caption = ""
 * Inizio lezioni: 25/09/2018
 * Fine lezioni: ?
 * Orario:
-  * Martedì 11-13, aula C (primo piano dell'edificio S. Cannizzaro - vecchio edificio di Chimica)
-  * Mercoledì 11-13, aula C (primo piano dell'edificio S. Cannizzaro - vecchio edificio di Chimica)
-  * Giovedì 9-11, aula C (primo piano dell'edificio S. Cannizzaro - vecchio edificio di Chimica)
+	* Martedì 11-13, aula C (primo piano dell'edificio S. Cannizzaro - vecchio edificio di Chimica)
+	* Mercoledì 11-13, aula C (primo piano dell'edificio S. Cannizzaro - vecchio edificio di Chimica)
+	* Giovedì 9-11, aula C (primo piano dell'edificio S. Cannizzaro - vecchio edificio di Chimica)
 
 ### Ricevimento
 
-Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edificio di Fisica)
+Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edificio di Fisica) e può essere contattato all'indirizzo [lorenzo.rovigatti@uniroma1.it](mailto:lorenzo.rovigatti@uniroma1.it)
 
 * Orari
-  * Mercoledì 14-16 (durante il corso)
-  * In qualunque altro giorno (a seconda della disponibilità del docente), previo appuntamento accordato via email
+	* Giovedì 15-17 (durante il corso)
+	* In qualunque altro giorno (a seconda della disponibilità del docente), previo appuntamento accordato via email
+  
+### Materiale didattico
+
+* Testo di riferimento:
+	* P. Mazzoldi, M. Nigro, C. Voci (MNV), "Elementi di Fisica -- Elettromagnetismo e Onde", EdiSES
+* Altri libri (più o meno) equivalenti:
+	* R. A. Serway, J. W. Jewett Jr., "Fisica per Scienze ed Ingegneria -- Vol. II -- Elettromagnetismo e onde", EdiSES
+	* C. Mencuccini, V. Silvestrini, "Fisica II -- Elettromagnetismo - Ottica", Liguori Editore
 
 ### Programma
 
-Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta per volta. L'insieme degli argomenti trattati costituisce il programma d'esame. 
+#### Sintetico
+
+{{% expand "Elettrostatica" %}}
+* Cariche elettriche
+* Legge di Coulomb
+* Campo elettrostatico
+* Potenziale elettrostatico
+* Dipolo elettrico
+* Teorema di Gauss e applicazioni
+* Conduttori e condensatori
+* Dielettrici
+{{% /expand %}}
+{{% expand "Corrente elettrica" %}}
+* Conduzione e corrente elettrica
+* Legge di Ohm, resistenza e resistività
+* Forza elettromotrice
+* Leggi di Kirchhoff
+{{% /expand %}}
+{{% expand "Magnetostatica" %}}
+* Campo magnetico e magneti permanenti
+* Forza di Lorentz
+* Moto in un campo magnetico
+* Leggi di Laplace
+* Teorema della circuitazione
+* Proprietà magnetiche della materia
+* Legge di Gauss per il campo magnetico
+{{% /expand %}}
+{{% expand "Campo elettromagnetico" %}}
+* Legge di Faraday e applicazioni
+* Equazioni di Maxwell
+{{% /expand %}}
+{{% expand "Onde elettromagnetiche e ottica fisica" %}}
+* Onde piane e intensità media
+* Polarizzazione delle onde elettromagnetiche
+* Riflessione, rifrazione e dispersione
+* Interferenza e diffrazione
+{{% /expand %}}
+
+#### Dettagliato
+
+Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta per volta. L'insieme degli argomenti trattati costituisce il programma d'esame.
+
+* 25/09/2018
+	* ...
 
 ### Appunti
 
