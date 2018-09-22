@@ -10,7 +10,7 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Soft matter",
+    "Computational soft matter",
     "Self-assembling systems",
     "Microgels",
     "DNA-based materials",

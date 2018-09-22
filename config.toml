@@ -261,13 +261,13 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Didattica"
-  url = "#teaching"
+  url = "/didattica/current/"
   weight = 2
 
-[[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 3
+#[[menu.main]]
+#  name = "Publications"
+#  url = "#publications_selected"
+#  weight = 3
 
 #[[menu.main]]
 #  name = "Posts"
@@ -281,7 +281,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Contact"
-  url = "#contact"
+  url = "/#contact"
   weight = 4
 
 # Link to a PDF of your resume/CV from the menu.
