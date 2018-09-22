@@ -1,5 +1,5 @@
 +++
-title = "A.A. 2017/2018"
+title = "A.A. 2018/2019"
 date = 2018-09-22T08:06:49+02:00
 draft = false
 
@@ -24,6 +24,10 @@ caption = ""
 
 ---
 
+### Comunicazioni
+
+
+
 ### Orario delle lezioni
 
 * Inizio lezioni: 25/09/2018
@@ -39,7 +43,7 @@ Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edi
 
 * Orari
   * Mercoledì 14-16 (durante il corso)
-  * In qualunque altro giorno (a seconda della disponibilità del docente), previo appuntamento accordiato via email
+  * In qualunque altro giorno (a seconda della disponibilità del docente), previo appuntamento accordato via email
 
 ### Programma
 
@@ -47,3 +51,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 
 ### Appunti
 
+* [Ripasso di matematica]({{< ref "2018/matematica.md" >}})

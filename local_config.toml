@@ -6,7 +6,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "http://www.roma1.infn.it/~rovigatl/"
+baseurl = "localhost:1313/"
 
 # Title of your site
 title = "Lorenzo Rovigatti"
