@@ -81,9 +81,12 @@ Durante il corso spiegherò tutti i passaggi degli integrali che incontreremo. T
 
 {{< figure src="didattica/2018/images/wolfram.png" alt="Wolfram alpha" width="700">}}
 
-## Unità di misura
+## Grandezze fisiche e unità di misura
 
 * La maggior parte delle quantità fisiche è associata ad una unità di misura.
 * Quelle che non lo sono sono spesso espresse come rapporto tra quantità aventi le stesse unità di misura e sono dette quantità *adimensionali*.
 * Quando si ha a che fare con equazioni matematiche, le quantità che sono a sinistra e a destra dell'uguale **devono** avere le stesse unità di misura.
-* Fare un'*analisi dimensionale* permette spesso di capire rapidamente se le equazioni o relazioni scritte sono errate o meno.
+* Fare un'*analisi dimensionale* permette spesso di capire rapidamente quali sono le unità di misura in gioc e se le equazioni o relazioni scritte sono errate o meno.
+* È molto importante stimare gli ordini di grandezza delle quantità in gioco perché permette di scegliere il tipo di descrizione più adatto al fenomeno sotto osservazione. Esempi:
+	* Se abbiamo a che fare con velocità molto minori di quelle della luce non c'è bisogno di utilizzare la teoria della relatività.
+	* Sappiamo che l'intensità della forza di gravità presente tra due masse è $F = G \frac{m_1m_2}{r^2}$, ma nei problemi di meccanica la stessa forza si scrive come $F = mg$.

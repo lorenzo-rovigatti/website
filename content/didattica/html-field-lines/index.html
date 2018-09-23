@@ -1,0 +1,42 @@
++++
+title = "Le linee del campo elettrostatico"
+date = 2018-09-22T08:06:49+02:00
+draft = false
+type = "verbatim"
++++
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='http://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
+
+        <title>Le linee del campo elettrostatico</title>
+    </head>
+    <body>
+    <div id="container">
+        <canvas style="cursor: pointer" id="myCanvas" width="800" height="400" style="border:1px solid #c3c3c3;">
+        Your browser does not support the HTML5 canvas tag.
+        </canvas>
+    </div>
+    <div id="license">
+        <p>Licensed under the <a href="http://www.gnu.org/licenses/agpl.html">GNU AGPL license</a> -
+        <a href="http://github.com/lorenzo-rovigatti/html-field-lines">Source code</a> (forked from <a href="http://github.com/dragly/html-field-lines">here</a>)
+        <p>
+    </div>
+    <div id="controllers">
+        <h2>Controlli</h2>
+        <p>
+        Numero di linee di campo:<br/>
+        <input id="nFieldLines" type="number" min="6" max="30" onchange="controllersChanged(event)" value=10>
+        </p>
+        <button id="add" onclick="addCharge()">Aggiungi una carica</button>
+        <button id="remove" onclick="removeAll()">Rimuovi tutte le cariche</button>
+    </div>
+    <div id="title">
+        <h1>Le linee del campo elettrostatico</h1>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="htmlfieldlines.js"></script>
+    </body>
+</html>

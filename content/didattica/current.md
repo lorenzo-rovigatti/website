@@ -52,6 +52,8 @@ Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edi
 * Altri libri (più o meno) equivalenti:
 	* R. A. Serway, J. W. Jewett Jr., "Fisica per Scienze ed Ingegneria -- Vol. II -- Elettromagnetismo e onde", EdiSES
 	* C. Mencuccini, V. Silvestrini, "Fisica II -- Elettromagnetismo - Ottica", Liguori Editore
+* Animazioni/simulazioni
+	* [Le linee del campo elettrico]({{< ref "html-field-lines/index.html" >}})
 
 ### Programma
 
