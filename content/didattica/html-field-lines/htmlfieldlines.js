@@ -1,23 +1,15 @@
- 
-
-// CONSTANTS
-var minStepLength = 0.05;
-var maxStepLength = 0.5;
-
-var minNSteps = 1;
-var maxNSteps = 10000;
-
-var minNFieldLines = 6;
-var maxNFieldLines = 20;
-// END CONSTANTS
-
 var needsRedraw = false;
 var particles = [];
 var stepLength = 0.5;
 var nSteps = 10000;
 var nFieldLines = 12;
 var initialCharge = 1.0;
+var charge_radius = 15;
 var addingCharge = false;
+var removingCharge = false;
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+var drawing = false;
 
 function initialize() {
     particles[0] = {
@@ -55,16 +47,13 @@ function E(position) {
     return [Ex, Ey];
 }
 
-var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");
-
-    
-// var centerx = 200;
-// var centery = 200;
-var drawing = false;
-
 function redraw() {
     needsRedraw = true;
+}
+
+function reset_states() {
+	addingCharge = false;
+	removingCharge = false;
 }
 
 function removeAll() {
@@ -74,6 +63,11 @@ function removeAll() {
 
 function addCharge() {
 	addingCharge = true;
+	canvas.style.cursor = "crosshair";
+}
+
+function removeCharge() {
+	removingCharge = true;
 	canvas.style.cursor = "crosshair";
 }
 
@@ -92,7 +86,6 @@ function drawFieldLines() {
 
     var x = 0.0;
     var y = 0.0;
-    var radius = 15;
     // we first draw the lines and then the charges, so that the latter are always on top of the former
     for(var j = 0; j < particles.length; j++) {
         var xa = particles[j].position[0];
@@ -101,8 +94,8 @@ function drawFieldLines() {
 
         var nLines = nFieldLines * Math.abs(particles[j].charge);
         for(var a = 0; a < nLines; a++) {
-            x = xa + radius * Math.cos(a / nLines * 2 * 3.14);
-            y = ya + radius * Math.sin(a / nLines * 2 * 3.14);
+            x = xa + charge_radius * Math.cos(a / nLines * 2 * 3.14);
+            y = ya + charge_radius * Math.sin(a / nLines * 2 * 3.14);
             ctx.beginPath();
             ctx.moveTo(x,y);
             for(var i = 0; i < nSteps; i++) {
@@ -140,7 +133,7 @@ function drawFieldLines() {
         }
         ctx.fillStyle = sphere_color;
         ctx.beginPath();
-        ctx.arc(xa, ya, radius, 0, Math.PI*2, true); 
+        ctx.arc(xa, ya, charge_radius, 0, Math.PI*2, true); 
         ctx.closePath();
         ctx.fill();
         
@@ -185,7 +178,6 @@ HTMLCanvasElement.prototype.relMouseCoords = relMouseCoords;
 
 
 function onResize() {
-    console.log("Resized!");
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
@@ -201,7 +193,7 @@ function onMouseDown(e) {
         var diffX = dragStartX - particles[i].position[0];
         var diffY = dragStartY - particles[i].position[1];
         
-        if((diffX*diffX + diffY*diffY) < 1000) {
+        if((diffX*diffX + diffY*diffY) < charge_radius*charge_radius) {
             draggingParticle = i;
             dragging = true;
             break;
@@ -218,7 +210,6 @@ function onMouseMove(e) {
         if(dragging) {
             particles[draggingParticle].position[0] = dragX;
             particles[draggingParticle].position[1] = dragY;
-            // drawFieldLines();
             redraw();
         }
     }
@@ -234,7 +225,6 @@ function onMouseUp(e) {
     var diffY = dragStartY - dragY;
     
     if(addingCharge) {
-    	addingCharge = false;
     	canvas.style.cursor = "pointer";
     	
     	do {
@@ -252,6 +242,25 @@ function onMouseUp(e) {
         }
         redraw();
     }
+    
+    if(removingCharge) {
+    	canvas.style.cursor = "pointer";
+    	
+    	// let's see if we are close to a charge
+    	coords = canvas.relMouseCoords(e);
+    	for(var i = 0; i < particles.length; i++) {
+            var diffX = coords.x - particles[i].position[0];
+            var diffY = coords.y - particles[i].position[1];
+            
+            if((diffX*diffX + diffY*diffY) < charge_radius*charge_radius) {
+                particles.splice(i, 1);
+                break;
+            }
+        }
+    	redraw();
+    }
+    
+    reset_states();
     
     return false;
 }
@@ -271,7 +280,6 @@ window.requestAnimFrame = (function(){
 
 // usage:
 // instead of setInterval(render, 16) ....
-
 (function animloop(){
   requestAnimFrame(animloop);
   drawFieldLines();
@@ -286,6 +294,6 @@ canvas.addEventListener('mouseup', onMouseUp, false);
 window.addEventListener('resize', onResize, false);
 canvas.onselectstart = function () { return false; } // ie
 
-console.log("Done!");
+console.log("Initialised");
 
 
