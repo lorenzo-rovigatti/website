@@ -38,12 +38,20 @@ type = "verbatim"
     </div>
     <div id="controllers">
         <h2>Controlli</h2>
+        
+        <ol>
+        	<li>Premi su di una carica per spostarla muovendo il mouse</li>
+        	<li>Aggiungi una carica cliccando il pulsante e poi un punto sul piano</li>
+        	<li>Rimuovi una carica cliccando il pulsante e poi la carica da rimuovere</li>
+        </ol>
+        
         <p>
         Numero di linee di campo:<br/>
         <input id="nFieldLines" type="number" min="6" max="30" onchange="controllersChanged(event)" value=10>
         </p>
         <button id="add" onclick="addCharge()">Aggiungi una carica</button>
-        <button id="remove" onclick="removeAll()">Rimuovi tutte le cariche</button>
+        <button id="remove" onclick="removeCharge()">Rimuovi una carica</button>
+        <button id="remove_all" onclick="removeAll()">Rimuovi tutte le cariche</button>
     </div>
     <div id="title">
         <h1>Le linee del campo elettrostatico</h1>
