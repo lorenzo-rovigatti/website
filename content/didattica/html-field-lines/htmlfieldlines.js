@@ -2,6 +2,7 @@ var needsRedraw = false;
 var particles = [];
 var stepLength = 0.5;
 var nSteps = 10000;
+var draw_arrow_every = 200;
 var nFieldLines = 12;
 var initialCharge = 1.0;
 var charge_radius = 15;
@@ -71,6 +72,44 @@ function removeCharge() {
 	canvas.style.cursor = "crosshair";
 }
 
+function stroke_line() {
+	ctx.lineWidth = 1;
+    ctx.strokeStyle="#000000";
+    ctx.stroke();
+}
+
+function rotate(vector, angle) {
+	var cos = Math.cos(angle),
+	sin = Math.sin(angle),
+	nx = (cos * vector[0]) + (sin * vector[1]),
+	ny = (cos * vector[1]) - (sin * vector[0]);
+	return [nx, ny];
+}
+
+// very crude way of drawing an arrow
+function drawArrowWings(starting_point, versor) {
+	var wing_length = 10;
+	var arrow_angle = Math.PI / 6.;
+	
+	stroke_line();
+    
+    ctx.beginPath();
+    ctx.moveTo(starting_point[0], starting_point[1]);
+    
+    // first wing
+    [new_x, new_y] = rotate(versor, arrow_angle);
+    ctx.lineTo(starting_point[0] - wing_length * new_x, starting_point[1] - wing_length * new_y);
+    ctx.moveTo(starting_point[0], starting_point[1]);
+    // second wing
+    [new_x, new_y] = rotate(versor, -arrow_angle);
+    ctx.lineTo(starting_point[0] - wing_length * new_x, starting_point[1] - wing_length * new_y);
+    
+    stroke_line();
+    
+    ctx.beginPath();
+    ctx.moveTo(starting_point[0], starting_point[1]);
+}
+
 function drawFieldLines() {
     if(!needsRedraw) {
         return;
@@ -94,25 +133,27 @@ function drawFieldLines() {
 
         var nLines = nFieldLines * Math.abs(particles[j].charge);
         for(var a = 0; a < nLines; a++) {
-            x = xa + charge_radius * Math.cos(a / nLines * 2 * 3.14);
-            y = ya + charge_radius * Math.sin(a / nLines * 2 * 3.14);
+            x = xa + charge_radius * Math.cos(a / nLines * 2 * Math.PI);
+            y = ya + charge_radius * Math.sin(a / nLines * 2 * Math.PI);
             ctx.beginPath();
             ctx.moveTo(x,y);
             for(var i = 0; i < nSteps; i++) {
                 var field = E([x,y]);
                 var stepx = field[0];
                 var stepy = field[1];
-                
-                // use Euler's method
                 var E_mod = Math.sqrt(stepx * stepx + stepy * stepy);
+                
+                if(i > 0 && i % draw_arrow_every == 0) {
+                	drawArrowWings([x, y], [stepx / E_mod, stepy / E_mod]);
+                }
+
+                // use Euler's method
                 x += sign * stepLength * stepx / E_mod;
                 y += sign * stepLength * stepy / E_mod;
                 
                 ctx.lineTo(x,y);
             }
-            ctx.lineWidth = 1;
-            ctx.strokeStyle="#000000";
-            ctx.stroke();
+            stroke_line();
         }
     }
     
