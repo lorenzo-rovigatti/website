@@ -26,7 +26,7 @@ caption = ""
 
 ### Comunicazioni
 
-
+* Prossimo giorno di esercitazione: Giovedì 27/09/2018 
 
 ### Orario delle lezioni
 
@@ -100,6 +100,15 @@ Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edi
 Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta per volta. L'insieme degli argomenti trattati costituisce il programma d'esame.
 
 * 25/09/2018
+	* Presentazione del corso
+	* Test di valutazione iniziale di matematica ([risultati]({{< static "didattica/2018/risultati_test_iniziale.ods" >}}))
+	* Ripasso di matematica:
+		* Vettori
+		* Derivate
+		* Integrali
+		* Unità di misura
+		* Ordini di grandezza
+* 26/09/2018
 	* ...
 
 ### Appunti
