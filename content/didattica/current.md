@@ -99,18 +99,27 @@ Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edi
 
 Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta per volta. L'insieme degli argomenti trattati costituisce il programma d'esame.
 
-* 25/09/2018
-	* Presentazione del corso
-	* Test di valutazione iniziale di matematica ([risultati]({{< static "didattica/2018/risultati_test_iniziale.ods" >}}))
-	* Ripasso di matematica:
-		* Vettori
-		* Derivate
-		* Integrali
-		* Unità di misura
-		* Ordini di grandezza
-* 26/09/2018
-	* ...
+{{% expand "25/09/2018" %}}
+* Presentazione del corso
+* Test di valutazione iniziale di matematica ([risultati]({{< static "didattica/2018/risultati_test_iniziale.ods" >}}))
+* Ripasso di matematica:
+	* Vettori
+	* Derivate
+	* Integrali
+	* Unità di misura
+	* Ordini di grandezza
+{{% /expand %}}
+{{% expand "26/09/2018" %}}
+* Introduzione all'elettrostatica
+	* Carica elettrica
+	* Struttura elettrica della materia
+* Legge di Coulomb
+* Campo elettrostatico
+* Distribuzioni continue di cariche
+* Riferimenti bibliografici MNV: 1.1 (senza isolanti/conduttori), 1.2 (senza induzione), 1.3, 1.4, 1.5
+{{% /expand %}}
 
 ### Appunti
 
 * [Ripasso di matematica]({{< ref "2018/matematica.md" >}})
+* [Lezione 26/09/2018]({{< ref "2018/lezione_1.md" >}})
