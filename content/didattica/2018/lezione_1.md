@@ -1,5 +1,5 @@
 +++
-title = "Lezione 25/09/2018"
+title = "Lezione 26/09/2018"
 date = 2018-09-22T09:47:43+02:00
 draft = false
 

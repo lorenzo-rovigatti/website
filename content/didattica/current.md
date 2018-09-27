@@ -26,7 +26,8 @@ caption = ""
 
 ### Comunicazioni
 
-* Prossimo giorno di esercitazione: Giovedì 27/09/2018 
+* Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
+* Prossimo giorno di esercitazione: Lunedì 01/10/2018 
 
 ### Orario delle lezioni
 
@@ -118,6 +119,12 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Distribuzioni continue di cariche
 * Riferimenti bibliografici MNV: 1.1 (senza isolanti/conduttori), 1.2 (senza induzione), 1.3, 1.4, 1.5
 {{% /expand %}}
+{{% expand "27/09/2018" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_1.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 1.1, 1.3 e 1.6
+* Esercizi consigliati MNV: 1.2, 1.3, 1.4, 1.5, 1.7, 1.9, 1.10
+{{% /expand %}}
+
 
 ### Appunti
 
