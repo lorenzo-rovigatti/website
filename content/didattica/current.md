@@ -27,7 +27,7 @@ caption = ""
 ### Comunicazioni
 
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
-* Prossimo giorno di esercitazione: Lunedì 01/10/2018 
+* Prossimo giorno di esercitazione: Giovedì 04/10/2018 
 
 ### Orario delle lezioni
 
@@ -53,6 +53,9 @@ Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edi
 * Altri libri (più o meno) equivalenti:
 	* R. A. Serway, J. W. Jewett Jr., "Fisica per Scienze ed Ingegneria -- Vol. II -- Elettromagnetismo e onde", EdiSES
 	* C. Mencuccini, V. Silvestrini, "Fisica II -- Elettromagnetismo - Ottica", Liguori Editore
+* Libri aggiuntivi di esercizi (molti esercizi si trovano nei libri indicati sopra):
+	* M. Nigro, C. Voci, "Problemi di Fisica Generale -- Elettromagnetismo e Ottica", Cortina (Padova)
+	* C. Schönberg, "360 esercizi e problemi di Fisica II", Schönenfeld & Ziegler
 * Animazioni/simulazioni
 	* [Le linee del campo elettrico]({{< ref "html-field-lines/index.html" >}})
 
@@ -96,7 +99,7 @@ Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edi
 * Interferenza e diffrazione
 {{% /expand %}}
 
-#### Dettagliato
+#### Dettagliato (diario delle lezioni)
 
 Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta per volta. L'insieme degli argomenti trattati costituisce il programma d'esame.
 
@@ -121,12 +124,30 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% /expand %}}
 {{% expand "27/09/2018" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_1.md" >}}))
-* Riferimenti bibliografici MNV: Esempi 1.1, 1.3 e 1.6
+* Riferimenti bibliografici MNV: Esempi 1.1, 1.3, 1.6
 * Esercizi consigliati MNV: 1.2, 1.3, 1.4, 1.5, 1.7, 1.9, 1.10
 {{% /expand %}}
-
+{{% expand "02/10/2018" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_2.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 1.5, 1.7, 1.8
+* Esercizi consigliati MNV: 1.8, 1.12, 1.13, 1.14, 1.16, 1.18, 1.22
+{{% /expand %}}
+{{% expand "03/10/2018" %}}
+* Linee di campo (o di forza)
+* Moto di una carica in un campo elettrostatico uniforme
+* Lavoro della forza elettrostatica
+	* Circuitazione del campo
+	* Irrotazionalità del campo
+	* Energia potenziale elettrostatica
+* Potenziale elettrostatico
+	* Carica puntiforme
+	* Principio di sovrapposizione
+	* Relazione tra potenziale e campo elettrostatico
+* Riferimenti bibliografici MNV: 1.6, 1.7, 2.1 (senza forza elettromotrice), 2.2, 2.3, 2.4, 2.6
+{{% /expand %}}
 
 ### Appunti
 
 * [Ripasso di matematica]({{< ref "2018/matematica.md" >}})
 * [Lezione 26/09/2018]({{< ref "2018/lezione_1.md" >}})
+* [Lezione 03/10/2018]({{< ref "2018/lezione_2.md" >}})
