@@ -40,7 +40,7 @@ caption = ""
 
 ### Ricevimento
 
-Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edificio di Fisica) e può essere contattato all'indirizzo [lorenzo.rovigatti@uniroma1.it](mailto:lorenzo.rovigatti@uniroma1.it)
+Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edificio di Fisica) e può essere contattato all'indirizzo [lorenzo.rovigatti@uniroma1.it](mailto:lorenzo.rovigatti@uniroma1.it).
 
 * Orari
 	* Giovedì 15-17 (durante il corso)
@@ -103,7 +103,9 @@ Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edi
 
 Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta per volta. L'insieme degli argomenti trattati costituisce il programma d'esame.
 
-{{% expand "25/09/2018" %}}
+<small>Cliccare sulla data per visualizzare/nascondere l'elenco dettagliato, **E** sta per *esercitazione* e **L** per *lezione*</small>
+
+{{% expand "25/09/2018, <b>L</b>" %}}
 * Presentazione del corso
 * Test di valutazione iniziale di matematica ([risultati]({{< static "didattica/2018/risultati_test_iniziale.ods" >}}))
 * Ripasso di matematica:
@@ -113,7 +115,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Unità di misura
 	* Ordini di grandezza
 {{% /expand %}}
-{{% expand "26/09/2018" %}}
+{{% expand "26/09/2018, <b>L</b>" %}}
 * Introduzione all'elettrostatica
 	* Carica elettrica
 	* Struttura elettrica della materia
@@ -122,17 +124,17 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Distribuzioni continue di cariche
 * Riferimenti bibliografici MNV: 1.1 (senza isolanti/conduttori), 1.2 (senza induzione), 1.3, 1.4, 1.5
 {{% /expand %}}
-{{% expand "27/09/2018" %}}
+{{% expand "27/09/2018, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_1.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 1.1, 1.3, 1.6
 * Esercizi consigliati MNV: 1.2, 1.3, 1.4, 1.5, 1.7, 1.9, 1.10
 {{% /expand %}}
-{{% expand "02/10/2018" %}}
+{{% expand "02/10/2018, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_2.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 1.5, 1.7, 1.8
 * Esercizi consigliati MNV: 1.8, 1.12, 1.13, 1.14, 1.16, 1.18, 1.22
 {{% /expand %}}
-{{% expand "03/10/2018" %}}
+{{% expand "03/10/2018, <b>L</b>" %}}
 * Linee di campo (o di forza)
 * Moto di una carica in un campo elettrostatico uniforme
 * Lavoro della forza elettrostatica
@@ -145,7 +147,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Relazione tra potenziale e campo elettrostatico
 * Riferimenti bibliografici MNV: 1.6, 1.7, 2.1 (senza forza elettromotrice), 2.2, 2.3, 2.4, 2.6
 {{% /expand %}}
-{{% expand "04/10/2018" %}}
+{{% expand "04/10/2018, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_3.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 1.7, 1.8, 2.8
 * Esercizi consigliati MNV: 1.23, 1.24, 1.25, 2.3, 2.4, 2.5, 2.14, 2.16, 2.17, 2.18, 2.21, 2.23
