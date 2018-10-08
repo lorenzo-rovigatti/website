@@ -27,7 +27,7 @@ caption = ""
 ### Comunicazioni
 
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
-* Prossimo giorno di esercitazione: Giovedì 04/10/2018 
+* Prossimo giorno di esercitazione: Mercoledì 10/10/2018 
 
 ### Orario delle lezioni
 
@@ -144,6 +144,11 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Principio di sovrapposizione
 	* Relazione tra potenziale e campo elettrostatico
 * Riferimenti bibliografici MNV: 1.6, 1.7, 2.1 (senza forza elettromotrice), 2.2, 2.3, 2.4, 2.6
+{{% /expand %}}
+{{% expand "04/10/2018" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_3.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 1.7, 1.8, 2.8
+* Esercizi consigliati MNV: 1.23, 1.24, 1.25, 2.3, 2.4, 2.5, 2.14, 2.16, 2.17, 2.18, 2.21, 2.23
 {{% /expand %}}
 
 ### Appunti
