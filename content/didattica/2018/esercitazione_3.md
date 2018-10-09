@@ -129,7 +129,7 @@ $$
 Notiamo che $W$ è negativo se $q$ e $q_0$ hanno lo stesso segno e positivo altrimenti: se le cariche hanno lo stesso segno l'energia potenziale del sistema *aumenta* e quindi dobbiamo fare lavoro *contro* la forza elettrostatica (e viceversa).
 3. Sostituiamo i numeri nell'equazione precedente e troviamo
 $$
-W = 4.866 \times 10^{-3}\,\mathrm{J}
+W = 9.732 \times 10^{-4}\,\mathrm{J}
 $$
 **Nota Bene:** il lavoro ha le stesse unità di misura dell'energia (perché?) e quindi si misura in Joule (J).
 

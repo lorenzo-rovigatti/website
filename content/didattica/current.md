@@ -152,9 +152,20 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: Esempi 1.7, 1.8, 2.8
 * Esercizi consigliati MNV: 1.23, 1.24, 1.25, 2.3, 2.4, 2.5, 2.14, 2.16, 2.17, 2.18, 2.21, 2.23
 {{% /expand %}}
+{{% expand "09/10/2018, <b>L</b>" %}}
+* Unità di misura del potenziale
+* Energia potenziale elettrostatica e conservazione dell'energia
+* Superfici equipotenziali
+* Dipolo elettrico
+	* Potenziale
+	* Campo
+	* Momento meccanico
+* Teorema di Gauss e prima equazione di Maxwell
+* Riferimenti bibliografici MNV: 2.2, 2.3, 2.5, 2.7, 2.8 (solo campo uniforme), 3.1, 3.4
 
 ### Appunti
 
 * [Ripasso di matematica]({{< ref "2018/matematica.md" >}})
 * [Lezione 26/09/2018]({{< ref "2018/lezione_1.md" >}})
 * [Lezione 03/10/2018]({{< ref "2018/lezione_2.md" >}})
+* [Lezione 09/10/2018]({{< ref "2018/lezione_3.md" >}})
