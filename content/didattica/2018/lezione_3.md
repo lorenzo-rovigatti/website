@@ -1,5 +1,5 @@
 +++
-title = "Lezione 03/10/2018"
+title = "Lezione 09/10/2018"
 date = 2018-10-09T16:46:19+02:00
 draft = false
 
@@ -84,7 +84,7 @@ E\_\theta & = -\frac{1}{r}\frac{\partial V}{\partial \theta} = \frac{p \sin{(\th
 Cioè, in forma vettoriale,
 
 $$
-\vec{E} = \frac{1}{4\pi\epsilon_0 r^3} (2 p \cos{(\theta)}\hat{r} - \sin{(\theta)} \hat{\theta})
+\vec{E} = \frac{1}{4\pi\epsilon_0 r^3} (2 p \cos{(\theta)}\hat{r} + \sin{(\theta)} \hat{\theta})
 $$
 
 Il campo non dipende da $\phi$ poiché ha simmetria cilindrica rispetto all'asse del dipolo. Se poniamo $\theta = 0$ oppure $\theta = \pi$ troviamo che, lungo l'asse del dipolo, il campo è parallelo a $\vec{p}$ e vale 

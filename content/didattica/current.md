@@ -27,7 +27,7 @@ caption = ""
 ### Comunicazioni
 
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
-* Prossimo giorno di esercitazione: Mercoledì 10/10/2018 
+* Prossimo giorno di esercitazione: Martedì 16/10/2018 
 
 ### Orario delle lezioni
 
@@ -162,6 +162,22 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Momento meccanico
 * Teorema di Gauss e prima equazione di Maxwell
 * Riferimenti bibliografici MNV: 2.2, 2.3, 2.5, 2.7, 2.8 (solo campo uniforme), 3.1, 3.4
+{{% /expand %}}
+{{% expand "10/10/2018, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_4.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 2.4, 2.6, 3.1, 3.2, 3.3, 3.4
+* Esercizi consigliati MNV: 2.26 (solo energia elettrostatica), 2.27, 3.9, 3.10, 3.15, 3.18, 3.20
+{{% /expand %}}
+{{% expand "11/10/2018, <b>L</b>" %}}
+* Conduttori
+	* Conduttori cavi
+	* Induzione completa
+	* Gabbia di Faraday
+* Condensatori
+	* In parallelo
+	* In serie
+* Riferimenti bibliografici MNV: 4.1, 4.2, 4.3, 4.4
+{{% /expand %}}
 
 ### Appunti
 
@@ -169,3 +185,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 26/09/2018]({{< ref "2018/lezione_1.md" >}})
 * [Lezione 03/10/2018]({{< ref "2018/lezione_2.md" >}})
 * [Lezione 09/10/2018]({{< ref "2018/lezione_3.md" >}})
+* [Lezione 11/10/2018]({{< ref "2018/lezione_4.md" >}})
