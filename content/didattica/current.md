@@ -27,7 +27,7 @@ caption = ""
 ### Comunicazioni
 
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
-* Prossimo giorno di esercitazione: Lunedì 01/10/2018 
+* Prossimo giorno di esercitazione: Martedì 16/10/2018 
 
 ### Orario delle lezioni
 
@@ -40,7 +40,7 @@ caption = ""
 
 ### Ricevimento
 
-Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edificio di Fisica) e può essere contattato all'indirizzo [lorenzo.rovigatti@uniroma1.it](mailto:lorenzo.rovigatti@uniroma1.it)
+Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edificio di Fisica) e può essere contattato all'indirizzo [lorenzo.rovigatti@uniroma1.it](mailto:lorenzo.rovigatti@uniroma1.it).
 
 * Orari
 	* Giovedì 15-17 (durante il corso)
@@ -53,6 +53,9 @@ Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edi
 * Altri libri (più o meno) equivalenti:
 	* R. A. Serway, J. W. Jewett Jr., "Fisica per Scienze ed Ingegneria -- Vol. II -- Elettromagnetismo e onde", EdiSES
 	* C. Mencuccini, V. Silvestrini, "Fisica II -- Elettromagnetismo - Ottica", Liguori Editore
+* Libri aggiuntivi di esercizi (molti esercizi si trovano nei libri indicati sopra):
+	* M. Nigro, C. Voci, "Problemi di Fisica Generale -- Elettromagnetismo e Ottica", Cortina (Padova)
+	* C. Schönberg, "360 esercizi e problemi di Fisica II", Schönenfeld & Ziegler
 * Animazioni/simulazioni
 	* [Le linee del campo elettrico]({{< ref "html-field-lines/index.html" >}})
 
@@ -96,11 +99,13 @@ Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edi
 * Interferenza e diffrazione
 {{% /expand %}}
 
-#### Dettagliato
+#### Dettagliato (diario delle lezioni)
 
 Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta per volta. L'insieme degli argomenti trattati costituisce il programma d'esame.
 
-{{% expand "25/09/2018" %}}
+<small>Cliccare sulla data per visualizzare/nascondere l'elenco dettagliato, **E** sta per *esercitazione* e **L** per *lezione*</small>
+
+{{% expand "25/09/2018, <b>L</b>" %}}
 * Presentazione del corso
 * Test di valutazione iniziale di matematica ([risultati]({{< static "didattica/2018/risultati_test_iniziale.ods" >}}))
 * Ripasso di matematica:
@@ -110,7 +115,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Unità di misura
 	* Ordini di grandezza
 {{% /expand %}}
-{{% expand "26/09/2018" %}}
+{{% expand "26/09/2018, <b>L</b>" %}}
 * Introduzione all'elettrostatica
 	* Carica elettrica
 	* Struttura elettrica della materia
@@ -119,14 +124,65 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Distribuzioni continue di cariche
 * Riferimenti bibliografici MNV: 1.1 (senza isolanti/conduttori), 1.2 (senza induzione), 1.3, 1.4, 1.5
 {{% /expand %}}
-{{% expand "27/09/2018" %}}
+{{% expand "27/09/2018, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_1.md" >}}))
-* Riferimenti bibliografici MNV: Esempi 1.1, 1.3 e 1.6
+* Riferimenti bibliografici MNV: Esempi 1.1, 1.3, 1.6
 * Esercizi consigliati MNV: 1.2, 1.3, 1.4, 1.5, 1.7, 1.9, 1.10
 {{% /expand %}}
-
+{{% expand "02/10/2018, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_2.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 1.5, 1.7, 1.8
+* Esercizi consigliati MNV: 1.8, 1.12, 1.13, 1.14, 1.16, 1.18, 1.22
+{{% /expand %}}
+{{% expand "03/10/2018, <b>L</b>" %}}
+* Linee di campo (o di forza)
+* Moto di una carica in un campo elettrostatico uniforme
+* Lavoro della forza elettrostatica
+	* Circuitazione del campo
+	* Irrotazionalità del campo
+	* Energia potenziale elettrostatica
+* Potenziale elettrostatico
+	* Carica puntiforme
+	* Principio di sovrapposizione
+	* Relazione tra potenziale e campo elettrostatico
+* Riferimenti bibliografici MNV: 1.6, 1.7, 2.1 (senza forza elettromotrice), 2.2, 2.3, 2.4, 2.6
+{{% /expand %}}
+{{% expand "04/10/2018, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_3.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 1.7, 1.8, 2.8
+* Esercizi consigliati MNV: 1.23, 1.24, 1.25, 2.3, 2.4, 2.5, 2.14, 2.16, 2.17, 2.18, 2.21, 2.23
+{{% /expand %}}
+{{% expand "09/10/2018, <b>L</b>" %}}
+* Unità di misura del potenziale
+* Energia potenziale elettrostatica e conservazione dell'energia
+* Superfici equipotenziali
+* Dipolo elettrico
+	* Potenziale
+	* Campo
+	* Momento meccanico
+* Teorema di Gauss e prima equazione di Maxwell
+* Riferimenti bibliografici MNV: 2.2, 2.3, 2.5, 2.7, 2.8 (solo campo uniforme), 3.1, 3.4
+{{% /expand %}}
+{{% expand "10/10/2018, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_4.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 2.4, 2.6, 3.1, 3.2, 3.3, 3.4
+* Esercizi consigliati MNV: 2.26 (solo energia elettrostatica), 2.27, 3.9, 3.10, 3.15, 3.18, 3.20
+{{% /expand %}}
+{{% expand "11/10/2018, <b>L</b>" %}}
+* Conduttori
+	* Conduttori cavi
+	* Induzione completa
+	* Gabbia di Faraday
+* Condensatori
+	* In parallelo
+	* In serie
+* Riferimenti bibliografici MNV: 4.1, 4.2, 4.3, 4.4
+{{% /expand %}}
 
 ### Appunti
 
 * [Ripasso di matematica]({{< ref "2018/matematica.md" >}})
 * [Lezione 26/09/2018]({{< ref "2018/lezione_1.md" >}})
+* [Lezione 03/10/2018]({{< ref "2018/lezione_2.md" >}})
+* [Lezione 09/10/2018]({{< ref "2018/lezione_3.md" >}})
+* [Lezione 11/10/2018]({{< ref "2018/lezione_4.md" >}})
