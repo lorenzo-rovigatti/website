@@ -1,0 +1,52 @@
++++
+title = "Simulatore di circuiti"
+date = 2018-09-22T08:06:49+02:00
+draft = false
+type = "verbatim"
++++
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+
+	<title>Simulatore di circuiti</title>
+
+	<script type="text/javascript" src="js/hammer.min.js"></script>
+	<script type="text/javascript" src="js/download.js"></script>
+	<script type="text/javascript" src="js/it.js"></script>
+	<script type="text/javascript" src="js/schematic.js"></script>
+
+	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+	<style>
+	    * {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+	</style>
+
+	<script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-55764467-2', 'auto');
+
+        ga('require', 'eventTracker');
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'urlChangeTracker');
+        ga('send', 'pageview');
+  </script>
+  <script async src="//www.google-analytics.com/analytics.js"></script>
+
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="title">
+    <h1>Simulatore di circuiti</h1>
+</div>
+
+<input type="hidden" class="schematic" height='460' width='800' parts="g,v,i,r,c,s,l" analyses="dc"/>
+<div id="license">
+    <p>Licensed under the <a href="https://mit-license.org/">MIT license</a> -
+    <a href="https://github.com/lorenzo-rovigatti/circuit-sandbox">Source code</a> (forked from <a href="https://github.com/willymcallister/circuit-sandbox">here</a>) -
+    see <a href="https://spinningnumbers.org/">here</a> for more details about the creators of this tool.
+    <p>
+</div>
+</body>
+</html>
