@@ -1,5 +1,5 @@
 +++
-title = "Esercitazione_4"
+title = "Esercitazione 10/10/2018"
 date = 2018-10-10T13:50:02+02:00
 draft = false
 
