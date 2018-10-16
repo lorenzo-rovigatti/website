@@ -26,8 +26,9 @@ caption = ""
 
 ### Comunicazioni
 
+* **Per il ricevimento:** il giorno Giovedì 18/10/2018 il docente potrebbe non essere in stanza durante il ricevimento. Prendere accordi via e-mail o a lezione per eventuali appuntamenti.
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
-* Prossimo giorno di esercitazione: Martedì 16/10/2018 
+* Prossimo giorno di esercitazione: Giovedì 18/10/2018 
 
 ### Orario delle lezioni
 
@@ -177,6 +178,12 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* In parallelo
 	* In serie
 * Riferimenti bibliografici MNV: 4.1, 4.2, 4.3, 4.4
+{{% /expand %}}
+{{% expand "16/10/2018, <b>E</b>" %}}
+* Ripasso coordinate sferiche e polari
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_5.md" >}}))
+* Riferimenti bibliografici MNV: Esempio 4.1
+* Esercizi consigliati MNV: 3.11, 3.12, 3.13, 3.20, 4.4, 4.5, 4.6, 4.7, 4.8, 
 {{% /expand %}}
 
 ### Appunti
