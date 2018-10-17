@@ -185,6 +185,13 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: Esempio 4.1
 * Esercizi consigliati MNV: 3.11, 3.12, 3.13, 3.20, 4.4, 4.5, 4.6, 4.7, 4.8, 
 {{% /expand %}}
+{{% expand "17/10/2018, <b>L</b>" %}}
+* Energia e densità di energia del campo elettrostatico
+* Dielettrici
+	* Effetti di polarizzazione
+	* Legge di Gauss in presenza di dielettrici
+* Riferimenti bibliografici MNV: 4.5, 4.6, 4.7, 4.8
+{{% /expand %}}
 
 ### Appunti
 
@@ -193,3 +200,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 03/10/2018]({{< ref "2018/lezione_2.md" >}})
 * [Lezione 09/10/2018]({{< ref "2018/lezione_3.md" >}})
 * [Lezione 11/10/2018]({{< ref "2018/lezione_4.md" >}})
+* [Lezione 17/10/2018]({{< ref "2018/lezione_5.md" >}})
