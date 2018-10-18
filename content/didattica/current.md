@@ -192,6 +192,11 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Legge di Gauss in presenza di dielettrici
 * Riferimenti bibliografici MNV: 4.5, 4.6, 4.7, 4.8
 {{% /expand %}}
+{{% expand "18/10/2018, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_6.md" >}}))
+* Riferimenti bibliografici MNV: Esempio 4.13
+* Esercizi consigliati MNV: 4.9, 4.10, 4.11, 4.13, 4.14, 4.15, 4.16, 4.17, 4.18, 4.20, 4.21, 4.22, 4.25, 4.26, 4.27
+{{% /expand %}}
 
 ### Appunti
 
