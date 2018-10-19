@@ -26,9 +26,8 @@ caption = ""
 
 ### Comunicazioni
 
-* **Per il ricevimento:** il giorno Giovedì 18/10/2018 il docente potrebbe non essere in stanza durante il ricevimento. Prendere accordi via e-mail o a lezione per eventuali appuntamenti.
+* Prossimo giorno di esercitazione: Mercoledì 24/10/2018
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
-* Prossimo giorno di esercitazione: Giovedì 18/10/2018 
 
 ### Orario delle lezioni
 
