@@ -85,8 +85,8 @@ $$
 
 2. Sostituiamo i valori nelle relazioni trovate precedentemente:
 \begin{align}
-q_1 & = -2.67 \times 10^{-7}\\\\\\
-q_2 & = 2.67 \times 10^{-7}\\\\\\
+q_1 & = -2.67 \times 10^{-8}\\\\\\
+q_2 & = 2.67 \times 10^{-8}\\\\\\
 q_3 & = 5.6 \times 10^{-9}
 \end{align}
 

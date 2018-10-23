@@ -132,13 +132,13 @@ $$
 dove $r = \sqrt{R^2 + x^2}$. Sappiamo però che, lungo l'asse dell'anello, la componente $y$ del campo (totale) si deve annullare. Dobbiamo quindi utilizzare la relazione precedente per trovare l'unica componente diversa da zero, $E_x$. Per fare ciò proiettiamo il campo lungo $x$ utilizzando la relazione $E_x = |\vec{E}|\cos{(\theta)}$, con $\cos{(\theta)} = \frac{x}{r}$ (disegnare per credere). Si ottiene quindi
 
 $$
-dE_x = \frac{dq}{4\pi\epsilon_0}\frac{x}{r^{3 / 2}}
+dE_x = \frac{dq}{4\pi\epsilon_0}\frac{x}{r^3}
 $$
 
 La somma di tutti i contributi è banale, perché tutti gli elementini $dq$ generano lo stesso campo in $x$ e quindi si ottiene
 
 $$
-\vec{E} = E_x\hat{x} = \frac{q}{4\pi\epsilon_0}\frac{x}{r^{3 / 2}}\hat{x} = \frac{q}{4\pi\epsilon_0}\frac{x}{(R^2 + x^2)^{3 / 2}}\hat{x}
+\vec{E} = E_x\hat{x} = \frac{q}{4\pi\epsilon_0}\frac{x}{r^3}\hat{x} = \frac{q}{4\pi\epsilon_0}\frac{x}{(R^2 + x^2)^{3 / 2}}\hat{x}
 $$
 
 3. $x \gg R$ implica $\frac{R}{x} \ll 1$. Riscriviamo l'espressione ottenuta al punto precedente in modo da far comparire quest'ultima frazione:

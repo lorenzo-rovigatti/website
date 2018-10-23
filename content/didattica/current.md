@@ -196,6 +196,16 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: Esempio 4.13
 * Esercizi consigliati MNV: 4.9, 4.10, 4.11, 4.13, 4.14, 4.15, 4.16, 4.17, 4.18, 4.20, 4.21, 4.22, 4.25, 4.26, 4.27
 {{% /expand %}}
+{{% expand "23/10/2018, <b>L</b>" %}}
+* Corrente elettrica
+* Modello classico della conduzione elettrica
+* Legge di Ohm
+* Potenza ed effetto Joule
+* Resistori
+	* In serie
+	* In parallelo
+* Riferimenti bibliografici MNV: 5.1, 5.2, 5.3, 5.4, 5.5
+{{% /expand %}}
 
 ### Appunti
 
@@ -205,3 +215,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 09/10/2018]({{< ref "2018/lezione_3.md" >}})
 * [Lezione 11/10/2018]({{< ref "2018/lezione_4.md" >}})
 * [Lezione 17/10/2018]({{< ref "2018/lezione_5.md" >}})
+* [Lezione 23/10/2018]({{< ref "2018/lezione_6.md" >}})
