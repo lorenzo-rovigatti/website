@@ -26,7 +26,7 @@ caption = ""
 
 ### Comunicazioni
 
-* Prossimo giorno di esercitazione: Mercoledì 24/10/2018
+* Prossimo giorno di esercitazione: Martedì 06/11/2018
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
 
 ### Orario delle lezioni
@@ -40,7 +40,7 @@ caption = ""
 
 ### Ricevimento
 
-Il docente riceve nella stanza 114 al primo piano dell'edificio Fermi (nuovo edificio di Fisica) e può essere contattato all'indirizzo [lorenzo.rovigatti@uniroma1.it](mailto:lorenzo.rovigatti@uniroma1.it).
+Il docente riceve nella stanza 103 al primo piano dell'edificio Fermi (nuovo edificio di Fisica) e può essere contattato all'indirizzo [lorenzo.rovigatti@uniroma1.it](mailto:lorenzo.rovigatti@uniroma1.it).
 
 * Orari
 	* Giovedì 15-17 (durante il corso)
@@ -205,6 +205,10 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* In serie
 	* In parallelo
 * Riferimenti bibliografici MNV: 5.1, 5.2, 5.3, 5.4, 5.5
+{{% /expand %}}
+{{% expand "24/10/2018, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_7.md" >}}))
+* Esercizi consigliati MNV: 4.31, 4.33, 4.38, 4.41, 5.1, 5.4, 5.5, 5.8, 5.9, 5.12
 {{% /expand %}}
 
 ### Appunti
