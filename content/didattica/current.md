@@ -210,6 +210,16 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_7.md" >}}))
 * Esercizi consigliati MNV: 4.31, 4.33, 4.38, 4.41, 5.1, 5.4, 5.5, 5.8, 5.9, 5.12
 {{% /expand %}}
+{{% expand "25/10/2018, <b>L</b>" %}}
+* Forza elettromotrice
+* Circuiti RC
+	* Carica di un condensatore
+	* Scarica di un condensatore
+* Reti elettriche: cenni
+	* Prima legge di Kirchhoff
+	* Seconda legge di Kirchhoff
+* Riferimenti bibliografici MNV: 5.6, 5.7, 5.9
+{{% /expand %}}
 
 ### Appunti
 
@@ -220,3 +230,5 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 11/10/2018]({{< ref "2018/lezione_4.md" >}})
 * [Lezione 17/10/2018]({{< ref "2018/lezione_5.md" >}})
 * [Lezione 23/10/2018]({{< ref "2018/lezione_6.md" >}})
+* [Lezione 25/10/2018]({{< ref "2018/lezione_7.md" >}})
+

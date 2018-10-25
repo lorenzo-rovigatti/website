@@ -157,12 +157,12 @@ $$
 In questo caso abbiamo dimostrato direttamente che il lavoro non dipende dallo specifico $\mathcal{C}$ scelto ma solo da $A$ e $B$. Inoltre, il risultato dell'integrale ci dà l'espressione del potenziale elettrostatico generato da una carica puntiforme $q$:
 
 $$
-V(r) = \frac{q}{4\pi\epsilon_0} \frac{1}{r} + C
+V(r ) = \frac{q}{4\pi\epsilon_0} \frac{1}{r} + C
 $$
 dove $C$ è una costante arbitraria. Nella maggior parte dei casi (ma non sempre!) si impone $V(r \to \infty) = 0$ e quindi $C = 0$, per cui l'espressione del potenziale diventa:
 
 $$
-V(r) = \frac{q}{4\pi\epsilon_0} \frac{1}{r}.
+V(r ) = \frac{q}{4\pi\epsilon_0} \frac{1}{r}.
 $$
 
 In questo caso il potenziale dipende solo dalla distanza dalla carica e ha quindi simmetria sferica.
