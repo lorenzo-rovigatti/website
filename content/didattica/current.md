@@ -20,12 +20,13 @@ caption = ""
 
 ---
 
-[Orario](#orario-delle-lezioni) -- [Ricevimento](#ricevimento) -- [Materiale](#materiale-didattico) -- [Programma](#programma) -- [Appunti](#appunti)
+[Orario](#orario-delle-lezioni) -- [Ricevimento](#ricevimento) -- [Modalità di esame](#modalita-di-esame) -- [Materiale](#materiale-didattico) -- [Programma](#programma) -- [Appunti](#appunti)
 
 ---
 
 ### Comunicazioni
 
+* Il primo esonero si terrà il giorno Venerdì 09/11/2018 dalle ore 15:00 alle ore 17:00 nell'aula 7 del Nuovo Edificio di Fisica (Edificio Fermi, quarto piano). Chi volesse partecipare è pregato di aggiungere la propria matricola [qui](https://docs.google.com/spreadsheets/d/1roB3qD6uxET7BGgYMGUxwf1nYIoy2MBCIUtP7Nb8F6Y/edit?usp=sharing).
 * Prossimo giorno di esercitazione: Martedì 06/11/2018
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
 
@@ -45,6 +46,13 @@ Il docente riceve nella stanza 103 al primo piano dell'edificio Fermi (nuovo edi
 * Orari
 	* Giovedì 15-17 (durante il corso)
 	* In qualunque altro giorno (a seconda della disponibilità del docente), previo appuntamento accordato via email
+	
+### Modalità di esame
+
+* L'esame prevede una prova scritta ed una prova orale.
+* Durante il corso si terranno due prove di esonero che, se superate con profitto, varranno come prova scritta.
+* Durante gli appelli scritti sarà possibile recuperare uno solo dei due esoneri.
+* Il voto degli esoneri è valido fino alla sessione di Settembre compresa, quello degli scritti solo per la sessione corrente.
   
 ### Materiale didattico
 
