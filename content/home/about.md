@@ -37,6 +37,10 @@ weight = 5
 
 # Biography
 
+I have received my Master's degree in Physics (2009) and PhD diploma in Materials Science (2012) from Sapienza University of Rome before holding post-doc positions in Rome, Vienna (as a List-Meitner fellow in the Computational Physics group of the University of Vienna), Oxford (as a Marie Skłodowska-Curie fellow in the Physics Department) and back in Rome at the Institute of Complex Systems at CNR. Currently, I am a Rita-Levi Montalcini fellow in the Physics Department at Sapienza. Throughout my career I have focussed on the collective behaviour of colloidal systems, as investigated through a combination of theory and simulation.
+
+# My research
+
 My research revolves around soft condensed matter and self assembly. In particular, I am interested in the phase behaviour of systems composed by anisotropically interacting nano- and micro-sized particles.
 
 My weapons of choice are computer simulations and theoretical approaches devised for the investigation of complex fluids. Some of the systems I have studied throughout my career are presented in the image gallery above.

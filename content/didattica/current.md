@@ -20,14 +20,14 @@ caption = ""
 
 ---
 
-[Orario](#orario-delle-lezioni) -- [Ricevimento](#ricevimento) -- [Modalità di esame](#modalita-di-esame) -- [Materiale](#materiale-didattico) -- [Programma](#programma) -- [Appunti](#appunti)
+[Orario](#orario-delle-lezioni) -- [Ricevimento](#ricevimento) -- [Modalità di esame](#modalit-agrave-di-esame) -- [Materiale](#materiale-didattico) -- [Programma](#programma) -- [Appunti](#appunti)
 
 ---
 
 ### Comunicazioni
 
 * Il primo esonero si terrà il giorno Venerdì 09/11/2018 dalle ore 15:00 alle ore 17:00 nell'aula 7 del Nuovo Edificio di Fisica (Edificio Fermi, quarto piano). Chi volesse partecipare è pregato di aggiungere la propria matricola [qui](https://docs.google.com/spreadsheets/d/1roB3qD6uxET7BGgYMGUxwf1nYIoy2MBCIUtP7Nb8F6Y/edit?usp=sharing).
-* Prossimo giorno di esercitazione: Martedì 06/11/2018
+* Prossimo giorno di esercitazione: Giovedì 08/11/2018
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
 
 ### Orario delle lezioni
@@ -47,7 +47,7 @@ Il docente riceve nella stanza 103 al primo piano dell'edificio Fermi (nuovo edi
 	* Giovedì 15-17 (durante il corso)
 	* In qualunque altro giorno (a seconda della disponibilità del docente), previo appuntamento accordato via email
 	
-### Modalità di esame
+### Modalit&agrave; di esame
 
 * L'esame prevede una prova scritta ed una prova orale.
 * Durante il corso si terranno due prove di esonero che, se superate con profitto, varranno come prova scritta.
@@ -228,6 +228,18 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Seconda legge di Kirchhoff
 * Riferimenti bibliografici MNV: 5.6, 5.7, 5.9
 {{% /expand %}}
+{{% expand "06/11/2018, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_8.md" >}}))
+* Esercizi consigliati MNV per l'analisi dei circuiti: 5.19, 5.20, 5.21, 5.22, 5.23 (senza potenza), 5.24 (senza potenza)
+{{% /expand %}}
+{{% expand "07/11/2018, <b>L + E</b>" %}}
+* Corrente di spostamento
+* Alcuni circuiti particolari
+	* Galvanometro ed amperometro
+	* Voltmetro
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_9.md" >}}))
+* Riferimento bibliografici: MNV 5.8, 5.10, esempi 5.9 e 5.10
+{{% /expand %}}
 
 ### Appunti
 
@@ -239,4 +251,5 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 17/10/2018]({{< ref "2018/lezione_5.md" >}})
 * [Lezione 23/10/2018]({{< ref "2018/lezione_6.md" >}})
 * [Lezione 25/10/2018]({{< ref "2018/lezione_7.md" >}})
+* [Lezione 07/11/2018]({{< ref "2018/lezione_8.md" >}})
 

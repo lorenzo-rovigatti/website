@@ -16,7 +16,7 @@ caption = ""
 
 +++
 
-[Esercizio 29](#esercizio-29) -- [Esercizio 30](#esercizio-30) -- [Esercizio 31](#esercizio-31) -- [Esercizio 32](#esercizio-32) -- [Esercizio 33](#esercizio-33) -- [Esercizio 34](#esercizio-34)
+[Esercizio 29](#esercizio-29) -- [Esercizio 30](#esercizio-30) -- [Esercizio 31](#esercizio-31) -- [Esercizio 32](#esercizio-32)
 
 ## Esercizio 29
 
@@ -121,91 +121,9 @@ $$
 \Delta V(r ) & = \Delta V\_{1,3}
  \end{align}
 
+---
+
 ## Esercizio 31
-<small>Ispirato dall'esercizio III.13 del Mencuccini-Silvestrini</small>
-
-### Testo
-
-Un condensatore piano di dimensioni $a \times b \times h$ è parzialmente riempito (per un tratto $x = a / 3$) di una lastra di dielettrico omogeneo e isotropo con $\kappa = 4$ e mantenuto ad una d.d.p. $\Delta V$. 
-
-1. Quanto vale la carica $q_d$ che si dispone sulla parte di armatura superiore che si affaccia sul dielettrico?
-2. Calcolare $q_d$ se $\Delta V = 113$ V, $a = b = 10$ cm e $h = 2$ mm.
-
-### Soluzione
-
-1. Il condensatore può essere visto come due condensatori in parallelo di capacità $C_d = \epsilon_0 \kappa ab / 3h$ e $C_v = 2 \epsilon_0 ab / 3$. La capacità totale è quindi:
-$$
-C\_{\rm eq} = \frac{\epsilon_0 ab}{h} \left( \frac{\kappa}{3} + \frac{2}{3} \right) = \frac{2\epsilon_0 a b}{h}
-$$
-La carica totale sulle armatura è data da:
-$$
-q = q_d + q_i = \Delta V C\_{\rm eq} = \Delta V \frac{2 \epsilon_0 a b}{h}
-$$
-Poiché la d.d.p. tra i due "condensatori" deve essere la stessa, si deve avere
-$$
-\frac{q_d}{C_d} = \frac{q_v}{C_v}
-$$
-e quindi
-$$
-\frac{q_d}{2} = q_i = q - q_d
-$$
-da cui si ricava
-$$
-q_d = \frac{2}{3} q = \Delta V \frac{4 \epsilon_0 a b}{3 h}
-$$
-
-2. Sostituiamo i valori dati nelle relazione trovata al punto precedente:
-$$
-q_d = \frac{4}{3} 113 \cdot 8.854 \times 10^{-12} \frac{0.1 \cdot 0.1}{0.002}\, \mathrm{C} = 0.667 \times 10^{-8} \, \mathrm{C}
-$$
-
----
-
-## Esercizio 32
-
-### Testo
-
-Un condensatore piano di dimensioni $a \times b \times h_i$ è riempito completamente da un liquido incomprimibile dielettrico di costante relativa $\kappa$ e mantenuto da un generatore ad una d.d.p. $\Delta V$ costante. Se la distanza tra le due armature diventa $1.5 h_i$,
-
-1. come varia la capacità del condensatore?
-2. se prima di fare questa operazione di allontanamento il generatore venisse spento, cosa succederebbe?
-3. se l'operazione precedente venisse ripetuta per un dielettrico solido, quale sarebbe l'espressione della d.d.p.?
-
-### Soluzione
-
-1. La capacità iniziale del condensatore è:
-$$
-C_i = \frac{\epsilon_0 a b \kappa}{h_i}
-$$
-Poiché il liquido è incomprimibile, il volume che occupa rimane costante. Il volume iniziale è $V_i = abh_i$, mentre quello finale vale $V_f = 1.5 a x h_0$, dove $x$ è l'altezza che raggiunge dopo la variazione di distanza. Ponendo $V_i = V_f$ si ottiene $x = \frac{2}{3}b$. La capacità finale sarà quindi:
-$$
-C_f = \frac{4}{9} \epsilon_0 a b \kappa + \frac{2}{9} \epsilon_0 a b = \frac{\epsilon_0 a b}{h_i} \left( \frac{4}{9}\kappa + \frac{2}{9} \right)
-$$
-
-La differenza di capacità vale quindi:
-$$
-\Delta C = C_f - C_i = \frac{\epsilon_0 a b}{h_i} \left( \frac{4}{9}\kappa + \frac{2}{9} - \kappa \right) = \frac{\epsilon_0 a b}{h_i} \left( \frac{2}{9} - \frac{5}{9}\kappa \right)
-$$
-2. Se il generatore venisse spento *prima* di allontanare le armature, la carica sulle armature resterebbe la stessa. Inizialmente abbiamo
-$$
-q_i = \Delta V C_i
-$$
-D'altro canto alla fine avremmo
-$$
-q_f = \Delta V_f C_f = q_i = \Delta V C_i
-$$
-e quindi la nuova d.d.p. tra le armature sarebbe:
-$$
-\Delta V_f = \Delta V \frac{C_i}{C_f} = \Delta V \frac{9\kappa}{4\kappa + 2}
-$$
-3. Definito $\sigma = q_i / ab$, il campo nel vuoto è $E = \sigma / \epsilon_0$, mentre nel dielettrico è $E = \sigma / \kappa\epsilon_0$. Il potenziale tra le armature vale quindi:
-$$
-\Delta V = \frac{\sigma \left(\frac{3}{2} h_i - h_i\right)}{\epsilon_0} + \frac{\sigma h_i}{\kappa\epsilon_0} = \frac{q}{ab\epsilon_0}\left(\frac{h_i}{2} + \frac{h_i}{\kappa}\right)
-$$
-
----
-
-## Esercizio 33
 
 Un conduttore cilindro cavo di lunghezza $h$ ha raggio interno $R_1$ ed esterno $R_2$ ed è costituito da un materiale di resistività $\rho$.
 
@@ -235,7 +153,7 @@ $$
 
 ---
 
-## Esercizio 34
+## Esercizio 32
 
 ### Testo
 
