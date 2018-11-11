@@ -26,9 +26,8 @@ caption = ""
 
 ### Comunicazioni
 
-* **ATTENZIONE**: poiché il numero di persone prenotate è **molto maggiore** del previsto, gli studenti verranno divisi tra le aule **3 e 7** del Nuovo Edificio di Fisica
-* Il primo esonero si terrà il giorno Venerdì 09/11/2018 dalle ore 15:00 alle ore 17:00 nelle aule **3 e 7** del Nuovo Edificio di Fisica (Edificio Fermi, quarto piano). Chi volesse partecipare è pregato di aggiungere la propria matricola [qui](https://docs.google.com/spreadsheets/d/1roB3qD6uxET7BGgYMGUxwf1nYIoy2MBCIUtP7Nb8F6Y/edit?usp=sharing).
-* Prossimo giorno di esercitazione: Giovedì 08/11/2018
+* **Primo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_primo_esonero.md" >}})
+* Prossimo giorno di esercitazione: Martedì 13/11/2018 correzione primo esonero
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
 
 ### Orario delle lezioni
