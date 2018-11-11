@@ -26,7 +26,8 @@ caption = ""
 
 ### Comunicazioni
 
-* Il primo esonero si terrà il giorno Venerdì 09/11/2018 dalle ore 15:00 alle ore 17:00 nell'aula 7 del Nuovo Edificio di Fisica (Edificio Fermi, quarto piano). Chi volesse partecipare è pregato di aggiungere la propria matricola [qui](https://docs.google.com/spreadsheets/d/1roB3qD6uxET7BGgYMGUxwf1nYIoy2MBCIUtP7Nb8F6Y/edit?usp=sharing).
+* **ATTENZIONE**: poiché il numero di persone prenotate è **molto maggiore** del previsto, gli studenti verranno divisi tra le aule **3 e 7** del Nuovo Edificio di Fisica
+* Il primo esonero si terrà il giorno Venerdì 09/11/2018 dalle ore 15:00 alle ore 17:00 nelle aule **3 e 7** del Nuovo Edificio di Fisica (Edificio Fermi, quarto piano). Chi volesse partecipare è pregato di aggiungere la propria matricola [qui](https://docs.google.com/spreadsheets/d/1roB3qD6uxET7BGgYMGUxwf1nYIoy2MBCIUtP7Nb8F6Y/edit?usp=sharing).
 * Prossimo giorno di esercitazione: Giovedì 08/11/2018
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
 
@@ -239,6 +240,9 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Voltmetro
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_9.md" >}}))
 * Riferimento bibliografici: MNV 5.8, 5.10, esempi 5.9 e 5.10
+{{% /expand %}}
+{{% expand "08/11/2018, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_10.md" >}}))
 {{% /expand %}}
 
 ### Appunti
