@@ -118,7 +118,7 @@ In entrambi i casi appena discussi abbiamo (ovviamente) considerato armature di 
 
 I condensatori sono importantissimi in elettronica, e sono utilizzati in praticamente qualunque circuito elettrico, dove sono indicati col simbolo:
 
-{{< figure src="/didattica/2018/images/capacitor.png" alt="Il simbolo del condensatore" width="100px">}}
+{{< figure src="../images/capacitor.png" alt="Il simbolo del condensatore" width="100px">}}
 
 Due (o più) condensatori possono essere connessi in parallelo (la differenza di potenziale ai capi dei due condensatori è la stessa) o in serie (la differenza di potenziale tra la prima e l'ultima armatura è fissa). Calcoliamo la capacità equivalente in queste due configurazioni.
 

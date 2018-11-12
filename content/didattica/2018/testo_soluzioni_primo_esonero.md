@@ -29,7 +29,7 @@ Un piano indefinito orientato parallelamente al piano $(y, z)$ è carico con den
 2. Scrivere l'espressione della differenza di potenziale tra un punto generico $(x, y, z)$ ed il piano stesso **(2 punti)**.
 	* $\Delta V = -E x = -\frac{\sigma x}{\epsilon_0}$
 3. Calcolare la differenza di potenziale $V(\vec{P}_2) - V(\vec{P}_1)$, dove $\vec{P}_1 = (2d, 0, d)$ e $\vec{P}_2 = (d, d, 2d)$, $d = 10$ m **(2 punti)**.
-	* $\Delta V = -\frac{\sigma}{\epsilon_0} (d - 2d) = -\frac{\sigma d}{\epsilon_0} = 565$ V.
+	* $\Delta V = -\frac{\sigma}{\epsilon_0} (d - 2d) = \frac{\sigma d}{\epsilon_0} = 565$ V.
 
 #### Parte B
 
@@ -42,7 +42,7 @@ Dal piano viene rimosso un anello di raggio $R = 15$ m e spessore molto piccolo,
 	$$
 	e il campo vale (per $x > 0$):
 	$$
-	E(x) = \frac{\sigma}{2\epsilon_0} - \frac{R \delta r \sigma}{2 \epsilon_0} \frac{x}{(R^2 + x^2)^{3 / 2}}
+	E_x(x, y, z) = \frac{\sigma}{2\epsilon_0} - \frac{R \delta r \sigma}{2 \epsilon_0} \frac{x}{(R^2 + x^2)^{3 / 2}}
 	$$
 5. Una particella di massa $m$ e carica $q > 0$ è inizialmente posizionata su di un punto posto sull'asse dell'anello rimosso a distanza $d$ dal piano. Scrivere l'espressione della velocità iniziale minima con la quale la particella deve essere lanciata verso il piano perché possa arrivare al centro dell'anello **(6 punti)**.
 	* Al tempo 0 la particella ha energia
@@ -71,7 +71,7 @@ Dal piano viene rimosso un anello di raggio $R = 15$ m e spessore molto piccolo,
 	v = \sqrt{\frac{m\sigma}{\epsilon_0} \left( \frac{R \delta r q}{R} - \frac{R \delta r q}{\sqrt{R^2 + d^2}} - d q \right)}
 	$$
 
-{{< figure src="/didattica/2018/images_primo_esonero/esercizio_1_campo.png" alt="primo esercizio" width="400px">}}
+{{< figure src="../images_primo_esonero/esercizio_1_campo.png" alt="primo esercizio" width="400px">}}
 
 ---
 
@@ -79,7 +79,7 @@ Dal piano viene rimosso un anello di raggio $R = 15$ m e spessore molto piccolo,
 
 Un cilindro conduttore di raggio $R_1 = 10$ cm è circondato da un guscio cilindrico di raggi $R_2 = 12$ cm ed $R_3 = 15$ cm. Quest'ultimo è a sua volta circondato da un guscio cilindrico di raggi $R_4 = 20$ cm ed $R_5 = 22$ cm. Il conduttore più interno e quello più esterno sono mantenuti ad una differenza di potenziale $\Delta V = 10$ V.
 
-{{< figure src="/didattica/2018/images_primo_esonero/esercizio_2.png" alt="second esercizio" width="300px">}}
+{{< figure src="../images_primo_esonero/esercizio_2.png" alt="secondo esercizio" width="300px">}}
 
 1. Calcolare la densità di carica presente su ogni superficie conduttrice **(6 punti)**.
 	* Definendo la densità di carica lineare $\lambda$, la d.d.p. tra il conduttore interno e quello esterno vale
@@ -118,7 +118,7 @@ Un cilindro conduttore di raggio $R_1 = 10$ cm è circondato da un guscio cilind
 
 Il circuito in figura è composto da un generatore di forza elettromotrice $\mathcal{E} = 10$ V e resistenza interna trascurabile, da un condensatore sferico $C_1$ di raggi $R_1 = 5$ cm ed $R_2 = 6$ cm, da un condensatore piano $C_2$ di dimensioni $a \times b \times h$ ($a = 10$ cm, $b = 10$ cm, $h = 1$ cm) e da tre resistori, $R_1 = 10 \, \Omega$, $R_2 = 30 \, \Omega$ e $R_3 = 10 \, \Omega$.
 
-{{< figure src="/didattica/2018/images_primo_esonero/esercizio_3.png" alt="terzo esercizio" width="400px">}}
+{{< figure src="../images_primo_esonero/esercizio_3.png" alt="terzo esercizio" width="400px">}}
 
 1. Disegnare il circuito equivalente, calcolando esplicitamente $R\_{\rm eq}$ e $C\_{\rm eq}$ **(4 punti)**.
 	* I due condensatori hanno capacità

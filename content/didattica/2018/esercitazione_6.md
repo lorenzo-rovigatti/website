@@ -98,7 +98,7 @@ q_3 & = 5.6 \times 10^{-9}
 
 Sono noti la differenza di potenziale $\Delta V\_{ab}$ e le capacità di ciascun condensatore del circuito in figura:
 
-{{< figure src="/didattica/2018/images/esercizio_27.png" alt="Figura esercizio 25" width="400px">}}
+{{< figure src="../images/esercizio_27.png" alt="Figura esercizio 25" width="400px">}}
 
 1. Determinare la capacità equivalente del circuito.
 2. Calcolare la carica e la d.d.p. di ciascun condensatore.
@@ -164,7 +164,7 @@ $$
 
 Tre condensatori, di capacità $C_A = C$, $C_B = 2C$, $C_C = 3C$, sono disposti come in figura:
 
-{{< figure src="/didattica/2018/images/esercizio_27.png" alt="Figura esercizio 27" width="350px">}}
+{{< figure src="../images/esercizio_27.png" alt="Figura esercizio 27" width="350px">}}
 
 Gli elettrodi di $C_A$ e $C_B$ sono tenuti a differenze di potenziale $V_A = 10$ V e $V_B = 40$ V, mentre un elettrodo di $C_C$ è collegato a terra. Qual è la differenza di potenziale ai capi di $C_C$?
 

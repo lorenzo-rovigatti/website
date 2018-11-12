@@ -159,7 +159,7 @@ $$
 
 Dato il circuito in figura e i valori $R_1 = 1.0\, \Omega$, $R_2 = 3.0\, \Omega$, $R_3 = 2.0\, \Omega$ and $R_4 = 2.0\, \Omega$,
 
-{{< figure src="/didattica/2018/images/esercizio_33.png" alt="Figura esercizio 27" width="350px">}}
+{{< figure src="../images/esercizio_33.png" alt="Figura esercizio 27" width="350px">}}
 
 1. Calcolare la resistenza equivalente.
 2. Calcolare la potenza dissipata da ognuno dei quattro resistori se $V_0 = 6$ V.

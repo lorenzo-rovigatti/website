@@ -27,7 +27,7 @@ Stabilire un flusso di corrente che non si esaurisca dopo poco tempo richiede un
 
 I generatori di tensione (che siano pile o altri dispositivi) vengono comunemente indicati con uno di questi simboli:
 
-{{< figure src="/didattica/2018/images/generatore.png" alt="Il simbolo del resistore" width="300px">}}
+{{< figure src="../images/generatore.png" alt="Il simbolo del resistore" width="300px">}}
 
 ## Modello classico della conduzione elettrica
 <small>MNV: paragrafi 5.4 e 5.2 (in questo ordine)</small>
@@ -224,7 +224,7 @@ Esiste una classe di materiali che hanno resistività così piccola da essere es
 
 Nei circuiti normali, la resistenza dei fili di collegamento con cui i diversi elementi vengono connessi è spesso trascurabile (un filo di rame di lunghezza $1$ cm e diametro $1$ mm ha $R \sim 2 \cdot 10^{-4}\, \Omega$). Nelle applicazioni reali, come vedremo, è però necessario avere a disposizione anche elementi caratterizzati da valori della resistenza determinati. Questi elementi sono detti *resistori* (più spesso chiamati *resistenze*) e sono indicati col simbolo:
 
-{{< figure src="/didattica/2018/images/resistore.png" alt="Il simbolo del resistore" width="100px">}}
+{{< figure src="../images/resistore.png" alt="Il simbolo del resistore" width="100px">}}
 
 Ogni resistore è caratterizzato da due valori:
 

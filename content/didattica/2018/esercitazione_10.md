@@ -70,7 +70,7 @@ $$
 
 Dato il circuito in figura ($R_1 = 1 \, \Omega$, $R_2 = 2 \, \Omega$, $R_3 = 3 \, \Omega$, $R_4 = 4 \, \Omega$, $i_4 = 3$ A, $\mathcal{E}_2 = 20$ V)
 
-{{< figure src="/didattica/2018/images/esercizio_41.png" alt="circuito esercizio 41" width="500px">}}
+{{< figure src="../images/esercizio_41.png" alt="circuito esercizio 41" width="500px">}}
 
 1. Calcolare la corrente che scorre nei resistori
 2. Calcolare la forza elettromotrice $\mathcal{E}_1$ del generatore di sinistra
@@ -171,7 +171,7 @@ $$
 
 Dato il circuito in figura
 
-{{< figure src="/didattica/2018/images/esercizio_42.png" alt="Circuito esercizio 42" width="300px">}}
+{{< figure src="../images/esercizio_42.png" alt="Circuito esercizio 42" width="300px">}}
 
 calcolare quale relazione debba sussistere tra le quattro capacità per far sì che si annulli la differenza di potenziale $\Delta V\_{AB} = V_A - V_B$.
 

@@ -25,7 +25,7 @@ caption = ""
 
 Calcolare la corrente che scorre nel seguente circuito, composto da un'unica maglia ($\mathcal{E}_1 = 50$ V, $\mathcal{E}_2 = 100$ V, $R = 50\, \Omega$, $r_1 = 20\, \Omega$, $r_2 = 30\, \Omega$):
 
-{{< figure src="/didattica/2018/images/esempio_kirchhoff_2.png" alt="Un circuito a maglia singola" width="400px">}}
+{{< figure src="../images/esempio_kirchhoff_2.png" alt="Un circuito a maglia singola" width="400px">}}
 
 ### Soluzione
 
@@ -52,7 +52,7 @@ Il segno negativo della corrente implica che il verso in cui scorre è opposto a
 
 Calcolare le correnti che scorrono nel seguente circuito, composto da due maglie($\mathcal{E}_1 = 18$ V, $\mathcal{E}_2 = 12$ V, $R_1 = 12\, \Omega$, $R_2 = 2\, \Omega$, $R_3 = 6\, \Omega$, $R_4 = 4 \, \Omega$):
 
-{{< figure src="/didattica/2018/images/esempio_kirchhoff_3.png" alt="Un circuito con due maglie" width="500px">}}
+{{< figure src="../images/esempio_kirchhoff_3.png" alt="Un circuito con due maglie" width="500px">}}
 
 ### Soluzione
 

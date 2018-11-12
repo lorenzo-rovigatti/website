@@ -79,7 +79,7 @@ Alcuni esempi:
 
 Durante il corso spiegherò tutti i passaggi degli integrali che incontreremo. Tenete conto che integrare è difficile, quindi non preoccupatevi se incontrerete difficoltà. In ogni caso, per calcolare integrali generici si può utilizzare il sito di [Wolfram Alpha](http://www.wolframalpha.com) come nell'immagine che segue:
 
-{{< figure src="didattica/2018/images/wolfram.png" alt="Wolfram alpha" width="700">}}
+{{< figure src="../images/wolfram.png" alt="Wolfram alpha" width="700">}}
 
 ## Grandezze fisiche e unità di misura
 

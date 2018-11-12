@@ -36,7 +36,7 @@ $$
 
 Il seguente diagramma aiuta a visualizzare queste relazioni:
 
-{{< figure src="didattica/2018/images/spherical_coordinates.png" alt="Coordinate sferiche" width="500px">}}
+{{< figure src="../images/spherical_coordinates.png" alt="Coordinate sferiche" width="500px">}}
 
 In generale, nei sistemi di riferimento che ci interessano i versori che indicano le direzioni delle coordinate sono sempre ortogonali tra loro, punto per punto. Nel caso delle coordinate cartesiane questi vettori sono sempre uguali e puntano sempre nella stessa direzione. Nel caso delle coordinate sferiche questo non è vero: mentre, punto per punto, i tre versori sono ortogonali, le loro direzioni dipendono dal punto in cui vogliamo calcolarli. Per trovarli bisogna disegnare il punto in cui siamo su di un diagramma simile a quello riprodotto sopra e chiedersi quali sono le direzioni verso le quali le tre coordinate aumentano. Nel caso del punto in figura (indicato con $\times$):
 
