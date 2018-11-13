@@ -25,11 +25,11 @@ caption = ""
 Un piano indefinito orientato parallelamente al piano $(y, z)$ è carico con densità di carica superficiale $\sigma = 10^{-9}$ C/m$^2$. 
 
 1. Calcolare il campo elettrico (modulo, direzione e verso) in tutto lo spazio **(2 punti)**.
-	* Il campo è uniforme e diretto lungo $\hat{x}$ per $x > 0$ (e viceversa). Il modulo vale $E = \frac{\sigma}{\epsilon_0} = 56.5$ V / m.
+	* Il campo è uniforme e diretto lungo $\hat{x}$ per $x > 0$ (e viceversa). Il modulo vale $E = \frac{\sigma}{2\epsilon_0} = 56.5$ V / m.
 2. Scrivere l'espressione della differenza di potenziale tra un punto generico $(x, y, z)$ ed il piano stesso **(2 punti)**.
-	* $\Delta V = -E x = -\frac{\sigma x}{\epsilon_0}$
+	* $\Delta V = -E x = -\frac{\sigma x}{2\epsilon_0}$
 3. Calcolare la differenza di potenziale $V(\vec{P}_2) - V(\vec{P}_1)$, dove $\vec{P}_1 = (2d, 0, d)$ e $\vec{P}_2 = (d, d, 2d)$, $d = 10$ m **(2 punti)**.
-	* $\Delta V = -\frac{\sigma}{\epsilon_0} (d - 2d) = \frac{\sigma d}{\epsilon_0} = 565$ V.
+	* $\Delta V = -\frac{\sigma}{2\epsilon_0} (d - 2d) = \frac{\sigma d}{2\epsilon_0} = 565$ V.
 
 #### Parte B
 
@@ -55,7 +55,7 @@ Dal piano viene rimosso un anello di raggio $R = 15$ m e spessore molto piccolo,
 	$$
 	si ha quindi
 	$$
-	v = \sqrt{\frac{m\sigma}{\epsilon_0} \left( dq + \frac{R \delta r q}{\sqrt{R^2 + d^2}} - \frac{R \delta r q}{R} \right)}
+	v = \sqrt{\frac{\sigma}{m\epsilon_0} \left( dq + \frac{R \delta r q}{\sqrt{R^2 + d^2}} - \frac{R \delta r q}{R} \right)}
 	$$
 6. Una particella di massa $m$ e carica $q < 0$ è inizialmente posizionata al centro dell'anello e possiede una velocità iniziale $v$ uscente dal piano. Scrivere l'espressione del valore minimo di $v$ per il quale la particella raggiunge un punto posto a distanza $d$ dal piano **(6 punti)**.
 	* L'energia iniziale vale
@@ -68,7 +68,7 @@ Dal piano viene rimosso un anello di raggio $R = 15$ m e spessore molto piccolo,
 	$$
 	uguagliando le due quantità e risolvendo per $v$ si trova
 	$$
-	v = \sqrt{\frac{m\sigma}{\epsilon_0} \left( \frac{R \delta r q}{R} - \frac{R \delta r q}{\sqrt{R^2 + d^2}} - d q \right)}
+	v = \sqrt{\frac{\sigma}{m\epsilon_0} \left( \frac{R \delta r q}{R} - \frac{R \delta r q}{\sqrt{R^2 + d^2}} - d q \right)}
 	$$
 
 {{< figure src="../images_primo_esonero/esercizio_1_campo.png" alt="primo esercizio" width="400px">}}

@@ -27,7 +27,7 @@ caption = ""
 ### Comunicazioni
 
 * **Primo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_primo_esonero.md" >}})
-* Prossimo giorno di esercitazione: Martedì 13/11/2018 correzione primo esonero
+* Prossimo giorno di esercitazione: Martedì 20/11/2018
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
 
 ### Orario delle lezioni
@@ -111,7 +111,7 @@ Il docente riceve nella stanza 103 al primo piano dell'edificio Fermi (nuovo edi
 
 Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta per volta. L'insieme degli argomenti trattati costituisce il programma d'esame.
 
-<small>Cliccare sulla data per visualizzare/nascondere l'elenco dettagliato, **E** sta per *esercitazione* e **L** per *lezione*</small>
+<small>Cliccare sulla data per visualizzare/nascondere l'elenco dettagliato, **E** sta per *esercitazione*, **L** per *lezione* e **C** per *correzione* (di compiti e/o esoneri)</small>
 
 {{% expand "25/09/2018, <b>L</b>" %}}
 * Presentazione del corso
@@ -242,6 +242,9 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% /expand %}}
 {{% expand "08/11/2018, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_10.md" >}}))
+{{% /expand %}}
+{{% expand "13/11/2018, <b>E</b>" %}}
+* Correzione primo esonero ([testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}))
 {{% /expand %}}
 
 ### Appunti
