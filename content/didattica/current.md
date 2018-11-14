@@ -243,8 +243,16 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% expand "08/11/2018, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_10.md" >}}))
 {{% /expand %}}
-{{% expand "13/11/2018, <b>E</b>" %}}
+{{% expand "13/11/2018, <b>C</b>" %}}
 * Correzione primo esonero ([testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}))
+{{% /expand %}}
+{{% expand "14/11/2018, <b>L</b>" %}}
+* Introduzione ai fenomeni magnetici
+* Elettricità e magnetismo
+* Forza magnetica
+	* Carica in moto
+	* Conduttore percorso da corrente
+* Riferimenti bibliografici MNV: 6.1, 6.2, 6.3, 6.4, esempio 6.2
 {{% /expand %}}
 
 ### Appunti
@@ -258,4 +266,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 23/10/2018]({{< ref "2018/lezione_6.md" >}})
 * [Lezione 25/10/2018]({{< ref "2018/lezione_7.md" >}})
 * [Lezione 07/11/2018]({{< ref "2018/lezione_8.md" >}})
-
+* [Lezione 14/11/2018]({{< ref "2018/lezione_9.md" >}})

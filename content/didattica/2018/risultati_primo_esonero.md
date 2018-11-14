@@ -82,7 +82,7 @@ Matricola | Voto
 1800789 | 25
 1801121 | 19
 1802021 | 27
-1802189 | insufficiente
+1802489 | insufficiente
 1805564 | insufficiente
 1806703 | insufficiente
 1809398 | insufficiente
