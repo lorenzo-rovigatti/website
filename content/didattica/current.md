@@ -254,6 +254,12 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Conduttore percorso da corrente
 * Riferimenti bibliografici MNV: 6.1, 6.2, 6.3, 6.4, esempio 6.2
 {{% /expand %}}
+{{% expand "15/11/2018, <b>L</b>" %}}
+* Momenti meccanici su circuiti piani
+* Il galvanometro
+* Il motore elettrico in corrente continua
+* Riferimenti bibliografici MNV: 6.5, esempio 6.3
+{{% /expand %}}
 
 ### Appunti
 
@@ -267,3 +273,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 25/10/2018]({{< ref "2018/lezione_7.md" >}})
 * [Lezione 07/11/2018]({{< ref "2018/lezione_8.md" >}})
 * [Lezione 14/11/2018]({{< ref "2018/lezione_9.md" >}})
+* [Lezione 15/11/2018]({{< ref "2018/lezione_10.md" >}})
