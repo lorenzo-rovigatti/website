@@ -260,6 +260,11 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Il motore elettrico in corrente continua
 * Riferimenti bibliografici MNV: 6.5, esempio 6.3
 {{% /expand %}}
+{{% expand "20/11/2018, <b>E</b>" %}}
+* Il prodotto vettoriale
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_11.md" >}}))
+* Esercizi consigliati MNV: 6.20, 6.24, 6.25, 6.26
+{{% /expand %}}
 
 ### Appunti
 
