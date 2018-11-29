@@ -19,7 +19,11 @@ caption = ""
 ## Momenti meccanici su circuiti piani
 <small>MNV: paragrafo 6.5 (senza la parte sulle piccole oscillazioni)</small>
 
-Riassumendo, circuiti chiusi immersi in un campo magnetico $\vec{B}$ uniforme non sono sottoposti ad alcuna forza, e quindi il loro centro di massa (se erano inizialmente fermi) non si muoverà. D'altro canto, l'interazione magnetica può generare un momento delle forze e quindi indurre una rotazione. Studiamo il caso semplice di una spira rettangolare di lati $a$ e $b$ e percorsa da corrente $i$. Poiché la spira è un oggetto planare, la sua normale $\hat{n}$ è costante su tutta la superficie. Poniamo la spira in una regione di spazio in cui è presente un campo magnetico uniforme $\vec{B}$. Orientiamo la spira in maniera che abbia due dei lati ortogonali a $\vec{B}$. L'orientamento della spira in questa configurazione è determinato dall'angolo $\theta$ che gli altri due lati formano con $\vec{B}$, che può essere calcolato a partire dalla normale:
+Riassumendo, circuiti chiusi immersi in un campo magnetico $\vec{B}$ uniforme non sono sottoposti ad alcuna forza, e quindi il loro centro di massa (se erano inizialmente fermi) non si muoverà. D'altro canto, l'interazione magnetica può generare un momento delle forze e quindi indurre una rotazione. Studiamo il caso semplice di una spira rettangolare di lati $a$ e $b$ e percorsa da corrente $i$. Poiché la spira è un oggetto planare, la sua normale $\hat{n}$ è costante su tutta la superficie. 
+
+**Nota Bene:** La normale alla spira è definita utilizzando la regola della vite (o della mano destra) applicata al verso della corrente: la normale è diretta verso di noi se stiamo guardando il circuito dalla direzione per cui la corrente scorre in senso *antiorario*.
+
+Poniamo la spira in una regione di spazio in cui è presente un campo magnetico uniforme $\vec{B}$. Orientiamo la spira in maniera che abbia due dei lati ortogonali a $\vec{B}$. L'orientamento della spira in questa configurazione è determinato dall'angolo $\theta$ che gli altri due lati formano con $\vec{B}$, che può essere calcolato a partire dalla normale:
 
 $$
 \vec{B} \cdot \hat{n} = B \cos{(\theta)}

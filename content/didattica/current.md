@@ -277,7 +277,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_12.md" >}}))
 * Esercizi consigliati MNV: 6.1, 6.2, 6.3, 6.5, 6.6
 {{% /expand %}}
-{{% expand "21/11/2018, <b>L</b>" %}}
+{{% expand "27/11/2018, <b>L</b>" %}}
 * Campi magnetici prodotti da correnti
 	* correnti in circuiti
 	* cariche in moto
@@ -288,6 +288,15 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% expand "28/11/2018, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_13.md" >}}))
 * Esercizi consigliati MNV: 6.4, 6.27, 6.28
+{{% /expand %}}
+{{% expand "29/11/2018, <b>L</b>" %}}
+* Campo magnetico prodotto da un solenoide
+* Forze tra fili percorsi da corrente
+* Legge di Ampère
+* Applicazioni della legge di Ampère:
+	* filo indefinito;
+	* solenoide indefinito.
+* Riferimenti bibliografici MNV: 7.2 (solenoide), 7.3, 7.4, esempi 7.2 e 7.3
 {{% /expand %}}
 
 ### Appunti
@@ -305,3 +314,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 15/11/2018]({{< ref "2018/lezione_10.md" >}})
 * [Lezione 21/11/2018]({{< ref "2018/lezione_11.md" >}})
 * [Lezione 27/11/2018]({{< ref "2018/lezione_12.md" >}})
+* [Lezione 29/11/2018]({{< ref "2018/lezione_13.md" >}})
