@@ -27,7 +27,7 @@ caption = ""
 ### Comunicazioni
 
 * **Primo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_primo_esonero.md" >}})
-* Prossimo giorno di esercitazione: Martedì 20/11/2018
+* Prossimo giorno di esercitazione: Mercoledì 28/11/2018
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
 
 ### Orario delle lezioni
@@ -265,6 +265,30 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_11.md" >}}))
 * Esercizi consigliati MNV: 6.20, 6.24, 6.25, 6.26
 {{% /expand %}}
+{{% expand "21/11/2018, <b>L</b>" %}}
+* Momenti di una carica in un campo uniforme
+	* nel caso in cui velocità e campo magnetico siano ortogonali;
+	* nel caso generale
+* Il fenomeno della bottiglia magnetica
+* Lo spettroscopio di massa
+* Riferimenti bibliografici MNV: 6.7, la parte del 6.8 in cui si parla dello spettrometro di massa
+{{% /expand %}}
+{{% expand "22/11/2018, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_12.md" >}}))
+* Esercizi consigliati MNV: 6.1, 6.2, 6.3, 6.5, 6.6
+{{% /expand %}}
+{{% expand "21/11/2018, <b>L</b>" %}}
+* Campi magnetici prodotti da correnti
+	* correnti in circuiti
+	* cariche in moto
+	* filo rettilineo
+	* spira circolare
+* Riferimenti bibliografici MNV: 7.1, 7.2 (fino alla spira compresa)
+{{% /expand %}}
+{{% expand "28/11/2018, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_13.md" >}}))
+* Esercizi consigliati MNV: 6.4, 6.27, 6.28
+{{% /expand %}}
 
 ### Appunti
 
@@ -279,3 +303,5 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 07/11/2018]({{< ref "2018/lezione_8.md" >}})
 * [Lezione 14/11/2018]({{< ref "2018/lezione_9.md" >}})
 * [Lezione 15/11/2018]({{< ref "2018/lezione_10.md" >}})
+* [Lezione 21/11/2018]({{< ref "2018/lezione_11.md" >}})
+* [Lezione 27/11/2018]({{< ref "2018/lezione_12.md" >}})
