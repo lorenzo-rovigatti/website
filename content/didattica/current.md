@@ -26,9 +26,9 @@ caption = ""
 
 ### Comunicazioni
 
+* Prossimo giorno di esercitazione: Martedì 04/12/2018
 * **Primo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_primo_esonero.md" >}})
-* Prossimo giorno di esercitazione: Mercoledì 28/11/2018
-* Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato) relativa alle esercitazioni!
+* Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato-diario-delle-lezioni) relativa alle esercitazioni!
 
 ### Orario delle lezioni
 
