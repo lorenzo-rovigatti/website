@@ -293,14 +293,24 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Campo magnetico prodotto da un solenoide
 * Forze tra fili percorsi da corrente
 * Legge di Ampère
-* Applicazioni della legge di Ampère:
-	* filo indefinito;
-	* solenoide indefinito.
-* Riferimenti bibliografici MNV: 7.2 (solenoide), 7.3, 7.4, esempi 7.2 e 7.3
+* Riferimenti bibliografici MNV: 7.2 (solenoide), 7.3, 7.4
 {{% /expand %}}
 {{% expand "04/12/2018, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_14.md" >}}))
 * Esercizi consigliati MNV: 7.1, 7.2, 7.3, 7.4, 7.5
+{{% /expand %}}
+{{% expand "05/12/2018, <b>L</b>" %}}
+* Applicazioni della legge di Ampère:
+	* filo indefinito;
+	* filo indefinito di sezione finita;
+	* solenoide indefinito;
+	* solenoide toroidale
+* Forma locale della legge di Ampére
+* Proprietà magnetiche della materia
+	* sostanze diamagnetiche;
+	* sostanze paramagnetiche;
+	* sostanze ferromagnetiche;
+* Riferimenti bibliografici MNV: 7.5, esempi 7.2, 7.3 e 7.4
 {{% /expand %}}
 
 ### Appunti
@@ -319,3 +329,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 21/11/2018]({{< ref "2018/lezione_11.md" >}})
 * [Lezione 27/11/2018]({{< ref "2018/lezione_12.md" >}})
 * [Lezione 29/11/2018]({{< ref "2018/lezione_13.md" >}})
+* [Lezione 05/12/2018]({{< ref "2018/lezione_14.md" >}})

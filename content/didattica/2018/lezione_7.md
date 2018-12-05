@@ -239,7 +239,7 @@ In reti elettrici generiche bisogna scrivere un'equazione per ogni maglia (appli
 
 Calcoliamo le correnti che scorrono nel circuito in figura
 
-{{< figure src="../images/esempio_kirchhoff.png" alt="Il simbolo del resistore" width="500px">}}
+{{< figure src="../images/esempio_kirchhoff.png" alt="Il simbolo del resistore" width="60%">}}
 
 Scegliamo arbitrariamente i versi delle correnti in maniera tale che nelle due maglie (1 e 2) si vada dal polo positivo a quello negativo di ogni generatore. Applichiamo la prima legge di Kirchhoff nel nodo $A$:
 
