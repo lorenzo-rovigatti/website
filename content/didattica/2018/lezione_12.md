@@ -92,8 +92,8 @@ dove $\hat{\phi}$ indica il versore tangente alla circonferenza di raggio $R$ (i
 
 \begin{align}
 R & = r \sin(\theta)\\\\\\
-s & = -r \cos(\theta)\\\\\\
-ds & = r \sin(\theta) d\theta
+s & = -r \cos(\theta) = -R \cot(\theta)\\\\\\
+ds & = R \frac{d\theta}{\sin^2(\theta)}
 \end{align}
 
 e quindi

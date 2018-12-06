@@ -312,6 +312,10 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* sostanze ferromagnetiche;
 * Riferimenti bibliografici MNV: 7.5, esempi 7.2, 7.3 e 7.4
 {{% /expand %}}
+{{% expand "06/12/2018, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_15.md" >}}))
+* Esercizi consigliati MNV: 7.1, 7.2, 7.3, 7.4, 7.5
+{{% /expand %}}
 
 ### Appunti
 
