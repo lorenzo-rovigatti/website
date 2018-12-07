@@ -314,7 +314,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% /expand %}}
 {{% expand "06/12/2018, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_15.md" >}}))
-* Esercizi consigliati MNV: 7.1, 7.2, 7.3, 7.4, 7.5
+* Esercizi consigliati MNV: 7.6, 7.8, 7.15, 7.18, 7.27
 {{% /expand %}}
 
 ### Appunti
