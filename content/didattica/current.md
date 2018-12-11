@@ -26,7 +26,9 @@ caption = ""
 
 ### Comunicazioni
 
-* Prossimo giorno di esercitazione: Martedì 04/12/2018
+* Il **secondo esonero** si terrà il giorno 20/12/2018 alle ore 14:30 nell'aula Conversi dell'edificio Marconi (Vecchio Edificio di Fisica)
+* Prossimo giorno di esercitazione: Mercoledì 12/12/2018
+* Il codice OPIS per valutare l'insegnamento è **6Y87SF5Y**. Trovate [qui](https://www.uniroma1.it/sites/default/files/field_file_allegati/vademecum_opis-2018-19-studenti_con_token-rev-4-2018-11-21_modalita_compatibilita.pdf) una guida alla compilazione.
 * **Primo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_primo_esonero.md" >}})
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato-diario-delle-lezioni) relativa alle esercitazioni!
 
