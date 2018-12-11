@@ -318,6 +318,15 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_15.md" >}}))
 * Esercizi consigliati MNV: 7.6, 7.8, 7.15, 7.18, 7.27
 {{% /expand %}}
+{{% expand "11/12/2018, <b>L</b>" %}}
+* Meccanismi di magnetizzazione
+	* Perturbazione del moto orbitale elettronico
+	* Magnetizzazione per orientamento
+	* Il ferromagnetismo
+* La legge di Gauss per il campo magnetico
+* Equazioni generali della magnetostatica
+* Riferimenti bibliografici MNV: 7.6, 7.7, 7.8
+{{% /expand %}}
 
 ### Appunti
 
@@ -336,3 +345,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 27/11/2018]({{< ref "2018/lezione_12.md" >}})
 * [Lezione 29/11/2018]({{< ref "2018/lezione_13.md" >}})
 * [Lezione 05/12/2018]({{< ref "2018/lezione_14.md" >}})
+* [Lezione 11/12/2018]({{< ref "2018/lezione_15.md" >}})
