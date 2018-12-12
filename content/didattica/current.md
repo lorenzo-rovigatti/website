@@ -27,7 +27,7 @@ caption = ""
 ### Comunicazioni
 
 * Il **secondo esonero** si terrà il giorno 20/12/2018 alle ore 14:30 nell'aula Conversi dell'edificio Marconi (Vecchio Edificio di Fisica)
-* Prossimo giorno di esercitazione: Mercoledì 12/12/2018
+* Prossimo giorno di esercitazione: Martedì 18/12/2018
 * Il codice OPIS per valutare l'insegnamento è **6Y87SF5Y**. Trovate [qui](https://www.uniroma1.it/sites/default/files/field_file_allegati/vademecum_opis-2018-19-studenti_con_token-rev-4-2018-11-21_modalita_compatibilita.pdf) una guida alla compilazione.
 * **Primo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_primo_esonero.md" >}})
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato-diario-delle-lezioni) relativa alle esercitazioni!
@@ -326,6 +326,10 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * La legge di Gauss per il campo magnetico
 * Equazioni generali della magnetostatica
 * Riferimenti bibliografici MNV: 7.6, 7.7, 7.8
+{{% /expand %}}
+{{% expand "12/12/2018, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_16.md" >}}))
+* Esercizi consigliati MNV: 7.23, 7.24, 7.25, 7.26, 7.30
 {{% /expand %}}
 
 ### Appunti
