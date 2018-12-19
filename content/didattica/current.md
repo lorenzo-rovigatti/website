@@ -26,8 +26,7 @@ caption = ""
 
 ### Comunicazioni
 
-* Il **secondo esonero** si terrà il giorno 20/12/2018 alle ore 14:30 nell'aula Conversi dell'edificio Marconi (Vecchio Edificio di Fisica)
-* Prossimo giorno di esercitazione: Martedì 18/12/2018
+* Il **secondo esonero** si terrà il giorno 20/12/2018 alle ore 14:30 nell'aula Conversi dell'edificio Marconi (Vecchio Edificio di Fisica) e verterà sui capitoli 6 e 7 del MNV (cioè sulla magnetostatica, spiegata in aula nelle lezioni che vanno dal 14/11/2018 al 11/12/2018).
 * Il codice OPIS per valutare l'insegnamento è **6Y87SF5Y**. Trovate [qui](https://www.uniroma1.it/sites/default/files/field_file_allegati/vademecum_opis-2018-19-studenti_con_token-rev-4-2018-11-21_modalita_compatibilita.pdf) una guida alla compilazione.
 * **Primo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_primo_esonero.md" >}})
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato-diario-delle-lezioni) relativa alle esercitazioni!
@@ -35,7 +34,7 @@ caption = ""
 ### Orario delle lezioni
 
 * Inizio lezioni: 25/09/2018
-* Fine lezioni: ?
+* Fine lezioni: 10/01/2019
 * Orario:
 	* Martedì 11-13, aula C (primo piano dell'edificio S. Cannizzaro - vecchio edificio di Chimica)
 	* Mercoledì 11-13, aula C (primo piano dell'edificio S. Cannizzaro - vecchio edificio di Chimica)
@@ -331,6 +330,19 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_16.md" >}}))
 * Esercizi consigliati MNV: 7.23, 7.24, 7.25, 7.26, 7.30
 {{% /expand %}}
+{{% expand "13/12/2018, <b>L</b>" %}}
+* Campi elettrici e magnetici variabili nel tempo
+* Legge di Faraday
+* Campo elettrico indotto
+* Autoinduzione
+	* Apertura di un circuito induttivo
+	* Chiusura di un circuito induttivo
+* Riferimenti bibliografici MNV: 8.1, 8.2, 8.4
+{{% /expand %}}
+{{% expand "18/12/2018, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_17.md" >}}))
+* Esercizi consigliati MNV: 6.11
+{{% /expand %}}
 
 ### Appunti
 
@@ -350,3 +362,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 29/11/2018]({{< ref "2018/lezione_13.md" >}})
 * [Lezione 05/12/2018]({{< ref "2018/lezione_14.md" >}})
 * [Lezione 11/12/2018]({{< ref "2018/lezione_15.md" >}})
+* [Lezione 13/12/2018]({{< ref "2018/lezione_16.md" >}})

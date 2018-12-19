@@ -38,7 +38,7 @@ Poiché in questo caso la forza sarebbe diretta lungo la stessa direzione della 
 Per trovare l'intensità della corrente eguagliamo i moduli delle due forze lungo la direzione del piano. Come per la forza peso, anche parte della forza magnetica ($F_m \sin(\theta)$) è bilanciata dalla reazione vincolare, per cui le due componenti da eguagliare sono
 
 $$
-mg \cos(\theta) = i l B_0 \sin(\theta)
+mg \sin(\theta) = i l B_0 \cos(\theta)
 $$
 
 da cui otteniamo l'intensità di corrente come
