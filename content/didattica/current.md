@@ -26,7 +26,7 @@ caption = ""
 
 ### Comunicazioni
 
-* Il **secondo esonero** si terrà il giorno 20/12/2018 alle ore 14:30 nell'aula Conversi dell'edificio Marconi (Vecchio Edificio di Fisica) e verterà sui capitoli 6 e 7 del MNV (cioè sulla magnetostatica, spiegata in aula nelle lezioni che vanno dal 14/11/2018 al 11/12/2018).
+* [Calendario degli scritti]({{< ref "2018/calendario_scritti.md" >}})
 * Il codice OPIS per valutare l'insegnamento è **6Y87SF5Y**. Trovate [qui](https://www.uniroma1.it/sites/default/files/field_file_allegati/vademecum_opis-2018-19-studenti_con_token-rev-4-2018-11-21_modalita_compatibilita.pdf) una guida alla compilazione.
 * **Primo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_primo_esonero.md" >}})
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato-diario-delle-lezioni) relativa alle esercitazioni!
