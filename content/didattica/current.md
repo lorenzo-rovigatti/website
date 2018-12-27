@@ -26,6 +26,7 @@ caption = ""
 
 ### Comunicazioni
 
+* **Secondo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_secondo_esonero.md" >}})
 * [Calendario degli scritti]({{< ref "2018/calendario_scritti.md" >}})
 * Il codice OPIS per valutare l'insegnamento è **6Y87SF5Y**. Trovate [qui](https://www.uniroma1.it/sites/default/files/field_file_allegati/vademecum_opis-2018-19-studenti_con_token-rev-4-2018-11-21_modalita_compatibilita.pdf) una guida alla compilazione.
 * **Primo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_primo_esonero.md" >}})
@@ -343,6 +344,14 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_17.md" >}}))
 * Esercizi consigliati MNV: 6.11
 {{% /expand %}}
+{{% expand "20/12/2018, <b>L</b>" %}}
+* Energia magnetica
+* Legge di Ampère-Maxwell
+* Le equazioni di Maxwell
+	* in forma integrale;
+	* in forma differenziale
+* Riferimenti bibliografici MNV: 8.5, 8.7, 8.8, 8.9 (senza dimostrazione della conservazione della carica elettrica)
+{{% /expand %}}
 
 ### Appunti
 
@@ -363,3 +372,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 05/12/2018]({{< ref "2018/lezione_14.md" >}})
 * [Lezione 11/12/2018]({{< ref "2018/lezione_15.md" >}})
 * [Lezione 13/12/2018]({{< ref "2018/lezione_16.md" >}})
+* [Lezione 20/12/2018]({{< ref "2018/lezione_17.md" >}})

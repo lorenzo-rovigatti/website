@@ -19,7 +19,7 @@ caption = ""
 Questa pagina verrà aggiornata man mano che si avvicineranno le date di esame.
 
 * 22 Gennaio
-* 13 Febbraio (coloro che devono tassativamente verbalizzare entro il 14 Febbraio e verranno a quest'appello mi contattino prima via mail!)
+* 13 Febbraio
 * 9 Aprile
 * 11 Giugno
 * 10 Luglio
