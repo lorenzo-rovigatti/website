@@ -264,10 +264,10 @@ enableGitInfo = false
   url = "didattica/current/"
   weight = 2
 
-#[[menu.main]]
-#  name = "Publications"
-#  url = "#publications_selected"
-#  weight = 3
+[[menu.main]]
+  name = "Publications"
+  url = "publication/"
+  weight = 3
 
 #[[menu.main]]
 #  name = "Posts"
