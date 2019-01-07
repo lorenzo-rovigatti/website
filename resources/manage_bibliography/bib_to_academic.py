@@ -36,9 +36,9 @@ with open(sys.argv[1]) as f:
 
 if not os.path.isdir(OUTPUT_DIR):
 	os.makedirs(OUTPUT_DIR)
-for article in bib_database.entries:
+for i, article in enumerate(bib_database.entries):
 	# the unidecode function transliterates unicode strings into the closest possible representation in ASCII text
-	filename = unidecode.unidecode(article["ID"] + ".md")
+	filename = unidecode.unidecode("%s-%d.md" % (article["ID"], i))
 	path = os.path.join(OUTPUT_DIR, filename)
 	title = article["title"]
 	authors_line = '["' + '", "'.join(article["author"].split(" and ")) + '"]'
