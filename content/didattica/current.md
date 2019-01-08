@@ -26,6 +26,7 @@ caption = ""
 
 ### Comunicazioni
 
+* Lo scritto del 22 Gennaio si terrà alle ore 14:30 in Aula Amaldi (Primo piano del Vecchio Edificio di Fisica)
 * **Secondo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_secondo_esonero.md" >}})
 * [Calendario degli scritti]({{< ref "2018/calendario_scritti.md" >}})
 * Il codice OPIS per valutare l'insegnamento è **6Y87SF5Y**. Trovate [qui](https://www.uniroma1.it/sites/default/files/field_file_allegati/vademecum_opis-2018-19-studenti_con_token-rev-4-2018-11-21_modalita_compatibilita.pdf) una guida alla compilazione.
@@ -352,6 +353,15 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* in forma differenziale
 * Riferimenti bibliografici MNV: 8.5, 8.7, 8.8, 8.9 (senza dimostrazione della conservazione della carica elettrica)
 {{% /expand %}}
+{{% expand "20/12/2018, <b>L</b>" %}}
+* Onde elettromagnetiche come soluzione delle equazioni di Maxwell
+	* Onde piane
+	* Onde armoniche
+* Energia e quantità di moto di un'onda
+* Onde elettromagnetiche sferiche
+* Spettro delle onde elettromagnetiche
+* Riferimenti bibliografici MNV: 10.1, 10.2, 10.3, 10.4, 10.5, 10.8
+{{% /expand %}}
 
 ### Appunti
 
@@ -373,3 +383,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 11/12/2018]({{< ref "2018/lezione_15.md" >}})
 * [Lezione 13/12/2018]({{< ref "2018/lezione_16.md" >}})
 * [Lezione 20/12/2018]({{< ref "2018/lezione_17.md" >}})
+* [Lezione 08/01/2011]({{< ref "2018/lezione_18.md" >}})
