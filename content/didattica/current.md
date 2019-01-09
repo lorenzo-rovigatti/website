@@ -353,7 +353,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* in forma differenziale
 * Riferimenti bibliografici MNV: 8.5, 8.7, 8.8, 8.9 (senza dimostrazione della conservazione della carica elettrica)
 {{% /expand %}}
-{{% expand "20/12/2018, <b>L</b>" %}}
+{{% expand "08/01/2019, <b>L</b>" %}}
 * Onde elettromagnetiche come soluzione delle equazioni di Maxwell
 	* Onde piane
 	* Onde armoniche
@@ -361,6 +361,13 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Onde elettromagnetiche sferiche
 * Spettro delle onde elettromagnetiche
 * Riferimenti bibliografici MNV: 10.1, 10.2, 10.3, 10.4, 10.5, 10.8
+{{% /expand %}}
+{{% expand "09/01/2019, <b>L</b>" %}}
+* La luce e l'indice di rifrazione
+* Riflessione e rifrazione
+	* Dispersione della luce
+* Interferenza: l'esperimento di Young
+* Riferimenti bibliografici MNV: 11.1, 11.3, 13.1, 13.2 (senza la derivazione di $I(\theta)$)
 {{% /expand %}}
 
 ### Appunti
@@ -384,3 +391,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 13/12/2018]({{< ref "2018/lezione_16.md" >}})
 * [Lezione 20/12/2018]({{< ref "2018/lezione_17.md" >}})
 * [Lezione 08/01/2011]({{< ref "2018/lezione_18.md" >}})
+* [Lezione 09/01/2011]({{< ref "2018/lezione_19.md" >}})
