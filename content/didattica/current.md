@@ -54,7 +54,11 @@ Il docente riceve nella stanza 103 al primo piano dell'edificio Fermi (nuovo edi
 
 * L'esame prevede una prova scritta ed una prova orale.
 * Durante il corso si terranno due prove di esonero che, se superate con profitto, varranno come prova scritta.
-* Durante gli appelli scritti sarà possibile recuperare uno solo dei due esoneri.
+* Durante gli appelli scritti 
+	* sarà possibile recuperare uno solo dei due esoneri;
+	* sono vietati i telefoni: chiunque venga trovato ad utilizzare il telefono dovrà abbandonare l'aula;
+	* è possibile portare un libro di testo oppure un quaderno di appunti (*senza* esercizi svolti);
+	* si consiglia di portare una calcolatrice.
 * Il voto degli esoneri è valido fino alla sessione di Settembre compresa, quello degli scritti solo per la sessione corrente.
   
 ### Materiale didattico
@@ -103,9 +107,8 @@ Il docente riceve nella stanza 103 al primo piano dell'edificio Fermi (nuovo edi
 * Legge di Faraday e applicazioni
 * Equazioni di Maxwell
 {{% /expand %}}
-{{% expand "Onde elettromagnetiche e ottica fisica" %}}
+{{% expand "Onde elettromagnetiche" %}}
 * Onde piane e intensità media
-* Polarizzazione delle onde elettromagnetiche
 * Riflessione, rifrazione e dispersione
 * Interferenza e diffrazione
 {{% /expand %}}
@@ -369,6 +372,16 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Interferenza: l'esperimento di Young
 * Riferimenti bibliografici MNV: 11.1, 11.3, 13.1, 13.2 (senza la derivazione di $I(\theta)$)
 {{% /expand %}}
+{{% expand "10/01/2019, <b>L</b>" %}}
+* Interferenza da lamine sottili
+* Diffrazione
+* Principio di Huygens-Fresnel (cenni)
+* Diffrazione di Fraunhofer per una fenditura rettilinea
+	* Effetti cromatici
+* Diffrazione prodotta da un'apertura circolare
+* Limite di risoluzione delle lenti
+* Riferimenti bibliografici MNV: 13.3, 14.1, 11.2 (solo l'enunciato del principio di Huygens-Fresnel), 14.2, esempio 14.2, 14.3, 14.4
+{{% /expand %}}
 
 ### Appunti
 
@@ -392,3 +405,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione 20/12/2018]({{< ref "2018/lezione_17.md" >}})
 * [Lezione 08/01/2011]({{< ref "2018/lezione_18.md" >}})
 * [Lezione 09/01/2011]({{< ref "2018/lezione_19.md" >}})
+* [Lezione 10/01/2011]({{< ref "2018/lezione_20.md" >}})
