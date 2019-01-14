@@ -49,7 +49,7 @@ $$
 Sommiamo ora i due contributi, ognuno dei quali è dato dalla legge di Biot-Savart:
 
 $$
-B(r) = \frac{\mu_0}{2 \pi} \left( \frac{i_p}{r} + \frac{i_v}{r - h} \right) = \frac{\mu_0 i}{2 \pi (a^2 - b^2)} \left( \frac{a^2}{r} + \frac{b^2}{r - h} \right)
+B(r ) = \frac{\mu_0}{2 \pi} \left( \frac{i_p}{r} + \frac{i_v}{r - h} \right) = \frac{\mu_0 i}{2 \pi (a^2 - b^2)} \left( \frac{a^2}{r} + \frac{b^2}{r - h} \right)
 $$
 
 ---

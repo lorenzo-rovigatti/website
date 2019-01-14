@@ -127,7 +127,7 @@ Due fili conduttori molto lunghi orientati lungo l'asse $z$ sono posti a distanz
 \end{align}
 **Nota Bene:** fate molta attenzione al segno del campo! Questo cambia a seconda che ci si trovi alla sinistra o alla destra del filo. Per il principio di sovrapposizione, il campo totale è semplicemente la somma dei due, quindi:
 $$
-\vec{B}(x, 0, ,0) = \frac{\mu_0 i \hat{y}}{2 \pi} \left( \frac{1}{x + a} + \frac{1}{x - a} \right)
+\vec{B}(x, 0, 0) = \frac{\mu_0 i \hat{y}}{2 \pi} \left( \frac{1}{x + a} + \frac{1}{x - a} \right)
 $$
 
 2. Poiché i campi hanno lo stesso verso, lungo l'asse $y$ le componenti $y$ sono uguali e contrarie e quindi si cancellano. Il campo sarà quindi dato da $\vec{B} = 2 B_x \hat{x}$. Per trovare il valore di $B_x$ disegniamo $\vec{B}$ e vediamo che $B_x = B \cos(\theta)$, dove 
