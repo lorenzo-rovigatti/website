@@ -184,7 +184,7 @@ $$
 \Delta V = -\int_0^d E dx = -Ed = -\frac{\sigma d}{\epsilon_0}
 $$
 Lì dove il campo è zero (cioè a sinistra e a destra dei due piani), il potenziale deve essere costante. Poiché la funzione potenziale deve essere sempre continua (perché?), troviamo $V(x) = 0$ per $x < 0$ e $V(x) = -\frac{\sigma d}{\epsilon_0}$ per $x > d$.
-2. Se i piano hanno la stessa densità di carica, il campo sarà diverso da 0 solamente a sinistra e a destra dei due piani, dove vale $\vec{E} = \pm \frac{\sigma}{\epsilon_0}\hat{x}$ (vale il segno $+$ a destra dei piani, cioè per $x > d$, e il segno $-$ a sinistra dei piani, cioè per $x < 0$). Dove il campo vale 0 (cioè tra i due piani) il potenziale è costante. Lo poniamo a 0 (ma potremmo porlo uguale a qualsiasi altro valore, perché?). A sinistra dei piani (cioè per $x < 0$) si ha
+2. Se i piani hanno la stessa densità di carica, il campo sarà diverso da 0 solamente a sinistra e a destra dei due piani, dove vale $\vec{E} = \pm \frac{\sigma}{\epsilon_0}\hat{x}$ (vale il segno $+$ a destra dei piani, cioè per $x > d$, e il segno $-$ a sinistra dei piani, cioè per $x < 0$). Dove il campo vale 0 (cioè tra i due piani) il potenziale è costante. Lo poniamo a 0 (ma potremmo porlo uguale a qualsiasi altro valore, perché?). A sinistra dei piani (cioè per $x < 0$) si ha
 $$
 V(x) = -\int_0^x \vec{E} d\vec{s} = \int_0^x E dx' = \frac{\sigma}{\epsilon_0} x
 $$
