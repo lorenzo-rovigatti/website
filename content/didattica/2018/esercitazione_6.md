@@ -98,7 +98,7 @@ q_3 & = 5.6 \times 10^{-9}
 
 Sono noti la differenza di potenziale $\Delta V\_{ab}$ e le capacità di ciascun condensatore del circuito in figura:
 
-{{< figure src="../images/esercizio_27.png" alt="Figura esercizio 25" width="400px">}}
+{{< figure src="../images/esercizio_25.png" alt="Figura esercizio 25" width="400px">}}
 
 1. Determinare la capacità equivalente del circuito.
 2. Calcolare la carica e la d.d.p. di ciascun condensatore.

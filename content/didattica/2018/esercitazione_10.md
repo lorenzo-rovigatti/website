@@ -191,16 +191,16 @@ q_u &= \Delta V \frac{C_1 C_2}{C_1 + C_2}\\\\\\
 q_d &= \Delta V \frac{C_3 C_4}{C_3 + C_4}
 \end{align}
 
-Per il ramo superiore vale $\Delta V = \frac{q_u}{C_u} = \frac{q_u}{C_1} + \frac{q_u}{C_2}$. I due termini indicano la differenza di potenziale tra uno dei due poli ed il punto mediano $D$, e tra questo e il secondo polo. La d.d.p. tra il primo polo e $D$ vale quindi
+Per il ramo superiore vale $\Delta V = \frac{q_u}{C_u} = \frac{q_u}{C_1} + \frac{q_u}{C_2}$. I due termini indicano la differenza di potenziale tra uno dei due poli ed il punto mediano $A$, e tra questo e il secondo polo. La d.d.p. tra il primo polo e $A$ vale quindi
 
 $$
-\Delta V_D = \Delta V - \frac{q_u}{C_2}
+\Delta V_A = \Delta V - \frac{q_u}{C_2}
 $$
 
 Una relazione simile si può scrivere per il ramo inferiore
 
 $$
-\Delta V_E = \Delta V - \frac{q_d}{C_4}
+\Delta V_B = \Delta V - \frac{q_d}{C_4}
 $$
 
 Uguagliando queste due quantità troviamo
