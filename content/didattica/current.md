@@ -26,6 +26,7 @@ caption = ""
 
 ### Comunicazioni
 
+* Gli esami orali per chi ha superato gli esoneri e per chi passerà lo scritto del 22 si terranno in Aula 4 (secondo piano del Nuovo Edificio di Fisica) il 28 Gennaio a partire dalle ore 9:00
 * Lo scritto del 22 Gennaio si terrà alle ore 14:30 in Aula Amaldi (Primo piano del Vecchio Edificio di Fisica)
 * **Secondo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_secondo_esonero.md" >}})
 * [Calendario degli scritti]({{< ref "2018/calendario_scritti.md" >}})

@@ -106,8 +106,8 @@ Un cilindro conduttore di raggio $R_1 = 10$ cm è circondato da un guscio cilind
 	$$
 	e quindi
 	\begin{align}
-	\sigma_p^{(i)} & = \frac{\kappa - 1}{\kappa} \frac{\lambda}{2 \pi R_3} = 0.84 \times 10^{-9} \, {\rm C/m}^2\\\\\\
-	\sigma_p^{(e)} & = -\frac{\kappa - 1}{\kappa} \frac{\lambda}{2 \pi 1.2 R_3} = - 0.70 \times 10^{-9} \, {\rm C/m}^2
+	\sigma_p^{(i)} & = \frac{\kappa - 1}{\kappa} \frac{\lambda}{2 \pi R_3} = -0.84 \times 10^{-9} \, {\rm C/m}^2\\\\\\
+	\sigma_p^{(e)} & = -\frac{\kappa - 1}{\kappa} \frac{\lambda}{2 \pi 1.2 R_3} = 0.70 \times 10^{-9} \, {\rm C/m}^2
 	\end{align}
 
 ---
