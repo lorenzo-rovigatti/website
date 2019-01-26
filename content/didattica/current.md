@@ -26,12 +26,11 @@ caption = ""
 
 ### Comunicazioni
 
-* **Scritto del 22/01/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_22012019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_22012019.md" >}})
-* Gli esami orali per chi ha superato gli esoneri e per chi passerà lo scritto del 22 si terranno in Aula 4 (secondo piano del Nuovo Edificio di Fisica) il 28 Gennaio a partire dalle ore 9:00
-* Lo scritto del 22 Gennaio si terrà alle ore 14:30 in Aula Amaldi (Primo piano del Vecchio Edificio di Fisica)
-* **Secondo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_secondo_esonero.md" >}})
+* Gli esami orali si terranno in Aula 4 (secondo piano del Nuovo Edificio di Fisica) il 28 Gennaio a partire dalle ore 9:00
+* Un file pdf con tutti gli esercizi svolti può essere scaricato [qui]({{< static "didattica/2018/tutti_gli_esercizi.pdf" >}})
 * [Calendario degli scritti]({{< ref "2018/calendario_scritti.md" >}})
-* Il codice OPIS per valutare l'insegnamento è **6Y87SF5Y**. Trovate [qui](https://www.uniroma1.it/sites/default/files/field_file_allegati/vademecum_opis-2018-19-studenti_con_token-rev-4-2018-11-21_modalita_compatibilita.pdf) una guida alla compilazione.
+* **Scritto del 22/01/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_22012019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_22012019.md" >}})
+* **Secondo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_secondo_esonero.md" >}})
 * **Primo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_primo_esonero.md" >}})
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato-diario-delle-lezioni) relativa alle esercitazioni!
 
@@ -75,6 +74,7 @@ Il docente riceve nella stanza 103 al primo piano dell'edificio Fermi (nuovo edi
 	* C. Schönberg, "360 esercizi e problemi di Fisica II", Schönenfeld & Ziegler
 * Animazioni/simulazioni
 	* [Le linee del campo elettrico]({{< ref "html-field-lines/index.html" >}})
+* Un file pdf con tutti gli esercizi svolti può essere scaricato [qui]({{< static "didattica/2018/tutti_gli_esercizi.pdf" >}})
 
 ### Programma
 
