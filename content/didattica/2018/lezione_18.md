@@ -23,7 +23,7 @@ Le onde sono fenomeni fisici comuni che appaiono in molti contesti ogniqualvolta
 Le onde con cui abbiamo più familiarità sono quelle *meccaniche*, che richiedono un mezzo materiale per propagarsi. Esempi noti sono le onde sonore, le onde sulla superficie di un liquido oppure le onde che si ottengono facendo oscillare una corda tesa. **Nota Bene:** in tutti questi casi il trasporto non è di materia ma di energia e quantità di moto (anche se in alcuni casi, come per le onde del mare, potrebbe sembrare il contrario).
 
 ### Soluzione delle equazioni di Maxwell
-<smalll>MNV: paragrafo 10.3</small>
+<small>MNV: paragrafo 10.3</small>
 
 Nel caso del campo elettromagnetico, abbiamo visto come le equazioni di Maxwell in assenza di sorgenti di campo (cariche e correnti) diventano estremamente simmetriche nei campi,
 
@@ -81,7 +81,7 @@ $$
 dove $v$ è detta velocità di propagazione dell'onda. Nel caso specifico delle onde elettromagnetiche, $v = \frac{1}{\sqrt{\epsilon_0 \mu_0}}$, che abbiamo visto essere uguale alla velocità della luce, $c = 2.99792 \times 10^8$ m/s.
 
 ### Onde piane
-<smalll>MNV: paragrafi 10.1, 10.2</small>
+<small>MNV: paragrafi 10.1, 10.2</small>
 
 L'equazione di d'Alembert è anche detta *equazione delle onde piane* proprio perché ammette come soluzioni delle funzioni che assumono valore costante sul piano ortogonale alla direzione di propagazione, qui presa come $\hat{x}$. Si può dimostrare infatti come l'equazione di d'Alembert sia soddisfatta solamente da funzioni del tipo
 
@@ -282,7 +282,7 @@ B(r, t) & = \frac{E_0}{cr} \cos(kr - \omega t)
 \end{align}
 
 ### Spettro delle onde elettromagnetiche
-<smalll>MNV: paragrafo 10.8</small>
+<small>MNV: paragrafo 10.8</small>
 
 Le onde elettromagnetiche possono avere frequenze in intervallo di valori molto ampio, che va da $10^2$ Hz fino a $10^18$ Hz. Questo *spettro* di frequenze è stato storicamente suddiviso in *bande*:
 

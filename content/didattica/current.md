@@ -274,7 +274,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercizi consigliati MNV: 6.20, 6.24, 6.25, 6.26
 {{% /expand %}}
 {{% expand "21/11/2018, <b>L</b>" %}}
-* Momenti di una carica in un campo uniforme
+* Moto di una carica in un campo uniforme
 	* nel caso in cui velocità e campo magnetico siano ortogonali;
 	* nel caso generale
 * Il fenomeno della bottiglia magnetica
