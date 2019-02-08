@@ -26,12 +26,12 @@ caption = ""
 
 ### Comunicazioni
 
-* Gli esami orali si terranno in Aula 4 (secondo piano del Nuovo Edificio di Fisica) il 28 Gennaio a partire dalle ore 9:00
-* Un file pdf con tutti gli esercizi svolti può essere scaricato [qui]({{< static "didattica/2018/tutti_gli_esercizi.pdf" >}})
+* Il prossimo scritto si terrà Venerdì 8 Febbraio alle ore 14:30 in aula Amaldi (Vecchio Edificio di Fisica). L'orale (per chi si deve laureare il 14 Marzo) si terrà in Aula 2 (secondo piano del Nuovo Edificio di Fisica) l'11 Febbraio alle ore 9:00. Per tutti gli altri l'orale si terrà in Aula C (Edificio Cannizzaro) il 18 Febbraio alle ore 9:00.
 * [Calendario degli scritti]({{< ref "2018/calendario_scritti.md" >}})
 * **Scritto del 22/01/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_22012019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_22012019.md" >}})
 * **Secondo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_secondo_esonero.md" >}})
 * **Primo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_primo_esonero.md" >}})
+* Un file pdf con tutti gli esercizi svolti può essere scaricato [qui]({{< static "didattica/2018/tutti_gli_esercizi.pdf" >}})
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato-diario-delle-lezioni) relativa alle esercitazioni!
 
 ### Orario delle lezioni
