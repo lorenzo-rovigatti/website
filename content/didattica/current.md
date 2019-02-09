@@ -26,7 +26,8 @@ caption = ""
 
 ### Comunicazioni
 
-* Il prossimo scritto si terrà Venerdì 8 Febbraio alle ore 14:30 in aula Amaldi (Vecchio Edificio di Fisica). L'orale (per chi si deve laureare il 14 Marzo) si terrà in Aula 2 (secondo piano del Nuovo Edificio di Fisica) l'11 Febbraio alle ore 9:00. Per tutti gli altri l'orale si terrà in Aula C (Edificio Cannizzaro) il 18 Febbraio alle ore 9:00.
+* **Scritto del 08/02/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_08022019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_08022019.md" >}})
+* Il prossimo scritto si terrà Mercoledì 13 Febbraio alle ore 14:30 in aula Cabibbo (piano terra del Nuovo Edificio di Fisica). L'orale si terrà in Aula C (Edificio Cannizzaro) il 18 Febbraio alle ore 9:00.
 * [Calendario degli scritti]({{< ref "2018/calendario_scritti.md" >}})
 * **Scritto del 22/01/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_22012019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_22012019.md" >}})
 * **Secondo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_secondo_esonero.md" >}})
