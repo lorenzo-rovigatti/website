@@ -42,7 +42,7 @@ La differenza tra questi due valori è $5 V$.
 
 3. Il dispositivo viene ruotato nella posizione (1). Si aspetta finché non si raggiunge la stazionarietà e poi si ruota nella posizione (4), quindi si riempie $\mathcal{C}$ di un materiale dielettrico isotropo avente $\kappa = 3$. Calcolare la differenza di potenziale tra le armature e la carica immagazzinata dal condensatore **(6 punti)**.
 
-* Nella posizione (1) il condensatore viene posto ad una d.d.p. $\Delta V = q / C = \mathcal{E}$. Nella posizione (3), invece, il generatore viene staccato dal circuito. Se si cambiano le proprietà del condensatore, quindi, ciò che resta costante è la carica, che vale
+* Nella posizione (1) il condensatore viene posto ad una d.d.p. $\Delta V = q / C = \mathcal{E}$. Nella posizione (4), invece, il generatore viene staccato dal circuito. Se si cambiano le proprietà del condensatore, quindi, ciò che resta costante è la carica, che vale
 $$
 q = C \mathcal{E} = 1.5 \times 10^{-8} {\rm nF}
 $$
