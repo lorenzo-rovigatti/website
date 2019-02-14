@@ -186,7 +186,7 @@ $$
 Il che dimostra che il principio di sovrapposizione si applica anche al potenziale elettrostatico: la differenza di potenziale dovuta ad una distribuzione di cariche è uguale alla somma delle differenze di potenziale dovute alle singole cariche. Lo stesso risultato si estende a distribuzione di cariche continue, per le quali vale (analogamente a quanto visto per il campo e se scegliamo di imporre $C = 0$):
 
 $$
-V(r) = \int dV = \frac{1}{4\pi\epsilon_0} \int \frac{dq}{r}
+V(r ) = \int dV = \frac{1}{4\pi\epsilon_0} \int \frac{dq}{r}
 $$
 
 dove l'integrale è esteso al volume contenente la distribuzione di carica.

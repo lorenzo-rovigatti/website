@@ -1,0 +1,1 @@
+In order to update the publication markdown files, call the "bib_to_academic.py" script from the website's root folder and pass it a bib file containing the list of publications. 

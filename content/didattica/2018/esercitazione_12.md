@@ -152,7 +152,7 @@ E( r) = \frac{q}{4 \pi \epsilon_0 \kappa( r) r^2}
 $$
 e quindi il vettore polarizzazione ha modulo
 $$
-P(r ) = \epsilon_0 ( \kappa(r ) - 1 ) E(r) = \frac{q (r - a)}{4 \pi r^3}.
+P(r ) = \epsilon_0 ( \kappa(r ) - 1 ) E(r ) = \frac{q (r - a)}{4 \pi r^3}.
 $$
 Possiamo ora calcolare le densità di carica di polarizzazione usando la relazione $\sigma_p = \vec{P}(r ) \cdot \hat{n}$:
 \begin{align}

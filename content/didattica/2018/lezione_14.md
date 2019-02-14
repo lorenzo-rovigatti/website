@@ -37,7 +37,7 @@ $$
 
 ritrovando la legge di Biot-Savart.
 
-Possiamo estendere l'analisi al caso di un filo di spessore $R$ finito. Per $r > R$ il campo è ancora quello trovato precedentemente. Per $r < R$, d'altro canto, l'intensità della corrente è proporzionale all'area che stiamo considerando, cioè $i(r) = i r^2 / R^2$, e quindi
+Possiamo estendere l'analisi al caso di un filo di spessore $R$ finito. Per $r > R$ il campo è ancora quello trovato precedentemente. Per $r < R$, d'altro canto, l'intensità della corrente è proporzionale all'area che stiamo considerando, cioè $i(r ) = i r^2 / R^2$, e quindi
 
 $$
 \oint \vec{B} \cdot d\vec{s} = B 2 \pi r = \mu_0 i \frac{r^2}{R^2}

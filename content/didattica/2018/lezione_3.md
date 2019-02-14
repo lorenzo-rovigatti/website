@@ -69,7 +69,7 @@ $$
 Abbiamo utilizzato il fatto che $a^2/r\_{+}^2 \approx 0$ e che $\sqrt{1 + x} \approx 1 + \frac{1}{2} x$ per piccoli valori di $x$. Questa approssimazione ha una interpretazione geometrica (vedi, ad esempio, la figura 2.29 del MNV). Si ha quindi che $r\_{-} - r\_{+} \approx a\cos{(\theta)}$. Possiamo riscrivere l'espressione per il potenziale in questa approssimazione:
 
 $$
-V(r) = \frac{q}{4\pi\epsilon_0} \frac{a \cos{(\theta)}}{r^2} = \frac{\vec{p} \cdot \hat{r}}{4\pi\epsilon_0 r^2}
+V(r ) = \frac{q}{4\pi\epsilon_0} \frac{a \cos{(\theta)}}{r^2} = \frac{\vec{p} \cdot \hat{r}}{4\pi\epsilon_0 r^2}
 $$
 
 dove abbiamo definito il vettore *momento di dipolo elettrico* $\vec{p} = q\vec{a}$. Vediamo che il potenziale non dipende singolarmente da $a$ e da $q$ ma solo dal loro prodotto: dal punto di vista sperimentale, se facciamo una misura (ad esempio di potenziale ad una distanza $r \gg a$) su di un dipolo avente determinati valori di $a$ e $q$, la stessa misura su di un dipolo avente $a/2$ e $2$ darà gli stessi risultati.
