@@ -27,7 +27,7 @@ caption = ""
 ### Comunicazioni
 
 * **Scritto del 13/02/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_13022019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_13022019.md" >}})
-* Il prossimo orale si terrà in Aula C (Edificio Cannizzaro) il 18 Febbraio alle ore 9:00 ed in Aula 5A (quarto piano del Nuovo Edificio di Fisica) il 19 Febbraio alle ore 8:30.
+* Il prossimo orale si terrà in Aula C (Edificio Cannizzaro) il 18 Febbraio alle ore 9:00 e, se necessario e per chi fosse impossibilitato a venire quel giorno, in Aula 5A (quarto piano del Nuovo Edificio di Fisica) il 19 Febbraio alle ore 8:30.
 * [Calendario degli scritti]({{< ref "2018/calendario_scritti.md" >}})
 * **Scritto del 08/02/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_08022019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_08022019.md" >}})
 * **Scritto del 22/01/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_22012019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_22012019.md" >}})
