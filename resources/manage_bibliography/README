@@ -1,1 +1,4 @@
-In order to update the publication markdown files, call the "bib_to_academic.py" script from the website's root folder and pass it a bib file containing the list of publications. 
+* The bib_to_academic.py script requires the bibtexparser and unidecode packages (pip3 install --user bibtexparser unidecode).
+* In order to update the publication markdown files, call the "bib_to_academic.py" script from the website's root folder and pass it a bib file containing the list of publications. 
+* Remember to delete all the publication files before calling the script!
+

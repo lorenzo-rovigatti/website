@@ -1,10 +1,10 @@
 +++
-title = "Self-assembly in chains, rings, and branches: A single component system with two critical points"
-authors = ["Rovigatti, L.", "Tavares, J.M.", "Sciortino, F."]
+title = "Branching points in the low-temperature dipolar hard sphere fluid"
+authors = ["Rovigatti, L.", "Kantorovich, S.", "Ivanov, A.O.", "Tavares, J.M.", "Sciortino, F."]
 publication_types = ["2"]
-publication = "*Physical Review Letters* **2013**, *111*, 168302, https://doi.org/10.1103/PhysRevLett.111.168302"
+publication = "*Journal of Chemical Physics* **2013**, *139*, 134901, https://doi.org/10.1063/1.4821935"
 date = "2013-01-01"
-abstract = "We study the interplay between phase separation and self-assembly in chains, rings, and branched structures in a model of particles with dissimilar patches. We extend Wertheim's first order perturbation theory to include the effects of ring formation and to theoretically investigate the thermodynamics of the model. We find a peculiar shape for the vapor-liquid coexistence, featuring reentrant behavior in both phases and two critical points, despite the single-component nature of the system. The emergence of the lower critical point is caused by the self-assembly of rings taking place in the vapor, generating a phase with lower energy and lower entropy than the liquid. Monte Carlo simulations of the same model fully support these unconventional theoretical predictions. © 2013 American Physical Society."
+abstract = "In this contribution, we investigate the low-temperature, low-density behaviour of dipolar hard-sphere (DHS) particles, i.e., hard spheres with dipoles embedded in their centre. We aim at describing the DHS fluid in terms of a network of chains and rings (the fundamental clusters) held together by branching points (defects) of different nature. We first introduce a systematic way of classifying inter-cluster connections according to their topology, and then employ this classification to analyse the geometric and thermodynamic properties of each class of defects, as extracted from state-of-the-art equilibrium Monte Carlo simulations. By computing the average density and energetic cost of each defect class, we find that the relevant contribution to inter-cluster interactions is indeed provided by (rare) three-way junctions and by four-way junctions arising from parallel or anti-parallel locally linear aggregates. All other (numerous) defects are either intra-cluster or associated to low cluster-cluster interaction energies, suggesting that these defects do not play a significant part in the thermodynamic description of the self-assembly processes of dipolar hard spheres. © 2013 AIP Publishing LLC."
 math = true
 selected = false
 highlight = true
