@@ -48,10 +48,12 @@
 
       <div id="container-publications">
         {{ $current_year := "0" }}
-      
+
+		{{ $N_publications := len .Pages }}
+		
         {{ range $index, $element := .Pages.ByDate.Reverse }}
-        
-        {{ .Scratch.Set "index" (add $index 1) }}
+
+        {{ .Scratch.Set "pub_id" (sub  $N_publications $index) }}
         
         {{ $year := print (.Date.Format "2006") }}
         
