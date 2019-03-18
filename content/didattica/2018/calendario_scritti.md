@@ -21,7 +21,7 @@ Questa pagina verrà aggiornata man mano che si avvicineranno le date di esame.
 * ~~22 Gennaio: ore 14:30 Aula Amaldi, primo piano del Vecchio Edificio di Fisica.~~
 * ~~8 Febbraio: ore 14:30 Aula Amaldi, primo piano del Vecchio Edificio di Fisica. L'appello è libero per tutti ma pensato per le persone che si devono laureare nella sessione del 14 Marzo e quindi hanno necessità di verbalizzare l'ultimo esame almeno 30 giorni prima. Questi studenti (che mi devono contattare prima) sosterranno l'eventuale orale il giorno lunedì 11 Febbraio. Gli orali per tutti gli altri si terranno il 18 Febbraio.~~
 * ~~13 Febbraio: ore 14:30 Aula Cabibbo, piano terra del Nuovo Edificio di Fisica.~~
-* 9 Aprile
+* 9 Aprile: ore 11:00 Aula B, primo piano del Vecchio Edificio di Chimica (Edificio Cannizzaro).
 * 11 Giugno
 * 10 Luglio
 * 10 Settembre

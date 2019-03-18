@@ -26,9 +26,9 @@ caption = ""
 
 ### Comunicazioni
 
-* **Scritto del 13/02/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_13022019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_13022019.md" >}})
-* Il prossimo orale si terrà in Aula C (Edificio Cannizzaro) il 18 Febbraio alle ore 9:00 e, se necessario e per chi fosse impossibilitato a venire quel giorno, in Aula 5A (quarto piano del Nuovo Edificio di Fisica) il 19 Febbraio alle ore 8:30.
+* **Nuovo:**: il prossimo scritto si terrà in Aula B (Edificio Cannizzaro) il 9 Aprile alle ore 11:00. Gli studenti che intendono laurearsi il 9 Maggio mi contattino prima dello scritto per sostenere l'esame orale direttamente il pomeriggio del 9. Per gli altri, l'esame orale si terrà il giorno 11 Aprile alle ore 9:00 in Aula 5 (Edificio Fermi, Nuovo Edificio di Fisica).
 * [Calendario degli scritti]({{< ref "2018/calendario_scritti.md" >}})
+* **Scritto del 13/02/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_13022019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_13022019.md" >}})
 * **Scritto del 08/02/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_08022019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_08022019.md" >}})
 * **Scritto del 22/01/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_22012019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_22012019.md" >}})
 * **Secondo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_secondo_esonero.md" >}})
