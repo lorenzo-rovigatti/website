@@ -26,9 +26,9 @@ caption = ""
 
 ### Comunicazioni
 
-* **Scritto del 09/04/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_09042019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_09042019.md" >}})
-* **Nuovo:** il prossimo scritto si terrà in Aula B (Edificio Cannizzaro) il 9 Aprile alle ore 11:00. Gli studenti che intendono laurearsi il 9 Maggio mi contattino prima dello scritto per sostenere l'esame orale direttamente il pomeriggio del 9 alle ore 16:00 in Aula 2 (Nuovo Edificio di Fisica). Per gli altri, l'esame orale si terrà il giorno 11 Aprile alle ore 9:00 in Aula 5 (Edificio Fermi, Nuovo Edificio di Fisica).
+* **Nuovo:** il prossimo scritto si terrà in Aula Blu 2 (Edificio CU028, piano terra, si veda [qui](https://www.uniroma1.it/sites/default/files/PIANTA_LEGENDA_DEF_1.pdf)) il giorno martedì 11 Giugno alle ore 14:00. L'orale si svolgerà il giorno dopo (mercoledì 12 Giugno) in Aula 2 (Edificio Fermi, Nuovo Edificio di Fisica) alle ore 15:00.
 * [Calendario degli scritti]({{< ref "2018/calendario_scritti.md" >}})
+* **Scritto del 09/04/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_09042019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_09042019.md" >}})
 * **Scritto del 13/02/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_13022019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_13022019.md" >}})
 * **Scritto del 08/02/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_08022019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_08022019.md" >}})
 * **Scritto del 22/01/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_22012019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_22012019.md" >}})
