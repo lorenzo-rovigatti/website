@@ -26,8 +26,9 @@ caption = ""
 
 ### Comunicazioni
 
-* **Nuovo:** il prossimo scritto si terrà in Aula Blu 2 (Edificio CU028, piano terra, si veda [qui](https://www.uniroma1.it/sites/default/files/PIANTA_LEGENDA_DEF_1.pdf)) il giorno martedì 11 Giugno alle ore 14:00. L'orale si svolgerà il giorno dopo (mercoledì 12 Giugno) in Aula 2 (Edificio Fermi, Nuovo Edificio di Fisica) alle ore 15:00.
+* **Nuovo:** il prossimo scritto si terrà il giorno 24 Giugno alle ore 11 in Aula Blu 2 (Edificio CU028, piano terra, si veda [qui](https://www.uniroma1.it/sites/default/files/PIANTA_LEGENDA_DEF_1.pdf)). L'orale si svolgerà il giorno stesso nel pomeriggio (luogo da destinarsi).
 * [Calendario degli scritti]({{< ref "2018/calendario_scritti.md" >}})
+* **Scritto dell'11/06/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_11062019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_11062019.md" >}})
 * **Scritto del 09/04/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_09042019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_09042019.md" >}})
 * **Scritto del 13/02/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_13022019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_13022019.md" >}})
 * **Scritto del 08/02/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_08022019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_08022019.md" >}})
