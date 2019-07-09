@@ -8,23 +8,23 @@ import datetime
 
 OUTPUT_DIR = "./content/publication/"
 TYPE_TO_ACADEMIC = {
-	"Article" : "2",
-	"Article in Press" : "2",
-	"Review" : "2",
-	"InProceedings" : "1",
-	"Proceedings" : "1",
-	"Conference" : "1",
-	"Conference Paper" : "1",
-	"MastersThesis" : "3",
-	"PhdThesis" : "3",
-	"Manual" : "4",
-	"TechReport" : "4",
-	"Book" : "5",
-	"InCollection" : "6",
-	"InBook" : "6",
-	"Book Chapter" : "6",
-	"Misc" : "0",
-	"Editorial" : "0",
+	"article" : "2",
+	"article in press" : "2",
+	"review" : "2",
+	"inproceedings" : "1",
+	"proceedings" : "1",
+	"conference" : "1",
+	"conference paper" : "1",
+	"mastersthesis" : "3",
+	"phdthesis" : "3",
+	"manual" : "4",
+	"techreport" : "4",
+	"book" : "5",
+	"incollection" : "6",
+	"inbook" : "6",
+	"book chapter" : "6",
+	"misc" : "0",
+	"editorial" : "0",
 }
 
 if len(sys.argv) < 2:
@@ -42,7 +42,7 @@ for i, article in enumerate(bib_database.entries):
 	path = os.path.join(OUTPUT_DIR, filename)
 	title = article["title"]
 	authors_line = '["' + '", "'.join(article["author"].split(" and ")) + '"]'
-	pub_types = '["%s"]' % TYPE_TO_ACADEMIC[article["document_type"]]
+	pub_types = '["%s"]' % TYPE_TO_ACADEMIC[article["ENTRYTYPE"].lower()]
 
 	reference = "*%s* **%s**" % (article["journal"], article["year"])
 	if "volume" in article:
@@ -60,7 +60,7 @@ for i, article in enumerate(bib_database.entries):
 
 	if "abstract" in article:
 		abstract = article["abstract"]
-		abstract = abstract.replace('\\', '\\\\').replace('"', '\\"')
+		abstract = abstract.replace('\n', ' ').replace('\\', '\\\\').replace('"', '\\"')
 
 	else:
 		abstract = ""
