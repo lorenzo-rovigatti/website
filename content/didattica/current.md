@@ -26,7 +26,7 @@ caption = ""
 
 ### Comunicazioni
 
-* **Nuovo:** il prossimo scritto si terrà il giorno 10 Luglio alle ore 15:00 in Aula 3 (Edificio Fermi, nuovo edificio di Fisica). Gli orali si terranno nei giorni seguenti nello studio del docente.
+* **Scritto del 10/07/2019**: [risultati]({{< ref "2018/risultati_scritto_10072019.md" >}}). Giovedì 11/07/2019 alle ore 09:00 sarà possibile vedere i compiti corretti nello studio del docente ed eventualmente sostenere l'esame orale. Chi volesse sostenere l'orale in altra data è invitato a contattare il docente via email.
 * [Calendario degli scritti]({{< ref "2018/calendario_scritti.md" >}})
 * **Scritto del 24/06/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_24062019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_24062019.md" >}})
 * **Scritto dell'11/06/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_11062019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_11062019.md" >}})

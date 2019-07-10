@@ -1,6 +1,6 @@
 +++
-title = "Scritto dell'11/06/2019"
-date = 2019-06-11T16:18:43+02:00
+title = "Scritto del 10/07/2019"
+date = 2019-07-10T14:18:43+02:00
 draft = false
 
 # Tags and categories
@@ -20,11 +20,16 @@ caption = ""
 
 Matricola | Tipologia | Voto
 ----------- | --------------- | ---------------
-1449350 | Scritto | 22
-1535630 | Scritto | Insufficiente
-1538262 | Scritto | Insufficiente
-1546838 | Scritto | Insufficiente
-1603758 | Scritto | Insufficiente
+1535630 | Scritto | 18
+1538262 | Scritto | 20
+1546838 | Scritto | 18
+1583831 | Scritto | Insufficiente
+1603758 | Scritto | 19
+1653116 | Scritto | 21
 1658796 | Scritto | Insufficiente
-1694447 | Scritto | Insufficiente
-1710235 | Scritto | 20
+1693077 | Scritto | Insufficiente
+1694447 | Scritto | 20
+1705151 | Scritto | Insufficiente
+1747574 | Scritto | 18
+1816107 | Scritto | 20
+

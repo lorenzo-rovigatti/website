@@ -1,6 +1,6 @@
 +++
 title = "Scritto del 13/02/2019"
-date = 2018-12-27T16:18:43+02:00
+date = 2019-02-13T16:18:43+02:00
 draft = false
 
 # Tags and categories
