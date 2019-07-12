@@ -26,7 +26,7 @@ Matricola | Tipologia | Voto
 1583831 | Scritto | Insufficiente
 1603758 | Scritto | 19
 1653116 | Scritto | 21
-1658796 | Scritto | Insufficiente
+1658796 | Scritto | 18
 1693077 | Scritto | Insufficiente
 1694447 | Scritto | 20
 1705151 | Scritto | Insufficiente
