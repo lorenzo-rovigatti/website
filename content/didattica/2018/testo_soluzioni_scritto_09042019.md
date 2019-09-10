@@ -20,7 +20,7 @@ caption = ""
 
 Un guscio sferico di raggio interno $R_i = 0.75$ m e raggio esterno $R_e = 1$ m è carico uniformemente con densità di carica $\rho = 10^{-9}$ C/m$^3$. All'interno del guscio sferico si trova una sfera di raggio $R_s = R_e/6$ carica uniformemente con densità di carica $-\rho$. La sfera è centrata nel punto $(-R_e/2, 0)$.
 
-{{< figure src="../images_scritto_04092019/esercizio_1.png" alt="1" width="400px">}}
+{{< figure src="../images_scritto_09042019/esercizio_1.png" alt="1" width="400px">}}
 
 1. Determinare le coordinate di un punto in cui il campo elettrico è nullo **(6 punti)**.
 	* All'interno del guscio sferico l'unico campo presente è quello dovuto alla sfera carica. Se utilizziamo il teorema di Gauss troviamo immediatamente che nel centro della sfera il campo dovuto a quest'ultima è zero. Una possibile risposta alla domanda è quindi data dal punto $(-R_e/2, 0)$.
@@ -59,7 +59,7 @@ $$
 
 Un fascio collimato di particelle cariche entra, attraverso un foro in una parete che si trova in $x = 0$, in una regione di spazio in cui è presente un campo magnetico uniforme di modulo $B = 2 \times 10^{-3}$ T. Il fascio è composto da due specie di particelle aventi la stessa massa $m = 10^{-16}$ Kg ma carica diversa. Tutte le particelle del fascio posseggono la stessa energia cinetica $K = 0.5 \times 10^{-8}$ J, e la loro velocità $v$ è diretta ortogonalmente al campo magnetico che, considerando il sistema di riferimento in figura, è diretto lungo $-\hat{z}$ (cioè entrante nel foglio). In queste condizioni la traiettoria delle particelle è tale per cui il fascio si divide in due. I due sotto-fasci colpiscono la parete nei punti $d_1 = (0, 1 \, {\rm m})$ e $d_2 = (0, -0.8 \, {\rm m})$.
 
-{{< figure src="../images_scritto_04092019/esercizio_2.png" alt="2" width="400px">}}
+{{< figure src="../images_scritto_09042019/esercizio_2.png" alt="2" width="400px">}}
 
 1. Determinare il valore delle cariche $q_1$ e $q_2$ delle due specie di particelle **(5 punti)**.
 	* La velocità iniziale delle particelle si trova considerando che $K = \frac{1}{2} m v^2$, quindi

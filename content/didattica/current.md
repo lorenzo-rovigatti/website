@@ -26,7 +26,8 @@ caption = ""
 
 ### Comunicazioni
 
-* **Scritto del 10/09/2019**:  L'esame si terrà alle ore 14:00 in Aula 6 (quarto piano del nuovo edificio di Fisica, edificio Fermi).
+* **Scritto del 20/09/2019**:  L'esame si terrà alle ore 9:00 in Aula 4 (secondo piano del nuovo edificio di Fisica, edificio Fermi).
+* **Scritto del 10/09/2019**:  [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_10092019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_10092019.md" >}}). Gli orali si terranno Venerdì 13/09/2019 alle ore 10:45 in aula 5 (nuovo edificio di Fisica, edificio Fermi).
 * **Scritto del 10/07/2019**: [risultati]({{< ref "2018/risultati_scritto_10072019.md" >}}).
 * [Calendario degli scritti]({{< ref "2018/calendario_scritti.md" >}})
 * **Scritto del 24/06/2019**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_24062019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_24062019.md" >}})

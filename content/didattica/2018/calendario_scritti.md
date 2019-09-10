@@ -24,5 +24,6 @@ Questa pagina verrà aggiornata man mano che si avvicineranno le date di esame.
 * ~~9 Aprile: ore 11:00 Aula B, primo piano del Vecchio Edificio di Chimica (Edificio Cannizzaro).~~
 * ~~11 Giugno: ore 14:00 Aula Blu 2, piano terra dell'edificio CU028 (si veda [qui](https://www.uniroma1.it/sites/default/files/PIANTA_LEGENDA_DEF_1.pdf)).~~
 * ~~24 Giugno: ore 11:00 Aula Blu 2, piano terra dell'edificio CU028 (si veda [qui](https://www.uniroma1.it/sites/default/files/PIANTA_LEGENDA_DEF_1.pdf)).~~
-* 10 Luglio: ore 15:00 Aula 3, nuovo edificio di Fisica (edificio Fermi).
-* 10 Settembre
+* ~~10 Luglio: ore 15:00 Aula 3, nuovo edificio di Fisica (edificio Fermi).~~
+* ~~10 Settembre: ore 14 Aula 6, nuovo edificio di Fisica (edificio Fermi)~~
+* 20 Settembre: ore 9 Aula 4, nuovo edificio di Fisica (edificio Fermi)
