@@ -112,13 +112,17 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 
 <small>Cliccare sulla data per visualizzare/nascondere l'elenco dettagliato, **E** sta per *esercitazione*, **L** per *lezione* e **C** per *correzione* (di compiti e/o esoneri)</small>
 
-{{% expand "24/09/2018, <b>L</b>" %}}
+{{% expand "24/09/2019, <b>L</b>" %}}
 * Presentazione del corso
 * Test di valutazione iniziale di matematica
+{{% /expand %}}
+
+{{% expand "25/09/2019, <b>L</b>" %}}
+* Ripasso di algebra lineare
 {{% /expand %}}
 
 
 ### Appunti
 
 * [Slide di presentazione]({{< static "didattica/2019/presentazione.pdf" >}})
-<!--* [Lezione 26/09/2018]({{< ref "2018/lezione_1.md" >}})-->
+* [Lezione del 25/09/2018]({{< ref "2019/0_matematica.md" >}})
