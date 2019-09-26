@@ -116,13 +116,24 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Presentazione del corso
 * Test di valutazione iniziale di matematica
 {{% /expand %}}
-
 {{% expand "25/09/2019, <b>L</b>" %}}
 * Ripasso di algebra lineare
+{{% /expand %}}
+{{% expand "26/09/2019, <b>L</b>" %}}
+* Introduzione all'elettrostatica
+	* Carica elettrica
+	* Struttura elettrica della materia
+* Legge di Coulomb
+* Campi scalari, vettoriali e principio di sovrapposizione
+* Campo elettrostatico
+* Distribuzioni continue di cariche
+* Ordini di grandezza e unità di misura
+* Riferimenti bibliografici MNV: 1.1 (senza isolanti/conduttori), 1.2 (senza induzione), 1.3, 1.4, 1.5
 {{% /expand %}}
 
 
 ### Appunti
 
 * [Slide di presentazione]({{< static "didattica/2019/presentazione.pdf" >}})
-* [Lezione del 25/09/2018]({{< ref "2019/0_matematica.md" >}})
+* [Lezione del 25/09/2019]({{< ref "2019/0_matematica.md" >}})
+* [Lezione del 26/09/2019]({{< ref "2019/1_elettrostatica_1.md" >}})

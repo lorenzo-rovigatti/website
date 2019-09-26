@@ -1,3 +1,9 @@
++++
+title = "Lezione del 25/09/2019"
+date = 2019-09-25T09:47:43+02:00
+draft = false
++++
+
 # Note sul questionario anonimo:
 
 Anno | Mat I | Mat II | Fisica I | 2a | 2b | 3 | 4 | 5 | 6
