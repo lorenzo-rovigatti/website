@@ -141,3 +141,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Slide di presentazione]({{< static "didattica/2019/presentazione.pdf" >}})
 * [Lezione del 25/09/2019]({{< ref "2019/0_matematica.md" >}})
 * [Lezione del 26/09/2019]({{< ref "2019/1_elettrostatica_1.md" >}})
+* [Lezione del 02/10/2019]({{< ref "2019/2_elettrostatica_2.md" >}})
