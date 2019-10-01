@@ -147,12 +147,12 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 1.1 (senza isolanti/conduttori), 1.2 (senza induzione), 1.3, 1.4, 1.5
 {{% /expand %}}
 {{% expand "27/09/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_1.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_1.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 1.1, 1.3, 1.6
 * Esercizi consigliati MNV: 1.2, 1.3, 1.4, 1.5, 1.7, 1.9, 1.10
 {{% /expand %}}
 {{% expand "02/10/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_2.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_2.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 1.5, 1.7, 1.8
 * Esercizi consigliati MNV: 1.8, 1.12, 1.13, 1.14, 1.16, 1.18, 1.22
 {{% /expand %}}
@@ -170,7 +170,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 1.6, 1.7, 2.1 (senza forza elettromotrice), 2.2, 2.3, 2.4, 2.6
 {{% /expand %}}
 {{% expand "04/10/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_3.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_3.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 1.7, 1.8, 2.8
 * Esercizi consigliati MNV: 1.23, 1.24, 1.25, 2.3, 2.4, 2.5, 2.14, 2.16, 2.17, 2.18, 2.21, 2.23
 {{% /expand %}}
@@ -186,7 +186,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 2.2, 2.3, 2.5, 2.7, 2.8 (solo campo uniforme), 3.1, 3.4
 {{% /expand %}}
 {{% expand "10/10/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_4.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_4.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 2.4, 2.6, 3.1, 3.2, 3.3, 3.4
 * Esercizi consigliati MNV: 2.26 (solo energia elettrostatica), 2.27, 3.9, 3.10, 3.15, 3.18, 3.20
 {{% /expand %}}
@@ -202,7 +202,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% /expand %}}
 {{% expand "16/10/2018, <b>E</b>" %}}
 * Ripasso coordinate sferiche e polari
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_5.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_5.md" >}}))
 * Riferimenti bibliografici MNV: Esempio 4.1
 * Esercizi consigliati MNV: 3.11, 3.12, 3.13, 3.20, 4.4, 4.5, 4.6, 4.7, 4.8, 
 {{% /expand %}}
@@ -214,7 +214,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 4.5, 4.6, 4.7, 4.8
 {{% /expand %}}
 {{% expand "18/10/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_6.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_6.md" >}}))
 * Riferimenti bibliografici MNV: Esempio 4.13
 * Esercizi consigliati MNV: 4.9, 4.10, 4.11, 4.13, 4.14, 4.15, 4.16, 4.17, 4.18, 4.20, 4.21, 4.22, 4.25, 4.26, 4.27
 {{% /expand %}}
@@ -229,7 +229,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 5.1, 5.2, 5.3, 5.4, 5.5
 {{% /expand %}}
 {{% expand "24/10/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_7.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_7.md" >}}))
 * Esercizi consigliati MNV: 4.31, 4.33, 4.38, 4.41, 5.1, 5.4, 5.5, 5.8, 5.9, 5.12
 {{% /expand %}}
 {{% expand "25/10/2018, <b>L</b>" %}}
@@ -243,7 +243,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 5.6, 5.7, 5.9
 {{% /expand %}}
 {{% expand "06/11/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_8.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_8.md" >}}))
 * Esercizi consigliati MNV per l'analisi dei circuiti: 5.19, 5.20, 5.21, 5.22, 5.23 (senza potenza), 5.24 (senza potenza)
 {{% /expand %}}
 {{% expand "07/11/2018, <b>L + E</b>" %}}
@@ -251,11 +251,11 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Alcuni circuiti particolari
 	* Galvanometro ed amperometro
 	* Voltmetro
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_9.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_9.md" >}}))
 * Riferimento bibliografici: MNV 5.8, 5.10, esempi 5.9 e 5.10
 {{% /expand %}}
 {{% expand "08/11/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_10.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_10.md" >}}))
 {{% /expand %}}
 {{% expand "13/11/2018, <b>C</b>" %}}
 * Correzione primo esonero ([testo e soluzioni]({{< ref "testo_soluzioni_primo_esonero.md" >}}))
@@ -276,7 +276,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% /expand %}}
 {{% expand "20/11/2018, <b>E</b>" %}}
 * Il prodotto vettoriale
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_11.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_11.md" >}}))
 * Esercizi consigliati MNV: 6.20, 6.24, 6.25, 6.26
 {{% /expand %}}
 {{% expand "21/11/2018, <b>L</b>" %}}
@@ -288,7 +288,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 6.7, la parte del 6.8 in cui si parla dello spettrometro di massa
 {{% /expand %}}
 {{% expand "22/11/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_12.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_12.md" >}}))
 * Esercizi consigliati MNV: 6.1, 6.2, 6.3, 6.5, 6.6
 {{% /expand %}}
 {{% expand "27/11/2018, <b>L</b>" %}}
@@ -300,7 +300,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 7.1, 7.2 (fino alla spira compresa)
 {{% /expand %}}
 {{% expand "28/11/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_13.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_13.md" >}}))
 * Esercizi consigliati MNV: 6.4, 6.27, 6.28
 {{% /expand %}}
 {{% expand "29/11/2018, <b>L</b>" %}}
@@ -310,7 +310,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 7.2 (solenoide), 7.3, 7.4
 {{% /expand %}}
 {{% expand "04/12/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_14.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_14.md" >}}))
 * Esercizi consigliati MNV: 7.1, 7.2, 7.3, 7.4, 7.5
 {{% /expand %}}
 {{% expand "05/12/2018, <b>L</b>" %}}
@@ -327,7 +327,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 7.5, esempi 7.2, 7.3 e 7.4
 {{% /expand %}}
 {{% expand "06/12/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_15.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_15.md" >}}))
 * Esercizi consigliati MNV: 7.6, 7.8, 7.15, 7.18, 7.27
 {{% /expand %}}
 {{% expand "11/12/2018, <b>L</b>" %}}
@@ -340,7 +340,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 7.6, 7.7, 7.8
 {{% /expand %}}
 {{% expand "12/12/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_16.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_16.md" >}}))
 * Esercizi consigliati MNV: 7.23, 7.24, 7.25, 7.26, 7.30
 {{% /expand %}}
 {{% expand "13/12/2018, <b>L</b>" %}}
@@ -353,7 +353,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 8.1, 8.2, 8.4
 {{% /expand %}}
 {{% expand "18/12/2018, <b>E</b>" %}}
-* Esercitazione ([testo e soluzioni]({{< ref "esercitazione_17.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_17.md" >}}))
 * Esercizi consigliati MNV: 6.11
 {{% /expand %}}
 {{% expand "20/12/2018, <b>L</b>" %}}

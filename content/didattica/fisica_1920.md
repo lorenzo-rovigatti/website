@@ -130,7 +130,11 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Ordini di grandezza e unità di misura
 * Riferimenti bibliografici MNV: 1.1 (senza isolanti/conduttori), 1.2 (senza induzione), 1.3, 1.4, 1.5
 {{% /expand %}}
-
+{{% expand "01/10/2019, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_1.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 1.1, 1.3, 1.5
+* Esercizi consigliati MNV: 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.9, 1.10 (ricordando che $\sin \theta \approx \theta$ per piccoli angoli), 1.11, 1.12
+{{% /expand %}}
 
 ### Appunti
 
