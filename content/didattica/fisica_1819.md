@@ -25,6 +25,7 @@ caption = ""
 ---
 
 ### Comunicazioni
+* **Scritto del 20/09/2019**:  [testo e soluzioni]({{< ref "2018/testo_soluzioni_scritto_20092019.md" >}}), [risultati]({{< ref "2018/risultati_scritto_20092019.md" >}}). L'esame orale si terrà martedì 24 Settembre alle ore 9:00 in Aula 8 (quarto piano del nuovo edificio di Fisica, edificio Fermi).
 * **Scritto del 20/09/2019**:  [testo e soluzioni]({{< ref "testo_soluzioni_scritto_20092019.md" >}}), [risultati]({{< ref "risultati_scritto_20092019.md" >}}). L'esame orale si terrà martedì 24 Settembre alle ore 9:00 in Aula 8 (quarto piano del nuovo edificio di Fisica, edificio Fermi).
 * **Scritto del 10/09/2019**:  [testo e soluzioni]({{< ref "testo_soluzioni_scritto_10092019.md" >}}), [risultati]({{< ref "risultati_scritto_10092019.md" >}})
 * **Scritto del 10/07/2019**: [risultati]({{< ref "risultati_scritto_10072019.md" >}}).
