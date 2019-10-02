@@ -33,22 +33,20 @@ Per fare un esempio, descriviamo il moto di una particella di massa $m$ e carica
 
 $$
 \begin{align}
-a_x(t) & = \frac{q}{m}E\\\\
-v_x(t) & = v\_{0,x} + at\\\\
+a_x(t) & = \frac{q}{m}E\\\\\\
+v_x(t) & = v\_{0,x} + at\\\\\\
 x(t) & = x_0 + v\_{0,x}t + \frac{1}{2}at^2
 \end{align}
 $$
 
 Lungo gli altri assi si ha $a_y(t) = a_z(t) = 0$ e quindi
 
-$$
 \begin{align}
-v_y(t) & = v\_{0,y}\\\\
-v_z(t) & = v\_{0,z}\\\\
-y(t) & = y_0 + v\_{0,y}t\\\\
+v_y(t) & = v\_{0,y}\\\\\\
+v_z(t) & = v\_{0,z}\\\\\\
+y(t) & = y_0 + v\_{0,y}t\\\\\\
 z(t) & = z_0 + v\_{0,z}t
 \end{align}
-$$
 
 Poiché la particella accelera, la sua energia cinetica $U_k = \frac{1}{2}mv^2(t)$ cambia nel tempo. Calcoliamo la differenza di energia cinetica:
 
@@ -130,6 +128,11 @@ $$
 
 **Nota Bene:** la dicitura *conservativa* non è casuale. In presenza di sole forze conservative, infatti, l'energia *totale* del sistema (energia cinetica più energia potenziale) si conserva: se l'energia potenziale varia di una certa quantità, il valore dell'energia cinetica varia della stessa quantità cambiata di segno. Per esempio, nel caso semplice di un campo uniforme abbiamo dimostrato che $\Delta U_k = W$. Ora abbiamo visto che $W = -\Delta U_e$, il che implica che $\Delta U_k + \Delta U_e = 0$.
 
+### Unità di misura del potenziale
+<small>MNV: box alla fine del paragrafo 2.2</small>
+
+L'unità di misura del potenziale è il Volt V. Se utilizziamo la relazione tra potenziale ed energia elettrostatica vediamo che un Volt è uguale ad un Joule per un Coulomb (J/C). La relazione che lega il potenziale ed il campo elettrostatico ci dice anche che quest'ultimo può avere unità di misura V/m (Volt per metro), che è la più utilizzata (insieme ai suoi multipli e sottomultipli).
+
 ### Il potenziale generato da una carica puntiforme
 
 Calcoliamo il potenziale elettrostatico associato al campo generato da una carica puntiforme $q$. Per farlo dobbiamo usare la definizione che lo collega all'integrale del prodotto scalare tra il campo elettrostatico e lo spostamento elementare $d\vec{s}$:
@@ -141,7 +144,7 @@ $$
 Integriamo questa quantità lungo un percorso $\mathcal{C}$ che va da $A$ a $B$ per trovare la differenza di potenziale:
 
 $$
-\int\_\mathcal{C} \vec{E} \cdot d\vec{s} = \frac{q}{4\pi \epsilon_0} \int_A^B \frac{dr}{r^2} = - \left( \frac{q}{4\pi \epsilon_0}\frac{1}{r_B} - \frac{q}{4\pi \epsilon_0}\frac{1}{r_A} \right).
+\int\_\mathcal{C} \vec{E} \cdot d\vec{s} = \frac{q}{4\pi \epsilon_0} \int\_{r_A}^{r_B} \frac{dr}{r^2} = - \left( \frac{q}{4\pi \epsilon_0}\frac{1}{r_B} - \frac{q}{4\pi \epsilon_0}\frac{1}{r_A} \right).
 $$
 
 In questo caso abbiamo dimostrato direttamente che il lavoro non dipende dallo specifico $\mathcal{C}$ scelto ma solo da $A$ e $B$. Inoltre, il risultato dell'integrale ci dà l'espressione del potenziale elettrostatico generato da una carica puntiforme $q$:
@@ -196,7 +199,7 @@ $$
 E_x = -\frac{\partial V}{\partial x}, \quad E_y = -\frac{\partial V}{\partial y}, \quad E_z = -\frac{\partial V}{\partial z}
 $$
 
-La relazione precedente si può riassumere dicendo che, in ogni punto dello spazio, *il campo elettrostatico è uguale al gradiente del potenziale*. Di solito l'*operatore* gradiente si indica con il simbolo $\vec{\nabla}$ (detto *nabla* o *del*) e, in coordinate cartesiane, vale
+La relazione precedente si può riassumere dicendo che, in ogni punto dello spazio, *il campo elettrostatico è uguale al gradiente del potenziale cambiato di segno*. Di solito l'*operatore* gradiente si indica con il simbolo $\vec{\nabla}$ (detto *nabla* o *del*) e, in coordinate cartesiane, vale
 
 $$
 \vec{\nabla} = \frac{\partial}{\partial x}\hat{x} + \frac{\partial}{\partial y}\hat{y} + \frac{\partial}{\partial z}\hat{z}

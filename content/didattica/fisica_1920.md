@@ -135,6 +135,19 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: Esempi 1.1, 1.3, 1.5
 * Esercizi consigliati MNV: 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.9, 1.10 (ricordando che $\sin \theta \approx \theta$ per piccoli angoli), 1.11, 1.12
 {{% /expand %}}
+{{% expand "02/10/2019, <b>L</b>" %}}
+* Linee di campo (o di forza)
+* Moto di una carica in un campo elettrostatico uniforme
+* Lavoro della forza elettrostatica
+	* Circuitazione del campo
+	* Irrotazionalità del campo
+	* Energia potenziale elettrostatica
+* Potenziale elettrostatico
+	* Carica puntiforme
+	* Principio di sovrapposizione
+	* Relazione tra potenziale e campo elettrostatico
+* Riferimenti bibliografici MNV: 1.6, 1.7, 2.1 (senza forza elettromotrice), 2.2, 2.3, 2.4, 2.6
+{{% /expand %}}
 
 ### Appunti
 
