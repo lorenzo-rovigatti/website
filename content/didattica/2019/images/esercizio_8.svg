@@ -15,12 +15,41 @@
    version="1.1"
    id="svg1792"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="esercizio_6.svg"
+   sodipodi:docname="esercizio_7.svg"
    inkscape:export-filename="/home/lorenzo/git/website/content/didattica/2019/images/esercizio_6.png"
    inkscape:export-xdpi="109"
    inkscape:export-ydpi="109">
   <defs
-     id="defs1786" />
+     id="defs1786">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path850"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path847"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -28,9 +57,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="230.15019"
-     inkscape:cy="857.37366"
+     inkscape:zoom="1.4"
+     inkscape:cx="110.64676"
+     inkscape:cy="891.78498"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -47,7 +76,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,24 +89,30 @@
        id="rect2337"
        width="1.0690781"
        height="56.661137"
-       x="61.739258"
-       y="36.679482" />
+       x="38.455902"
+       y="36.679482"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109" />
     <rect
        style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="rect2337-6"
        width="1.0690781"
        height="56.661137"
        x="95.94976"
-       y="36.679482" />
+       y="36.679482"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:20.0000003%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="52.255203"
+       x="28.971848"
        y="62.560265"
-       id="text2390"><tspan
+       id="text2390"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109"><tspan
          sodipodi:role="line"
          id="tspan2388"
-         x="52.255203"
+         x="28.971848"
          y="62.560265"
          style="font-style:italic;stroke-width:0.26458332px">σ<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
@@ -87,7 +122,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:20.0000003%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="99.975655"
        y="62.560265"
-       id="text2390-7"><tspan
+       id="text2390-7"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109"><tspan
          sodipodi:role="line"
          id="tspan2388-5"
          x="99.975655"
@@ -98,12 +135,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:20.0000003%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="54.33408"
+       x="31.050724"
        y="99.318451"
-       id="text2419"><tspan
+       id="text2419"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109"><tspan
          sodipodi:role="line"
          id="tspan2417"
-         x="54.33408"
+         x="31.050724"
          y="99.318451"
          style="font-style:italic;stroke-width:0.26458332px">x = 0</tspan></text>
     <text
@@ -111,11 +150,55 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:20.0000003%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="88.824402"
        y="99.309837"
-       id="text2423"><tspan
+       id="text2423"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109"><tspan
          sodipodi:role="line"
          id="tspan2421"
          x="88.824402"
          y="99.309837"
          style="font-style:italic;stroke-width:0.26458332px">x = d</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:20.0000003%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="43.297668"
+       y="64.609138"
+       id="text826"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109"><tspan
+         sodipodi:role="line"
+         id="tspan824"
+         x="43.297668"
+         y="64.609138"
+         style="font-style:italic;font-size:5.29166651px;stroke-width:0.26458332px">(δ, 0, 0)</tspan></text>
+    <circle
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path828"
+       cx="44.968098"
+       cy="68.818642"
+       r="1.1358955"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109" />
+    <circle
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path828-3"
+       cx="78.176338"
+       cy="68.818642"
+       r="1.1358955"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:20.0000003%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="72.627342"
+       y="64.609138"
+       id="text826-6"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109"><tspan
+         sodipodi:role="line"
+         id="tspan824-7"
+         x="72.627342"
+         y="64.609138"
+         style="font-style:italic;font-size:5.29166651px;stroke-width:0.26458332px">(5δ, 0, 0)</tspan></text>
   </g>
 </svg>
