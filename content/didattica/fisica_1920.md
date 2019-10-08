@@ -146,12 +146,23 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Carica puntiforme
 	* Principio di sovrapposizione
 	* Relazione tra potenziale e campo elettrostatico
+	* Unità di misura
 * Riferimenti bibliografici MNV: 1.6, 1.7, 2.1 (senza forza elettromotrice), 2.2, 2.3, 2.4, 2.6
 {{% /expand %}}
 {{% expand "03/10/2019, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_2.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 1.6, 1.7, 1.8, 2.8
 * Esercizi consigliati MNV: 1.23, 1.24, 2.3, 2.4, 2.5, 2.12, 2.14, 2.20, 2.21
+{{% /expand %}}
+{{% expand "08/10/2018, <b>L</b>" %}}
+* Energia potenziale elettrostatica e conservazione dell'energia
+* Superfici equipotenziali
+* Dipolo elettrico
+	* Potenziale
+	* Campo
+	* Momento meccanico
+* Teorema (legge) di Gauss
+* Riferimenti bibliografici MNV: 2.3, 2.5, 2.7, 2.8 (solo campo uniforme), 3.1
 {{% /expand %}}
 
 ### Appunti
@@ -160,3 +171,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 25/09/2019]({{< ref "2019/0_matematica.md" >}})
 * [Lezione del 26/09/2019]({{< ref "2019/1_elettrostatica_1.md" >}})
 * [Lezione del 02/10/2019]({{< ref "2019/2_elettrostatica_2.md" >}})
+* [Lezione dell'08/10/2019]({{< ref "2019/3_elettrostatica_3.md" >}})
