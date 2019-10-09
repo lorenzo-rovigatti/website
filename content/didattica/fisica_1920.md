@@ -164,6 +164,11 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Teorema (legge) di Gauss
 * Riferimenti bibliografici MNV: 2.3, 2.5, 2.7, 2.8 (solo campo uniforme), 3.1
 {{% /expand %}}
+{{% expand "09/10/2019, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_3.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 2.2, 2.6, 2.10
+* Esercizi consigliati MNV: 2.3, 2.4, 2.5, 2.14, 2.17, 2.26
+{{% /expand %}}
 
 ### Appunti
 

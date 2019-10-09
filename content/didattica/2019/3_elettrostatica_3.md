@@ -68,12 +68,12 @@ $$
 V(\vec{P}) = \frac{q}{4\pi\epsilon_0} \left( \frac{1}{r\_{+}} - \frac{1}{r\_{-}} \right) = \frac{q}{4\pi\epsilon_0} \frac{r\_{-} - r\_{+}}{r\_{+}r\_{-}},
 $$
 
-dove $r\_{+}$ ed $r\_{-}$ sono le distanze delle cariche positiva e negativa da $\vec{r}$. Se disegniamo le quantità vettoriali in gioco troviamo che $\vec{r}\_{-} +\vec{r}\_{+} = \vec{a}$, dove $\vec{a}$ è il vettore che congiunge la carica negativa a quella positiva.
+dove $r\_{+}$ ed $r\_{-}$ sono le distanze delle cariche positiva e negativa da $\vec{r}$. Se disegniamo le quantità vettoriali in gioco troviamo che $\vec{r}\_{-} -\vec{r}\_{+} = \vec{a}$, e quindi $\vec{r}\_{+} = \vec{r}\_{-} - \vec{a}$, dove $\vec{a}$ è il vettore che congiunge la carica negativa a quella positiva.
 
-Poniamoci sufficientemente lontano da poter trascurare la dimensione del dipolo (matematicamente, $r \gg a$). In questo caso $r\_{+} r\_{-} = r^2$, dove $r$ è la distanza di $\vec{P}$ dal centro del dipolo. Possiamo approssimare $r\_{-} - r\_{+}$ tenendo conto che, se $a$ è piccolo rispetto ad $r$ e $\theta$ è l'angolo tra $\vec{a}$ ed $\vec{r}$,
+Poniamoci sufficientemente lontano da poter trascurare la dimensione del dipolo (matematicamente, $r \gg a$). In questo caso $r\_{+} r\_{-} \approx r^2$, dove $r$ è la distanza di $\vec{P}$ dal centro del dipolo. Possiamo approssimare $r\_{-} - r\_{+}$ tenendo conto che, se $a$ è piccolo rispetto ad $r$ e $\theta$ è l'angolo tra $\vec{a}$ ed $\vec{r}$,
 
 $$
-r\_{+} = \sqrt{(\vec{a} - \vec{r}\_{-})\cdot(\vec{a} - \vec{r}\_{-})} = \sqrt{a^2 +r\_{-}^2 - 2r_+a \cos{(\theta)}} = r\_{-} \sqrt{1 + \frac{a^2}{r\_{-}^2} - 2\frac{a}{r\_{-}} \cos{\theta}} \approx r\_{-} \sqrt{1 - 2\frac{a}{r\_{-}} \cos{\theta}}\approx r\_{-} - a\cos{\theta}.
+r\_{+} = \sqrt{(\vec{r}\_{-} - \vec{a})\cdot(\vec{r}\_{-} - \vec{a})} = \sqrt{\_{-}^2 + a^2 - 2r_+a \cos{(\theta)}} = r\_{-} \sqrt{1 + \frac{a^2}{r\_{-}^2} - 2\frac{a}{r\_{-}} \cos{\theta}} \approx r\_{-} \sqrt{1 - 2\frac{a}{r\_{-}} \cos{\theta}}\approx r\_{-} - a\cos{\theta}.
 $$
 
 Abbiamo utilizzato il fatto che $a^2/r\_{-}^2 \approx 0$ e che $\sqrt{1 + x} \approx 1 + \frac{1}{2} x$ per piccoli valori di $x$. Questa approssimazione ha una interpretazione geometrica (vedi, ad esempio, la figura 2.29 del MNV). Si ha quindi che $r\_{-} - r\_{+} \approx a\cos{\theta}$. Possiamo riscrivere l'espressione per il potenziale in questa approssimazione:
@@ -94,7 +94,7 @@ E\_\theta & = -\frac{1}{r}\frac{\partial V}{\partial \theta} = \frac{p \sin{\the
 Cioè, in forma vettoriale,
 
 $$
-\vec{E} = \frac{1}{4\pi\epsilon_0 r^3} (2 p \cos{\theta}\hat{r} + \sin{\theta} \hat{\theta})
+\vec{E} = \frac{p}{4\pi\epsilon_0 r^3} (2 \cos{\theta}\hat{r} + \sin{\theta} \hat{\theta})
 $$
 
 Il campo non dipende da $\phi$ poiché ha simmetria cilindrica rispetto all'asse del dipolo. Se poniamo $\theta = 0$ oppure $\theta = \pi$ troviamo che, lungo l'asse del dipolo, il campo è parallelo a $\vec{p}$ e vale 

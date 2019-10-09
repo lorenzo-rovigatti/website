@@ -1,19 +1,7 @@
 +++
 title = "Esercitazione 01/10/2019"
-date = 2018-10-01T09:47:43+02:00
+date = 2019-10-01T09:47:43+02:00
 draft = false
-
-# Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
-categories = []
-
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
-
 +++
 
 [Esercizio 1](#esercizio-1) -- [Esercizio 2](#esercizio-2) -- [Esercizio 3](#esercizio-3) -- [Esercizio 4](#esercizio-4) 
