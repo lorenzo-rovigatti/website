@@ -169,6 +169,17 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: Esempi 2.2, 2.6, 2.10
 * Esercizi consigliati MNV: 2.3, 2.4, 2.5, 2.14, 2.17, 2.26
 {{% /expand %}}
+{{% expand "10/10/2019, <b>L</b>" %}}
+* Prima equazione di Maxwell
+* Conduttori
+	* Conduttori cavi
+	* Induzione completa
+	* Gabbia di Faraday
+* Condensatori
+	* In parallelo
+	* In serie
+* Riferimenti bibliografici MNV: 3.4, 4.1, 4.2, 4.3, 4.4
+{{% /expand %}}
 
 ### Appunti
 
@@ -177,3 +188,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 26/09/2019]({{< ref "2019/1_elettrostatica_1.md" >}})
 * [Lezione del 02/10/2019]({{< ref "2019/2_elettrostatica_2.md" >}})
 * [Lezione dell'08/10/2019]({{< ref "2019/3_elettrostatica_3.md" >}})
+* [Lezione del 10/10/2019]({{< ref "2019/4_elettrostatica_4.md" >}})
