@@ -38,7 +38,7 @@ caption = ""
 * **Scritto del 22/01/2019**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_22012019.md" >}}), [risultati]({{< ref "risultati_scritto_22012019.md" >}})
 * **Secondo esonero**: [testo e soluzioni]({{< ref "testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "risultati_secondo_esonero.md" >}})
 * **Primo esonero**: [testo e soluzioni]({{< ref "testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "risultati_primo_esonero.md" >}})
-* Un file pdf con tutti gli esercizi svolti può essere scaricato [qui]({{< static "didattica/tutti_gli_esercizi.pdf" >}})
+* Un file pdf con tutti gli esercizi svolti può essere scaricato [qui]({{< static "didattica/2018/tutti_gli_esercizi.pdf" >}})
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato-diario-delle-lezioni) relativa alle esercitazioni!
 
 ### Orario delle lezioni
