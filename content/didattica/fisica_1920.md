@@ -180,6 +180,12 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* In serie
 * Riferimenti bibliografici MNV: 3.4, 4.1, 4.2, 4.3, 4.4
 {{% /expand %}}
+{{% expand "15/10/2019, <b>E</b>" %}}
+* Ripasso coordinate sferiche e polari
+* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_4.md" >}}))
+* Riferimenti bibliografici MNV: Esempio 4.1
+* Esercizi consigliati MNV: 3.11, 3.12, 3.13, 3.20, 4.4, 4.5, 4.6, 4.7, 4.8, 
+{{% /expand %}}
 
 ### Appunti
 
