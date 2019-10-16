@@ -98,6 +98,7 @@ Il docente riceve nella stanza 103 al primo piano dell'edificio Fermi (nuovo edi
 {{% /expand %}}
 {{% expand "Campo elettromagnetico" %}}
 * Legge di Faraday e applicazioni
+* Campo elettrico indotto e autoinduzione
 * Equazioni di Maxwell
 {{% /expand %}}
 {{% expand "Onde elettromagnetiche" %}}
@@ -182,9 +183,18 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% /expand %}}
 {{% expand "15/10/2019, <b>E</b>" %}}
 * Ripasso coordinate sferiche e polari
-* Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_4.md" >}}))
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_4.md" >}}))
 * Riferimenti bibliografici MNV: Esempio 4.1
-* Esercizi consigliati MNV: 3.11, 3.12, 3.13, 3.20, 4.4, 4.5, 4.6, 4.7, 4.8, 
+* Esercizi consigliati MNV: 3.9, 3.20 (il punto (a) è più difficile, il (b) meno), 4.4, 4.5, 4.6, 4.7, 4.8, 
+{{% /expand %}}
+{{% expand "16/10/2019, <b>E</b> + <b>L</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_4_bis.md" >}}))
+* Energia e densità di energia del campo elettrostatico
+* Dielettrici
+	* Effetti di polarizzazione
+	* Legge di Gauss in presenza di dielettrici
+* Riferimenti bibliografici MNV: 4.5, 4.6, 4.7, 4.8
+* Esercizi consigliati MNV: 4.16, 4.17, 4.18, 4.20, 4.21
 {{% /expand %}}
 
 ### Appunti
@@ -195,3 +205,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 02/10/2019]({{< ref "2019/2_elettrostatica_2.md" >}})
 * [Lezione dell'08/10/2019]({{< ref "2019/3_elettrostatica_3.md" >}})
 * [Lezione del 10/10/2019]({{< ref "2019/4_elettrostatica_4.md" >}})
+* [Lezione del 16/10/2019]({{< ref "2019/5_elettrostatica_5.md" >}})

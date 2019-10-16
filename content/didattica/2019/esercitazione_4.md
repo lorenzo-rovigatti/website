@@ -4,7 +4,7 @@ date = 2019-10-13T09:47:43+02:00
 draft = false
 +++
 
-[Richiami di matematica](#richiami-di-matematica-coordinate-sferiche-e-polari) -- [Esercizio 15](#esercizio-15) -- [Esercizio 16](#esercizio-16) -- [Esercizio 17](#esercizio-17) -- [Esercizio 18](#esercizio-18) -- [Esercizio 19](#esercizio-19) -- [Esercizio 20](#esercizio-20)
+[Richiami di matematica](#richiami-di-matematica-coordinate-sferiche-e-polari) -- [Esercizio 15](#esercizio-15) -- [Esercizio 16](#esercizio-16) -- [Esercizio 17](#esercizio-17)
 
 ## Richiami di matematica: coordinate sferiche e polari
 

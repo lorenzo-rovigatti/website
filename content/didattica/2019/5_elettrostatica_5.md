@@ -10,19 +10,19 @@ draft = false
 Il processo di carica di un condensatore consiste nello spostare cariche da un'armatura ad un'altra, e quindi richiede una quantità di lavoro che dipende dalla carica $q$ e dalla capacità $C$ (o, equivalentemente, dalla differenza di potenziale $\Delta V = q / C$). Durante la fase di carica, se il condensatore è posto ad una differenza di potenziale $\Delta V$, il lavoro infinitesimo da compiere per spostare $dq$ da un'armatura all'altra è:
 
 $$
-dW = \Delta V dq = \frac{q}{C} dq.
+dW\_{rm ext} = \Delta V dq = \frac{q}{C} dq.
 $$
 
 Il lavoro complessivo necessario per caricare il condensatore con $q$ è:
 
 $$
-W = \int_0^q \frac{q'}{C}dq' = \frac{1}{2} \frac{q^2}{C} = U_e
+W\_{rm ext} = \int_0^q \frac{q'}{C}dq' = \frac{1}{2} \frac{q^2}{C} = U_e
 $$
 
 L'ultima uguaglianza deriva dal fatto che, per definizione, in un sistema conservativo il lavoro compiuto per "assemblare" un sistema è pari alla sua energia potenziale. Utilizzando le relazione che intercorrono tra $q$, $C$ e $\Delta V$, l'energia elettrostatica si può scrivere in maniera equivalente:
 
 $$
-U_e = \frac{1}{2} \frac{q^2}{C} = \frac{1}{2} \frac{q}{\Delta V} = \frac{1}{2} \frac{C}{\Delta V^2}
+U_e = \frac{1}{2} \frac{q^2}{C} = \frac{1}{2} q \Delta V = \frac{1}{2} C \Delta V^2
 $$
 
 Se consideriamo un condensatore piano, possiamo esprimere la stessa relazione in funzione non delle sorgenti del campo elettrostatico (cioè le cariche) ma del campo stesso. In questo caso specifico, infatti, si ha che $E = V / h$ e $C = \epsilon_0 \Sigma / h$. D'altro canto, $\frac{1}{2} \frac{q^2}{C} = \frac{1}{2} C \Delta V^2$, e quindi
@@ -78,13 +78,7 @@ $$
 U_e = \frac{1}{2} \frac{q^2}{C} = \frac{1}{2} \frac{q^2h}{\epsilon_0 \Sigma}
 $$
 
-È chiaro quindi che, se $h$ cambia di $dh$, l'energia elettrostatica varia di:
-
-$$
-dU_e = \frac{q}{\epsilon_0 \Sigma} dh
-$$
-
-La forza (che ha direzione normale alle armature per simmetria, come il campo) sarà data da:
+e quindi la forza (che ha direzione normale alle armature per simmetria, come il campo) sarà data da:
 
 $$
 F = -\frac{dU_e}{dh} = -\frac{q^2}{2\epsilon_0 \Sigma} = -\frac{\sigma^2 \Sigma}{2 \epsilon_0}
@@ -92,7 +86,7 @@ $$
 
 La forza è negativa: tenderà ad avvicinare le armature. 
 
-**Nota Bene:** per calcolare la forza come derivata dell'energia, quest'ultima deve essere espressa come funzione di quantità che *non variano* al variare di $x$. Ad esempio, se avessimo derivato l'espressione $U_e = \frac{1}{2} c \Delta V^2 = \frac{1}{2} \frac{\epsilon_0 \Sigma}{h} \Delta V^2$ per $h$ avremmo ottenuto il risultato sbagliato, perché variando $h$ cambia anche $\Delta V$!
+**Nota Bene:** per calcolare la forza come derivata dell'energia, quest'ultima deve essere espressa come funzione di quantità che *non variano* al variare di $x$. Ad esempio, se avessimo derivato l'espressione $U_e = \frac{1}{2} C \Delta V^2 = \frac{1}{2} \frac{\epsilon_0 \Sigma}{h} \Delta V^2$ per $h$ avremmo ottenuto il risultato sbagliato, perché variando $h$ cambia anche $\Delta V$!
 
 ## Dielettrici
 <small>MNV: paragrafo 4.6</small>
@@ -112,7 +106,7 @@ $$
 Aggiungere la lastra dielettrica genera una variazione del campo di:
 
 $$
-E_0 - E = \frac{\sigma_0}{\epsilon_0} - \frac{\sigma_0}{\kappa \epsilon_0} = \frac{k - 1}{k} \frac{\sigma_0}{\epsilon_0} \equiv \frac{\chi}{\chi - 1} \frac{\sigma_0}{\epsilon_0}
+E_0 - E = \frac{\sigma_0}{\epsilon_0} - \frac{\sigma_0}{\kappa \epsilon_0} = \frac{k - 1}{k} \frac{\sigma_0}{\epsilon_0} \equiv \frac{\chi}{\chi +1} \frac{\sigma_0}{\epsilon_0}
 $$
 
 con $\chi = \kappa - 1$ chiamata *suscettività elettrica del dielettrico*. 
@@ -155,7 +149,7 @@ $$
 
 dove $n$ è il numero di atomi o molecole per unità di volume e $\vec{P}$ è detto *vettore polarizzazione* e, come $\langle \vec{p} \rangle$, è parallelo ad $\vec{E}$.
 
-Consideriamo un dielettrico solido: è lecito immaginare che, in presenza di un campo uniforme come quello generato da due armature piane, anche $\vec{P}$ sia uniforme (cioè supponiamo che il dielettrico sia *polarizzato uniformemente*), cioè ha lo stesso valore ovunque nella lastra. Immaginiamo l'effetto del campo esterno: tutti gli atomi si polarizzano, con gli elettroni e i nuclei che si spostano lungo la direzione del campo. Per atomi o molecole nel centro del materiale questo spostamento non determina una vera e propria comparsa di una densità di carica, perché la distanza tra i centri della nuvola elettronica e del nucleo di atomi o molecole polarizzate è minuscola rispetta alle scale macroscopiche, e quindi la carica, localmente, si compensa, risultando ovunque nulla. Di converso, le regioni superficiali inferiore e superiore risulteranno cariche poiché nessuna compensazione è possibile. Dato che queste regioni hanno uno spessore comparabile con la taglia atomiche, la densità di carica si può considerare a tutti gli effetti superficiale. Questa densità di carica, che ha segno opposto a quella dell'armatura che ha di fronte, è ciò che genera il campo che si contrappone al campo esterno e che abbiamo chiamato $\sigma_p$. Infatti, se prendiamo un parallelepipedo infinitesimo di materiale, il suo momento di dipolo indotto varrà $\vec{p} = \vec{P} d\tau = P d\Sigma d\vec{h}$ avendo scelto $d\vec{h}$ parallelo a $\vec{P}$. Possiamo immaginare che questo momento di dipolo sia generato da due cariche $q_p = \pm P d\Sigma$ poste a distanza $d\vec{h}$ e distribuite sulle cariche con densità $\pm \sigma_p = \pm q_p / d\Sigma = \pm P$.
+Consideriamo un dielettrico solido: è lecito immaginare che, in presenza di un campo uniforme come quello generato da due armature piane, anche $\vec{P}$ sia uniforme (cioè supponiamo che il dielettrico sia *polarizzato uniformemente*), cioè abbia lo stesso valore ovunque nella lastra. Immaginiamo l'effetto del campo esterno: tutti gli atomi si polarizzano, con gli elettroni e i nuclei che si spostano lungo la direzione del campo. Per atomi o molecole nel centro del materiale questo spostamento non determina una vera e propria comparsa di una densità di carica, perché la distanza tra i centri della nuvola elettronica e del nucleo di atomi o molecole polarizzate è minuscola rispetta alle scale macroscopiche, e quindi la carica, localmente, si compensa, risultando ovunque nulla. Di converso, le regioni superficiali inferiore e superiore risulteranno cariche poiché nessuna compensazione è possibile. Dato che queste regioni hanno uno spessore comparabile con la taglia atomica, la densità di carica si può considerare a tutti gli effetti superficiale. Questa densità di carica, che ha segno opposto a quella dell'armatura che ha di fronte, è ciò che genera il campo che si contrappone al campo esterno e che abbiamo chiamato $\sigma_p$. Infatti, se prendiamo un parallelepipedo infinitesimo di materiale, il suo momento di dipolo indotto varrà $\vec{p} = \vec{P} d\tau = P d\Sigma d\vec{h}$ avendo scelto $d\vec{h}$ parallelo a $\vec{P}$. Possiamo immaginare che questo momento di dipolo sia generato da due cariche $q_p = \pm P d\Sigma$ poste a distanza $d\vec{h}$ e distribuite sulle superfici con densità $\pm \sigma_p = \pm q_p / d\Sigma = \pm P$.
 
 **Nota Bene:** la densità di carica $\sigma_p$ è dovuta a spostamenti microscopici locali e non alla presenza di cariche libere, come invece accade nei conduttori.
 
@@ -188,7 +182,7 @@ $$
 \oint (\epsilon_0 \kappa \vec{E} - \vec{P}) \cdot \hat{n} d\Sigma = q + q_p
 $$
 
-Notiamo che $\kappa \vec{E} = \vec{E}_v$ è il campo che si avrebbe se non ci fosse il dielettrico. Poiché $\epsilon_0 \Phi (\vec{E}_v) = q$, si deve avere
+Notiamo che $\kappa \vec{E} = \vec{E}_0$ è il campo che si avrebbe se non ci fosse il dielettrico. Poiché $\epsilon_0 \Phi (\vec{E}_0) = q$, si deve avere
 
 $$
 -\oint \vec{P} \cdot \hat{n} d\Sigma = q_p
