@@ -40,7 +40,7 @@ caption = ""
 Il docente riceve nella stanza 103 al primo piano dell'edificio Fermi (nuovo edificio di Fisica) e può essere contattato all'indirizzo [lorenzo.rovigatti@uniroma1.it](mailto:lorenzo.rovigatti@uniroma1.it).
 
 * Orari
-	* Mercoledì 15-17 (durante il corso)
+	* Martedì 11-13 (durante il corso)
 	* In qualunque altro giorno (a seconda della disponibilità del docente), previo appuntamento accordato via email
 	
 ### Modalit&agrave; di esame
@@ -195,6 +195,11 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Legge di Gauss in presenza di dielettrici
 * Riferimenti bibliografici MNV: 4.5, 4.6, 4.7, 4.8
 * Esercizi consigliati MNV: 4.16, 4.17, 4.18, 4.20, 4.21
+{{% /expand %}}
+{{% expand "17/10/2019, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_5.md" >}}))
+* Riferimenti bibliografici MNV: Esempio 4.11
+* Esercizi consigliati MNV: 4.10, 4.11, 4.32, 4.34, 4.35, 4.36, 4.38, 4.39, 4.40
 {{% /expand %}}
 
 ### Appunti

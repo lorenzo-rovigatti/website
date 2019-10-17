@@ -12,7 +12,7 @@ draft = false
 
 {{< figure src="../images/esercizio_20.png" width="500px">}}
 
-Una sfera di raggio $R_1$ è posta al centro di una sfera cava di raggio interno $R_2$ ed esterno $R_3$. I due conduttori sono mantenuti da un generatore a valori del potenziale $V_a$ e $V_b$ rispetto al potenziale all'infinito (che poniamo a 0 per comodità). 
+Una sfera di raggio $R_1$ è posta al centro di una sfera cava di raggio interno $R_2$ ed esterno $R_3$. I due conduttori sono mantenuti da un generatore a valori del potenziale $V_1$ e $V_2$ rispetto al potenziale all'infinito (che poniamo a 0 per comodità). 
 
 1. Calcolare le cariche $q_1$, $q_2$ e $q_3$ depositate sulle tre superfici conduttive.
 2. Calcolare numericamente le cariche se $R_1 = 10$ cm, $R_2 = 20$ cm, $R_3 = 25$ cm, $V_1 = -1000$ V, $V_2 = 200$ V.
@@ -21,7 +21,7 @@ Una sfera di raggio $R_1$ è posta al centro di una sfera cava di raggio interno
 
 1. La differenza di potenziale tra $R_1$ ed $R_2$ si trova integrando il campo all'interno della cavità:
 $$
-\Delta V = V_a - V_b = \frac{q_1}{4\pi\epsilon_0} \left( \frac{1}{R_2} - \frac{1}{R_1} \right)
+\Delta V = V_1 - V_2 = \frac{q_1}{4\pi\epsilon_0} \left( \frac{1}{R_2} - \frac{1}{R_1} \right)
 $$
 Da cui si ricava la carica della sfera interna:
 $$
@@ -29,7 +29,7 @@ q_1 = 4 \pi \epsilon_0 \Delta V \left( \frac{R_1 R_2}{R_1 - R_2} \right) = \Delt
 $$
 Dove l'ultima relazione mostra come il sistema possa essere considerato un condensatore sferico di capacità $C = 4 \pi \epsilon_0 \left( \frac{R_1 R_2}{R_1 - R_2} \right)$. Per il teorema di Gauss, la carica sulla superficie interna della sfera cava non può essere altro che $q_2 = -q_1$.  La carica sulla superficie esterna, invece, si trova integrando direttamente il campo per trovare la differenza di potenziale tra la sfera cava e l'infinito (dove $V = 0$):
 $$
-V_b = \frac{q_3}{4\pi \epsilon_0} \frac{1}{R_3}
+V_2 = \frac{q_3}{4\pi \epsilon_0} \frac{1}{R_3}
 $$
 Da cui si trova che:
 $$
@@ -149,7 +149,7 @@ Per validare il risultato basta vedere cosa succede se $\kappa = 1$...
 
 ### Testo
 
-Un cilindro conduttore di raggio $R_1$ caricato con densità di carica superficiale $\sigma$, è posto al centro di un cilindro cavo, anch'esso conduttore, di raggio interno $R_3$ ed esterno $R_4$. Lo spazio interno tra le superfici è riempito con due dielettrici, anch'essi a forma di cilindro cavo. Il primo, di costante dielettrica $\kappa_1$, ha raggi $R_1$ ed $R_2$, il secondo $R_2$ ed $R_3$. 
+Un cilindro conduttore di raggio $R_1$ caricato con densità di carica superficiale $\sigma$, è posto al centro di un cilindro cavo, anch'esso conduttore, di raggio interno $R_3$ ed esterno $R_4$. Lo spazio interno tra le superfici è riempito con due dielettrici, anch'essi a forma di cilindro cavo. Il primo, di costante dielettrica $\kappa_1$, ha raggi $R_1$ ed $R_2$, il secondo, di costante dielettrica $\kappa_2$, ha raggi $R_2$ ed $R_3$. 
 
 1. Calcolare $\vec{E}$, $\vec{D}$ e $\vec{P}$.
 2. Calcolare le densità di polarizzazione sulle superfici dei dielettrici.
@@ -210,7 +210,7 @@ $$
 
 ### Testo
 
-Una nuvola temporalesca ha una forma approssimativamente rettangolare, con lati $a = 2.0$ km e $b = 3.0$ km, e fluttua ad un'altezza $h = 500$ m al di sopra di una zona pianeggiante. La nuvola contiene una carica $q = 80$ C. 
+Una nuvola temporalesca ha una forma approssimativamente rettangolare, con lati $a = 2.0$ km e $b = 3.0$ km, e fluttua ad un'altezza $h = 500$ m al di sopra di una zona pianeggiante. La nuvola contiene una carica $q = -80$ C. 
 
 1. Sapendo che la rigidità dielettrica dell'aria è circa $3.0 \times 10^6$ V/m, le condizioni descritte sopra sono sufficienti per generare fulmini?
 2. Qual è l'energia elettrostatica del sistema nuvola $+$ terreno?
@@ -225,7 +225,7 @@ $$
 
 **Nota Bene:** la costante dielettrica relativa dell'aria è praticamente uno, quindi possiamo utilizzare le espressioni valide nel vuoto.
 
-Il potenziale vale:
+La differenza di potenziale tra la terra (caricata positivamente) e la nuvola (caricata negativamente) vale:
 
 $$
 \Delta V = \frac{q}{C} = 7.5 \times 10^8\, \mathrm{V}
@@ -250,34 +250,17 @@ $$
 
 {{< figure src="../images/esercizio_25.png" width="600px">}}
 
-Un condensatore piano di dimensioni $a \times b \times h$ è parzialmente riempito (per un tratto $x = a / 3$) di una lastra di dielettrico omogeneo e isotropo con $\kappa = 4$ e mantenuto ad una d.d.p. $\Delta V$. 
+Un condensatore piano di dimensioni $a \times b \times h$ è parzialmente riempito (per un tratto $x = a / 3$) di una lastra di dielettrico omogeneo e isotropo di costante dielettrica relativa $\kappa$ e mantenuto ad una d.d.p. $\Delta V$. 
 
 1. Quanto vale la carica $q_d$ che si dispone sulla parte di armatura superiore che si affaccia sul dielettrico?
-2. Calcolare $q_d$ se $\Delta V = 113$ V, $a = b = 10$ cm e $h = 2$ mm.
+2. Calcolare $q_d$ se $\Delta V = 113$ V, $a = b = 10$ cm, $h = 2$ mm e $\kappa = 4$.
 
 ### Soluzione
 
-1. Il condensatore può essere visto come due condensatori in parallelo di capacità $C_d = \epsilon_0 \kappa ab / 3h$ e $C_v = 2 \epsilon_0 ab / 3h$. La capacità totale è quindi:
+1. Il condensatore può essere visto come due condensatori in parallelo di capacità $C_d = \epsilon_0 \kappa ab / 3h$ e $C_v = 2 \epsilon_0 ab / 3h$. La carica di entrambi i "condensatori" si trova utilizzando la relazione che lega capacità, carica e differenza di potenziale, quindi: 
 $$
-C\_{\rm eq} = \frac{\epsilon_0 ab}{h} \left( \frac{\kappa}{3} + \frac{2}{3} \right) = \frac{2\epsilon_0 a b}{h}
+q_d = C_d \Delta V = \frac{\epsilon_0 \kappa ab}{3h} \Delta V
 $$
-La carica totale sulle armature è data da:
-$$
-q = q_d + q_i = \Delta V C\_{\rm eq} = \Delta V \frac{2 \epsilon_0 a b}{h}
-$$
-Poiché la d.d.p. tra i due "condensatori" deve essere la stessa, si deve avere
-$$
-\frac{q_d}{C_d} = \frac{q_v}{C_v}
-$$
-e quindi
-$$
-\frac{q_d}{2} = q_i = q - q_d
-$$
-da cui si ricava
-$$
-q_d = \frac{2}{3} q = \Delta V \frac{4 \epsilon_0 a b}{3 h}
-$$
-
 2. Sostituiamo i valori dati nelle relazione trovata al punto precedente:
 $$
 q_d = \frac{4}{3} 113 \cdot 8.854 \times 10^{-12} \frac{0.1 \cdot 0.1}{0.002}\, \mathrm{C} = 0.667 \times 10^{-8} \, \mathrm{C}

@@ -1,10 +1,10 @@
 +++
-title = "Computing the phase diagram of binary mixtures: A patchy particle case study"
-authors = ["Rovigatti, L.", "De Las Heras, D.", "Tavares, J.M.", "Telo Da Gama, M.M.", "Sciortino, F."]
+title = "Self-assembly in chains, rings, and branches: A single component system with two critical points"
+authors = ["Rovigatti, L.", "Tavares, J.M.", "Sciortino, F."]
 publication_types = ["2"]
-publication = "*Journal of Chemical Physics* **2013**, *138*, 164904, https://doi.org/10.1063/1.4802026"
+publication = "*Physical Review Letters* **2013**, *111*, 168302, https://doi.org/10.1103/PhysRevLett.111.168302"
 date = "2013-01-01"
-abstract = "We investigate the phase behaviour of 2D mixtures of bi-functional and three-functional patchy particles and 3D mixtures of bi-functional and tetra-functional patchy particles by means of Monte Carlo simulations and Wertheim theory. We start by computing the critical points of the pure systems and then we investigate how the critical parameters change upon lowering the temperature. We extend the successive umbrella sampling method to mixtures to make it possible to extract information about the phase behaviour of the system at a fixed temperature for the whole range of densities and compositions of interest. © 2013 AIP Publishing LLC."
+abstract = "We study the interplay between phase separation and self-assembly in chains, rings, and branched structures in a model of particles with dissimilar patches. We extend Wertheim's first order perturbation theory to include the effects of ring formation and to theoretically investigate the thermodynamics of the model. We find a peculiar shape for the vapor-liquid coexistence, featuring reentrant behavior in both phases and two critical points, despite the single-component nature of the system. The emergence of the lower critical point is caused by the self-assembly of rings taking place in the vapor, generating a phase with lower energy and lower entropy than the liquid. Monte Carlo simulations of the same model fully support these unconventional theoretical predictions. © 2013 American Physical Society."
 math = true
 selected = false
 highlight = true
