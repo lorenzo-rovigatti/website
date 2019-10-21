@@ -10,9 +10,11 @@ draft = false
 
 ### Testo
 
+{{< figure src="../images/esercizio_26.png" width="250px">}}
+
 Un conduttore cilindro cavo di lunghezza $h$ ha raggio interno $R_1$ ed esterno $R_2$ ed è costituito da un materiale di resistività $\rho$.
 
-1. Calcolare la resistenza $R$ che oppone ad una corrente che scorre in direzione parallela al cilindro.
+1. Calcolare la resistenza $R$ che oppone ad una corrente che scorre in direzione parallela all'asse del cilindro.
 2. Dati $R_1 = 1$ mm, $R_2 = 1.5$ mm, $h = 1$ m e se nel conduttore scorre una corrente $i = 500$ mA e il campo all'interno del conduttore ha intensità $E = 10$ V/m, quanto vale la resistività $\rho$?
 
 ### Soluzione
@@ -162,6 +164,8 @@ per cui $i_1$ scorre in senso antiorario. In $R_3$ scorre la corrente $i_3 = i_1
 ## Esercizio 30
 
 ### Testo
+
+{{< figure src="../images/esercizio_30.png" width="150px">}}
 
 Un condensatore piano di dimensioni $a \times b \times h_i$ è riempito completamente con un liquido incomprimibile dielettrico di costante relativa $\kappa$ e mantenuto da un generatore ad una d.d.p. $\Delta V$ costante. Se la distanza tra le due armature diventa $1.5 h_i$,
 
