@@ -187,7 +187,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: Esempio 4.1
 * Esercizi consigliati MNV: 3.9, 3.20 (il punto (a) è più difficile, il (b) meno), 4.4, 4.5, 4.6, 4.7, 4.8, 
 {{% /expand %}}
-{{% expand "16/10/2019, <b>E</b> + <b>L</b>" %}}
+{{% expand "16/10/2019, <b>L</b> + <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_4_bis.md" >}}))
 * Energia e densità di energia del campo elettrostatico
 * Dielettrici
@@ -201,6 +201,30 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: Esempio 4.11
 * Esercizi consigliati MNV: 4.10, 4.11, 4.32, 4.34, 4.35, 4.36, 4.38, 4.39, 4.40
 {{% /expand %}}
+{{% expand "22/10/2019, <b>L</b>" %}}
+* Corrente elettrica
+* Modello classico della conduzione elettrica
+* Legge di Ohm
+* Potenza ed effetto Joule
+* Resistori
+	* In serie
+	* In parallelo
+* Forza elettromotrice
+* Riferimenti bibliografici MNV: 5.1, 5.2, 5.3, 5.4, 5.5
+{{% /expand %}}
+{{% expand "23/10/2019, <b>L</b>" %}}
+* Circuiti RC
+	* Carica di un condensatore
+	* Scarica di un condensatore
+* Corrente di spostamento
+* Reti elettriche: cenni
+	* Prima legge di Kirchhoff
+	* Seconda legge di Kirchhoff
+* Alcuni circuiti particolari
+	* Galvanometro ed amperometro
+	* Voltmetro
+* Riferimenti bibliografici MNV: 5.6, 5.7, 5.8, 5.9, esempi 5.9 e 5.10
+{{% /expand %}}
 
 ### Appunti
 
@@ -211,3 +235,5 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione dell'08/10/2019]({{< ref "2019/3_elettrostatica_3.md" >}})
 * [Lezione del 10/10/2019]({{< ref "2019/4_elettrostatica_4.md" >}})
 * [Lezione del 16/10/2019]({{< ref "2019/5_elettrostatica_5.md" >}})
+* [Lezione del 22/10/2019]({{< ref "2019/6_corrente_1.md" >}})
+* [Lezione del 23/10/2019]({{< ref "2019/7_corrente_2.md" >}})

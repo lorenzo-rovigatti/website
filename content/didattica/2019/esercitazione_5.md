@@ -178,7 +178,7 @@ $$
 $$
 Sulla superficie esterna del primo dielettrico:
 $$
-\sigma^{(1)}_p(R_2) = \frac{\kappa_1 - 1}{\kappa_1} \frac{\sigma R_1}{R_2} = -\sigma^{(1)}_p(R_2)\frac{R_1}{R_2}
+\sigma^{(1)}_p(R_2) = \frac{\kappa_1 - 1}{\kappa_1} \frac{\sigma R_1}{R_2} = -\sigma^{(1)}_p(R_1)\frac{R_1}{R_2}
 $$
 Sulla superficie interna del secondo dielettrico:
 $$
@@ -186,7 +186,7 @@ $$
 $$
 Mentre sulla superficie esterna del secondo dielettrico:
 $$
-\sigma^{(2)}_p(R_2) = \frac{\kappa_2 - 1}{\kappa_2} \frac{\sigma R_1}{R_3} = -\sigma^{(1)}_p(R_2)\frac{R_2}{R_3}
+\sigma^{(2)}_p(R_2) = \frac{\kappa_2 - 1}{\kappa_2} \frac{\sigma R_1}{R_3} = -\sigma^{(2)}_p(R_2)\frac{R_2}{R_3}
 $$
 Questi valori si possono validare a due a due considerando che la quantità di carica di polarizzazione in un dielettrico (comprese le sue superfici) deve essere zero!
 

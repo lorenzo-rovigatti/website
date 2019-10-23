@@ -24,7 +24,7 @@ I generatori di tensione (che siano pile o altri dispositivi) vengono comunement
 Senza prendere in considerazione effetti quantistici, consideriamo un conduttore solido come un "mare" di elettroni immersi in un reticolo di ioni. Il moto di ogni elettrone, che può essere modellizzato come rettilineo uniforme con velocità *molto* alta, $v \approx 10^6 $ m/s,  viene interrotto di frequente dagli urti con gli ioni, che (con ottima approssimazione) ne randomizzano la direzione. La distanza percorsa tra un urto ed un altro è chiamato *cammino libero medio* $l$. Poiché la velocità è essenzialmente costante, il tempo che intercorre tra due urti vale:
 
 $$
-t_l = \frac{l}{v}
+\tau = \frac{l}{v}
 $$
 
 Senza campo elettrico, la media delle velocità degli elettroni vale $\frac{1}{N}\sum_i \vec{v}_i = 0$, perché non c'è passaggio netto di corrente. Se però il conduttore viene immerso in una regione di spazio in cui è presente un campo $\vec{E}$, ciascun elettrone avverte una forza $-e\vec{E}$, e quindi viene accelerato di $-e\vec{E}/m$. Se appena dopo un urto la velocità di un elettrone vale $\vec{v}_i^{(i)}$, poco prima dell'urto seguente (prima cioè che la velocità venga nuovamente randomizzata) si avrà:
@@ -66,19 +66,19 @@ La corrente si misura in Ampere (A, che indica quanti Coulomb per secondo passan
 Per mettere in relazione $i$ e $v_d$ prendiamo una superficie infinitesima all'interno del conduttore, $d\Sigma$, e calcoliamo la quantità di carica per unità di tempo che ci passa attraverso quando nel conduttore è presente un campo $\vec{E}$ che genera una velocità di deriva $\vec{v}_d \parallel \vec{E}$. Poiché, in generale, la normale $\hat{n}$ di $d\Sigma$ non è parallela ad $\vec{E}$ ma forma con esso un angolo $\theta$, mentre  la velocità di deriva è costante, gli elettroni che attraversano $d\Sigma$ in un tempo $dt$ sono quelli contenuti nel cilindro obliquo di basi pari a $d\Sigma$ ed altezza pari a $v_d dt$. Disegnandolo si vede subito come il volume di questo solido sia
 
 $$
-d\tau = v_d\cos{(\theta)} d\Sigma dt
+d\tau = v_d\cos{\theta} d\Sigma dt
 $$
 
-Moltiplicando questo valore per il numero medio di elettroni per unità di volume, cioè la densità numerica di elettroni che abbiamo chiamato $n$, si ottiene il numero di elettroni contenuti in $d\tau$ e che quindi passano attraverso $d\Sigma$. Si avrà quindi:
+Moltiplicando questo valore per il numero medio di elettroni per unità di volume, cioè la densità numerica di elettroni che abbiamo chiamato $n$, si ottiene il numero di elettroni contenuti in $d\tau$ e che quindi passano attraverso $d\Sigma$. Poiché ogni elettrone ha carica $-e$ si trova
 
 $$
-dq = -n e v_d\cos{(\theta)} d\Sigma dt
+dq = -n e v_d\cos{\theta} d\Sigma dt
 $$
 
 e quindi
 
 $$
-di = \frac{dq}{dt} = -n e v_d\cos{(\theta)} d\Sigma
+di = \frac{dq}{dt} = -n e v_d\cos{\theta} d\Sigma
 $$
 
 è l'intensità di corrente che passa attraverso $d\Sigma$. Se definiamo la *densità di corrente* come
@@ -117,7 +117,7 @@ La densità di corrente ed il campo sono quindi proporzionali. Questa relazione 
 
 ### Corrente elettrica stazionaria
 
-Data una porzione di conduttore, la condizione di *stazionarietà* si ha quando la carica media di ogni sua parte è costante nel tempo. Se prendiamo un volume all'interno del conduttore (che anche comprenda le pareti laterali attraverso le quali non passa corrente), questo sarà delimitato da due superfici $\Sigma_1$ e $\Sigma_2$ qualunque, una attraverso la quale la corrente *entra*, l'altra attraverso la quale la corrente *esce*. La condizione di stazionarietà implica che la quantità di carica che entra deve essere uguale a quelle che ne esce, e quindi si deve avere
+Data una porzione di conduttore, la condizione di *stazionarietà* si ha quando la carica media di ogni sua parte è costante nel tempo. Se prendiamo un volume all'interno del conduttore (che comprenda anche le pareti laterali attraverso le quali non passa corrente), questo sarà delimitato da due superfici $\Sigma_1$ e $\Sigma_2$ qualunque, una attraverso la quale la corrente *entra*, l'altra attraverso la quale la corrente *esce*. La condizione di stazionarietà implica che la quantità di carica che entra deve essere uguale a quelle che ne esce, e quindi si deve avere
 
 $$
 i_1 = i_2
@@ -142,7 +142,7 @@ $$
 \sigma = \frac{ne^2\tau}{m}.
 $$
 
-Vediamo che in questa relazione entrano solo quantità relative ai portatori di carica ($e$ ed $m$), ed allo specifico materiale ($n$ e $\tau$). Poiché, come abbiamo visto, $\vec{j} \parallel \vec{E}$, $\sigma$ è una quantità positiva (come viene fuori anche dalla relazione precedente). La legge di Ohm si può anche invertire, e spesso si scrive nella forma
+Vediamo che in questa relazione entrano solo quantità relative ai portatori di carica ($e$ ed $m$), ed allo specifico materiale ($n$ e $\tau$). Poiché, come abbiamo visto, $\vec{j} \parallel \vec{E}$, $\sigma$ è una quantità positiva (come si trova anche dalla relazione precedente). La legge di Ohm si può anche invertire, e spesso si scrive nella forma
 
 $$
 \vec{E} = \rho \vec{j}
@@ -186,7 +186,7 @@ La resistenza del conduttore è quindi funzione non solo del materiale (e delle 
 
 ### Potenza ed effetto Joule
 
-Una carica accelerata da un campo elettrostatico accelera. Il lavoro della forza elettrostatica viene tramutato tutto in energia cinetica, che cresce continuamente a spese dell'energia potenziale. Nel caso degli elettroni nei conduttori la velocità di deriva è circa costante, anche in un campo uniforme (che dovrebbe indurre un'accelerazione costante). Dove va a finire il lavoro fatto dal campo elettrico se l'energia cinetica non varia? Viene dissipato in *calore*, che si sviluppa dalla resistenza che il reticolo del conduttore oppone al passaggio degli elettroni. Possiamo calcolare questo lavoro in un conduttore posto ad una d.d.p $\Delta V$:
+Una carica in presenza di un campo elettrostatico accelera. Il lavoro della forza elettrostatica viene tramutato tutto in energia cinetica, che cresce continuamente a spese dell'energia potenziale. Nel caso degli elettroni nei conduttori la velocità di deriva è circa costante, anche in un campo uniforme (che dovrebbe indurre un'accelerazione costante). Dove va a finire il lavoro fatto dal campo elettrico se l'energia cinetica non varia? Viene dissipato in *calore*, che si sviluppa dalla resistenza che il reticolo del conduttore oppone al passaggio degli elettroni. Possiamo calcolare questo lavoro in un conduttore posto ad una d.d.p $\Delta V$:
 
 $$
 dW = \Delta V dq = \Delta V i dt
@@ -198,7 +198,7 @@ $$
 \mathcal{P} = \frac{dW}{dt} = \Delta V i = R i^2 = \frac{\Delta V^2}{R}
 $$
 
-dove le ultime due relazioni sono valide se vale la legge di Ohm. La potenzia si esprime in watt (W $=$ J / s). Possiamo quindi scrivere il lavoro compiuto dal campo in un tempo $t$  come
+dove le ultime due relazioni sono valide se vale la legge di Ohm. La potenza si esprime in watt (W $=$ J / s). Possiamo quindi scrivere il lavoro compiuto dal campo in un tempo $t$  come
 
 $$
 W = \int_0^t \mathcal{P} dt' = \int_0^t R i^2 dt'
@@ -259,3 +259,52 @@ i = \left( \frac{1}{R_1} + \frac{1}{R_2} \right) \Delta V
 $$
 
 La stessa relazione si ottiene considerando un sistema di $N$ resistori in parallelo: la resistenza equivalente di resistori in parallelo è l'inverso della somma delle singole resistenze inverse.
+
+## Forza elettromotrice
+<small>MNV: paragrafo 5.6</small>
+
+La legge di Ohm può essere scritta come integrale del campo:
+
+$$
+\Delta V = V_A - V_B = \int_A^B \vec{E} \cdot d\vec{s} = Ri
+$$
+
+Esteso a tutto il circuito, l'integrale vale:
+
+$$
+\oint \vec{E} \cdot d\vec{s} = R_Ti
+$$
+
+dove $R_T$ è la resistenza totale. Il fatto che la circuitazione del campo non sia nulla implica che $\vec{E}$ non può avere natura unicamente elettrostatica. Sicuramente avrà una componente elettrostatica data dall'accumulo di carica sui poli del generatore, il cui integrale lungo tutto il circuito è nullo. Questo campo $\vec{E}\_{\rm el}$ è sempre diretto dal polo positivo a quello negativo. All'interno del generatore deve quindi essere presente un meccanismo *non elettrostatico*, che chiamiamo campo elettromotore $\vec{E}\_{\rm em}$, che sposta le cariche dal polo negativo a quello positivo. La circuitazione di questo campo è chiamata *forza elettromotrice*:
+
+$$
+\mathcal{E} = \oint \vec{E}\_{\rm em} \cdot d\vec{s} = \int_A^B \vec{E}\_{\rm em} \cdot d\vec{s}
+$$
+
+**Nota Bene:** nonostante il nome possa confondere, la forza elettromotrice **non** è una forza, ma ha le stesse unità di misura di un potenziale (perché?).
+
+Il meccanismo che genera il campo elettromotore dipende dal generatore, e può essere di natura diversa (chimica, meccanica, elettromagnetica, *etc.*). Oltre che da $\mathcal{E}$, il generatore è anche caratterizzato da una resistenza interna $R_i$. Un generatore realistico può quindi essere schematizzato come un generatore "ideale" in serie ad una resistenza $R_i$. Applicando la legge di Ohm ad un circuito di resistenza $R$ collegato ad un generatore del genere si ottiene
+
+$$
+\mathcal{E} = (R + R_i) i
+$$
+
+e quindi 
+
+$$
+R i = \mathcal{E} - R_i i
+$$
+
+che è la differenza di potenziale ai capi del generatore. Proviamo a disegnare l'andamento del potenziale lungo un semplice circuito composto da un generatore e una resistenza. Partiamo dal polo negativo (il cui potenziale poniamo convenzionalmente a 0). Muovendoci verso il polo positivo *all'interno del generatore*, il potenziale aumenta di $\mathcal{E}$. Ancora all'interno del generatore la corrente oltrepassa la resistenza interna, e quindi il potenziale diminuisce di $R_i i$. Resta costante nel filo (la cui resistenza consideriamo trascurabile) che collega il generatore al resistore. Oltrepassando il resistore il potenziale diminuisce di un ulteriore $R i$, tornando a 0 sul polo negativo del generatore.
+
+Interpretiamo questo grafico considerando che l'andamento rispecchia l'energia potenziale di una carica positiva che si muove lungo il circuito ($\Delta U_e = q\Delta V$). La quantità $q\mathcal{E}$ è quindi il lavoro fornito dal generatore ad una carica $q$, che l'acquista nella forma di energia potenziale. Questa energia, a sua volta, viene dissipata nella due resistenze (interna ed esterna). Possiamo trovare la potenza dissipata sulle due resistenze esplicitando il bilancio energetico tramite la legge di Ohm moltiplicata per il fattore $dq = i dt$:
+
+$$
+\mathcal{E} i dt = R i^2 dt + R_i i^2 dt
+$$
+
+Da cui si vede che la potenza ha anch'essa due contributi:
+
+$$
+\mathcal{P} = R i^2 + R_i i^2
+$$
