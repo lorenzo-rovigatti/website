@@ -24,6 +24,7 @@ caption = ""
 
 ### Comunicazioni
 
+* **Primo esonero**: ore 15:00 in Aula 4 (edificio Fermi, nuovo edificio di Fisica), verterà sugli argomenti spiegati da inizio corso fino al 23/10/2019 (compreso).
 * Le *slide* di presentazione del corso possono essere scaricate [qui]({{< static "didattica/2019/presentazione.pdf" >}})
 
 ### Orario delle lezioni
@@ -224,6 +225,11 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Galvanometro ed amperometro
 	* Voltmetro
 * Riferimenti bibliografici MNV: 5.6, 5.7, 5.8, 5.9, esempi 5.9 e 5.10
+{{% /expand %}}
+{{% expand "24/10/2019, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_6.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 5.4, 5.9 e 5.10
+* Esercizi consigliati MNV: 5.1, 5.3, 5.12, 5.18, 5.20, 5.21
 {{% /expand %}}
 
 ### Appunti

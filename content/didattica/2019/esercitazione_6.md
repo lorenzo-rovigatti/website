@@ -12,10 +12,10 @@ draft = false
 
 {{< figure src="../images/esercizio_26.png" width="250px">}}
 
-Un conduttore cilindro cavo di lunghezza $h$ ha raggio interno $R_1$ ed esterno $R_2$ ed è costituito da un materiale di resistività $\rho$.
+Un conduttore cilindrico cavo di lunghezza $h$ ha raggio interno $R_1$ ed esterno $R_2$ ed è costituito da un materiale di resistività $\rho$.
 
 1. Calcolare la resistenza $R$ che oppone ad una corrente che scorre in direzione parallela all'asse del cilindro.
-2. Dati $R_1 = 1$ mm, $R_2 = 1.5$ mm, $h = 1$ m e se nel conduttore scorre una corrente $i = 500$ mA e il campo all'interno del conduttore ha intensità $E = 10$ V/m, quanto vale la resistività $\rho$?
+2. Dati $R_1 = 1$ mm, $R_2 = 1.5$ mm e se nel conduttore scorre una corrente $i = 500$ mA e il campo all'interno del conduttore ha intensità $E = 10$ V/m, quanto vale la resistività $\rho$?
 
 ### Soluzione
 
@@ -33,7 +33,7 @@ R = \frac{\Delta V}{i} = 20\, {\rm \Omega} = \rho \frac{h}{\pi (R_2^2 - R_1^2)}
 $$
 e quindi la resistività vale:
 $$
-\rho = \frac{R \pi (R_2^2 - R_1^2)}{h} = 7.85 \times 10^{-5} \, \Omega{\rm m}
+\rho = \frac{E \pi (R_2^2 - R_1^2)}{i} = 7.85 \times 10^{-5} \, \Omega{\rm m}
 $$
 
 ---
@@ -136,11 +136,11 @@ Calcolare le correnti che scorrono nel seguente circuito, composto da due maglie
 
 ### Soluzione
 
-Scegliamo anche in questo caso il verso orario (per entrambe le maglie). Otteniamo le seguenti equazioni:
+Scegliamo il verso orario per la maglia a sinistra e antiorario per quella a destra (quindi al contrario di quanto indicato in figura, che invece corrisponde alla risoluzione dell'esercizio che si trova in fondo alle soluzioni). Applicando la seconda legge di Kirchhoff otteniamo le seguenti equazioni:
 
 \begin{align}
-- \mathcal{E}_1 & = R_1 i_1 + R_3 (i_1 - i_2)\\\\\\
-\mathcal{E}_2 & = (R_2 + R_4) i_2 + R_3 i_3 = (R_2 + R_4) i_2 + R_3 (i_2 - i_1)
+- \mathcal{E}_1 & = R_1 i_1 + R_3 (i_1 + i_2)\\\\\\
+- \mathcal{E}_2 & = (R_2 + R_4) i_2 + R_3 (i_2 + i_1)
 \end{align}
 
 Se sostituiamo i valori numerici troviamo:
@@ -153,11 +153,32 @@ Se sostituiamo i valori numerici troviamo:
 da cui ricaviamo:
 
 \begin{align}
-i_1 & = -0.8 \, {\rm A}\\\\\\
+i_1 & = 0.8 \, {\rm A}\\\\\\
 i_2 & = 0.6 \, {\rm A}
 \end{align}
 
-per cui $i_1$ scorre in senso antiorario. In $R_3$ scorre la corrente $i_3 = i_1 - i_2 = -1.4$ A se consideriamo il verso della prima maglia, mentre vale $i_3 = i_2 - i_1 = 1.4$ A se consideriamo quello della seconda. In entrambi i casi otteniamo una corrente che scorre dal basso verso l'alto.
+per cui $i_1$ scorre in senso antiorario e $i_2$ scorre in senso orario. In $R_3$ scorre la corrente $i_3 = i_1 + i_2 = 1.4$ A dal basso verso l'alto.
+
+Se scegliamo i versi come quelli in figura allora la corrente che scorre nel ramo condiviso ha espressioni diverse per le due maglie. In questo caso l'espressione della corrente che scorre in $R_3$ è differente per le due maglie. In particolare vale
+
+$$
+i_3^L = i_1 - i_2
+$$
+
+per la maglia di sinistra e
+
+$$
+i_3^R = i_2 - i_1
+$$
+
+per la maglia di destra. Applicando la seconda equazione di Kirchhoff si ottiene il seguente sistema di equazioni:
+
+\begin{align}
+- \mathcal{E}_1 & = R_1 i_1 + R_3 i_3 = R_1 i_1 + R_3 (i_1 - i_2)\\\\\\
+\mathcal{E}_2 & = (R_2 + R_4) i_2 + R_3 i_3 = (R_2 + R_4) i_2 + R_3 (i_2 - i_1)
+\end{align}
+
+le cui soluzioni corrispondono a quelle trovate precedentemente.
 
 ---
 
