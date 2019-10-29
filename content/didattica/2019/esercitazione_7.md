@@ -76,7 +76,7 @@ Un cilindro conduttore di raggio $R_1$ è circondato da un guscio cilindrico con
 1. Calcolare le quantità di carica che si trovano sulle tre superfici conduttive.
 {{< figure src="../images/esercizio_32_2.png" width="500px">}}
 2. Una sfera conduttrice di raggio $R_s$ posta a grande distanza viene collegata al sistema. Calcolare le nuove distribuzioni di carica.
-3. Calcolare la d.d.p. rispetto all'infinito ($V = 0$) del sistema di conduttori se invece di un cilindro e un guscio cilindrico si fosse trattato di una *sfera* e di un *guscio sferico*.
+3. Calcolare la d.d.p. rispetto all'infinito ($V = 0$) del sistema di conduttori.
 
 ### Soluzione
 
@@ -92,25 +92,17 @@ $$
 $$
 D'altronde, per la conservazione della carica si deve avere $q_f + q_s = q_i$, e quindi
 $$
-\frac{q - q_s}{q_s} = \frac{h}{2R_s \log(R_3)}.
+\frac{q_i - q_s}{q_s} = \frac{h}{2R_s \log(R_3)}.
 $$
 da cui si trova
 $$
-q_s = \frac{q}{1 + \frac{h}{2R_s \log(R_3)}}
+q_s = \frac{q_i}{1 + \frac{h}{2R_s \log(R_3)}}
 $$
 e da cui si può ricavare la carica sulla superficie esterna del guscio, $q_f = q - q_s$. All'interno del guscio, ovviamente, nulla varia in forza del fenomeno di schermo elettrostatico.
 
-3. Nel caso di due sfere, la carica è proporzionale ai raggi, quindi:
+3. Poiché sappiamo qual è la carica presente sulla superficie della sfera possiamo calcolare direttamente la differenza di potenziale:
 $$
-\frac{R_3}{R_s} = \frac{q_f}{q_s} = \frac{q_i - q_s}{q_s}
-$$
-dove abbiamo di nuovo consideriamo la conservazione della carica. La carica sulla sfera vale quindi
-$$
-q_s = \frac{q_i R_s}{R_s + R_3}
-$$
-e quindi il potenziale vale
-$$
-V(R_s) - V(\infty) = \frac{q_s}{4 \pi \epsilon_0 R_s} = \frac{q_1 + q_2}{4 \pi \epsilon_0} \frac{1}{R_s + R_3}
+V(R_s) - V(\infty) = \frac{q_s}{4 \pi \epsilon_0 R_s} = \frac{q_i}{1 + \frac{h}{2R_s \log(R_3)}}  \frac{1}{4 \pi \epsilon_0 R_s}
 $$
 
 ---

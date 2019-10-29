@@ -40,14 +40,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="313.67158"
-     inkscape:cy="712.05702"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="402.4006"
+     inkscape:cy="737.26266"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="2560"
-     inkscape:window-height="1333"
+     inkscape:window-width="1920"
+     inkscape:window-height="993"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
@@ -110,47 +110,20 @@
        inkscape:export-filename="/home/lorenzo/DATI/Dropbox/ROMA/INSEGNAMENTO/FISICA_II/2018/ESONERO_0911/esercizio_2.png"
        inkscape:export-xdpi="373"
        inkscape:export-ydpi="373" />
-    <g
-       id="g854"
-       transform="rotate(-90,265.41335,423.40573)"
-       inkscape:export-xdpi="373"
-       inkscape:export-ydpi="373">
-      <path
-         inkscape:export-ydpi="373"
-         inkscape:export-xdpi="373"
-         inkscape:export-filename="/home/lorenzo/DATI/Dropbox/ROMA/INSEGNAMENTO/FISICA_II/2018/ESONERO_0911/esercizio_2.png"
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="path8419"
-         d="m 369.28571,376.64792 v 38.92857 c -8.06349,10.98492 -6.16864,20.97401 0,30.53571 -2.39052,47.16475 -1.31965,97.91259 -3e-5,138.39286 h 45"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="373"
-         inkscape:export-xdpi="373"
-         inkscape:export-filename="/home/lorenzo/DATI/Dropbox/ROMA/INSEGNAMENTO/FISICA_II/2018/ESONERO_0911/esercizio_2.png"
-         inkscape:connector-curvature="0"
-         id="path8421"
-         d="M 465.39479,382.45682 V 584.31803 H 431.55468"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.99968755;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="433.09387"
-       y="280.73917"
+       x="358.76352"
+       y="286.56796"
        id="text4325-0"
        inkscape:export-xdpi="373"
        inkscape:export-ydpi="373"
        inkscape:export-filename="/home/lorenzo/DATI/Dropbox/ROMA/INSEGNAMENTO/FISICA_II/2018/ESONERO_0911/esercizio_2.png"><tspan
          sodipodi:role="line"
-         x="433.09387"
-         y="280.73917"
+         x="358.76352"
+         y="286.56796"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.31512833px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:1px"
-         id="tspan856"> ΔV =V<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan848">a</tspan> - V<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan850">b</tspan></tspan></text>
+         id="tspan856"> ΔV</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-size:50.00000013px"
@@ -229,5 +202,42 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="373"
        inkscape:export-ydpi="373" />
-  </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.59375;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 360.9375,272.22828 H 272.54465"
+       id="path843"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="373"
+       inkscape:export-ydpi="373" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.59375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 429.91072,272.22828 H 543.75"
+       id="path845"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="373"
+       inkscape:export-ydpi="373" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:20.0000003%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="553.79468"
+       y="285.62115"
+       id="text849"
+       inkscape:export-xdpi="373"
+       inkscape:export-ydpi="373"><tspan
+         sodipodi:role="line"
+         id="tspan847"
+         x="553.79468"
+         y="285.62115"
+         style="font-size:37.5px;line-height:18.50000029px;stroke-width:0.9375px">∞</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot851"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Arial;font-style:normal;font-weight:normal;font-size:26.66666667px;line-height:20.0000003%;letter-spacing:0px;word-spacing:0px;text-anchor:start;text-align:start;writing-mode:lr;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion853"><rect
+           id="rect855"
+           width="811.15247"
+           height="432.34528"
+           x="-52.527931"
+           y="136.61081" /></flowRegion><flowPara
+         id="flowPara857"></flowPara></flowRoot>  </g>
 </svg>

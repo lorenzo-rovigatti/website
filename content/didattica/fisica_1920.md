@@ -231,6 +231,9 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: Esempi 5.4, 5.9 e 5.10
 * Esercizi consigliati MNV: 5.1, 5.3, 5.12, 5.18, 5.20, 5.21
 {{% /expand %}}
+{{% expand "29/10/2019, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_7.md" >}}))
+{{% /expand %}}
 
 ### Appunti
 
