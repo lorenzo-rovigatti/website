@@ -106,6 +106,7 @@ Il docente riceve nella stanza 103 al primo piano dell'edificio Fermi (nuovo edi
 * Onde piane e intensità media
 * Riflessione, rifrazione e dispersione
 * Interferenza e diffrazione
+* Ottica geometrica
 {{% /expand %}}
 
 #### Dettagliato (diario delle lezioni)
@@ -234,6 +235,18 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% expand "29/10/2019, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_7.md" >}}))
 {{% /expand %}}
+{{% expand "30/10/2019, <b>E</b>" %}}
+* Esercitazione su esonero ed esami degli anni precedenti
+{{% /expand %}}
+{{% expand "31/10/2019, <b>L + C</b>" %}}
+* Introduzione ai fenomeni magnetici
+* Elettricità e magnetismo
+* Forza magnetica
+	* Carica in moto
+	* Conduttore percorso da corrente
+* Riferimenti bibliografici MNV: 6.1, 6.2, 6.3, 6.4, esempio 6.2
+* Correzione del primo esonero ([testo e soluzioni]({{< ref "2019/testo_soluzioni_primo_esonero.md" >}}))
+{{% /expand %}}
 
 ### Appunti
 
@@ -246,3 +259,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 16/10/2019]({{< ref "2019/5_elettrostatica_5.md" >}})
 * [Lezione del 22/10/2019]({{< ref "2019/6_corrente_1.md" >}})
 * [Lezione del 23/10/2019]({{< ref "2019/7_corrente_2.md" >}})
+* [Lezione del 31/10/2019]({{< ref "2019/8_magnetismo_1.md" >}})

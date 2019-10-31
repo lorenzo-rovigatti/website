@@ -1,6 +1,6 @@
 +++
-title = "Lezione del 29/10/2018"
-date = 2019-10-27T10:00:44+02:00
+title = "Lezione del 31/10/2018"
+date = 2019-10-31T10:00:44+02:00
 draft = false
 +++
 
@@ -11,13 +11,12 @@ Alcuni materiali hanno la proprietà di attrarre la limatura di ferro. L'esempio
 
 Dato un oggetto fatto di magnetite, che chiamiamo *magnete*, la sua proprietà di attrarre la limatura non è uniforme, ma si concentra in alcune zone dette *poli del magnete*. I fenomeni legati a questa proprietà, al pari dei fenomeni elettrici,  erano considerati curiosità nell'Antichità, e sono stati studiati in maniera sistematica solo in epoca moderna. Le osservazioni sperimentali compiute nel XXVII, XXVIII e XIX secolo possono essere così riassunte:
 
-1. I magneti esercitano una forza l'uno sull'altro. Questa forza è causata dalla presenza di un *campo magnetico*. Tramite esperimenti controllati è possibile dimostrare come esistano solo due tipi di poli magnetici, per i quali valgono le seguenti proprietà
+1. I magneti esercitano una forza l'uno sull'altro causata dalla presenza di un *campo magnetico*. I fenomeni magnetici si verificano anche in assenza di cariche elettriche fisse e non sono quindi ascrivibili ad effetti elettrostatici. Tramite esperimenti controllati è possibile dimostrare come esistano solo due tipi di poli magnetici, per i quali valgono le seguenti proprietà
 	* i poli possono essere *positivi* o *negativi*
 	* poli dello stesso tipo si respingono, di tipo diverso si attraggono
 	* i poli di uno stesso magnete sono sempre di tipo diverso
-Questi fenomeni si verificano anche in assenza di cariche elettriche fisse e non sono quindi ascrivibili ad effetti elettrostatici.
 2. I magneti hanno la capacità di *magnetizzare* altri oggetti. Non tutti i materiali possono essere magnetizzati (ferro sì, vetro e plastica no). Un esempio noto è il caso di un sottile ago di ferro che, se magnetizzato, prende il nome di *ago magnetico*.
-3. Un ago magnetico, se libero di ruotare (perché sospeso ad un filo o posto su di un sostegno galleggiante), si orienta sempre nella stessa direzione (approssimativamente coincidente con la direzione dei meridiani terrestri). Questo effetto è dovuto alla presenza del *campo magnetico terrestre* ed è analogo a quel che succede ad un dipolo elettrico in presenza di un campo elettrico. I due poli dell'ago vengono denominati nord e sud, a seconda della direzione verso cui tendono ad orientarsi. L'asse "magnetico" della Terra è spostato di circa $15^\circ$ rispetto al'asse nord-sud: i poli cosiddetti magnetici non coincidono in fatti con quelli geografici, ma ne sono distanziati di $\approx 1600$ km.
+3. Un ago magnetico, se libero di ruotare (perché sospeso ad un filo o posto su di un sostegno galleggiante), si orienta sempre nella stessa direzione (approssimativamente coincidente con la direzione dei meridiani terrestri). Questo effetto è dovuto alla presenza del *campo magnetico terrestre* ed è analogo a quel che succede ad un dipolo elettrico in presenza di un campo elettrico. I due poli dell'ago vengono denominati nord e sud, a seconda della direzione lunga la quale tendono ad orientarsi. L'asse "magnetico" della Terra è spostato di circa $15^\circ$ rispetto al'asse nord-sud: i poli cosiddetti magnetici non coincidono infatti con quelli geografici, ma ne sono distanziati di $\approx 1600$ km.
 4. Grazie ad esperimenti simili a quelli che hanno permesso di ricavare la dipendenza funzionale della forza elettrostatica, Coulomb mostrò come anche la forza tra poli magnetici puntiformi (quali quelli che si trovano, con buona approssimazione, agli estremi di sbarre lunghe e sottili) sia inversamente proporzionale al quadrato della distanza.
 5. Esiste una differenza fondamentale fra la forza elettrostatica e quella magnetica: la carica elettrica elementare, in natura, può essere sia positiva che negativa. Nel caso dei poli magnetici, questi si trovano sempre a due a due: se si prende una sbarra magnetizzata e la si divide in due, ognuna delle due metà diventerà un magnete con due poli. Dal punto di vista microscopico, le nostre conoscenze attuali non spiegano perché non esistano i cosiddetti *monopoli magnetici*, ma esperimenti molto scrupolosi non ne hanno ancora dimostrato l'esistenza. In effetti, le particelle "elementari" (anche quelle neutre) posseggono tutte un momento di dipolo magnetico che, allo stato attuale delle nostre conoscenze, consideriamo *intrinseco*.
 6. Limatura di ferro posta nelle vicinanze di un magnete tenderà a disporsi lungo le linee del campo magnetico. Questo è dovuto al fatto che i grani che compongono la limatura si magnetizzano e si comportano quindi come dipoli magnetici, orientandosi lungo il campo. Le proprietà di queste linee di campo sono molto simili a quelle che valgono per il campo elettrico:
@@ -54,16 +53,16 @@ $$
 Dato l'angolo $\theta$ tra la direzione della velocità e quella del campo magnetico, il modulo della forza di Lorentz vale
 
 $$
-F = q v B \sin(\theta).
+F = q v B \sin \theta.
 $$
 
 La forza è quindi nulla quando $\vec{v}$ e $\vec{B}$ sono paralleli e massima quando sono ortogonali. Direzione e verso sono invece dati dal versore generato dal prodotto vettoriale tra la velocità e il campo magnetico, che si può calcolare con la regola della [mano destra](https://it.wikipedia.org/wiki/Regola_della_mano_destra). Ricordiamo le seguenti proprietà del prodotto vettoriale $\vec{c} = \vec{a} \times \vec{b}$:
 
-1. $| \vec{a} \times \vec{b} | = ab\sin{(\theta)}$
+1. $| \vec{a} \times \vec{b} | = ab\sin{ \theta}$
 2. $\vec{a} \times \vec{b} = - \vec{b} \times \vec{a}$
 3. $\vec{c}$ è ortogonale sia ad $\vec{a}$ che a $\vec{b}$
 
-Una delle proprietà del prodotto vettoriale è che il vettore risultate dall'operazione è ortogonale ad entrambi gli operandi. Ne deriva che la velocità della carica e la forza dovuta all'interazione magnetica sono sempre ortogonali. Poiché quest'ultima è anche parallela alla traiettoria della particella (e quindi allo spostamento), il lavoro compiuto dalle forze magnetiche, e quindi la differenza di energia cinetica, tra due punti generici della traiettoria si annulla:
+Analizziamo quest'ultima proprietà: il vettore risultante dall'operazione è ortogonale ad entrambi gli operandi. Ne deriva che la velocità della carica e la forza dovuta all'interazione magnetica sono sempre ortogonali. Poiché quest'ultima è anche parallela alla traiettoria della particella (e quindi allo spostamento), il lavoro compiuto dalle forze magnetiche, e quindi la differenza di energia cinetica, tra due punti generici della traiettoria si annulla:
 
 $$
 W = \int_P^Q \vec{F} \cdot d\vec{s} = \frac{1}{2}mv_Q^2 - \frac{1}{2}mv_P^2 = 0.
@@ -108,7 +107,7 @@ $$
 d\vec{F} = n \Sigma ds \vec{F}_L = -n \Sigma ds e \vec{v}_d \times \vec{B} = \Sigma ds \vec{j} \times \vec{B}.
 $$
 
-Se orientiamo $d\vec{s}$ nella direzione di $\vec{j}$ e prendiamo un conduttore di sezione $\Sigma$ costante e utilizziamo la definizione di intensità di corrente possiamo scrivere la relazione precedente come
+Se orientiamo $d\vec{s}$ nella direzione di $\vec{j}$, prendiamo un conduttore di sezione $\Sigma$ costante e introduciamo l'intensità di corrente al posto di $j$ possiamo scrivere la relazione precedente come
 
 $$
 d\vec{F} = i d\vec{s} \times \vec{B}
