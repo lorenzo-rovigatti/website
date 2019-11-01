@@ -24,7 +24,7 @@ caption = ""
 
 ### Comunicazioni
 
-* **Primo esonero**: ore 15:00 in Aula 4 (edificio Fermi, nuovo edificio di Fisica), verterà sugli argomenti spiegati da inizio corso fino al 23/10/2019 (compreso).
+* **Primo esonero**: [testo e soluzioni]({{< ref "2019/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2019/risultati_primo_esonero.md" >}}). **Nota Bene:** potete venite a vedere l'esonero Martedì in orario di ricevimento (11-13).
 * Le *slide* di presentazione del corso possono essere scaricate [qui]({{< static "didattica/2019/presentazione.pdf" >}})
 
 ### Orario delle lezioni
