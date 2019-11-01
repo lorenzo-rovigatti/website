@@ -37,8 +37,8 @@ caption = ""
 * **Scritto del 13/02/2019**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_13022019.md" >}}), [risultati]({{< ref "risultati_scritto_13022019.md" >}})
 * **Scritto del 08/02/2019**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_08022019.md" >}}), [risultati]({{< ref "risultati_scritto_08022019.md" >}})
 * **Scritto del 22/01/2019**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_22012019.md" >}}), [risultati]({{< ref "risultati_scritto_22012019.md" >}})
-* **Secondo esonero**: [testo e soluzioni]({{< ref "testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "risultati_secondo_esonero.md" >}})
-* **Primo esonero**: [testo e soluzioni]({{< ref "testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "risultati_primo_esonero.md" >}})
+* **Secondo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_secondo_esonero.md" >}})
+* **Primo esonero**: [testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2018/risultati_primo_esonero.md" >}})
 * Un file pdf con tutti gli esercizi svolti può essere scaricato [qui]({{< static "didattica/2018/tutti_gli_esercizi.pdf" >}})
 * Fate gli esercizi consigliati nella parte del [diario delle lezioni](#dettagliato-diario-delle-lezioni) relativa alle esercitazioni!
 
@@ -260,7 +260,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2018/esercitazione_10.md" >}}))
 {{% /expand %}}
 {{% expand "13/11/2018, <b>C</b>" %}}
-* Correzione primo esonero ([testo e soluzioni]({{< ref "testo_soluzioni_primo_esonero.md" >}}))
+* Correzione primo esonero ([testo e soluzioni]({{< ref "2018/testo_soluzioni_primo_esonero.md" >}}))
 {{% /expand %}}
 {{% expand "14/11/2018, <b>L</b>" %}}
 * Introduzione ai fenomeni magnetici
