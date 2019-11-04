@@ -1,10 +1,10 @@
 +++
-title = "Esercitazione del 31/11/2019"
-date = 2019-10-27T22:24:21+02:00
+title = "Esercitazione del 05/11/2019"
+date = 2019-11-04T09:24:21+02:00
 draft = false
 +++
 
-[Il prodotto vettoriale](#il-prodotto-vettoriale) -- [Esercizio 34](#esercizio-34) -- [Esercizio 35](#esercizio-35)
+[Il prodotto vettoriale](#il-prodotto-vettoriale) -- [Esercizio 34](#esercizio-34) -- [Esercizio 35](#esercizio-35) -- [Esercizio 36](#esercizio-36)
 
 ## Il prodotto vettoriale
 
@@ -40,10 +40,7 @@ da cui è possibile ricavare le altre utilizzando le proprietà del prodotto vet
 In una regione di spazio è presente un campo magnetico uniforme $\vec{B} = (B_x, B_y, B_z)$ G. Data una particella di carica $q$ e velocità generica $\vec{v} = (v_x, v_y, v_z)$, 
 
 1. Calcolare per quali condizioni la forza dovuta al campo magnetico è diretta lungo $\hat{x}$, $\hat{y}$ e $\hat{z}$.
-
-Poniamo $\vec{B} = (3, 15, -1)$ G.
-
-2. Applicare le relazioni trovate precedentemente. Se possibile, fare un esempio di valori di $v_x$, $v_y$ e $v_z$ per cui almeno una di queste relazioni si verifica.
+2. Poniamo $\vec{B} = (3, 15, -1)$ G. Applicare le relazioni trovate precedentemente. Se possibile, fare un esempio di valori di $v_x$, $v_y$ e $v_z$ per cui almeno una di queste relazioni si verifica.
 3. Calcolare per quali condizioni la traiettoria della particella carica è limitata ad un piano;
 
 ### Soluzione
@@ -86,7 +83,35 @@ Questa equazione ha tre incognite, e quindi chiaramente infinite soluzioni, perc
 
 ### Testo
 
-{{< figure src="../images/esercizio_35.png" width="400px">}}
+{{< figure src="../images/esercizio_35_1.png" width="400px">}}
+
+In una spira formata da cinque fili rettilinei scorre una corrente $i$ (vedi figura). La spira è immersa in un campo magnetico di modulo $B$ diretto lungo $\hat{z}$.
+
+1. Determinare le forze (in modulo, direzione e verso) agenti sui due segmenti diagonali.
+2. Determinarre la forza totale agente sulla parte inferiore della spira (cioè sulla parte "diagonale" totale).
+2. Calcolare la forza totale agente sulla spira.
+
+### Soluzione
+
+{{< figure src="../images/esercizio_35_2.png" width="250px">}}
+
+1. Utilizzando la regola della mano destra possiamo trovare subito direzione e verso (vedi figura). Il filo ed il campo sono ortogonali in entrambi i casi, quindi i moduli delle forze sono uguali e valgono
+$$
+F = i c B
+$$
+2. Il problema si può risolvere esplicitamente calcolando le due forze e sommandole vettorialmente (fatelo!), oppure si può ricordare che se il campo è omogeneo la forza totale è data da $i \vec{L} \times \vec{B}$ dove $\vec{L}$ è la distanza tra i capi del segmento di filo di cui vogliamo conoscere la forza, quindi
+$$
+\vec{F}\_{\rm d} = i b B \hat{y}
+$$
+3. Poiché la spira è chiusa e il campo omogeneo, la forza totale non può che essere nulla.
+
+---
+
+## Esercizio 36
+
+### Testo
+
+{{< figure src="../images/esercizio_36.png" width="400px">}}
 
 In una spira rettangolare di massa $m = 4 \times 10^{-2}$ g e lati $a = 3$ cm e $b = 2$ cm scorre una corrente $|i| = 1$ A. La parte inferiore della spira è immersa in un campo magnetico diretto lungo $\hat{z}$ che fa sì che la spira resti sospesa in aria con i lati più corti paralleli al terreno. Calcolare 
 
