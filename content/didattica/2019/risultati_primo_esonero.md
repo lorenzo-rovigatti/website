@@ -9,7 +9,7 @@ draft = false
 Matricola | Voto
 ----------- | ---------------
 1417100 | insufficiente
-1446676 | 18
+1446676 | 20
 1646488 | 18
 1693637 | 28
 1694639 | 20
@@ -25,7 +25,7 @@ Matricola | Voto
 1833915 | insufficiente
 1835853 | insufficiente
 1837708 | 19
-1840209 | 30
+1849209 | 30
 1840667 | 18
 1842629 | insufficiente
 1842649 | 30

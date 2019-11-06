@@ -2,18 +2,6 @@
 title = "Fisica II - A.A. 2019/2020"
 date = 2019-09-22T08:06:49+02:00
 draft = false
-
-# Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
-categories = []
-
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
-
 +++
 
 ---
@@ -247,6 +235,20 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 6.1, 6.2, 6.3, 6.4, esempio 6.2
 * Correzione del primo esonero ([testo e soluzioni]({{< ref "2019/testo_soluzioni_primo_esonero.md" >}}))
 {{% /expand %}}
+{{% expand "05/11/2019, <b>E</b>" %}}
+* Il prodotto vettoriale
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_8.md" >}}))
+* Esercizi consigliati MNV: 6.19, 6.20, 6.21 (difficile), 6.23
+{{% /expand %}}
+{{% expand "06/11/2019, <b>L</b>" %}}
+* Momenti meccanici su circuiti piani
+* Il galvanometro
+* Il motore elettrico in corrente continua
+* Moto di una carica in un campo uniforme
+	* nel caso in cui velocità e campo magnetico siano ortogonali;
+	* nel caso generale
+* Riferimenti bibliografici MNV: 6.5, esempio 6.3, 6.7
+{{% /expand %}}
 
 ### Appunti
 
@@ -260,3 +262,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 22/10/2019]({{< ref "2019/6_corrente_1.md" >}})
 * [Lezione del 23/10/2019]({{< ref "2019/7_corrente_2.md" >}})
 * [Lezione del 31/10/2019]({{< ref "2019/8_magnetismo_1.md" >}})
+* [Lezione del 06/11/2019]({{< ref "2019/9_magnetismo_2.md" >}})
