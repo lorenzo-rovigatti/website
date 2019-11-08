@@ -26,7 +26,7 @@ caption = ""
 
 ### Comunicazioni
 
-* **Scritto del 06/11/2019**:  lo scritto si terrà in Aula Rasetti (II piano dell'edificio Marconi, vecchio edificio di Fisica) alle ore 15:00. Gli esami orali si svolgeranno in Aula 5 (II piano dell'edificio Fermi, nuovo edificio di Fisica) Martedì 12/11 alle ore 09:00. In caso di eventuali problemi/collisioni con altri esami/lezioni contattare il docente via email.
+* **Scritto del 06/11/2019**:  [testo e soluzioni]({{< ref "testo_soluzioni_scritto_06112019.md" >}}), [risultati]({{< ref "risultati_scritto_06112019.md" >}}). Gli esami orali si svolgeranno in Aula 5 (II piano dell'edificio Fermi, nuovo edificio di Fisica) Martedì 12/11 alle ore 09:00. In caso di eventuali problemi/collisioni con altri esami/lezioni contattare il docente via email.
 * **Scritto del 20/09/2019**:  [testo e soluzioni]({{< ref "testo_soluzioni_scritto_20092019.md" >}}), [risultati]({{< ref "risultati_scritto_20092019.md" >}})
 * **Scritto del 10/09/2019**:  [testo e soluzioni]({{< ref "testo_soluzioni_scritto_10092019.md" >}}), [risultati]({{< ref "risultati_scritto_10092019.md" >}})
 * **Scritto del 10/07/2019**: [risultati]({{< ref "risultati_scritto_10072019.md" >}})

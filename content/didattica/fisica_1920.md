@@ -249,6 +249,10 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* nel caso generale
 * Riferimenti bibliografici MNV: 6.5, esempio 6.3, 6.7
 {{% /expand %}}
+{{% expand "07/11/2019, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_9.md" >}}))
+* Esercizi consigliati MNV: 6.1, 6.2, 6.24, 6.25, 6.26
+{{% /expand %}}
 
 ### Appunti
 

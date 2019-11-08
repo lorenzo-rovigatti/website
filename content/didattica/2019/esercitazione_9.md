@@ -1,6 +1,6 @@
 +++
 title = "Esercitazione del 07/11/2019"
-date = 2019-11-04T09:24:21+02:00
+date = 2019-11-07T09:24:21+02:00
 draft = false
 +++
 
@@ -101,48 +101,62 @@ $$
 
 ### Testo
 
-{{< figure src="../images/esercizio_39.png" width="400px">}}
+{{< figure src="../images/esercizio_39.png" width="500px">}}
 
-Un piccolo fascio di ioni di carica $q = 1.6 \times 10^{-19}$ C e velocità iniziale nulla viene accelerato da una d.d.p. $\Delta V = 23$ V e penetra ortogonalmente in una camera a vuoto di uno spettrometro di massa. All'interno vi è un campo magnetico uniforme. Si nota che nello spettrometro il fascio si divide in due componenti: una colpisce la parete da cui sono entrati gli ioni ad una distanza $d_1 = 280$ mm, l'altra ad una distanza $d_2 = 392$ mm. Il primo fascio è composto da ioni sodio aventi $m = 3.8 \times 10^{-26}$ Kg. Calcolare la massa e la velocità del secondo tipo di ioni.
+Una particella di carica $q > 0$ entra dal lato delle $x$ negative e con velocità $\vec{v} = (v, 0, 0)$ nel centro di una regione in cui è presente un campo magnetico uniforme $\vec{B} = (0, 0, B)$. La regione si estende indefinitamente lungo $\hat{z}$ mentre ha dimensioni $a$ sia lungo $\hat{x}$ che lungo $\hat{y}$.
+
+1. Calcolare qual è l'angolo $\theta$ rispetto all'asse $x$ con cui la particella esce dalla regione col campo se $B = \frac{mv}{10 qa}$.
+2. Calcolare per quali valori di $B$ la particella esce dal lato da cui è entrata,
+3. dal lato alla sua destra,
+4. dal lato opposto a quello da cui è entrata.
+5. Discutere cosa cambierebbe se la particella avesse una velocità iniziale $\vec{v} = (v_x, 0, v_z)$
+6. Discutere cosa cambiarebbe se la particella possedesse una carica $q < 0$
 
 ### Soluzione
 
-La velocità degli ioni sodio si calcola dall'energia cinetica, che vale
-
+1. Per quel valore di $B$ il raggio della traiettoria è
 $$
-\frac{1}{2} m_i v_i^2 = q\Delta V
+r = \frac{mv}{qB} = 10 a.
 $$
-
-da cui si ottiene
-
+Notiamo che la domanda è equivalente a chiedersi qual è l'angolo $\theta$ sotteso dall'arco di circonferenza compiuto dalla particella quando questa si è mossa di una distanza $a$ lungo $\hat{x}$. Questo vuol dire che si ha
 $$
-v_i = \frac{2q\Delta V}{m} = 1.4 \times 10^4 \, {\rm m / s}
+a = r \sin \theta
 $$
-
-I raggi di curvatura delle due traiettorie sono
-
-\begin{align}
-R_1 & = \frac{1}{2} d_1 = 140 \, {\rm mm}\\\\\\
-R_2 & = \frac{1}{2} d_2 = 196 \, {\rm mm}
-\end{align}
-
-e, per la legge del moto uniformemente accelerato, vale
-
+e quindi
 $$
-q B = \frac{m_1 v_1}{R_1} = \frac{m_1 v_2}{R_2}
+\sin(\theta) = \frac{a}{r} = \frac{1}{10}
 $$
-
-d'altro canto, l'energia cinetica iniziale è la stessa per entrambi i fasci, e quindi
-
+e quindi
 $$
-\frac{1}{2} m_1 v_1^2 = \frac{1}{2} = m_2 v_2^2.
+\theta = \arcsin(0.1) \approx 0.1
 $$
-
-Abbiamo due equazioni in due incognite. Risolvendo il sistema otteniamo
-
-\begin{align}
-m_2 & = m_1 \left(\frac{R_2}{R_1}\right)^2 = 7.44 \times 10^{-26}\\\\\\
-v_2 & = v_1 \frac{R_1}{R_2} = 10^4\, {\rm m / s}
-\end{align}
-
----
+2. La particella percorrerà la circonferenza verso il basso (utilizzare la definizione di forza di Lorentz per vederlo!). Per avere la condizione richiesta si deve avere $2r = 2\frac{mv}{qB} < a / 2$, quindi
+$$
+B > \frac{4 m v}{qa}.
+$$
+3. Perché esca dal lato a destra, il campo deve essere chiaramente più debole di quello che la farebbe uscire dal lato da cui entrata. D'altro canto, deve essere più forte di quello che la farebbe uscire dal lato opposto. Si ha quindi
+$$
+B_o < B < \frac{2 m v}{qa}
+$$
+$B_o$ si trova calcolando il caso limite; quello, cioè, per cui la particella uscirebbe dallo spigolo del quadrato. Questo si trova imponendo che il punto di entrata e lo spigolo si trovino alla stessa distanza dal centro della circonferenza che identifica la traiettoria. Consideriamo il punto di entrata come l'origine degli assi. È chiaro quindi che, in questo sistema di riferimento, il centro della circonferenza deve avere $x_c = 0$. Vale quindi $r = y_c$. D'altro canto, per lo spigolo vale
+$$
+r = \sqrt{a^2 + \left(\frac{a}{2} - y_c\right)^2} = \sqrt{a^2 + \frac{a^2}{4} + y_c^2 - ay_c}.
+$$
+Elevando entrambi i membri al quadrato e sostituendo $r = y_c$ si trova
+$$
+b^2 + \frac{a^2}{4} - ay_c = 0
+$$
+da cui si ricava
+$$
+y_c = \frac{5}{4} a = r = \frac{mv}{qB_0}
+$$
+e quindi la condizione richiesta diventa
+$$
+\frac{4}{5} \frac{mv}{qa} < B < \frac{4 m v}{qa}
+$$
+4. Poiché per $B = 0$ il moto risulta inalterato, la condizione richiesta è
+$$
+0 < B < \frac{4}{5} \frac{mv}{qa}
+$$
+5. Non cambia nulla, perché avere una velocità con componente lungo il campo dà luogo ad un moto uniforme elicoidale che non modifica affatto il moto lungo il piano $xy$.
+6. Il verso di percorrenza della circonferenza (o degli archi di circonferenza) dipende dal segno della carica.
