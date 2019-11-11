@@ -16,6 +16,8 @@ Il campo magnetico generato dalla Terra ha più o meno questa forma, e infatti e
 ### Lo spettrometro di massa
 <small>MNV: parte del paragrafo 6.8</small>
 
+#### Lo spettromero di Dempster
+
 Il moto uniforme circolare generato da un campo magnetico uniforme può essere utilizzato per separare ioni aventi diversi rapporti di carica su massa da dispositivi detti *spettrometri di massa*. 
 
 Vediamo una semplice schematizzazione di come funziona uno di questi strumenti. Gli ioni vengono inizialmente accelerati. Se, come spesso succede, viene utilizzato un campo elettrostatico, ogni ione avrà una energia cinetica iniziale
@@ -33,10 +35,48 @@ $$
 In seguito gli ioni vengono fatti entrare, tramite delle fessure molto strette che ne collimano il fascio, in una regione di spazio in cui è presente un campo magnetico ortogonale alla traiettoria di entrata. Poiché l'unica forza presente è quella magnetica, gli ioni compiranno una traiettoria circolare di raggio $r = mv / qB$. Sostituendo il valore della velocità trovato precedentemente si ottiene
 
 $$
-r = \frac{m}{qB} \sqrt{\frac{2q\Delta V}{m}} = \sqrt{\frac{2\Delta V}{B^2} \frac{q}{m}}.
+r = \frac{m}{qB} \sqrt{\frac{2q\Delta V}{m}} = \sqrt{\frac{2\Delta V}{B^2} \frac{m}{q}}.
 $$
 
 Poiché i valori di $\Delta V$ e $B$ sono caratteristici dell'apparecchio e quindi noti, tramite misure di $r$ (ottenibili con rilevatori di posizione come ad esempio lastre fotografiche) è possibile determinare il rapporto $q/m$.
+
+#### Lo spettrometro di Bainbridge
+
+Il dispositivo descritto sopra (spettrometro di Dempster) si basa sul presupposto che la velocità iniziale degli ioni sia molto minore di quella dovuta al campo elettrostatico iniziale. Se le condizioni sono tali per cui questo non avviene, la relazione tra $r$ e $m / q$ non è più valida. Si può ovviare a questo problema mettendo un *selettore di velocità* sul percorso degli ioni, prima che questi entrino nella zona col campo magnetico. Questo selettore di velocità non è altro che una regione di spazio in cui sono presenti un campo elettrostatico $\vec{E}_s$ e un campo magnetico $\vec{B}_s$, l'uno ortogonale all'altro ed entrambi ortogonali alla traiettoria degli ioni. In queste condizioni sul fascio di ioni agirà una forza $\vec{F}_s = q(\vec{E}_s + \vec{v} \times \vec{B}_s)$ che ha direzione ortogonale al moto degli ioni. Se i campi sono orientati in maniera tale da generare forze di verso opposto e i loro moduli sono scelti opportunamente, la forza si annullerà per un particolare valore di velocità dato da 
+
+$$
+v = \frac{E_s}{B_s}.
+$$
+
+Gli ioni aventi questa velocità, quindi, non cambieranno direzione. Se si mette una stretta fessura alla fine della regione di spazio in cui sono presenti i campi, solo gli ioni aventi questo particolare valore di velocità riusciranno ad entrare nella camera dove verranno deflessi dal campo magnetico $\vec{B}$ dello spettrometro di massa. Qui il raggio della traiettoria sarà dato da
+
+$$
+r = \frac{mv}{qB} = \frac{mE_s}{qB_s B}
+$$
+
+e quindi
+
+$$
+\frac{m}{q} = \frac{rB_s B}{E_s}.
+$$
+
+Se confrontiamo questa relazione con quella ottenuta per lo spettromero di Dempster vediamo come il rapporto massa/carica non dipenda più dalla differenza di potenziale (e quindi dalla velocità iniziale degli ioni), ma solo da quantità misurabili sperimentalmente ($r$) o legate allo strumento, e quindi note ($B_s$, $E_s$ e $B$). Un altro vantaggio è che la relazione che lega la quantità di interesse (il rapporto $m/q$) e la quantità che si misura ($r$) è lineare.
+
+#### Il ciclotrone
+
+Consideriamo due cavità semicilindriche conduttrici poste ad una d.d.p. variabile $\Delta V = V_0 \sin (\omega\_{RF} t)$ ed immerse in un campo magnetico uniforme $\vec{B}$ ortogonale alle loro basi. All'interno delle cavità il campo elettrico è essenzialmente nullo. Gli ioni vengono iniettati nel centro del sistema e inizialmente accelerati dalla d.d.p., così che la loro energia cinetica sia $U_k = q \Delta V$. Entrati in una delle due cavità, gli ioni vengono deflessi dal campo magnetico e ne escono dopo un tempo che è semplicemente la metà del periodo del moto circolare di una carica in un campo magnetico uniforme, cioè
+
+$$
+T_h = \frac{\pi m}{qB},
+$$
+
+che non dipende dalla loro velocità. Trascorso $T_h$, quindi, gli ioni si ritroveranno di nuovo nello spazio tra le due cavità in cui è presente la d.d.p. Se il dispostivo è progettato in maniera tale da invertire la d.d.p. dopo un tempo $T_h$, e cioè se $\omega\_{RF} = \omega = \pi / T_h = qB / m$, gli ioni verranno accelerati nuovamente e la loro energia cinetica diventerà $U_k = 2 \Delta V$. Poiché la velocità aumenta, aumenta anche il raggio di curvatura $r = mv / qB$, e quindi gli ioni percorreranno traiettorie di raggio via via maggiore con velocità crescenti, ma mantenendo sempre la stessa velocità angolare $\omega$. Questo processo continua finché il raggio di curvatura non raggiunge le dimensioni del raggio $R$ del ciclotrone stesso. Per questo valore del raggio si trova la velocità massima degli ioni, che vale
+
+$$
+v\_{\rm max} = \frac{qBR}{m}.
+$$
+
+Il principio del ciclotrone è alla base di tutti i moderni acceleratori di particelle circolare (come LHC), e quindi di tutte le loro applicazioni (*imaging*, terapia adronica, *ecc*).
 
 ## Campi magnetici prodotti da correnti
 <small>MNV: paragrafo 7.1</small>
