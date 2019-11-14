@@ -253,6 +253,14 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_9.md" >}}))
 * Esercizi consigliati MNV: 6.1, 6.2, 6.24, 6.25, 6.26
 {{% /expand %}}
+{{% expand "14/11/2019, <b>L</b>" %}}
+* Il fenomeno della bottiglia magnetica
+* Lo spettroscopio di massa
+* Il ciclotrone
+* Campi magnetici prodotti da correnti
+* Legge di Ampère
+* Riferimenti bibliografici MNV: 6.7, 6.8, 7.1, 7.4
+{{% /expand %}}
 
 ### Appunti
 
@@ -267,3 +275,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 23/10/2019]({{< ref "2019/7_corrente_2.md" >}})
 * [Lezione del 31/10/2019]({{< ref "2019/8_magnetismo_1.md" >}})
 * [Lezione del 06/11/2019]({{< ref "2019/9_magnetismo_2.md" >}})
+* [Lezione del 14/11/2019]({{< ref "2019/10_magnetismo_3.md" >}})

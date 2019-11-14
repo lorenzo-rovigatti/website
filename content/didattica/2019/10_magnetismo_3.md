@@ -1,5 +1,5 @@
 +++
-title = "Lezione del 12/11/2019"
+title = "Lezione del 14/11/2019"
 date = 2019-10-30T14:19:34+01:00
 draft = false
 +++
@@ -94,10 +94,10 @@ Esperimenti compiuti nell'800 hanno permesso di identificare la dipendenza funzi
 In formule, questa dipendenza si può scrivere come
 
 $$
-d\vec{B}(\vec{r}) = k_m i \frac{d\vec{s} \times \hat{r}}{r^2}
+d\vec{B}(\vec{r}) = k_m i \frac{d\vec{l} \times \hat{r}}{r^2}
 $$
 
-dove $k_m$ è una costante di proporzionalità che dipende dal materiale che stiamo considerando (e il cui valore si misura sperimentalmente), $d\vec{s} = \hat{t} ds$ indica la direzione del filo (con $\hat{t}$ versore tangente) e $\vec{r}$ è il vettore distanza tra il tratto infinitesimo e il punto in cui stiamo misurando il campo.
+dove $k_m$ è una costante di proporzionalità che dipende dal materiale che stiamo considerando (e il cui valore si misura sperimentalmente), $d\vec{l} = \hat{t} dl$ indica la direzione del filo (con $\hat{t}$ versore tangente) e $\vec{r}$ è il vettore distanza tra il tratto infinitesimo e il punto in cui stiamo misurando il campo.
 
 Nel vuoto si trova $k_m = 10^{-7} {\rm \frac{Tm}{A}}$ e, per motivi storici, di solito si scrive in funzione della cosiddetta *permeabilità magnetica del vuoto*,
 
@@ -110,13 +110,13 @@ da cui si ottiene $\mu_0 = 4 \pi k_m = 1.26 \times 10^{-6}$ Tm/A.
 L'espressione del campo diventa quindi
 
 $$
-d\vec{B}(\vec{r}) = \frac{\mu_0}{4 \pi} \frac{i ds}{r^2} \hat{t} \times \hat{r}
+d\vec{B}(\vec{r}) = \frac{\mu_0}{4 \pi} \frac{i dl}{r^2} \hat{t} \times \hat{r}
 $$
 
 detta *prima legge elementare di Laplace*. Questa legge consente di calcolare il campo magnetico generato da qualsiasi circuito percorso da corrente integrando su tutti i diversi contributi. Nel caso generico di circuito chiuso, l'espressione formale del campo diventa
 
 $$
-\vec{B} = \frac{\mu_0 i }{4 \pi} \oint \frac{d\vec{s} \times \hat{r}}{r^2}.
+\vec{B} = \frac{\mu_0 i }{4 \pi} \oint \frac{d\vec{l} \times \hat{r}}{r^2}.
 $$
 
 Questa relazione, nota come *legge di Ampère-Laplace*, è valida per tutti i casi in cui i conduttori che compongono il circuito hanno sezioni su cui le quantità in gioco possono essere considerate costanti; quando, cioè, possono essere considerati filiformi.
@@ -126,27 +126,27 @@ Questa relazione, nota come *legge di Ampère-Laplace*, è valida per tutti i ca
 Possiamo riscrivere la legge elementare di Laplace da un punto di vista microscopico ricordando che $j = i / \Sigma$ e, per portatori generici di carica $q$ e velocità di deriva $\vec{v}$, $\vec{j} = n q \vec{v}$:
 
 $$
-d\vec{B}(\vec{r} ) = \frac{\mu_0}{4 \pi} \frac{q  \vec{v} \times \hat{r}}{r^2} n \Sigma ds = \frac{\mu_0}{4 \pi} \frac{q \vec{v} \times \hat{r}}{r^2} n d\tau.
+d\vec{B}(\vec{r} ) = \frac{\mu_0}{4 \pi} \frac{q  \vec{v} \times \hat{r}}{r^2} n \Sigma dl = \frac{\mu_0}{4 \pi} \frac{q \vec{v} \times \hat{r}}{r^2} n d\tau.
 $$
 
-Questa è l'espressione del campo generata dagli $N = n d\tau$ portatori di carica presenti nel volumetto $d\tau = \Sigma ds$. Il campo generato da ognuno di questi portatori sarà quindi pari a $d\vec{B}(\vec{r} ) / n d\tau$, da cui si ricava il campo dovuto ad una semplice carica $q$ in movimento con velocità $\vec{v}$
+Questa è l'espressione del campo generata dagli $N = n d\tau$ portatori di carica presenti nel volumetto $d\tau = \Sigma dl$. Il campo generato da ognuno di questi portatori sarà quindi pari a $d\vec{B}(\vec{r} ) / n d\tau$, da cui si ricava il campo dovuto ad una semplice carica $q$ in movimento con velocità $\vec{v}$
 
 $$
 \vec{B} = \frac{\mu_0}{4 \pi} \frac{q \vec{v} \times \hat{r}}{r^2}.
 $$
 
-Poiché dipende unicamente dalla valore della carica e dalla velocità della particella, questa espressione ha carattere del tutto generale. È chiaro quindi come una carica in moto generi *sempre* un campo magnetico, indipendentemente dalle cause che generano (o hanno generato) il moto. Questo risultato si può confermare misurando i campi magnetici generati da sistemi elettrostatici messi in moto, come fatto per la prima volta da Rowland nel 1878 con un disco carico rotante.
+Poiché dipende unicamente dal valore della carica e dalla velocità della particella, questa espressione ha carattere del tutto generale. È chiaro quindi come una carica in moto generi *sempre* un campo magnetico, indipendentemente dalle cause che generano (o hanno generato) il moto. Questo risultato si può confermare misurando i campi magnetici generati da sistemi elettrostatici messi in moto, come fatto per la prima volta da Rowland nel 1878 con un disco carico rotante.
 
 ## Legge di Ampère
 <small>MNV: paragrafo 7.4</small>
 
-Abbiamo già visto come, in generale, il fatto che le linee del campo magnetico siano chiuse faccia che la circuitazione del campo magnetico lungo di esse sia sempre diversa da zero. Esplicitiamo ora questa proprietà di $\vec{B}$. Per farlo consideriamo il caso particolare di un filo indefinito percorso da corrente che, come abbiamo visto, genera un campo
+Consideriamo il campo magnetico generato da un filo indefinito rettilineo. Per simmetria (e per le proprietà della prima legge elementare di Laplace), le linee di campo non possono che essere che circonferenze poste sui piani ortogonali all'asse del filo. È quindi evidente una proprietà del campo magnetico: *tutte* le linee di campo sono chiuse. Data la loro definizione, il fatto che siano chiuse implica che la circuitazione del campo magnetico calcolata su una linea di campo (e, come vedremo, calcolata su *qualunque* linea chiusa) sia, in generale, diversa da zero. Esplicitiamo questa proprietà di $\vec{B}$. Per farlo consideriamo il caso particolare di un filo indefinito percorso da corrente che, come vedremo esplicitamente tra poco, genera un campo
 
 $$
 \vec{B}(r ) = \frac{\mu_0 i}{2 \pi r} \hat{\phi}.
 $$
 
-Sappiamo che, in questo caso, le linee di campo sono delle circonferenze centrate sul filo. Consideriamone una a distanza $R$ dal filo. Per calcolare l'integrale di linea dobbiamo prima calcolare il prodotto scalare tra il campo e lo spostamento, che in questo caso vale
+Dove $\hat{\phi}$ indica la direzione tangente alla linea di campo che, in questo caso, è una circonferenza centrata sul filo. Consideriamone una a distanza $R$ dal filo. Per calcolare l'integrale di linea dobbiamo prima calcolare il prodotto scalare tra il campo e lo spostamento, che in questo caso vale
 
 $$
 \vec{B} \cdot d\vec{s} = \frac{\mu_0 i}{2 \pi r} ds = \frac{\mu_0 i}{2 \pi} d\theta
@@ -158,7 +158,7 @@ $$
 \int_C^D \vec{B} \cdot d\vec{s} = \int_0^\theta \frac{\mu_0 i}{2 \pi} d\theta' = \frac{\mu_0 i}{2 \pi} \theta,
 $$
 
-dove $\theta$ è l'angolo sotteso dall'arco su cui abbiamo integrato. L'espressione precedente dipende solamente dall'angolo, ed è quindi naturale pensare che la stessa relazione valga indipendentemente dal percorso che unisce $C$ e $D$. Questo si può dimostrare scomponendo il vettore spostamento in due componenti $d\vec{s}_p$ e $d\vec{s}_o$, una parallela e l'altra ortogonale a $\hat{\phi}$. Il prodotto scalare con il campo diventa quindi
+dove $\theta$ è l'angolo sotteso dall'arco su cui abbiamo integrato. L'espressione precedente dipende solamente dall'angolo, ed è quindi naturale pensare che la stessa relazione valga indipendentemente dal percorso che unisce $C$ e $D$. Questo si può dimostrare considerando un percorso qualsiasi che unisca C e D, e scomponendo il vettore spostamento in due componenti $d\vec{s}_p$ e $d\vec{s}_o$, una parallela e l'altra ortogonale a $\hat{\phi}$. Il prodotto scalare con il campo diventa quindi
 
 $$
 \vec{B} \cdot d\vec{s} = \vec{B} \cdot d\vec{s}_p + \vec{B} \cdot d\vec{s}_o = \vec{B} \cdot \hat{\phi} ds_p = \frac{\mu_0 i}{2 \pi} d\theta
@@ -218,7 +218,7 @@ $$
 dove, chiaramente, $\vec{j} \neq 0$ dove i fili in cui scorre corrente intersecano $\Sigma$. Uguagliando le espressioni membro a membro si ottiene
 
 $$
-\int_{\Sigma} \vec{\nabla} \times \vec{B} \cdot \hat{n} d\Sigma = \mu_0 \int_{\Sigma} \vec{j} \cdot \hat{n} d\Sigma
+\int\_{\Sigma} \vec{\nabla} \times \vec{B} \cdot \hat{n} d\Sigma = \mu_0 \int\_{\Sigma} \vec{j} \cdot \hat{n} d\Sigma
 $$
 
 e quindi, poiché $\Sigma$ è arbitraria, si trova
