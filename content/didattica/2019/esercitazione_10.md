@@ -173,11 +173,11 @@ $$
 $$
 e che, rispetto all'asse $x$, genera un momento meccanico magnetico
 $$
-\vec{M}_m = -i a b B \sin\left( \frac{\pi}{2} - \theta \right) \hat{x} = -i a b B \cos(\theta) \hat{x}
+\vec{M}_m = -i a b B \sin\left( \frac{\pi}{2} - \theta_0 \right) \hat{x}
 $$
-**Nota Bene:** data la definizione di $\theta$, il braccio del momento *non è* $\theta$ ma $\pi / 2 - \theta$ (disegnare il sistema di profilo per dimostrarlo!). D'altro canto, la forza peso vale in modulo $mg = 2\lambda_m (a + b) g$ ed è applicata a distanza $b / 2 \sin(\theta)$, quindi il suo momento rispetto ad $\hat{x}$ vale
+**Nota Bene:** data la definizione di $\theta$, il braccio del momento *non è* $\theta$ ma $\pi / 2 - \theta$ (disegnare il sistema di profilo per dimostrarlo!). D'altro canto, la forza peso vale in modulo $mg = 2\lambda_m (a + b) g$ ed è applicata a distanza $b / 2 \sin \theta_0$, quindi il suo momento rispetto ad $\hat{x}$ vale
 $$
-\vec{M}_g = \lambda_m (a + b)b g \sin(\theta) \hat{x}
+\vec{M}_g = \lambda_m (a + b)b g \sin \theta_0 \hat{x}
 $$
 I segni che abbiamo trovato considerando il verso di $\vec{B}$ parallelo a $\hat{y}$ sono corretti, perché così facendo si trova che i due momenti hanno verso opposto, e quindi effettivamente $\hat{B} = \hat{y}$. Eguagliando i moduli dei due momenti possiamo ricavare il modulo del campo:
 $$

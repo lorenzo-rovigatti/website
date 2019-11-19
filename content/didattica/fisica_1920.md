@@ -261,6 +261,10 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Legge di Ampère
 * Riferimenti bibliografici MNV: 6.7, 6.8, 7.1, 7.4
 {{% /expand %}}
+{{% expand "19/11/2019, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_10.md" >}}))
+* Esercizi consigliati MNV: 6.3, 6.4, 6.6, 6.8, 6.9, 6.27
+{{% /expand %}}
 
 ### Appunti
 
