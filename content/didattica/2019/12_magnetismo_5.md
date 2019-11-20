@@ -4,6 +4,39 @@ date = 2019-10-30T14:19:34+01:00
 draft = false
 +++
 
+### Fenomenologia del ferromagnetismo
+
+La dipendenza delle permeabilità, o, analogamente, della suscettività, si trova misurando sperimentalmente il rapporto tra $\vec{H}$ e $\vec{M}$ oppure, equivalentemente, tra $\vec{H}$ e $\vec{B}$.
+
+{{< figure src="../images/isteresi.png" width="400px">}}
+
+Descriviamo brevemente la fenomenologia associata alle sostanze ferromagnetiche per $T < T_c$ considerando il caso di un mezzo in un solenoide indefinito di cui possiamo far variare la corrente. Partiamo da una porzione di materiale che non è mai stata a contatto con un campo magnetico (cioè si trova nello *stato vergine*). In queste condizioni, se $H = 0$ si deve chiaramente avere anche $M = 0$ (vedi figura sopra). Aumentando il valore del campo sale anche $M$, ma in maniera non lineare (curva **a**). Aumentando ancora $H$ si arriva ad un valore massimo della magnetizzazione detto *di saturazione* ($M\_{\rm sat}$). Per campi ancora maggiori $M$ resta costante e quindi $B$ aumenta linearmente con $H$: poiché la magnetizzazione ha raggiunto il valore massimo possibile, questo aumento è dovuto solamente all'aumento della corrente di conduzione. 
+
+Se dopo aver raggiunto la saturazione si fa decrescere il campo, $M$ comincia a diminuire, ma scostandosi decisamente dal comportamento precedente (curva **b** in figura). Al diminuire di $H$, infatti, la magnetizzazione resta sempre ad un valore maggiore rispetto a prima. Per $H = 0$ la curva interseca l'asse per un valore positivo, ed è quindi presente una magnetizzazione non nulla $M_r$ detta *residua*. Poiché il materiale è magnetizzato anche in assenza di corrente si parla di *magnete permanente*, ed è il motivo per cui pezzi di ferro acquisiscono proprietà magnetiche dopo essere stati messi a contatto con un campo magnetico.
+
+Per far sì che la magnetizzazione si annulli è necessario applicare un campo *coercitivo* $-H_c$ dovuto a correnti di verso *opposto* rispetto a quelle che hanno generato la magnetizzazione residua. Diminuendo ancora $H$ si arriva ad un valore di saturazione della magnetizzazione $-M\_{\rm sat}$, con una fenomenologia uguale a quella discussa per campi positivi.
+
+Una volta raggiunta la saturazione, aumentando di nuovo $H$ si passa per gli stessi stati visti precendentemente: per $H = 0$ si ha una magnetizzazione residua $-M_r$, poi uno stato con magnetizzazione nulla per $H = H_c$ e poi si risale di nuovo fino a saturazione (curva **c**).
+
+Il ciclo sopra descritto è chiamato *di isteresi* e può essere espresso sia graficando $M(H)$ che graficando $B(H)$. Se si arriva ogni volta a saturazione, il ciclo che si ottiene è sempre lo stesso. Per punti in cui $|M| < M\_{\rm sat}$, il rapporto tra $B$ ed $H$ non è costante ma funzione di $H$, e quindi lo sono anche $\kappa_m$, $\mu$ e $\chi_m$, che dipendono chiaramente dalla *storia* con cui è stato preparato il materiale.
+
+Questa fenomenologia è comune a tutte quelle sostanze che, al variare di qualche parametro macroscopico (in questo il campo) subiscono una *transizione di fase del primo ordine*. Un altro esempio di isteresi si osserva in sistemi in cui è presente una transizione di fase liquido-gas. In questo caso al posto del campo c'è la pressione e al posto della magnetizzazione c'è la densità.
+
+In generale, materiali diversi hanno cicli di isteresi diversi. I materiali si possono classificare in due macro-categorie:
+
+* Materiali *duri*, che hanno grandi valori di magnetizzazione residua $M_r$ e campo coercitivo $H_c$ e quindi sono utili per costruire magneti permanenti.
+* Materiali *dolci*, che hanno un ciclo di isteresi molto stretto, e cioè hanno valori bassi di $M_r$ e $H_c$ e quindi possono essere magnetizzati e smagnetizzati con facilità. Questa proprietà li rende buoni materiali per la costruzione di elettromagneti.
+
+Quando un materiale ferromagnetico viene riscaldato a temperature superiori a quella di Curie, la suscettività magnetica è ben descritta dalla *seconda legge di Curie*:
+
+$$
+\chi_m = \frac{C \rho}{T - T_c},
+$$
+
+dove $\rho$ è la densità del materiale e $C$ una costante.
+
+**Nota Bene:** $\vec{H}$ ed $\vec{M}$ sono misurati in A / m.
+
 ## Meccanismi di magnetizzazione
 <small>MNV: paragrafo 7.6</small>
 

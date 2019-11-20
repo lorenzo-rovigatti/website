@@ -265,6 +265,19 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_10.md" >}}))
 * Esercizi consigliati MNV: 6.3, 6.4, 6.6, 6.8, 6.9, 6.27
 {{% /expand %}}
+{{% expand "20/11/2019, <b>L</b>" %}}
+* Applicazioni della legge di Ampère:
+	* filo indefinito;
+	* filo indefinito di sezione finita;
+	* solenoide indefinito;
+	* solenoide toroidale
+* Forze tra fili percorsi da corrente
+* Proprietà magnetiche della materia
+	* sostanze diamagnetiche;
+	* sostanze paramagnetiche;
+	* sostanze ferromagnetiche;
+* Riferimenti bibliografici MNV: 7.3, 7.5 (senza ciclo d'isteresi), esempi 7.2, 7.3, 7.4
+{{% /expand %}}
 
 ### Appunti
 
@@ -280,3 +293,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 31/10/2019]({{< ref "2019/8_magnetismo_1.md" >}})
 * [Lezione del 06/11/2019]({{< ref "2019/9_magnetismo_2.md" >}})
 * [Lezione del 14/11/2019]({{< ref "2019/10_magnetismo_3.md" >}})
+* [Lezione del 20/11/2019]({{< ref "2019/11_magnetismo_4.md" >}})

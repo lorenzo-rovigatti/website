@@ -27,7 +27,7 @@ $$
 Ricordando che in un selettore di velocità quest'ultima è data dal rapporto tra i moduli dei campi si trova
 
 $$
-B = E v = 0.035 \, {\rm T}
+B = \frac{E}{v} = 0.035 \, {\rm T}
 $$
 
 ---
@@ -52,7 +52,7 @@ $$
 $$
 da cui si ottiene
 $$
-v_i = \frac{2q\Delta V}{m} = 1.4 \times 10^4 \, {\rm m / s}
+v_i = \sqrt{\frac{2q\Delta V}{m}} = 1.4 \times 10^4 \, {\rm m / s}
 $$
 I raggi di curvatura delle due traiettorie sono
 \begin{align}
