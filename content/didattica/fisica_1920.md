@@ -278,6 +278,10 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* sostanze ferromagnetiche;
 * Riferimenti bibliografici MNV: 7.3, 7.5 (senza ciclo d'isteresi), esempi 7.2, 7.3, 7.4
 {{% /expand %}}
+{{% expand "21/11/2019, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_11.md" >}}))
+* Esercizi consigliati MNV: 7.1, 7.2, 7.3, 7.14
+{{% /expand %}}
 
 ### Appunti
 
