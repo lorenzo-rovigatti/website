@@ -4,12 +4,14 @@ date = 2019-11-24T12:24:21+02:00
 draft = false
 +++
 
-[Esercizio 48](#esercizio-48) -- [Esercizio 49](#esercizio-49) -- [Esercizio 50](#esercizio-50)
+[Esercizio 48](#esercizio-48) -- [Esercizio 49](#esercizio-49) -- [Esercizio 50](#esercizio-50) -- [Esercizio 51](#esercizio-51) -- [Esercizio 52](#esercizio-52)
 
 ## Esercizio 48
 <small>Ispirato all'esempio 7.5 del MNV</small>
 
 ### Testo
+
+{{< figure src="../images/esercizio_48.png" width="300px">}}
 
 Un solenoide toroidale composto da $N$ spire in cui scorre una corrente $i$ è riempito con un materiale avente permeabilità magnetica relativa $\kappa_m$. 
 
@@ -70,11 +72,13 @@ $$
 
 ### Testo
 
+{{< figure src="../images/esercizio_49.png" width="200px">}}
+
 Un conduttore di forma cilindrica di raggio $a$ e lunghezza indefinita è percorso da una corrente stazionaria $i$. All'interno del conduttore vi è una cavità di sezione circolare di raggio $b$ che corre parallela all'asse del cilindro. La distanza tra i centri dei cilindri è $h$. Calcolare il campo magnetico $\vec{B}$ in un punto generico posto a distanza $r > a$ dal centro del cilindro conduttore lungo l'asse che congiunge i due centri. 
 
 ### Soluzione
 
-Analogamente a quanto detto per il caso elettrostatico, questo sistema può essere considerato la sovrapposizione di due sistemi: un cilindro pieno di raggio $a$ in cui scorre una corrente e un cilindro pieno di raggio $b$ in cui scorre una corrente di verso opposto di stessa densità.
+Questo sistema può essere considerato la sovrapposizione di due sistemi: un cilindro pieno di raggio $a$ in cui scorre una corrente e un cilindro pieno di raggio $b$ in cui scorre una corrente di verso opposto di stessa densità.
 In questo caso la densità di corrente vale
 
 $$
@@ -105,12 +109,14 @@ $$
 
 ### Testo
 
-Una spira rettangolare è posta su di un piano inclinato di $\pi / 6 = 30^\circ$. Uno dei due lati orizzontali (lunghi $l = 50$ cm) è fisso a terra, mentre l'altro è costituito da una barra conduttrice di massa $m = 0.1$ kg che può scivolare senza attriti sul piano. Il circuito è immerso in un campo magnetico $\vec{B} = -B_0 \hat{y}$, dove $B_0 = 0.8$ T e $\hat{y}$ è la direzione verticale con verso uscente dal piano. 
+{{< figure src="../images/esercizio_50.png" width="500px">}}
+
+Una spira rettangolare è posta su di un piano inclinato di $\theta = \pi / 6 = 30^\circ$. Uno dei due lati orizzontali (lunghi $l = 50$ cm) è fisso a terra, mentre l'altro è costituito da una barra conduttrice di massa $m = 0.1$ kg che può scivolare senza attriti sul piano. Il circuito è immerso in un campo magnetico $\vec{B} = -B_0 \hat{y}$, dove $B_0 = 0.8$ T e $\hat{y}$ è indicato in figura. 
 Determinare verso e intensità della corrente $i$ che deve scorrere nel circuito per far sì che la sbarra resti ferma in posizione. 
 
 ### Soluzione
 
-La forza peso agente sulla sbarra conduttrice è $\vec{F}_p = -mg\hat{y}$. La componente $F_p \cos(\theta)$ è bilanciata dalla reazione vincolare del piano, mentre la componente $F_p \cos(\theta)$ tenderà a far scivolare la sbarra verso terra lungo il piano. Per avere una situazione di equilibrio dobbiamo generare una forza magnetica che vada in direzione opposta (cioè in direzione $\hat{x}$. Scriviamo quale sarebbe l'espressione della forza se la corrente scorresse nella barra lungo il verso di $-\hat{z}$:
+La forza peso agente sulla sbarra conduttrice è $\vec{F}_p = -mg\hat{y}$. La componente $F_p \cos \theta$ è bilanciata dalla reazione vincolare del piano, mentre la componente $F_p \sin \theta$ tenderà a far scivolare la sbarra verso terra lungo il piano. Per avere una situazione di equilibrio dobbiamo generare una forza magnetica che vada in direzione opposta (cioè in direzione $\hat{x}$). Scriviamo quale sarebbe l'espressione della forza se la corrente scorresse nella barra lungo il verso di $-\hat{z}$:
 
 $$
 \vec{F}_m = i \vec{l} \times \vec{B} = -i l \hat{z} \times (-B_0 \hat{y}) = -i l B_0 \hat{x}.
@@ -118,16 +124,16 @@ $$
 
 Poiché in questo caso la forza sarebbe diretta lungo la stessa direzione della forza peso, è chiaro che dobbiamo considerare il verso opposto della corrente, e cioè $\vec{l} = l\hat{z}$. Guardando il circuito dal semi-asse delle $y$ positive, questo significa che la corrente deve scorrere in senso orario.
 
-Per trovare l'intensità della corrente eguagliamo i moduli delle due forze lungo la direzione del piano. Come per la forza peso, anche parte della forza magnetica ($F_m \sin(\theta)$) è bilanciata dalla reazione vincolare, per cui le due componenti da eguagliare sono
+Per trovare l'intensità della corrente eguagliamo i moduli delle due forze lungo la direzione del piano. Come per la forza peso, anche parte della forza magnetica ($F_m \sin \theta$) è bilanciata dalla reazione vincolare, per cui le due componenti da eguagliare sono
 
 $$
-mg \sin(\theta) = i l B_0 \cos(\theta)
+mg \sin \theta = i l B_0 \cos \theta
 $$
 
 da cui otteniamo l'intensità di corrente come
 
 $$
-i = \frac{mg}{l B_0} \tan(\theta) \approx 1.4 \, {\rm A}
+i = \frac{mg}{l B_0} \tan \theta \approx 1.4 \, {\rm A}
 $$
 
 ---
@@ -136,7 +142,11 @@ $$
 
 ### Testo
 
-Un lungo filo rettilineo percorso da una corrente $i$ è sospeso al soffitto tramite delle corde ad esso collegate ad invervalli regolari e forma un angolo $\theta = 30^\circ$ con la verticale, definito come uno spostamento in direzione antioraria rispetto a quest'ultima. Il filo ha una densità lineare di massa $\lambda = 0.12$ kg/m e si trova in una regione di spazio in cui è presente un campo magnetico diretto verso il basso di intensità $B = 0.36$ T. Determinare verso e intensità della corrente che scorre nel filo.
+{{< figure src="../images/esercizio_51.png" width="600px">}}
+
+Un lungo filo rettilineo percorso da una corrente $i$ è sospeso al soffitto tramite delle corde ad esso collegate ad invervalli regolari e forma un angolo $\theta = 30^\circ$ con la verticale, definito come uno spostamento in direzione antioraria rispetto a quest'ultima. Il filo ha una densità lineare di massa $\lambda = 0.12$ kg/m e si trova in una regione di spazio in cui è presente un campo magnetico diretto verso il basso di intensità $B = 0.36$ T. Determinare verso e intensità della corrente che scorre nel filo. 
+
+**Nota Bene:** la figura mostra lo stesso sistema da due punti di riferimento diversi (identificati dai sistemi di riferimento).
 
 ### Soluzione
 
