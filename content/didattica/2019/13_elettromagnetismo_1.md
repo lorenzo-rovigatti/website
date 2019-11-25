@@ -1,6 +1,6 @@
 +++
-title = "Lezione del 26/11/2019"
-date = 2019-11-11T07:19:34+01:00
+title = "Lezione del 28/11/2019"
+date = 2019-11-24T07:19:34+01:00
 draft = false
 +++
 
@@ -38,7 +38,7 @@ $$
 \mathcal{E} = \oint \vec{E} \cdot d\vec{s}.
 $$
 
-Se $\mathcal{C}$ identifica un circuito di resistenza $R$, in esso circolerà una corrente *indotta*
+Se $\mathcal{C}$ identifica un circuito di resistenza $R$, in esso circolerà una corrente *indotta* (dovuta alla forza elettromotrice)
 
 $$
 i = \frac{\mathcal{E}}{R} = - \frac{1}{R} \frac{d\Phi(\vec{B})}{dt}.
@@ -52,7 +52,7 @@ $$
 
 La forza elettromotrice dovuta alla variazione di flusso si comporta quindi come un generatore di tensione. 
 
-È chiaro che il campo $\vec{E}$ non può essere di natura elettrostatica perché ha circuitazione nulla, e non è quindi conservativo: è proprio questa natura non conservativa del campo che consente di generare una corrente in un circuito.
+È chiaro che il campo $\vec{E}$ non può essere di natura elettrostatica perché non ha circuitazione nulla, e non è quindi conservativo: è proprio questa natura non conservativa del campo che consente di generare una corrente in un circuito.
 
 ### Legge di Lenz
 
@@ -61,7 +61,7 @@ Il segno meno davanti alla derivata del flusso nella legge di Faraday è così i
 * Se il flusso aumenta nel tempo, la forza elettromotrice è negativa e la corrente indotta genererà, a sua volta, un flusso che tenderà a *contrastare* l'ulteriore aumento di $\Phi(\vec{B})$.
 * se il flusso diminuisce nel tempo, la forza elettromotrice è positiva e la corrente indotta genererà, a sua volta, un flusso che tenderà ad aumentare $\Phi(\vec{B})$.
 
-Ad esempio, prendiamo un campo magnetico diretto parallelamente al momento magnetico di una spira. Se il campo magnetico è variabile nel tempo, lo è anche flusso concatenato con la spira. Applicando la legge di Faraday troviamo che se il campo aumenta di intensità, il flusso aumenta,  la corrente indotta gira in verso antiorario e genera quindi un flusso negativo che si oppone ad un ulteriore aumento. Viceversa in caso di flusso del campo decrescente.
+Ad esempio, prendiamo un campo magnetico diretto parallelamente al momento magnetico di una spira. Se il campo magnetico è variabile nel tempo, lo è anche il flusso concatenato con la spira. Applicando la legge di Faraday troviamo che se il campo aumenta di intensità, il flusso aumenta,  la corrente indotta gira in verso antiorario e genera quindi un flusso negativo che si oppone ad un ulteriore aumento. Viceversa in caso di flusso del campo decrescente.
 
 Questa proprietà della legge di Faraday è un aspetto particolare del principio di conservazione dell'energia. Per capirlo, prendiamo due fili indefiniti paralleli. Se in uno dei due scorre una corrente dipendente dal tempo, questa genera un campo magnetico il cui flusso concatenato con l'altro varia nel tempo, inducendo quindi una corrente nel secondo filo. Se questa corrente fosse nella stessa direzione della prima, un meccanismo di rinforzo positivo contribuirebbe a generare correnti sempre maggiori nei fili, in aperta violazione del principio di conservazione dell'energia. Ne deriva che la corrente debba avere verso opposto.
 
@@ -71,7 +71,7 @@ Questa proprietà della legge di Faraday è un aspetto particolare del principio
 Consideriamo la legge di Faraday, esplicitando la definizione di flusso:
 
 $$
-\mathcal{E}_i = \oint\_{\mathcal{C}(t)} \vec{E}_i \cdot d\vec{s} = - \frac{d\Phi(\vec{B})}{dt} = - \frac{d}{dt} \int\_{\Sigma(t)} \vec{B}(t) \cdot \hat{n} d\Sigma
+\mathcal{E}_i = \oint\_{\mathcal{C}(t)} \vec{E}_i \cdot d\vec{s} = - \frac{d\Phi(\vec{B})}{dt} = - \frac{\partial}{\partial t} \int\_{\Sigma(t)} \vec{B}(t) \cdot \hat{n} d\Sigma
 $$
 
 dove $\mathcal{C}(t)$ è la linea chiusa che stiamo considerando (e che potrebbe variare nel tempo), mentre $\Sigma(t)$ è una qualsiasi superficie che ha $\mathcal{C}(t)$ come contorno. È chiaro che la forza elettromotrice risultante contiene due contributi dovuti a
@@ -113,7 +113,47 @@ La seconda causa di induzione è quella dovuta a campi magnetici non costanti (c
 
 ### Generatore di corrente
 
+Consideriamo un circuito con sbarretta mobile, simile a quello discusso prima, immerso in un campo magnetico uniforme. Se manteniamo la velocità della sbarretta costante, nel circuito scorrerà una corrente
+
+$$
+i = \frac{\mathcal{E}_i}{r + R}
+$$
+
+dove $r$ ed $R$ sono le resistenze della sbarretta e del circuito. Siamo quindi nella situazione in cui la sbarretta sente una forza magnetica (dovuta alla forza di Lorentz agente sugli elettroni al suo interno)
+
+$$
+\vec{F}_m = i \vec{b} \times \vec{B} = - \frac{B^2 b^2}{r + R} \vec{v}
+$$
+
+che quindi si *oppone* al moto. Questa forza, di tipo viscoso perché proporzionale alla velocità, è detta *attrito elettromagnetico*. Per far sì che, nonostante questo attrito, la sbarretta si muova con una velocità costante sarà necessario applicare una forza esterna uguale e contraria ad $\vec{F}_m$. Dobbiamo quindi fornire una certa energia per unità di tempo per tenere in moto la sbarretta equivalente alla potenza
+
+$$
+\mathcal{P} = \vec{F}\_{\rm ext} \cdot \vec{v} = \frac{B^2 b^2 v^2}{r + R} = \mathcal{E}_i i.
+$$
+
+Il dispositivo così descritto è chiaramente un *generatore di corrente*, cioè uno strumento in grado di convertire direttamente una forza (ad esempio di tipo meccanico) in una corrente.
+
 ### Generatore di corrente alternata
+
+Possiamo utilizzare lo stesso principio applicato ad una spira rotante per generare una corrente alternata. Consideriamo una spira in una regione di spazio in cui è presente un campo magnetico uniforme. Se la spira ruota con velocità angolar costante $\omega$ intorno ad un asse ortogonale al campo, il flusso magnetico che la attraversa vale
+
+$$
+\Phi(\vec{B}) = B \Sigma \cos \theta = B \Sigma \cos (\omega t)
+$$
+
+e quindi la forza elettromotrice vale
+
+$$
+\mathcal{E}_i = - \frac{d\Phi(\vec{B})}{dt} = \omega B \Sigma \sin (\omega t)
+$$
+
+che, se la spira ha resistenza $R$, induce la corrente
+
+$$
+i = \frac{\mathcal{E}_i}{R} = \frac{\omega B \Sigma \sin (\omega t)}{R}
+$$
+
+che quindi oscilla in fase con la spira. Come per il caso della sbarretta, anche in questo caso per mantenere $\omega$ costante sarà necessario spendere potenza (ad esempio meccanica), che verrà quindi convertita in potenza elettrica. Questo è il principio alla base degli *alternatori*.
 
 ### Correnti di Foucault
 

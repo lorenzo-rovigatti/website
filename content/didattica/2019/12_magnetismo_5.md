@@ -1,5 +1,5 @@
 +++
-title = "Lezione del 20/11/2019"
+title = "Lezione del 26/11/2019"
 date = 2019-10-30T14:19:34+01:00
 draft = false
 +++
@@ -40,12 +40,20 @@ dove $\rho$ è la densità del materiale e $C$ una costante.
 ## Meccanismi di magnetizzazione
 <small>MNV: paragrafo 7.6</small>
 
-Analogamente al fenomeno della polarizzazione, i principali meccanismi di magnetizzazione sono due:
+Analogamente al fenomeno della polarizzazione, i principali meccanismi di magnetizzazione sono due,
 
-* la magnetizzazione dovuta alla perturbazione del moto orbitale degli elettroni intorno all'atomo;
-* la magnetizzazione per orientamento.
+### Perturbazione del moto orbitale elettronico
 
-In entrambi i casi una trattazione rigorosa richiederebbe di utilizzare argomenti di meccanica quantistica. Noi utilizzeremo invece concetti di meccanica classica che portano a risultati qualitativamente (anche se non quantitativamente) corretti.
+Se consideriamo una descrizione classica dell'atomo, ogni elettrone che orbita intorno ad un atomo possiede un momento angolare classico. D'altro canto, un elettrone in movimento, essendo una carica, è equivalente ad una corrente. Poiché l'elettrone compie un'orbita chiusa il sistema può essere considerato come una spira avente un certo momento magnetico parallelo alla velocità angolare che, a sua volta, è parallela al momento angolare.
+In presenza di un campo magnetico esterno questo moto viene perturbato, dando luogo a extracorrenti dovute alla *precessione di Larmor*: l'effetto di un campo magnetico sull'elettrone è di generare un moto circolare del momento angolare che dà luogo ad un dipolo aggiuntivo che genera un campo che, in forza della carica negativa dell'elettrone, si oppone al campo magnetico esterno.
+
+### Magnetizzazione per orientamento
+
+Se gli atomi o le molecole che compongono il materiale posseggono un momento magnetico *intrinseco*, in condizioni ordinarie il loro orientamento sarà casuale e non darà luogo ad alcun momento di dipolo magnetico macroscopico per effetto del disordine termico.
+
+Se invece è presente un campo magnetico esterno, questo farà sì che gli atomi o le molecole tendano ad orientarsi lungo $\vec{H}$. 
+
+In entrambi i casi una trattazione rigorosa richiederebbe di utilizzare argomenti di meccanica quantistica. 
 
 Da un punto di vista microscopico il vettore magnetizzazione è dato, analogamente al vettore polarizzazione, dalla densità di momento magnetico medio ed è quindi definito come
 
@@ -96,55 +104,6 @@ $$
 $$
 
 che si può enunciare dicendo che la circuitazione di $\vec{M}$ è uguale alla somma delle correnti amperiane concatenate al percorso chiuso.
-
-### Perturbazione del moto orbitale elettronico
-
-Se consideriamo una descrizione classica dell'atomo, ogni elettrone che orbita intorno ad un atomo possiede un momento angolare classico. D'altro canto, un elettrone in movimento, essendo una carica, è equivalente ad una corrente. Poiché l'elettrone compie un'orbita chiusa il sistema può essere considerato come una spira avente un certo momento magnetico parallelo alla velocità angolare che, a sua volta, è parallela al momento angolare.
-In presenza di un campo magnetico esterno questo moto viene perturbato, dando luogo a extracorrenti dovute alla *precessione di Larmor*: l'effetto di un campo magnetico sull'elettrone è di generare un moto circolare del momento angolare che dà luogo ad un dipolo aggiuntivo che genera un campo che, in forza della carica negativa dell'elettrone, si oppone al campo magnetico esterno. L'atomo risulterà così *magnetizzato* con magnetizzazione
-
-$$
-\vec{m}_a = -\alpha_a \vec{H}
-$$
-
-dove il coefficiente $\alpha_a$ dipende dall'atomo o dalla molecola considerati, è maggiore di zero, è praticamente indipendente dalla temperatura ed è sempre molto piccolo. Nel caso dei materiali diamagnetici questo è l'unico contributo presente e dà luogo ad una magnetizzazione del materiale
-
-$$
-\vec{M} = n \vec{m_a} = -n \alpha_a \vec{H}.
-$$
-
-Ricordando la definizione data precedentemente di $\vec{M}$, per cui vale $M = \chi_m H$, troviamo per la suscettività magnetica
-
-$$
-\chi_m = - n \alpha_a
-$$
-
-che risulta effettivamente negativa.
-
-### Magnetizzazione per orientamento
-
-Se gli atomi o le molecole che compongono il materiale posseggono un momento magnetico *intrinseco*, in condizioni ordinarie il loro orientamento sarà casuale e non darà luogo ad alcun momento di dipolo magnetico macroscopico per effetto del disordine termico.
-
-Se invece è presente un campo magnetico esterno, questo farà sì che gli atomi o le molecole tendano ad orientarsi lungo $\vec{H}$. Con argomenti di meccanica classica si trova che il momento magnetico medio dipende dal rapporto tra il campo e la temperatura e dalle proprietà del mezzo e si può descrivere come
-
-$$
-\langle \vec{m} \rangle = \frac{\alpha_m}{T} \vec{H}.
-$$
-
-A temperatura ambiente questa quantità è molto piccola e dello stesso ordine di grandezza di $m_a$, anche per campi molto intensi. Questa *magnetizzazione per orientamento* dà luogo al paramagnetismo per il quale si ha
-
-$$
-\vec{M} = n \frac{\alpha_m}{T} \vec{H}
-$$
-
-da cui si ottiene
-
-$$
-\chi_m = n \frac{\alpha_m}{T}
-$$
-
-detta *legge di Curie*.
-
-In entrambi i casi si trova che il vettore magnetizzazione ed il vettore $\vec{H}$ sono proporzionali con costante di proporzionalità data dalla suscettività magnetica $\chi_m$.
 
 ### Il ferromagnetismo
 
