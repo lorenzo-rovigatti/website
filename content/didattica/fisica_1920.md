@@ -282,6 +282,15 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_11.md" >}}))
 * Esercizi consigliati MNV: 7.1, 7.2, 7.3, 7.14
 {{% /expand %}}
+{{% expand "26/11/2019, <b>L</b>" %}}
+* Ferromagnetismo
+* Meccanismi di magnetizzazione
+	* Perturbazione del moto orbitale elettronico
+	* Magnetizzazione per orientamento
+* La legge di Gauss per il campo magnetico
+* Equazioni generali della magnetostatica
+* Riferimenti bibliografici MNV: ultima parte del 7.5, 7.6, 7.7, 7.8
+{{% /expand %}}
 
 ### Appunti
 
@@ -298,3 +307,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 06/11/2019]({{< ref "2019/9_magnetismo_2.md" >}})
 * [Lezione del 14/11/2019]({{< ref "2019/10_magnetismo_3.md" >}})
 * [Lezione del 20/11/2019]({{< ref "2019/11_magnetismo_4.md" >}})
+* [Lezione del 26/11/2019]({{< ref "2019/12_magnetismo_5.md" >}})

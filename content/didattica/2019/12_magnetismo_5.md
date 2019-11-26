@@ -37,6 +37,18 @@ dove $\rho$ è la densità del materiale e $C$ una costante.
 
 **Nota Bene:** $\vec{H}$ ed $\vec{M}$ sono misurati in A / m.
 
+Il comportamento microscopico dei materiali ferromagnetici non può essere descritto classicamente. Si può però utilizzare una descrizione *mesoscopica* basata sul fatto che solitamente questi materiali contengono delle zone di dimensioni $10^{-4}$ - $10^{-6}$ m (o, equivalentemente, $10^{-12}$ - $10^{-18}$ m$^3$), detti *domini di Weiss*, che posseggono una magnetizzazione spontanea. Questi domini sono separati da delle zone di confine, dette *pareti di Bloch*, nelle quali la magnetizzazione passa con continuità da quella di un dominio a quella dei domini vicini. 
+
+In generale, all'interno di una porzione macroscopica di materiale sono presenti tantissimi domini di Weiss che sono orientati casualmente. La magnetizzazione spontanea è quindi, in media, nulla. Quando viene applicato un campo magnetico, le pareti di Bloch si spostano e i domini orientati parallelamente al campo si ingrandiscono. All'aumentare dell'intensità del campo la taglia dei domini orientati lungo il campo aumenta a discapito degli altri finché non si raggiunge la *saturazione*: tutte le porzioni di materiale sono magnetizzate nella stessa direzione e quindi $\vec{M} = \vec{M}\_{\rm sat}$. 
+
+Questo processo è, in generale, irreversibile: quando si spegne il campo le pareti di Bloch e i domini di Weiss originari non tornano allo stato iniziale e il materiale mantiene una parte di magnetizzazione ($\vec{M} = \vec{M}_r$), trasformando il materiale in un *magnete permanente*.
+
+Il processo di magnetizzazione e smagnetizzazione di un materiale, graficamente esprimibile disegnando il ciclo di isteresi, comporta un certo lavoro che il generatore di corrente deve fornire al sistema. Questo lavoro viene *dissipato* all'interno del materiale proprio in virtù della natura *irreversibile* del processo, ed il materiale tenderà quindi a scaldarsi. Si può dimostrare che il lavoro per unità di volume speso durante un ciclo di isteresi è dato dall'area del ciclo stesso sul piano $B$-$H$. Notiamo infatti che
+
+$$
+[BH] = {\rm J / m^3}
+$$
+
 ## Meccanismi di magnetizzazione
 <small>MNV: paragrafo 7.6</small>
 
@@ -65,19 +77,19 @@ dove $n$ è la densità *numerica* (cioè il numero di atomi o molecole per unit
 
 La magnetizzazione è detta *uniforme* quando $\vec{M}$ è costante nel mezzo. Questo accade solitamente quando il campo esterno è anch'esso uniforme e il mezzo è composto di una sostanza dotata di simmetria spaziale, cioè una sostanza le cui proprietà sono *uniformi* nello spazio. 
 
-Consideriamo un parallelepipedo di base quadrata magnetizzato uniformemente con magnetizzazione $\vec{M}$ diretta lungo l'asse $z$. Consideriamo una porzione del parallelepipedo alto $dz$. Se dividiamo questa porzione in prismetti, questi avranno altezza $dz$, area $d\Sigma$ e volume $d\tau$. Ogni prismetto avrà un momento magnetico dato da
+Consideriamo un parallelepipedo di base quadrata magnetizzato uniformemente con magnetizzazione $\vec{M}$ diretta lungo l'asse $z$. Consideriamo una porzione del parallelepipedo alto $dh$. Se dividiamo questa porzione in prismetti, questi avranno altezza $dh$, area $d\Sigma$ e volume $d\tau$. Ogni prismetto avrà un momento magnetico dato da
 
 $$
-d\vec{M} = \vec{M} d\tau = M d\Sigma dz \hat{n}.
+d\vec{m} = \vec{M} d\tau = M d\Sigma dh \hat{z}.
 $$
 
 Ricordando l'espressione del momento di dipolo di una spira, $\vec{m} = i\Sigma \hat{n}$, troviamo che ogni prismetto può essere considerato una spira quadrata in cui scorra corrente
 
 $$
-di_m = M d\Sigma.
+di_m = M dh.
 $$
 
-Disegnando una sezione del parallelepipedo è chiaro che le correnti che scorrono sui lati che sono condivisi tra prismetti vicini si annullano, poiché hanno verso opposto. Restano solo le correnti che scorrono sulla superficie laterale del parallelepipedo. La porzione di altezza $dz$ può essere quindi considerata come una spira quadrata in cui scorre la corrente $di_m$. Integrando lungo $z$, considerando che $M$ è costante, si ottiene 
+Disegnando una sezione del parallelepipedo è chiaro che le correnti che scorrono sui lati che sono condivisi tra prismetti vicini si annullano, poiché hanno verso opposto. Restano solo le correnti che scorrono sulla superficie laterale del parallelepipedo. La porzione di altezza $dh$ può essere quindi considerata come una spira quadrata in cui scorre la corrente $di_m$. Integrando lungo $z$, considerando che $M$ è costante, si ottiene 
 
 $$
 i_m = M h
@@ -104,20 +116,6 @@ $$
 $$
 
 che si può enunciare dicendo che la circuitazione di $\vec{M}$ è uguale alla somma delle correnti amperiane concatenate al percorso chiuso.
-
-### Il ferromagnetismo
-
-Il comportamento microscopico dei materiali magnetici non può essere descritto classicamente. Si può però utilizzare una descrizione *mesoscopica* basata sul fatto che solitamente questi materiali contengono delle zone di dimensioni $10^{-4}$ - $10^{-6}$ m (o, equivalentemente, $10^{-12}$ - $10^{-18}$ m$^3$), detti *domini di Weiss*, che posseggono una magnetizzazione spontanea. Questi domini sono separati da delle zone di confine, dette *pareti di Bloch*, nelle quali la magnetizzazione passa con continuità da quella di un dominio a quella dei domini vicini. 
-
-In generale, all'interno di una porzione macroscopica di materiale sono presenti tantissimi domini di Weiss che sono orientati casualmente. La magnetizzazione spontanea è quindi, in media, nulla. Quando viene applicato un campo magnetico, le pareti di Bloch si spostano e i domini orientati parallelamente al campo si ingrandiscono. All'aumentare dell'intensità del campo la taglia dei domini orientati lungo il campo aumenta a discapito degli altri finché non si raggiunge la *saturazione*: tutte le porzioni di materiale sono magnetizzate nella stessa direzione e quindi $\vec{M} = \vec{M}\_{\rm sat}$. 
-
-Questo processo è, in generale, irreversibile: quando si spegne il campo le pareti di Bloch e i domini di Weiss originari non tornano allo stato iniziale e il materiale mantiene una parte di magnetizzazione ($\vec{M} = \vec{M}_r$), trasformando il materiale in un *magnete permanente*.
-
-Il processo di magnetizzazione e smagnetizzazione di un materiale, graficamente esprimibile disegnando il ciclo di isteresi, comporta un certo lavoro che il generatore di corrente deve fornire al sistema. Questo lavoro viene *dissipato* all'interno del materiale proprio in virtù della natura *irreversibile* del processo, ed il materiale tenderà quindi a scaldarsi. Si può dimostrare che il lavoro per unità di volume speso durante un ciclo di isteresi è dato dall'area del ciclo stesso sul piano $B$-$H$. Notiamo infatti che
-
-$$
-[BH] = {\rm J / m^3}
-$$
 
 ## La legge di Gauss per il campo magnetico
 <small>MNV: paragrafo 7.7</small>
@@ -156,7 +154,7 @@ Poiché le correnti amperiane si comportano in tutto e per tutto come correnti n
 Per ricapitolare, consideriamo un cilindro magnetizzato e calcoliamo, disegnando le linee di campo di $\vec{B}$, il flusso attraverso due superfici diverse:
 
 1. se la superficie non interseca il cilindro ma lo ingloba completamente, è chiaro dal disegno come si debba avere $\Phi(\vec{B}) = 0$;
-2. se la superficie interseca il cilindro, per ritrovare lo stesso risultato pensiamo a quel che succede quando tagliamo in due un magnete permanente: ognuna delle due metà si comporta ancora come un magnete permanente. Alla stessa maniera, la superficie che consideriamo per il calcolo del flusso non può separare un magnete isolandone i poli perché, dal punto di vista sperimentale, non sono mai stati osservati dei monopoli magnetici.
+2. se la superficie interseca il cilindro, per ritrovare lo stesso risultato pensiamo a quel che succede quando tagliamo in due un magnete permanente: ognuna delle due metà si comporta ancora come un magnete permanente. Alla stessa maniera, la superficie che consideriamo per il calcolo del flusso non può separare un magnete isolandone i poli perché, dal punto di vista sperimentale, non è possibile *separare* i due poli e quindi ottenere un monopolo magnetico, che infatti non è mai stato osservato.
 
 La legge di Gauss per il campo magnetico è equivalente a quel che accade nel caso elettrostatico quando la superficie chiusa che consideriamo racchiude una carica totale $Q = 0$. In questo caso, infatti, per ogni linea di $\vec{E}$ che entra ve ne è una che esce. 
 
@@ -175,14 +173,6 @@ $$
 $$
 
 Poiché $\Sigma_1$ e $\Sigma_2$ sono arbitrarie, troviamo che, fissata la curva $\mathcal{C}$, il flusso attraverso qualunque superficie che abbia $\mathcal{C}$ come contorno è lo stesso, purché la normale sia scelta concordemente al verso di percorrenza di $\mathcal{C}$. È chiaro quindi che il flusso del campo sia associabile alla linea più che alla superficie, e si parla quindi di *flusso concatenato alla linea chiusa*. 
-
-Accenniamo qui al fatto che esiste un teorema matematico che afferma come la divergenza del rotore di un vettore sia sempre nulla, cioè 
-
-$$
-\vec{\nabla} \cdot \vec{\nabla} \times \vec{A} = 0.
-$$
-
-Ne consegue che il campo magnetico può essere sempre scritto come rotore di un altro campo vettoriale, $\vec{B} =  \vec{\nabla} \times \vec{A}$. Questo prende il nome di *potenziale vettore*, solitamente indicato col simbolo $\vec{A}$. 
 
 ## Equazioni generali della magnetostatica
 <small>MNV: paragrafo 7.8</small>
@@ -204,16 +194,16 @@ $$
 e quindi
 
 $$
-\oint \vec{B} \cdot d\vec{s} = \mu_0 (i + \vec{M} \cdot d\vec{s}).
+\oint \vec{B} \cdot d\vec{s} = \mu_0 \left( i + \oint \vec{M} \cdot d\vec{s} \right).
 $$
 
-Ricordando che $\vec{B} = \mu_0 (\vec{H} + \vec{M})$, si trova
+Ricordando che $\vec{B} = \mu_0 (\vec{H} + \vec{M})$, si trova che
 
 $$
 \vec{H} = \frac{\vec{B}}{\mu_0} - \vec{M}
 $$
 
-e quindi si trova
+e quindi 
 
 $$
 \oint \vec{H} \cdot d\vec{s} = i,

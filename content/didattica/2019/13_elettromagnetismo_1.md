@@ -157,4 +157,34 @@ che quindi oscilla in fase con la spira. Come per il caso della sbarretta, anche
 
 ### Correnti di Foucault
 
+Se un oggetto conduttore si trova in una regione di spazio in cui il campo magnetico è variabile (perché $\vec{B}$ non è costante nel tempo o perché non è omogeneo e il conduttore è in movimento), si troverà attraversato da correnti indotte che, percorrendolo, lo scalderanno. Questo effetto è alla base di diverse tecnologie, sia industriali (*forni a induzione*) che non (*fornelli ad induzione*).
+
+Le correnti dovute a questo effetto sono dette *parassite* o di Foucault (*eddy currents* in inglese) e sono alla base dei freni elettromagnetici, che si basano sull'effetto di attrito elettromagnetico visto prima: utilizzando un elettromagnete che si può accendere o spegnere a piacimento è possibile generare correnti parassite all'interno, ad esempio, di un disco o di una ruota di un treno, con conseguente aumento dell'attrito e quindi diminuzione della velocità. Controllando l'intensità del campo generato dall'elettromagnete è possibile controllare l'attrito e quindi l'efficacia del freno.
+
+Lo stesso concetto di correnti parassite è alla base del funzionamento dei *metal detector*. Questi dispositivi generano campi magnetici variabili nel tempo che possono indurre correnti parassite in oggetti metallici posti nelle vicinanze. Queste correnti parassite, a loro volta, generano un campo magnetico che, se misurato, ne rivela la presenza.
+
 ### Misure di campo magnetico
+
+Una bobina composta da $N$ spire immersa in un campo magnetico è percorsa da una corrente $i$ che dipende solamente dalla variazione del flusso di campo magnetico e dalla resistenza $R$ che possiede. La carica che fluisce nella spira tra $t_1$ e $t_2$ è data da
+
+$$
+q = \int\_{t_1}^{t_2} dq = \int\_{t_1}^{t_2} i(t) dt = - \frac{1}{R} \int\_{\Phi_1}^{\Phi_2} d\Phi = \frac{\Phi_1 - \Phi_2}{R},
+$$
+
+e dipende quindi solo dalla differenza dei flussi iniziale e finale. Se la bobina ha dimensioni abbastanza piccole da poter considerare il campo magnetico uniforme sulla sua superficie e viene orientata in maniera che il suo momento di dipolo magnetico è parallelo al campo, il flusso iniziale vale semplicemente
+
+$$
+\Phi_1 = N B \Sigma
+$$
+
+dove $\Sigma$ è la superficie della bobina. Se spostiamo la bobina in una zona di senza campo magnetico, la quantità di carica che passa nella bobina sarà pari a
+
+$$
+q = \frac{\Phi_1}{R} = \frac{NB\Sigma}{R},
+$$
+
+che possiamo utilizzare per misurare il valore del modulo del campo magnetico:
+
+$$
+B = \frac{qR}{N\Sigma}.
+$$

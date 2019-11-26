@@ -55,13 +55,13 @@ mentre lungo l'asse $y$ la componente $B_y$ avrebbe due contributi uguali e cont
 $$
 B_y(0, y, 0) = 0.
 $$
-D'altro canto, le componenti $x$ dei due campi in questo caso si sommerebbero, per cui si avrebbe $\vec{B} = 2B_x \hat{x}$. Le componenti $x$ si trovano con una costruzione analoga a quella fatta prima, per cui varrebbe $B_x = B \cos \theta$, dove
+D'altro canto, le componenti $x$ dei due campi in questo caso si sommerebbero, per cui si avrebbe $\vec{B} = 2B_x \hat{x}$. Le componenti $x$ si trovano con una costruzione analoga a quella fatta prima con $B_x = B \cos \theta$, dove
 $$
 \cos \theta = \frac{a}{r} = \frac{a}{\sqrt{a^2 + y^2}}
 $$
 e quindi
 $$
-\vec{B}(0, y, 0) = \frac{\mu_0 i}{\pi}\frac{a}{a^2 + y^2}\hat{x}
+\vec{B}(0, y, 0) = -\frac{\mu_0 i}{\pi}\frac{a}{a^2 + y^2}\hat{x}
 $$
 
 ---
