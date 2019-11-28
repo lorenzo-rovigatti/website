@@ -291,6 +291,20 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Equazioni generali della magnetostatica
 * Riferimenti bibliografici MNV: ultima parte del 7.5, 7.6, 7.7, 7.8
 {{% /expand %}}
+{{% expand "27/11/2019, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_12.md" >}}))
+* Esercizi consigliati MNV: 7.19, 7.23, 7.24 punto a), 7.27, 7.30
+{{% /expand %}}
+{{% expand "28/11/2019, <b>L</b>" %}}
+* Campi elettrici e magnetici variabili nel tempo
+* Legge di Faraday
+* Campo elettrico indotto
+* Applicazioni della legge di Farday
+	* Generatore di tensione (continua ed alternata)
+	* Correnti di Foucault
+	* Misure di campo magnetico
+* Riferimenti bibliografici MNV:  8.1, 8.2, 8.3
+{{% /expand %}}
 
 ### Appunti
 
@@ -308,3 +322,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 14/11/2019]({{< ref "2019/10_magnetismo_3.md" >}})
 * [Lezione del 20/11/2019]({{< ref "2019/11_magnetismo_4.md" >}})
 * [Lezione del 26/11/2019]({{< ref "2019/12_magnetismo_5.md" >}})
+* [Lezione del 28/11/2019]({{< ref "2019/13_elettromagnetismo_1.md" >}})

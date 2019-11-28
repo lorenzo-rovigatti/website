@@ -236,14 +236,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="328.86557"
-     inkscape:cy="1034.5571"
+     inkscape:zoom="32.000001"
+     inkscape:cx="323.04343"
+     inkscape:cy="1011.8667"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1106"
+     inkscape:window-height="993"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
@@ -347,7 +347,7 @@
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#a8a8a8;stroke-width:1.7093184;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:url(#marker1016)"
+       style="fill:none;fill-rule:evenodd;stroke:#a8a8a8;stroke-width:1.7090625;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:"
        d="M 136.60735,102.69255 H 239.71074 340.45298"
        id="path994"
        inkscape:connector-curvature="0"
@@ -383,14 +383,14 @@
        inkscape:export-ydpi="373" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 235.66544,56.336012 V 101.08261"
+       d="M 235.66544,56.336011 V 101.91125"
        id="path1386"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="373"
        inkscape:export-ydpi="373" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 314.75024,56.667467 V 102.40844"
+       d="M 314.75024,56.491687 V 101.81418"
        id="path1388"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="373"

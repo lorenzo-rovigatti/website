@@ -29,13 +29,19 @@ Consideriamo i due esperimenti seguenti:
 La mole di dati estratti da questi e molti altri esperimenti si può riassumere nella *legge di Faraday*: se $\mathcal{C}$ è un percorso chiuso, la circuitazione del campo elettrico lungo $\mathcal{C}$ è legata alla derivata temporale del flusso magnetico concatenato a $\mathcal{C}$ dalla relazione:
 
 $$
-\mathcal{E}_i = - \frac{d\Phi(\vec{B})}{dt},
+\oint \vec{E} \cdot d\vec{s} = - \frac{d\Phi(\vec{B})}{dt}.
 $$
 
-ricordando che la forza elettromotrice è definita come la circuitazione del campo elettrico:
+Ricordando che la forza elettromotrice è definita come la circuitazione del campo elettrico:
 
 $$
-\mathcal{E} = \oint \vec{E} \cdot d\vec{s}.
+\mathcal{E} = \oint \vec{E} \cdot d\vec{s},
+$$
+
+si ottiene
+
+$$
+\mathcal{E}_i = - \frac{d\Phi(\vec{B})}{dt}.
 $$
 
 Se $\mathcal{C}$ identifica un circuito di resistenza $R$, in esso circolerà una corrente *indotta* (dovuta alla forza elettromotrice)
@@ -71,7 +77,7 @@ Questa proprietà della legge di Faraday è un aspetto particolare del principio
 Consideriamo la legge di Faraday, esplicitando la definizione di flusso:
 
 $$
-\mathcal{E}_i = \oint\_{\mathcal{C}(t)} \vec{E}_i \cdot d\vec{s} = - \frac{d\Phi(\vec{B})}{dt} = - \frac{\partial}{\partial t} \int\_{\Sigma(t)} \vec{B}(t) \cdot \hat{n} d\Sigma
+\mathcal{E}_i = \oint\_{\mathcal{C}(t)} \vec{E}_i \cdot d\vec{s} = - \frac{d\Phi(\vec{B})}{dt} = - \frac{d}{d t} \int\_{\Sigma(t)} \vec{B}(t) \cdot \hat{n} d\Sigma
 $$
 
 dove $\mathcal{C}(t)$ è la linea chiusa che stiamo considerando (e che potrebbe variare nel tempo), mentre $\Sigma(t)$ è una qualsiasi superficie che ha $\mathcal{C}(t)$ come contorno. È chiaro che la forza elettromotrice risultante contiene due contributi dovuti a
@@ -79,11 +85,13 @@ dove $\mathcal{C}(t)$ è la linea chiusa che stiamo considerando (e che potrebbe
 * la dipendenza temporale della linea chiusa (e quindi della superficie associata);
 * la dipendenza temporale del campo.
 
-Possiamo dimostrare esplicitamente la legge di Faraday nel primo caso considerando un circuito rettangolare posto sul piano ortogonale ad un campo magnetico uniforme $\vec{B}$. Un lato del circuito è composto da una sbarretta conduttrice mobile. Se viene messa in moto con velocità $\vec{v}$, sugli elettroni agirà una forza di Lorentz $\vec{F} = -e \vec{v} \times \vec{B}$. Poiché agisce solo su particelle cariche, possiamo pensare questa forza come generata da un campo *elettromotore* 
+Possiamo dimostrare esplicitamente la legge di Faraday nel primo caso considerando un circuito rettangolare posto sul piano ortogonale ad un campo magnetico uniforme $\vec{B}$ di verso uscente. Un lato del circuito è composto da una sbarretta conduttrice mobile. Se viene messa in moto con velocità $\vec{v}$ parallela ad $\hat{x}$, sugli elettroni agirà una forza di Lorentz $\vec{F} = -e \vec{v} \times \vec{B}$. Poiché la forza di Lorentz è *proporzionale* alla carica della particella ed all'inizio del corso abbiamo definito il campo elettrico in termini di forza e carica come $\vec{E} = \vec{F} / q$,  possiamo pensare a questa forza come una forza generata da un campo *elettromotore* 
 
 $$
 \vec{E}_i = \frac{\vec{F}}{-e} = \vec{v} \times \vec{B}.
 $$
+
+Questo risultato si può anche ottenere formalmente riscrivendo la derivata totale rispetto al tempo del flusso del campo magnetico calcolato su di una superficie che dipende essa stessa dal tempo.
 
 Se la sbarretta ha altezza $b$ e si muove lungo $x$, la circuitazione del campo elettromotore (calcolata in senso antiorario) è
 
@@ -125,10 +133,10 @@ $$
 \vec{F}_m = i \vec{b} \times \vec{B} = - \frac{B^2 b^2}{r + R} \vec{v}
 $$
 
-che quindi si *oppone* al moto. Questa forza, di tipo viscoso perché proporzionale alla velocità, è detta *attrito elettromagnetico*. Per far sì che, nonostante questo attrito, la sbarretta si muova con una velocità costante sarà necessario applicare una forza esterna uguale e contraria ad $\vec{F}_m$. Dobbiamo quindi fornire una certa energia per unità di tempo per tenere in moto la sbarretta equivalente alla potenza
+che quindi si *oppone* al moto. Questa forza, di tipo viscoso perché proporzionale alla velocità, è detta *attrito elettromagnetico*. Per far sì che, nonostante questo attrito, la sbarretta si muova con una velocità costante sarà necessario applicare una forza esterna uguale e contraria ad $\vec{F}_m$. Dobbiamo quindi fornire una certa energia per unità di tempo per tenere in moto la sbarretta, equivalente alla potenza
 
 $$
-\mathcal{P} = \vec{F}\_{\rm ext} \cdot \vec{v} = \frac{B^2 b^2 v^2}{r + R} = \mathcal{E}_i i.
+\mathcal{P} = \frac{dW}{dt} = \frac{F\_{\rm ext} v dt}{dt} = F\_{\rm ext} v = \frac{B^2 b^2 v^2}{r + R} = \mathcal{E}_i i.
 $$
 
 Il dispositivo così descritto è chiaramente un *generatore di corrente*, cioè uno strumento in grado di convertire direttamente una forza (ad esempio di tipo meccanico) in una corrente.

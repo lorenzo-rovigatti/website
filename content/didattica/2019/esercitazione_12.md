@@ -171,6 +171,8 @@ $$
 
 ### Testo
 
+{{< figure src="../images/esercizio_52.png" width="500px">}}
+
 Due griglie metalliche $G_1$ e $G_2$ parallele molto estese distano $d = 4$ cm e separano due regioni di spazio in cui esiste un campo magnetico $B = 0.8$ T uniforme e uscente dal foglio. Tra le griglie è applicata un d.d.p. $\Delta V$. Al tempo $t = 0$ un protone attraversa $G_1$ nel punto $A_1$ ed entra nella regione tra le griglie con velocità ortogonale a $G_1$. Dopo un tempo $t\_{\rm tot} = 1.22 \times 10^{-7}$ s il protone riattraversa nuovamente $G_1$ nello stesso verso ma in un punto $A_2$ distante $h = 5.2$ cm da $A_1$. 
 
 1. Calcolare $\Delta V$.
@@ -182,7 +184,7 @@ Due griglie metalliche $G_1$ e $G_2$ parallele molto estese distano $d = 4$ cm e
 $$
 t\_{\rm tot} = 2 t_G + t_1 + t_2
 $$
-perché $t_G$ è lo stesso sia un verso che nell'altro, poiché la particella è sottoposta alla stessa forza e in un caso passa da $v_1$ a $v_2$ e nell'altro da $v_2$ a $v_1$. I tempi $t_1$ e $t_2$ sono metà dei periodi necessari per compiere una traiettoria circolare. Poiché ci ricordiamo che il periodo è indipendente dalla velocità, si trova immediatamente
+perché $t_G$ è lo stesso sia in un verso che nell'altro, poiché la particella è sottoposta alla stessa forza e in un caso passa da $v_1$ a $v_2$ e nell'altro da $v_2$ a $v_1$. I tempi $t_1$ e $t_2$ sono metà dei periodi necessari per compiere una traiettoria circolare. Poiché ci ricordiamo che il periodo è indipendente dalla velocità, si trova immediatamente
 $$
 t_1 = t_2 = \frac{T}{2} = \frac{\pi m}{q B}
 $$
@@ -209,7 +211,7 @@ $$
 
 2. Ora conosciamo solo la differenza tra le due velocità. Possiamo trovarne il valore assoluto scrivendo l'equazione del moto iniziale per la particella, per cui si ha, considerando $x(0) = 0$,
 $$
-x(t) = v_1 t + \frac{1}{2} a t^2 = v_1 + \frac{q \Delta V}{2md} t^2
+x(t) = v_1 t + \frac{1}{2} a t^2 = v_1 t + \frac{q \Delta V}{2md} t^2
 $$
 che, per $t = t_G$, vale
 $$

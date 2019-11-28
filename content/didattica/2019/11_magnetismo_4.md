@@ -114,7 +114,7 @@ Analogamente a quanto fatto per i dielettrici, discuteremo ora i fenomeni associ
 Prendiamo come esempio l'interno di un solenoide indefinito orientato lungo l'asse $x$, che abbiamo visto generare, nel vuoto, un campo magnetico uniforme $\vec{B}_0 = \mu_0 n i \hat{x}$. Cominciamo con il definire il vettore 
 
 $$
-\vec{H} \equiv \frac{\vec{B}}{\mu_0}.
+\vec{H} \equiv \frac{\vec{B}_0}{\mu_0}.
 $$
 
 Riempiendo il solenoide di un materiale *omogeneo*, si trova sperimentalmente che il campo al suo interno ha direzione parallela e modulo proporzionale a $\vec{B}_0$. In particolare, si trova che tra i moduli si stabilisce la relazione
