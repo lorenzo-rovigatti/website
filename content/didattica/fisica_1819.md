@@ -2,18 +2,6 @@
 title = "Fisica II - A.A. 2018/2019"
 date = 2018-09-22T08:06:49+02:00
 draft = false
-
-# Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
-categories = []
-
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
-
 +++
 
 ## Corso di Fisica II per Chimica Industriale

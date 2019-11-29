@@ -12,6 +12,7 @@ draft = false
 
 ### Comunicazioni
 
+* Il prossimo scritto si terrà alle ore 9:00 di Mercoledì 22/01/2020 in Aula 4 dell'Edificio Fermi (nuovo Edificio di Fisica)
 * **Primo esonero**: [testo e soluzioni]({{< ref "2019/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2019/risultati_primo_esonero.md" >}}). **Nota Bene:** potete venite a vedere l'esonero Martedì in orario di ricevimento (11-13).
 * Le *slide* di presentazione del corso possono essere scaricate [qui]({{< static "didattica/2019/presentazione.pdf" >}})
 
