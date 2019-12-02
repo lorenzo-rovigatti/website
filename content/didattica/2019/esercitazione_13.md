@@ -4,7 +4,7 @@ date = 2019-11-30T12:24:21+02:00
 draft = false
 +++
 
-[Esercizio 53](#esercizio-53) -- [Esercizio 54](#esercizio-54) -- [Esercizio 55](#esercizio-55) -- [Esercizio 56](#esercizio-56)
+[Esercizio 53](#esercizio-53) -- [Esercizio 54](#esercizio-54) -- [Esercizio 55](#esercizio-55) -- [Esercizio 56](#esercizio-56) -- [Esercizio 57](#esercizio-57)
 
 ## Esercizio 53
 
@@ -183,3 +183,31 @@ $$
 $$
 
 ---
+
+## Esercizio 57
+
+### Testo
+
+{{< figure src="../images/esercizio_57.png" width="500px">}}
+
+Un circuito chiuso di forma rettangolare di dimensioni $a = 40$ cm e $b = 10$ cm contenente un condensatore di capacità $C$  è parzialmente immerso in una regione di campo magnetico larga $L = 20$ cm (vedi disegno). Il campo magnetico ha direzione e verso ortogonale al circuito e modulo che varia nel tempo con la legge $B(t) = B_0 \exp(-t / \tau)$. Determinare la carica $q(t)$ presente sulle armature del condensatore.
+
+### Soluzione
+
+Il flusso del campo attraverso il circuito è
+
+$$
+\Phi(B) = B_0 b L \exp(-t / \tau)
+$$
+
+e quindi la forza elettromotrice indotta vale
+
+$$
+\mathcal{E}_i = -\frac{d\Phi(B)}{dt} = \frac{B_0 b L \exp(-t / \tau)}{\tau}.
+$$
+
+In presenza di un condensatore questa forza elettromotrice sarà anche la differenza di potenziale ai capi del condensatore. La carica sulle sue armature sarà quindi
+
+$$
+q(t) = C \mathcal{E}_i
+$$
