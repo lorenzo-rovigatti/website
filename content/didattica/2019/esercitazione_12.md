@@ -215,7 +215,7 @@ x(t) = v_1 t + \frac{1}{2} a t^2 = v_1 t + \frac{q \Delta V}{2md} t^2
 $$
 che, per $t = t_G$, vale
 $$
-d = v_1 t_G + \frac{q \Delta V}{2md} t_G^2 = v_1 t_G + \frac{1}{2}(v_1 - v_2) t_G
+d = v_1 t_G + \frac{q \Delta V}{2md} t_G^2 = v_1 t_G + \frac{1}{2}(v_2 - v_1) t_G
 $$
 da cui possiamo ricavare $v_1$:
 $$

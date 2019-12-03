@@ -306,6 +306,10 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Misure di campo magnetico
 * Riferimenti bibliografici MNV:  8.1, 8.2, 8.3
 {{% /expand %}}
+{{% expand "03/12/2019, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_13.md" >}}))
+* Esercizi consigliati MNV: 8.1 punto a), 8.3, 8.4
+{{% /expand %}}
 
 ### Appunti
 

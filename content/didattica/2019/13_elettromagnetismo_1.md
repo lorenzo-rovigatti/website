@@ -53,7 +53,7 @@ $$
 D'altro canto, se il circuito è aperto e collegato ad un voltmetro, quest'ultimo misurerà una differenza di potenziale
 
 $$
-\Delta V = \mathcal{E} = -\frac{\Phi(\vec{B})}{dt}.
+\Delta V = \mathcal{E} = -\frac{d\Phi(\vec{B})}{dt}.
 $$
 
 La forza elettromotrice dovuta alla variazione di flusso si comporta quindi come un generatore di tensione. 
