@@ -63,6 +63,8 @@ che fornisce una definizione *operativa* del coefficiente di induzione $L$. In g
 
 **Nota Bene:** data la sua definizione l'induttanza è misurata in weber/ampere, a cui si dà il nome di *henry* (H). I sottomultipli più utilizzati sono $mH$ e $\mu H$. 
 
+L'effetto dovuto all'induttanza è sempre presente quando vi è un circuito in cui scorre una corrente variabile, ma fino ad ora l'abbiamo trascurato perché, per circuiti composti da singole (o poche) spire avvolte nel vuoto $L$ ha un valore molto piccolo. Esistono diversi strumenti online che permettono di calcolare l'induttanza di circuiti generici ([qui](https://technick.net/tools/inductance-calculator/?aiocp_dp=util_inductance_calculator) un caso semplice da utilizzare), che permettono di vedere come, ad esempio, sia per una spira circolare di raggio $0.5$ m che per una spira quadrata di lato $1$ m si ha $L \approx 4 \times 10^{-6}$ H, cioè valori molto piccoli. Se provate a svolgere nuovamente gli esercizi fatti senza considerare l'autoinduzione, troverete che in questi casi specifici il suo effetto è sempre trascurabile.
+
 ### Extracorrenti di apertura e di chiusura
 
 #### Chiusura di un circuito induttivo
