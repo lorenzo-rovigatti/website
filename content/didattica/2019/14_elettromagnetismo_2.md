@@ -84,7 +84,7 @@ $$
 che, integrando dal tempo iniziale ad un generico tempo $t$, diventa
 
 $$
-\log\left( \frac{i(t) - \mathcal{E}/R}{\mathcal{E}/R} \right) = -\frac{R}{L} t
+\log\left( \frac{i(t) - \mathcal{E}/R}{-\mathcal{E}/R} \right) = -\frac{R}{L} t
 $$
 
 da cui si ottiene la corrente
@@ -119,7 +119,7 @@ $$
 separando le variabili e integrando da $t = 0$ si ottiene immediatamente
 
 $$
-i(t) = \frac{\mathcal{E}_L}{R}e^{-\frac{t}{\tau'}},
+i(t) = \frac{\mathcal{E}}{R}e^{-\frac{t}{\tau'}},
 $$
 
 dove $\tau' = \frac{L}{R'} \ll \tau$. Derivando l'espressione precedente si ottiene la forza elettromotrice autoindotta:
@@ -160,7 +160,7 @@ $$
 È chiaro che questo valore non dipende dalla maniera in cui avviene la variazione di corrente, ma soltanto dai valori $i_1$ e $i_2$. Un risultato simile si ottiene quando si apre il circuito e la corrente passa da $i\_\infty = \mathcal{E} / R$ a $0$. In questo, infatti, abbiamo visto che $i(t) = \frac{\mathcal{E}}{R} e^{-R' t / L}$, e quindi
 
 $$
-\int_0^\infty R' i^2 dt = R' \frac{\mathcal{E}^2}{R^2} \int_0^\infty e^{-2 R' t / L} dt = \frac{1}{2} L \frac{\mathcal{E}^2}{R^2} = \frac{1}{2} L i\_\infty^2.
+W = \int_0^\infty R' i^2 dt = R' \frac{\mathcal{E}^2}{R^2} \int_0^\infty e^{-2 R' t / L} dt = \frac{1}{2} L \frac{\mathcal{E}^2}{R^2} = \frac{1}{2} L i\_\infty^2.
 $$
 
 All'apertura del circuito l'energia immagazzinata dall'induttanza viene dissipata sulla resistenza $R'$. Anche in questo caso questa energia ha l'espressione

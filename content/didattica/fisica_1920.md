@@ -310,6 +310,18 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_13.md" >}}))
 * Esercizi consigliati MNV: 8.1 punto a), 8.3, 8.4
 {{% /expand %}}
+{{% expand "04/12/2018, <b>L</b>" %}}
+* Autoflusso
+* Autoinduzione
+	* Apertura di un circuito induttivo
+	* Chiusura di un circuito induttivo
+* Energia magnetica
+* Riferimenti bibliografici MNV: 8.4, esempio 8.4, 8.5
+{{% /expand %}}
+{{% expand "05/12/2019, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_14.md" >}}))
+* Esercizi consigliati MNV: 8.2, 8.5, 8.6, 8.7
+{{% /expand %}}
 
 ### Appunti
 
@@ -328,3 +340,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 20/11/2019]({{< ref "2019/11_magnetismo_4.md" >}})
 * [Lezione del 26/11/2019]({{< ref "2019/12_magnetismo_5.md" >}})
 * [Lezione del 28/11/2019]({{< ref "2019/13_elettromagnetismo_1.md" >}})
+* [Lezione del 04/12/2019]({{< ref "2019/14_elettromagnetismo_2.md" >}})
