@@ -4,9 +4,6 @@ date = 2019-11-28T07:19:34+01:00
 draft = false
 +++
 
-## Induzione mutua
-<small>MNV: paragrafo 8.6</small>
-
 ## Legge di Ampère-Maxwell
 <small>MNV: paragrafo 8.7</small>
 
@@ -22,7 +19,7 @@ $$
 \oint\_{\mathcal{C}} \vec{B} \cdot d\vec{s} = \mu_0 \int\_{\Sigma} \vec{j}_c \cdot \hat{n} d\Sigma
 $$
 
-perché $i$ si può sempre scrivere come flusso di $\vec{j}_c$. In questo caso $\Sigma$ è una qualsiasi superficie che ha $\mathcal{C}$ come contorno. Se utilizziamo la relazione precedente prendendo come $\Sigma$ una superficie che è intersecata dal filo, l'integrale sulla destra si calcola immediatamente ed ha risultato $\mu_0 i_c$. Consideriamo invece il caso di una superficie che passa tra le due pareti del condensatore senza intersecare il filo. In questo caso la densità di corrente di conduzione è chiaramente nulla, ma il valore dell'integrale *non può* dipendere dalla superficie che scegliamo.
+perché $i_c$ si può sempre scrivere come flusso di $\vec{j}_c$. In questo caso $\Sigma$ è una qualsiasi superficie che ha $\mathcal{C}$ come contorno. Se utilizziamo la relazione precedente prendendo come $\Sigma$ una superficie che è attraversata dal filo, l'integrale sulla destra si calcola immediatamente ed ha risultato $\mu_0 i_c$. Consideriamo invece il caso di una superficie che passa tra le due pareti del condensatore senza toccare il filo. In questo caso la densità di corrente di conduzione è chiaramente nulla, ma il valore dell'integrale *non può* dipendere dalla superficie che scegliamo, perché $\vec{B}$ è un campo solenoidale.
 
 Questo apparente paradosso si risolve con il concetto di *corrente di spostamento*, che abbiamo introdotto nella parte relativa ai circuiti. Effettivamente durante la carica (o la scarica) di un condensatore, su un'armatura si verifica una variazione di carica per unità di tempo $dq / dt$ uguale in modulo ma opposta in segno a quella che si verifica sull'altra armatura. Questa variazione è a tutti gli effetti modellizzabile come una corrente $i_s$ (non di conduzione) legata alla variazione del flusso del campo elettrico. Si trova infatti che vale
 
@@ -55,6 +52,47 @@ $$
 $$
 
 **Nota Bene:** il termine *corrente di spostamento*, coniato da Maxwell, è improprio. La presenza di una corrente di spostamento, infatti, non è collegata ad un vero e proprio moto di cariche.
+
+
+### Campo magnetico prodotto da un condensatore in carica
+<small>MNV: ispirato dall'esempio 8.8</small>
+
+Consideriamo un condensatore piano composto da due armature circolari di raggio $a$ posto in serie ad una resistenza $R$, ad un generatore di f.e.m. $\mathcal{E}$ e ad un interruttore, inizialmente aperto. Abbiamo visto che, chiudendo l'interruttore, la carica sulle armature varia con la legge 
+
+$$
+q(t) = C\mathcal{E}\left( 1 - e^{-\frac{t}{\tau}}\right),
+$$
+
+dove $\tau = RC$ è il tempo caratteristico di carica. Poiché la carica varia, varierà anche il campo elettrico all'interno del condensatore, che sarà diretto dall'armature positiva a quella negativa e avrà modulo
+
+$$
+E = \frac{\sigma(t)}{\epsilon_0} = \frac{q(t)}{\pi a^2 \epsilon_0},
+$$
+
+dando quindi luogo, secondo la legge di Ampère-Maxwell, ad un campo magnetico indotto. Lo possiamo calcolare considerando che, per simmetria, il campo magnetico non potrà che avere linee di campo circolari concentriche al centro del condensatore. Se calcoliamo la circuitazione di $\vec{B}$ su una di queste linee di campo di raggio $r$ otteniamo
+
+$$
+\oint \vec{B} \cdot d\vec{s} = B 2 \pi r
+$$
+
+che è legata alla derivata temporale del flusso del campo elettrico, che vale
+
+$$
+\frac{d\Phi(E)}{dt} = \frac{d}{dt} \pi r^2 \frac{q(t)}{\pi a^2 \epsilon_0} = \frac{r^2}{a^2 \epsilon_0} \frac{dq(t)}{dt} = \frac{r^2}{a^2 \epsilon_0} \frac{\mathcal{E}}{R} e^{-\frac{t}{\tau}}.
+$$
+
+Applicando la legge di Ampère-Maxwell si ottiene
+
+$$
+2 \pi r B = \frac{\epsilon_0 \mu_0 r^2}{a^2 \epsilon_0} \frac{\mathcal{E}}{R} e^{-\frac{t}{\tau}}
+$$
+
+da cui si deriva l'espressione del modulo del campo magnetico:
+
+$$
+B = \frac{\epsilon_0 \mu_0 r^2}{2 \pi a^2 \epsilon_0} \frac{\mathcal{E}}{R} e^{-\frac{t}{\tau}}
+$$
+
 
 ## Le equazioni di Maxwell
 
