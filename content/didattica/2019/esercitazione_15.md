@@ -12,7 +12,7 @@ draft = false
 
 {{< figure src="../images/esercizio_58.png" width="500px">}}
 
-Una barra conduttrice, di massa $m=100$ g e resistenza $R = 500$ \Omega, appoggia senza attrito su due binari orizzontali di resistenza trascurabile. La distanza tra i binari è $l=40$ cm e il sistema è immerso in un campo magnetico uniforme $B=0.8$T, perpendicolare ai binari ed alla barra (entrante nel foglio, vedi figura). All’istante $t=0$ la barra è ferma e tra i binari viene posto un generatore con la polarità indicata in figura.
+Una barra conduttrice, di massa $m=100$ g e resistenza $R = 500\, \Omega$, appoggia senza attrito su due binari orizzontali di resistenza trascurabile. La distanza tra i binari è $l=40$ cm e il sistema è immerso in un campo magnetico uniforme $B=0.8$T, perpendicolare ai binari ed alla barra (entrante nel foglio, vedi figura). All’istante $t=0$ la barra è ferma e tra i binari viene posto un generatore con la polarità indicata in figura.
 
 * Se il generatore fornisce una corrente *costante* $i_0 = 0.2$ A calcolare:
 	1. in che direzione si muove la sbarra;

@@ -19,7 +19,7 @@ $$
 \oint\_{\mathcal{C}} \vec{B} \cdot d\vec{s} = \mu_0 \int\_{\Sigma} \vec{j}_c \cdot \hat{n} d\Sigma
 $$
 
-perché $i_c$ si può sempre scrivere come flusso di $\vec{j}_c$. In questo caso $\Sigma$ è una qualsiasi superficie che ha $\mathcal{C}$ come contorno. Se utilizziamo la relazione precedente prendendo come $\Sigma$ una superficie che è attraversata dal filo, l'integrale sulla destra si calcola immediatamente ed ha risultato $\mu_0 i_c$. Consideriamo invece il caso di una superficie che passa tra le due pareti del condensatore senza toccare il filo. In questo caso la densità di corrente di conduzione è chiaramente nulla, ma il valore dell'integrale *non può* dipendere dalla superficie che scegliamo, perché $\vec{B}$ è un campo solenoidale.
+perché $i_c$ si può sempre scrivere come flusso di $\vec{j}_c$. In questo caso $\Sigma$ è una qualsiasi superficie che ha $\mathcal{C}$ come contorno. Se utilizziamo la relazione precedente prendendo come $\Sigma$ una superficie che è attraversata dal filo, l'integrale sulla destra si calcola immediatamente ed ha risultato $\mu_0 i_c$. Consideriamo invece il caso di una superficie che passa tra le due pareti del condensatore senza toccare il filo. In questo caso la densità di corrente di conduzione è chiaramente nulla, ma il valore dell'integrale *non può* dipendere dalla superficie che scegliamo, perché discende direttamente dal teorema di Ampère.
 
 Questo apparente paradosso si risolve con il concetto di *corrente di spostamento*, che abbiamo introdotto nella parte relativa ai circuiti. Effettivamente durante la carica (o la scarica) di un condensatore, su un'armatura si verifica una variazione di carica per unità di tempo $dq / dt$ uguale in modulo ma opposta in segno a quella che si verifica sull'altra armatura. Questa variazione è a tutti gli effetti modellizzabile come una corrente $i_s$ (non di conduzione) legata alla variazione del flusso del campo elettrico. Si trova infatti che vale
 
@@ -63,7 +63,7 @@ $$
 q(t) = C\mathcal{E}\left( 1 - e^{-\frac{t}{\tau}}\right),
 $$
 
-dove $\tau = RC$ è il tempo caratteristico di carica. Poiché la carica varia, varierà anche il campo elettrico all'interno del condensatore, che sarà diretto dall'armature positiva a quella negativa e avrà modulo
+dove $\tau = RC$ è il tempo caratteristico di carica. Poiché la carica varia, varierà anche il campo elettrico all'interno del condensatore, che sarà diretto dall'armatura positiva a quella negativa e avrà modulo
 
 $$
 E = \frac{\sigma(t)}{\epsilon_0} = \frac{q(t)}{\pi a^2 \epsilon_0},
@@ -84,13 +84,13 @@ $$
 Applicando la legge di Ampère-Maxwell si ottiene
 
 $$
-2 \pi r B = \frac{\epsilon_0 \mu_0 r^2}{a^2 \epsilon_0} \frac{\mathcal{E}}{R} e^{-\frac{t}{\tau}}
+2 \pi r B = \frac{\mu_0 r^2}{a^2} \frac{\mathcal{E}}{R} e^{-\frac{t}{\tau}}
 $$
 
 da cui si deriva l'espressione del modulo del campo magnetico:
 
 $$
-B = \frac{\epsilon_0 \mu_0 r^2}{2 \pi a^2 \epsilon_0} \frac{\mathcal{E}}{R} e^{-\frac{t}{\tau}}
+B = \frac{\mu_0 r^2}{2 \pi a^2} \frac{\mathcal{E}}{R} e^{-\frac{t}{\tau}}
 $$
 
 
@@ -161,3 +161,6 @@ Mettendo insieme le quattro equazioni otteniamo le seguenti *equazioni di Maxwel
 \end{align}
 
 Questa è la forma più comoda dal punto di vista pratico, poiché queste relazioni hanno valore *locale*, cioè sono vere *punto per punto*. Queste equazioni possono essere risolte analiticamente in alcuni casi semplici, mentre in generale è necessario o ricorrere ad approssimazioni oppure risolverle *numericamente*, cioè con l'ausilio del computer.
+
+## Conservazione della carica
+

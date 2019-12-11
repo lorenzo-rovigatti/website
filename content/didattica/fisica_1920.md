@@ -323,6 +323,18 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_14.md" >}}))
 * Esercizi consigliati MNV: 8.2, 8.5, 8.6, 8.7
 {{% /expand %}}
+{{% expand "10/12/2018, <b>L</b>" %}}
+* Legge di Ampère-Maxwell
+* Equazioni di Maxwell
+	* Forma integrale
+	* Forma differenziale
+* Conservazione della carica elettrica
+* Riferimenti bibliografici MNV: 8.7, 8.8, 8.9
+{{% /expand %}}
+{{% expand "11/12/2019, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_15.md" >}}))
+* Esercizi consigliati MNV: 8.10, 8.11, 8.13, 8.28, 8.29, 8.30, 8.31
+{{% /expand %}}
 
 ### Appunti
 
@@ -342,3 +354,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 26/11/2019]({{< ref "2019/12_magnetismo_5.md" >}})
 * [Lezione del 28/11/2019]({{< ref "2019/13_elettromagnetismo_1.md" >}})
 * [Lezione del 04/12/2019]({{< ref "2019/14_elettromagnetismo_2.md" >}})
+* [Lezione del 10/12/2019]({{< ref "2019/15_elettromagnetismo_3.md" >}})

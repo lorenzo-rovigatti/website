@@ -81,7 +81,7 @@ $$
 
 * La velocità si può ricavare dal raggio della traiettoria, $R$. Questo si calcola notando che
 $$
-R^2 = a^2 + (R - B)^2
+R^2 = a^2 + (R - b)^2
 $$
 e quindi
 $$
