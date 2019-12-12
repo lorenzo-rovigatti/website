@@ -164,3 +164,34 @@ Questa è la forma più comoda dal punto di vista pratico, poiché queste relazi
 
 ## Conservazione della carica
 
+Prendiamo la divergenza dell'equazione di Maxwell in forma differenziale che lega il campo magnetico alle sue sorgenti. Poiché il risultato di un prodotto vettoriale è sempre ortogonale ad entrambi i vettori che andiamo a moltiplicare, $\vec{nabla} \cdot (\vec{nabla} \times \vec{B}) = 0$, quindi
+
+$$
+\vec{\nabla} \cdot \vec{j} + \epsilon_0 \frac{\partial}{\partial t} \vec{\nabla} \cdot \vec{E} = 0
+$$
+
+che, ricordando che la divergenza del campo elettrico è legata alla densità di carica, si può riscrivere come
+
+$$
+\vec{\nabla} \cdot \vec{j} = - \frac{\partial \rho}{\partial t}.
+$$
+
+Questa equazione, che lega le derivate spaziali di una densità di corrente alla derivata temporale di una densità, è detta *di continuità* ed appare molte volte in diversi ambiti della fisica. Si può capirne il significato se la integriamo su di un volume $\tau$ arbitrario:
+
+$$
+\int\_\tau \vec{\nabla} \cdot \vec{j} d\tau = - \int\_\tau \frac{\partial \rho}{\partial t} d \tau = - \frac{\partial q\_{\rm int}}{\partial t},
+$$
+
+dove $q\_{\rm int}$ è la carica contenuta nel volume $\tau$. Applicando il teorema della divergenza al membro di sinistra si trova
+
+$$
+\int\_\tau \vec{\nabla} \cdot \vec{j} d\tau = \oint\_{\Sigma} \vec{j} \cdot \hat{n} d\Sigma = i_a,
+$$
+
+dove $i_a$, data la sua definizione, è semplicemente la corrente che attraverso la superficie $\Sigma$ (definita come quella superficie che racchiude il volume $\tau$). Si ha quindi che
+
+$$
+i_a = - \frac{\partial q\_{\rm int}}{\partial t},
+$$
+
+che si interpreta dicendo che la corrente totale che scorre attraverso una superficie è pari alla derivata temporale della carica contenuta al suo interno presa col segno meno. Ad esempio, se siamo in presenza di una corrente stazionaria, tanta carica entra tanta ne esce, quindi $\frac{\partial q\_{\rm int}}{\partial t}$ è 0, così come $i_a$. L'equazione appena trovata implica quindi che la carica si conserva: se $i_a$ è positiva, la carica presente in $\tau$ sta diminuendo (e viceversa).
