@@ -335,6 +335,12 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_15.md" >}}))
 * Esercizi consigliati MNV: 8.10, 8.11, 8.13, 8.28, 8.29, 8.30, 8.31
 {{% /expand %}}
+{{% expand "17/12/2019, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_16.md" >}}))
+{{% /expand %}}
+{{% expand "18/12/2018, <b>L</b>" %}}
+* Esperienze didattiche di elettromagnetismo (attrito elettromagnetico, legge di Lenz, moto di cariche in campi magnetici)
+{{% /expand %}}
 
 ### Appunti
 

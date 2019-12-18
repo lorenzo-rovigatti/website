@@ -20,14 +20,14 @@ con $b = 2 T / m$.
 La spira è orientata in maniera tale da avere normale parallela a $\vec{B}$.
 
 1. Determinare intensità e verso della corrente.
-2. Determinare il valore della velocità limite $v_0$, trascurando l'autoinduzione del telaio.
-3. Calcolare la corrente che circola nel telaio per $v = v_0$.
+2. Determinare il valore della velocità limite $v\_{\rm lim}$, trascurando l'autoinduzione della spira.
+3. Calcolare la corrente che circola nella spira per $v = v\_{\rm lim}$.
 
 ### Soluzione
 
 1. La corrente si calcola a partire dalla legge di Faraday. Per calcolare il flusso del campo, definiamo $h(t)$ la coordinata $z$ del lato più in alto della spira. Il flusso vale quindi
 $$
-\Phi(B) = \int_0^l dx \int_0^l b(h(t) + z) dz = l \int_0^l b(h(t) + z) dz = l^2 b h(t) + \frac{1}{2} b l^3.
+\Phi(B) = b\int_0^l dx \int\_{h(t)}^{h(t) + l} z dz = l b\int\_{h(t)}^{h(t) + l} z dz = l^2 b h(t) + \frac{1}{2} b l^3.
 $$
 Poiché solo il primo termine dipende dal tempo, la f.e.m. indotta vale
 $$
