@@ -54,7 +54,7 @@ Alcune definizioni:
 * i vettori $\vec{k}_i$, $\vec{k}_r$ e $\vec{k}_t$ indicano la direzione e il verso delle onde incidente, riflessa e rifratta (o trasmessa). Il loro modulo è il vettore d'onda specificato sopra. 
 * $\theta_i$, $\theta_r$ e $\theta_t$ sono gli angoli che $\vec{k}_i$, $\vec{k}_r$ e $\vec{k}_t$ formano con la normale alla superficie.
 * Il *piano di incidenza* è il piano formato da $\vec{k}_i$ e dalla normale alla superficie.
-* Consideriamo superfici *speculari*, cioè tali per cui raggi che erano paralleli prima della riflessione lo sono anche dopo. Superfici *scabre* danno invece luogo ad onde riflesse non parallele: la luce riflesse è, in questo caso, *diffusa*.
+* Consideriamo superfici *speculari*, cioè tali per cui raggi che erano paralleli prima della riflessione lo sono anche dopo. Superfici *scabre* danno invece luogo ad onde riflesse non parallele: la luce riflessa è, in questo caso, *diffusa*.
 
 Disegniamo ora cosa succede al fronte di un'onda che colpisca la superficie:
 
@@ -64,7 +64,7 @@ Disegniamo ora cosa succede al fronte di un'onda che colpisca la superficie:
 
 La prima figura ci permette di disegnare la seconda. Ricordiamo che il fronte d'onda si muove con la stessa velocità dell'onda, che vale $v_1$ in alto e $v_2$ in basso. Prima di tutto, si osserva sperimentalmente che i vettori $\vec{k}_i$, $\vec{k}_r$ e $\vec{k}_t$ giacciono tutti sul piano di incidenza.
 
-Quando il raggio di sinistra colpisce la superficie, quello di destra si trova in B quindi quando il raggio di destra colpisce la supericie in C, il raggio riflesso da sinistra deve aver percorso una distanza AD pari a BC, perché i due raggi hanno la stessa velocità $v_1$. Quindi si può notare subito come i triangoli ACD e ACB siano uguali perché hanno uguali due cateti (condividono il lato AC e i lati AD e CB sono uguali) ed un angolo (poiché sono triangoli retti). Ne deriva che anche gli altri due angoli sono uguali. Poiché i due angoli più acuti dei triangoli sono quelli di incidenza e di riflessioni, si trova $\theta_i = \theta_r$.
+Quando il raggio di sinistra colpisce la superficie, quello di destra si trova in B, quindi quando il raggio di destra colpisce la superficie in C, il raggio riflesso da sinistra deve aver percorso una distanza AD pari a BC, perché i due raggi hanno la stessa velocità $v_1$. Quindi si può notare subito come i triangoli ACD e ACB siano uguali perché hanno uguali due lati (condividono il lato AC e i lati AD e CB sono uguali) ed un angolo (poiché sono triangoli retti). Ne deriva che anche gli altri due angoli sono uguali. Poiché i due angoli più acuti dei triangoli sono quelli di incidenza e di riflessione, si trova $\theta_i = \theta_r$.
 
 Consideriamo ora i triangoli ACB e ACE. Prima di tutto, sono entrambi triangoli retti. Inoltre, hanno in comune il cateto AC. Infine, la distanza AE è quella percorsa dal raggio trasmesso nel tempo $\Delta t$ in cui i raggi nel primo mezzo hanno percorso AD e BC. Vale quindi 
 
@@ -78,7 +78,7 @@ $$
 {\rm AE} = {\rm AC} \sin\theta_t = v_2 \Delta t =  \frac{c \Delta t}{n_2}.
 $$
 
-Da cui si ricava
+Da queste relazioni si ricava
 
 $$
 \frac{\sin\theta_i}{\sin\theta_t}= \frac{n_2}{n_1},
@@ -90,7 +90,7 @@ $$
 n_1 \sin\theta_i = n_2 \sin\theta_t.
 $$
 
-Quest'ultima relazione è nota come *legge di Snell*. Alcune implicazioni di questa legge:
+Questa equazione è nota come *legge di Snell*. Alcune implicazioni di questa legge:
 
 * Se l'onda incide perpendicolarmente ($\theta_i = 0$), non vi è alcuna rifrazione ($\sin \theta_t = n_1 / n_2 \sin \theta_i = 0$).
 * Se $n_2 > n_1$ allora $\theta_t < \theta_i$.
@@ -110,7 +110,7 @@ $$
 
 Si può fare facilmente esperienza di questo fenomeno immergendosi nell'acqua ($n \approx 1.33$) e restando ad una distanza piccola dalla superficie con l'aria ($n \approx 1$): oltre una certa distanza l'acqua sembra riflettere come uno specchio!
 
-Dal punto di vista applicativo, questo fenomeno è molto utilizzato, ad esempio nelle fibre ottiche: un raggio di luce che penetra con un angolo maggiore di quello limite rispetto alle superfici laterali attraverso la base di un lungo e sottile cilindro di vetro (o altro materiale trasparente). Il raggio viene continuamente (e totalmente) riflesso dalle superfici laterali e rimani quindi all'interno di questa *guida di luce*. L'effetto è presente anche se le guide non sono rettilinee (purché l'angolo formato non faccia sì che il fascio di luce incontri la superficie con un angolo minore di $\theta_0$). Le fibre ottiche trovano applicazioni in tanti campi, dalla medicina (*endoscopie*) alle telecomunicazioni.
+Dal punto di vista applicativo, questo fenomeno è molto utilizzato, ad esempio nelle fibre ottiche: un raggio di luce che penetra con un angolo maggiore di quello limite rispetto alle superfici laterali attraverso la base di un lungo e sottile cilindro di vetro (o altro materiale trasparente). Il raggio viene continuamente (e totalmente) riflesso dalle superfici laterali e rimane quindi all'interno di questa *guida di luce*. L'effetto è presente anche se le guide non sono rettilinee (purché l'angolo formato non faccia sì che il fascio di luce incontri la superficie con un angolo minore di $\theta_0$). Le fibre ottiche trovano applicazioni in tanti campi, dalla medicina (*endoscopie*) alle telecomunicazioni.
 
 ### Dispersione della luce
 
@@ -121,6 +121,36 @@ Questo effetto può essere utilizzato per calcolare la dipendenza dalla lunghezz
 {{< figure src="../images/prism.png" alt="The Dark Side of the Moon" width="50%">}}
 
 La dispersione che si osserva, come detto, è dovuta al fatto che $n$ dipende dalla lunghezza d'onda incidente. Misurando con precisione gli angoli e applicando la legge di Snell è possibile ottenere la funzione $n(\lambda)$ per il materiale di cui è composto il prisma.
+
+## Onde elettromagnetiche sferiche
+<small>MNV: parte finale del paragrafo 10.4</small>
+
+Consideriamo una sorgente puntiforme (cioè di dimensioni molto piccole) che emetta onde elettromagnetiche armoniche in tutte le direzioni. Per simmetria il campo a distanza $r$ deve avere espressione
+
+$$
+E(r, t) = E_0(r ) \cos(kr - \omega t).
+$$
+
+Si parla in questo caso di onda *sferica*, perché per $t$ costante i fronti d'onda, cioè il luogo dei punti in qui la fase è costante, sono sfere.
+
+La potenza media che attraversa una superficie sferica di raggio $r$ sarà data dall'intensità dell'onda $I(r )$ per la superficie della sfera, $4 \pi r^2$, e quindi
+
+$$
+\mathcal{P}_m(r ) = I(r ) 4 \pi r^2 = \frac{1}{2} c \epsilon_0 E_0^2(r ) 4 \pi r^2.
+$$
+
+D'altronde, questa quantità deve essere costante indipendentemente da $r$, poiché corrisponde alla potenza media emessa dalla sorgente. Ne deriva quindi che $E_0(r )^2 r^2$ deve essere costante, e cioè che
+
+$$
+E_0(r ) = \frac{E_0}{r}.
+$$
+
+Per le onde elettromagnetiche sferiche si ha quindi
+
+\begin{align}
+E(r, t) & = \frac{E_0}{r} \cos(kr - \omega t)\\\\\\
+B(r, t) & = \frac{E_0}{cr} \cos(kr - \omega t)
+\end{align}
 
 ## Interferenza
 <small>MNV: paragrafo 13.1</small>

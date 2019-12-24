@@ -12,6 +12,7 @@ draft = false
 
 ### Comunicazioni
 
+* **Fine corso**: il corso si concluderà Mercoledì 8 Gennaio 2020.
 * **Secondo esonero**: l'esonero si terrà alle ore 14:00 del 18/12/2018 in Aula 4 dell'Edificio Fermi (nuovo Edificio di Fisica)
 * Il prossimo scritto si terrà alle ore 9:00 di Mercoledì 22/01/2020 in Aula 4 dell'Edificio Fermi (nuovo Edificio di Fisica)
 * **Primo esonero**: [testo e soluzioni]({{< ref "2019/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2019/risultati_primo_esonero.md" >}}). **Nota Bene:** potete venite a vedere l'esonero Martedì in orario di ricevimento (11-13).
@@ -323,7 +324,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_14.md" >}}))
 * Esercizi consigliati MNV: 8.2, 8.5, 8.6, 8.7
 {{% /expand %}}
-{{% expand "10/12/2018, <b>L</b>" %}}
+{{% expand "10/12/2019, <b>L</b>" %}}
 * Legge di Ampère-Maxwell
 * Equazioni di Maxwell
 	* Forma integrale
@@ -334,6 +335,14 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% expand "11/12/2019, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_15.md" >}}))
 * Esercizi consigliati MNV: 8.10, 8.11, 8.13, 8.28, 8.29, 8.30, 8.31
+{{% /expand %}}
+{{% expand "12/12/2019, <b>L</b>" %}}
+* Onde elettromagnetiche come soluzioni delle equazioni di Maxwell
+* Onde piane
+* Onde armoniche
+* Energia e quantità di moto di un'onda
+* Spettro delle onde elettromagnetiche
+* Riferimenti bibliografici MNV: 10.1, 10.2, 10.3, 10.4, 10.5, 10.8
 {{% /expand %}}
 {{% expand "17/12/2019, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_16.md" >}}))
@@ -361,3 +370,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 28/11/2019]({{< ref "2019/13_elettromagnetismo_1.md" >}})
 * [Lezione del 04/12/2019]({{< ref "2019/14_elettromagnetismo_2.md" >}})
 * [Lezione del 10/12/2019]({{< ref "2019/15_elettromagnetismo_3.md" >}})
+* [Lezione del 12/12/2019]({{< ref "2019/16_onde_1.md" >}})

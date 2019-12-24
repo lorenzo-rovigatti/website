@@ -239,36 +239,6 @@ Un'onda non possiede solo un'energia intrinseca, ma anche una quantità di moto.
 
 Un'interessante applicazione di questa proprietà delle onde elettromagnetiche sono le cosiddette *pinzette ottiche* (*optical tweezers* in inglese), il cui sviluppo da parte di Arthur Ashkin è stato premiato nel 2018 con il Nobel per la fisica. Questa tecnologia utilizza fasci laser per intrappolare ed eventualmente spostare a piacere piccoli oggetti microscopici quali particelle colloidali, batteri e cellule. Se siete curiosi date un'occhiata [qui](https://www.youtube.com/watch?v=ju6wENPtXu8) o [qui](https://www.youtube.com/watch?v=mBE6xboXeHM) per vedere come piccole sfere micrometriche o globuli rossi possono essere manipolati e spostati a piacere!
 
-### Onde elettromagnetiche sferiche
-<small>MNV: parte finale del paragrafo 10.4</small>
-
-Consideriamo una sorgente puntiforme (cioè di dimensioni molto piccole) che emetta onde elettromagnetiche armoniche in tutte le direzioni. Per simmetria il campo a distanza $r$ deve avere espressione
-
-$$
-E(r, t) = E_0(r ) \cos(kr - \omega t).
-$$
-
-Si parla in questo caso di onda *sferica*, perché per $t$ costante i fronti d'onda, cioè il luogo dei punti in qui la fase è costante, sono sfere.
-
-La potenza media che attraversa una superficie sferica di raggio $r$ sarà data dall'intensità dell'onda $I(r )$ per la superficie della sfera, $4 \pi r^2$, e quindi
-
-$$
-\mathcal{P}_m(r ) = I(r ) 4 \pi r^2 = \frac{1}{2} c \epsilon_0 E_0^2(r ) 4 \pi r^2.
-$$
-
-D'altronde, questa quantità deve essere costante indipendentemente da $r$, poiché corrisponde alla potenza media emessa dalla sorgente. Ne deriva quindi che $E_0(r )^2 r^2$ deve essere costante, e cioè che
-
-$$
-E_0(r ) = \frac{E_0}{r}.
-$$
-
-Per le onde elettromagnetiche sferiche si ha quindi
-
-\begin{align}
-E(r, t) & = \frac{E_0}{r} \cos(kr - \omega t)\\\\\\
-B(r, t) & = \frac{E_0}{cr} \cos(kr - \omega t)
-\end{align}
-
 ### Spettro delle onde elettromagnetiche
 <small>MNV: paragrafo 10.8</small>
 
