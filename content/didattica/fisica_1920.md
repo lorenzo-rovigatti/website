@@ -12,8 +12,8 @@ draft = false
 
 ### Comunicazioni
 
+* **Secondo esonero**: [testo e soluzioni]({{< ref "2019/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2019/risultati_secondo_esonero.md" >}}). **Nota Bene:** potete venite a vedere l'esonero Martedì in orario di ricevimento (11-13). Porterò i compiti corretti in aula il 7 Gennaio 2020.
 * **Fine corso**: il corso si concluderà Mercoledì 8 Gennaio 2020.
-* **Secondo esonero**: l'esonero si terrà alle ore 14:00 del 18/12/2018 in Aula 4 dell'Edificio Fermi (nuovo Edificio di Fisica)
 * Il prossimo scritto si terrà alle ore 9:00 di Mercoledì 22/01/2020 in Aula 4 dell'Edificio Fermi (nuovo Edificio di Fisica)
 * **Primo esonero**: [testo e soluzioni]({{< ref "2019/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2019/risultati_primo_esonero.md" >}}). **Nota Bene:** potete venite a vedere l'esonero Martedì in orario di ricevimento (11-13).
 * Le *slide* di presentazione del corso possono essere scaricate [qui]({{< static "didattica/2019/presentazione.pdf" >}})
