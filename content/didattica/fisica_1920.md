@@ -347,8 +347,15 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% expand "17/12/2019, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_16.md" >}}))
 {{% /expand %}}
-{{% expand "18/12/2018, <b>L</b>" %}}
+{{% expand "18/12/2019, <b>L</b>" %}}
 * Esperienze didattiche di elettromagnetismo (attrito elettromagnetico, legge di Lenz, moto di cariche in campi magnetici)
+{{% /expand %}}
+{{% expand "19/12/2019, <b>L</b>" %}}
+* La luce e l'indice di rifrazione
+* Riflessione e rifrazione
+	* Dispersione della luce
+* Interferenza: l'esperimento di Young
+* Riferimenti bibliografici MNV: 11.1, 11.3, 13.1, 13.2 (senza la derivazione di $I(\theta)$, senza l'uso della lente convergente e senza l'interferenza da sorgenti incoerenti)
 {{% /expand %}}
 
 ### Appunti
@@ -371,3 +378,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 04/12/2019]({{< ref "2019/14_elettromagnetismo_2.md" >}})
 * [Lezione del 10/12/2019]({{< ref "2019/15_elettromagnetismo_3.md" >}})
 * [Lezione del 12/12/2019]({{< ref "2019/16_onde_1.md" >}})
+* [Lezione del 19/12/2019]({{< ref "2019/17_onde_2.md" >}})
