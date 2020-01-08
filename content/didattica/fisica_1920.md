@@ -12,10 +12,12 @@ draft = false
 
 ### Comunicazioni
 
-* **Secondo esonero**: [testo e soluzioni]({{< ref "2019/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2019/risultati_secondo_esonero.md" >}}). **Nota Bene:** potete venite a vedere l'esonero Martedì in orario di ricevimento (11-13). Porterò i compiti corretti in aula il 7 Gennaio 2020.
+* **Esame orale**: chi ha passato entrambi gli esoneri può (opzionalmente) sostenere l'esame orale il giorno 20 Gennaio (aula 5, edificio Fermi ore 14:00) contattando preventivamente il docente. Gli altri sosterranno l'esame nei giorni 3-4 Febbraio e dovranno *tutti* presentarsi il giorno 3 Febbraio alle ore 9:00 (aula 5, edificio Fermi ore 09:00).
+* **Prossimo scritto**: lo scritto si terrà alle ore 9:00 di Mercoledì 22/01/2020 in Aula 4 dell'Edificio Fermi (nuovo Edificio di Fisica).
+* **Secondo esonero**: [testo e soluzioni]({{< ref "2019/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2019/risultati_secondo_esonero.md" >}}).
 * **Fine corso**: il corso si concluderà Mercoledì 8 Gennaio 2020.
 * Il prossimo scritto si terrà alle ore 9:00 di Mercoledì 22/01/2020 in Aula 4 dell'Edificio Fermi (nuovo Edificio di Fisica)
-* **Primo esonero**: [testo e soluzioni]({{< ref "2019/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2019/risultati_primo_esonero.md" >}}). **Nota Bene:** potete venite a vedere l'esonero Martedì in orario di ricevimento (11-13).
+* **Primo esonero**: [testo e soluzioni]({{< ref "2019/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2019/risultati_primo_esonero.md" >}}).
 * Le *slide* di presentazione del corso possono essere scaricate [qui]({{< static "didattica/2019/presentazione.pdf" >}})
 
 ### Orario delle lezioni
@@ -312,7 +314,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2019/esercitazione_13.md" >}}))
 * Esercizi consigliati MNV: 8.1 punto a), 8.3, 8.4
 {{% /expand %}}
-{{% expand "04/12/2018, <b>L</b>" %}}
+{{% expand "04/12/2019, <b>L</b>" %}}
 * Autoflusso
 * Autoinduzione
 	* Apertura di un circuito induttivo
@@ -357,6 +359,27 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Interferenza: l'esperimento di Young
 * Riferimenti bibliografici MNV: 11.1, 11.3, 13.1, 13.2 (senza la derivazione di $I(\theta)$, senza l'uso della lente convergente e senza l'interferenza da sorgenti incoerenti)
 {{% /expand %}}
+{{% expand "07/01/2020, <b>L</b>" %}}
+* Interferenza da lamine sottili
+* Diffrazione
+* Principio di Huygens-Fresnel (cenni)
+* Diffrazione di Fraunhofer per una fenditura rettilinea
+	* Effetti cromatici
+* Diffrazione prodotta da un'apertura circolare
+* Limite di risoluzione delle lenti
+* Riferimenti bibliografici MNV: 13.3, 14.1, 11.2 (solo l'enunciato del principio di Huygens-Fresnel), 14.2, esempio 14.2, 14.3, 14.4
+{{% /expand %}}
+{{% expand "08/01/2020, <b>L</b>" %}}
+* Ottica geometrica: definizioni e convenzioni
+* Specchi
+	* Convessi
+	* Concavi
+	* Piani
+* Diottri
+* Lenti sottili
+* Aberrazioni (cenni)
+* Riferimenti bibliografici MNV: 12.1, 12.2, 12.3, 12.4, 12.5, 12.6 (tipi di aberrazioni esistenti)
+{{% /expand %}}
 
 ### Appunti
 
@@ -379,3 +402,5 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 10/12/2019]({{< ref "2019/15_elettromagnetismo_3.md" >}})
 * [Lezione del 12/12/2019]({{< ref "2019/16_onde_1.md" >}})
 * [Lezione del 19/12/2019]({{< ref "2019/17_onde_2.md" >}})
+* [Lezione del 07/01/2020]({{< ref "2019/18_onde_3.md" >}})
+* [Lezione del 08/01/2020]({{< ref "2019/19_onde_4.md" >}})

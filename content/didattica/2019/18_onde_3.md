@@ -40,19 +40,19 @@ $$
 e quindi si trova
 
 $$
-r_1 = 2d \tan\theta_t \sin \theta_i.
+r_1 = \frac{2d \sin \theta_t}{\cos \theta_t} \sin \theta_i.
 $$
 
 Utilizzando la legge di Snell, per cui $\sin \theta_i = n \sin \theta_t$, si trova
 
 $$
-r_1 = \frac{2dn}{\cos \theta_i} \sin^2 \theta_i.
+r_1 = \frac{2dn}{\cos \theta_t} \sin^2 \theta_t.
 $$
 
 e quindi la differenza di fase dovuta a questo percorso è
 
 $$
-\delta_1 = k r_1 = \frac{2knd}{\cos \theta_i} \sin^2 \theta_i.
+\delta_1 = k r_1 = \frac{2knd}{\cos \theta_t} \sin^2 \theta_t.
 $$
 
 La differenza di fase totale è quindi
@@ -67,7 +67,7 @@ $$
 \delta = 2 k n d - \pi = \frac{4 \pi n d}{\lambda} - \pi.
 $$
 
-Similmente al caso di Young, si ottiene il massimo di intensità quando $\delta = 2 m \pi$, mentre la condizione $\delta = (2m + 1) \pi$ è legata ai minimi di intensità. Questo significa che, a parità di $d$, alcune lunghezze d'onda saranno più visibili di altre. Questo fa sì che sulla superficie si generi un effetto iridescente, come quello che si osserva, ad esempio, sulle bolle di sapone:
+Similmente al caso di Young, si ottiene il massimo di intensità quando, se $m$ è un qualsiasi numero intero, $\delta = 2 m \pi$ (cioè $d = \frac{\lambda (2m + 1)}{4n}$, mentre la condizione $\delta = (2m + 1) \pi$ (cioè $d = \frac{\lambda m}{2n}$) è legata ai minimi di intensità. Questo significa che, a parità di $d$, alcune lunghezze d'onda saranno più visibili di altre. Questo fa sì che sulla superficie si generi un effetto iridescente, come quello che si osserva, ad esempio, sulle bolle di sapone:
 
 {{< figure src="../images/thin_film_interference.jpg" alt="L'nterferenza da lamine sottili in azione!" width="50%">}}
 
@@ -90,7 +90,7 @@ Questo principio serve a prevedere la posizione del fronte d'onda nel caso in cu
 
 Esistono diversi modi con cui i fenomeni di diffrazione possono essere prodotti. Qui ci concentreremo sulla *diffrazione di Fraunhofer*, in cui sia la sorgente dell'onda che lo schermo su cui si forma la figura di diffrazione sono posti a grande distanza dalle fenditure o dagli ostacoli che generano la diffrazione stessa.
 
-Consideriamo una parete con un'unica fenditura di larghezza $a$. Dividiamo (arbitrariamente) la fenditura in $2 m$ parti (con $m \geq 1$). Secondo il principio di Huygens-Fresnel, ogni parte si comporterà come una sorgente di luce. Ragionando in questa maniera, la figura di diffrazione non è altro che una figura di interferenza dovuta alle diverse parti della fenditura. Consideriamo tutti i raggi (secondari) che escono dalla fenditura con un angolo $\theta$. Consideriamo le onde generate da sorgenti vicine, poste quindi a distanza $a / m$: la differenza tra i loro percorsi è 
+Consideriamo una parete con un'unica fenditura di larghezza $a$. Dividiamo (arbitrariamente) la fenditura in $2 m$ parti (con $m \geq 1$). Secondo il principio di Huygens-Fresnel, ogni parte si comporterà come una sorgente di luce. Ragionando in questa maniera, la figura di diffrazione non è altro che una figura di interferenza dovuta alle diverse parti della fenditura. Consideriamo tutti i raggi (secondari) che escono dalla fenditura con un angolo $\theta$. Consideriamo le onde generate da sorgenti vicine, poste quindi a distanza $a / 2m$: la differenza tra i loro percorsi è 
 
 $$
 \Delta r = \frac{a}{2m} \sin \theta.
@@ -102,15 +102,15 @@ $$
 \sin \theta = \frac{m\lambda}{a}.
 $$
 
-Dove $m$ è un qualsiasi intero *diverso da zero* (ricordiamo che $m$ è il numero di parti in cui abbiamo diviso virtualmente la fenditura, che quindi non può essere zero). Poiché $m \neq 0$, si ha che per $\theta = 0$ non abbiamo un minimo di intensità. In particolare, si può calcolare direttamente l'intensità in funzione di $\theta$, che risulta essere
+Dove $m$ è un qualsiasi intero *diverso da zero* (ricordiamo che $2 m$ è il numero di parti in cui abbiamo diviso virtualmente la fenditura, che quindi non può essere zero). Poiché $m \neq 0$, si ha che per $\theta = 0$ non abbiamo un minimo di intensità. In particolare, si può calcolare direttamente l'intensità in funzione di $\theta$, che risulta essere
 
 $$
-I(\theta) = I\_{\rm max} \left[ \frac{\sin (\pi a \sin(\theta) / \lambda)}{\pi a \sin(\theta) / \lambda} \right]^2.
+I(\theta) = I\_{\rm max} \left[ \frac{\sin (\pi a \sin \theta / \lambda)}{\pi a \sin \theta / \lambda} \right]^2.
 $$
 
 Questa espressione mostra come l'intensità sia una funzione sì oscillante, ma il cui modulo decresce all'aumentare di $\theta$. Inoltre, $I(\theta)$ ha un massimo per $\theta = 0$, mentre i minimi sono dati dall'espressione trovata precedentemente. Gli altri massimi di questa funzione sono dati dalla condizione $\tan \alpha = \alpha$, non risolvibile analiticamente ma solo numericamente. 
 
-Si può dimostrare come la maggior parte della potenzia sia concentrata nella fascia centrale, che viene anche detta *immagine della fenditura*.
+Si può dimostrare come la maggior parte della potenza sia concentrata nella fascia centrale, che viene anche detta *immagine della fenditura*.
 
 ### Effetti cromatici
 <small>MNV: esempio 14.2</small>
@@ -157,4 +157,4 @@ $$
 \rho = \frac{1}{\alpha\_{\rm min}}.
 $$
 
-Questa limitazione, dovuta alla natura ondulatoria della luce, pone seri limiti alle osservazioni che è possibile fare utilizzando microscopi, lenti fotografiche e telescopi. 
+Questa limitazione pone seri limiti alle osservazioni che è possibile fare utilizzando microscopi, lenti fotografiche e telescopi. 

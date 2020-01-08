@@ -11,4 +11,5 @@ draft = false
 
 ### Comunicazioni
 
-* Il prossimo scritto si terrà alle ore 9:00 di Mercoledì 22/01/2020 in Aula 4 dell'Edificio Fermi (nuovo Edificio di Fisica)
+* **Esame orale**: chi ha passato entrambi gli esoneri può (opzionalmente) sostenere l'esame orale il giorno 20 Gennaio (aula 5, edificio Fermi ore 14:00) contattando preventivamente il docente. Gli altri sosterranno l'esame nei giorni 3-4 Febbraio e dovranno *tutti* presentarsi il giorno 3 Febbraio alle ore 9:00 (aula 5, edificio Fermi ore 09:00).
+* **Prossimo scritto**: lo scritto si terrà alle ore 9:00 di Mercoledì 22/01/2020 in Aula 4 dell'Edificio Fermi (nuovo Edificio di Fisica).

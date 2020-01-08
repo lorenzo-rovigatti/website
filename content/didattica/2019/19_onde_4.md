@@ -123,7 +123,7 @@ che dimostra come oggetto e immagine coincidano. Se l'oggetto si trova alla dest
 
 Se $P$ viene posto oltre al fuoco $F$ i raggi riflessi divergono e l'immagine sembra provenire da un punto posto alla destra di $V$ ed è cioè *virtuale*. Si trova infatti che se $p$ è minore di $-f$ il valore di $q$ deve essere positivo (come da convenzione).
 
-Quando detto sopra vale strettamente solo per oggetti posti sull'asse ottico, ma è approssimativamente vero anche per punti vicini (ma non sovrapposti) all'asse. Utilizzando quindi la stessa legge dello specchio è possibile calcolare l'immagine $QQ'$ di un oggetto *esteso* $PP'$. Per farlo è sufficiente tracciare due o più raggi che partono da $P'$ e vedere dove si intersecano. Ad esempio si può tracciare un raggio parallelo all'asse (che si rifletterà sulla superficie e passerà per il fuoco) e un raggio che passi per il centro di curvatura (che verrà riflesso lungo la stessa traiettoria). Se l'immagine è reale $QQ'$ risulta capovolta, se l'immagine è virtuale $QQ'$ risulta dritta. Inoltre, in generale l'immagine avrà una dimensione diversa rispetto all'oggetto. Il rapporto tra le due altezze è detto *ingrandimento trasversale* ed è definito come
+Quanto detto sopra vale strettamente solo per oggetti posti sull'asse ottico, ma è approssimativamente vero anche per punti vicini (ma non sovrapposti) all'asse. Utilizzando quindi la stessa legge dello specchio è possibile calcolare l'immagine $QQ'$ di un oggetto *esteso* $PP'$. Per farlo è sufficiente tracciare due o più raggi che partono da $P'$ e vedere dove si intersecano. Ad esempio si può tracciare un raggio parallelo all'asse (che si rifletterà sulla superficie e passerà per il fuoco) e un raggio che passi per il centro di curvatura (che verrà riflesso lungo la stessa traiettoria). Se l'immagine è reale $QQ'$ risulta capovolta, se l'immagine è virtuale $QQ'$ risulta dritta. Inoltre, in generale l'immagine avrà una dimensione diversa rispetto all'oggetto. Il rapporto tra le due altezze è detto *ingrandimento trasversale* ed è definito come
 
 $$
 I = \frac{y'}{y}
@@ -181,7 +181,7 @@ $$
 dove $\theta_t$ è ora l'angolo tra la normale al punto di incidenza e il raggio rifratto. Applicando la legge di Snell in approssimazione parassiale troviamo
 
 $$
-n_1 \theta = n_2 \theta_t.
+n_1 \theta_i = n_2 \theta_t.
 $$
 
 Sostituendo nella relazione precedente si ottiene
@@ -207,7 +207,7 @@ che è detta equazione del diottro sferico convesso. Nell'approssimazione parass
 Applicando la formula si vede come, se $p = \infty$, l'immagine si forma ad una distanza dal vertice $V$ pari a 
 
 $$
-q\_\infty = \frac{R n_2}{n_2 - n_1} \equiv f_2.
+q\_\infty = \frac{n_2 R}{n_2 - n_1} \equiv f_2.
 $$
 
 Il punto distante $f_2$ da $V$ è detto fuoco posteriore del diottro. D'altro canto, se l'immagine si trova all'infinito ($q = \infty$) significa che l'oggetto si trova ad una distanza da $V$ pari a
@@ -216,7 +216,7 @@ $$
 p\_\infty = \frac{n_1 R}{n_2 - n_1} \equiv f_1.
 $$
 
-Il punto distante $f_1$ da $V$ è detto fuoco anterior del diottro. Si trova, come per gli specchi, che i raggi passanti per il centro di curvatura non vengono deviati.
+Il punto distante $f_1$ da $V$ è detto fuoco anteriore del diottro. Si trova, come per gli specchi, che i raggi passanti per il centro di curvatura non vengono deviati.
 
 Se l'oggetto è posto in un punto intermedio tra $f_1$ e $V$ si trova che i raggi sono *divergenti* e $q$ prende un valore negativo, cioè l'immagine risulta *virtuale*.
 
@@ -256,7 +256,7 @@ $$
 dove l'ultima equazione indica che l'immagine del primo diottro funge da oggetto per il secondo. Queste equazioni si semplificano nell'approssimazione di *lente sottile*, per cui vale $s = 0$ e si considerano i vertici dei due diottri essenzialmente coincidenti. Utilizzando questa approssimazione $p_2 = -q_1$ e quindi
 
 $$
-\frac{n_1}{p_1} + \frac{n_2}{q_2} = (n_2 - n_1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right).
+\frac{n_1}{p_1} + \frac{n_1}{q_2} = (n_2 - n_1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right).
 $$
 
 Nell'approssimazione utilizzata $p_1$ e $q_2$ sono le distanze di oggetto e immagine dalla lente e quindi li chiamiamo $p$ e $q$. Se uno tra questi due valori è pari a $\infty$ troviamo che l'altro prende il valore
@@ -271,7 +271,7 @@ $$
 \frac{1}{p} + \frac{1}{q} = \frac{1}{f}.
 $$
 
-La quantità $1 / f$ si chiama *potere convergente* della lente e si misura in diottrie (m$^-1$) e può essere sia positiva (lente convergente) che negativa (lente divergente). Si può ancora una volta definire l'ingrandimento trasversale, che vale
+La quantità $1 / f$ si chiama *potere convergente* della lente e si misura in diottrie (m$^{-1}$) e può essere sia positiva (lente convergente) che negativa (lente divergente). Si può ancora una volta definire l'ingrandimento trasversale, che vale
 
 $$
 I = \frac{y'}{y} = \frac{q}{p} = \frac{q - f}{f} = \frac{f}{p - f}.
