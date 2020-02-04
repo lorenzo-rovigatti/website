@@ -12,11 +12,9 @@ draft = false
 
 ### Comunicazioni
 
-* **Esame orale**: chi ha passato entrambi gli esoneri può (opzionalmente) sostenere l'esame orale il giorno 20 Gennaio (aula 5, edificio Fermi ore 14:00) contattando preventivamente il docente. Gli altri sosterranno l'esame nei giorni 3-4 Febbraio e dovranno *tutti* presentarsi il giorno 3 Febbraio alle ore 9:00 (aula 5, edificio Fermi ore 09:00).
-* **Prossimo scritto**: lo scritto si terrà alle ore 9:00 di Mercoledì 22/01/2020 in Aula 4 dell'Edificio Fermi (nuovo Edificio di Fisica).
+* **Prossimo scritto**: lo scritto si terrà alle ore 14:00 di Mercoledì 12/02/2020 in Aula 3 dell’Edificio Fermi (nuovo Edificio di Fisica).
+* **Scritto del 22/01/2020**:  [testo e soluzioni]({{< ref "testo_soluzioni_scritto_22012020.md" >}}), [risultati]({{< ref "risultati_scritto_22012020.md" >}})
 * **Secondo esonero**: [testo e soluzioni]({{< ref "2019/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2019/risultati_secondo_esonero.md" >}}).
-* **Fine corso**: il corso si concluderà Mercoledì 8 Gennaio 2020.
-* Il prossimo scritto si terrà alle ore 9:00 di Mercoledì 22/01/2020 in Aula 4 dell'Edificio Fermi (nuovo Edificio di Fisica)
 * **Primo esonero**: [testo e soluzioni]({{< ref "2019/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2019/risultati_primo_esonero.md" >}}).
 * Le *slide* di presentazione del corso possono essere scaricate [qui]({{< static "didattica/2019/presentazione.pdf" >}})
 
@@ -150,7 +148,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: Esempi 1.6, 1.7, 1.8, 2.8
 * Esercizi consigliati MNV: 1.23, 1.24, 2.3, 2.4, 2.5, 2.12, 2.14, 2.20, 2.21
 {{% /expand %}}
-{{% expand "08/10/2018, <b>L</b>" %}}
+{{% expand "08/10/2019, <b>L</b>" %}}
 * Energia potenziale elettrostatica e conservazione dell'energia
 * Superfici equipotenziali
 * Dipolo elettrico
