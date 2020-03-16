@@ -11,7 +11,6 @@ draft = false
 
 ### Comunicazioni
 
+* **Prossimo esame**: il prossimo esame non si terrà più il 3 Aprile come previsto, ma in data ancora da destinarsi (ma non prima della seconda metà di Aprile). Controllate questa pagina per aggiornamenti.
 * **Scritto del 12/02/2020**:  [testo e soluzioni]({{< ref "testo_soluzioni_scritto_12022020.md" >}}), [risultati]({{< ref "risultati_scritto_12022020.md" >}})
-* **Prossimo orale**: gli esami orali si terranno alle ore 09:00 di Martedì 18/02/2020 in Aula 2 dell’Edificio Fermi (nuovo Edificio di Fisica). Per eventuali problemi di date e/o orari contattare direttamente il docente.
-* **Prossimo scritto**: lo scritto si terrà alle ore 14:00 di Mercoledì 12/02/2020 in Aula 3 dell’Edificio Fermi (nuovo Edificio di Fisica).
 * **Scritto del 22/01/2020**:  [testo e soluzioni]({{< ref "testo_soluzioni_scritto_22012020.md" >}}), [risultati]({{< ref "risultati_scritto_22012020.md" >}})
