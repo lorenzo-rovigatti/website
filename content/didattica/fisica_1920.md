@@ -12,7 +12,7 @@ draft = false
 
 ### Comunicazioni
 
-* **Prossimo esame**: il prossimo esame non si terrà più il 3 Aprile come previsto, ma in data ancora da destinarsi (ma non prima della seconda metà di Aprile). Controllate questa pagina per aggiornamenti.
+* **Prossimo esame (aggiornamento del 04/04/2020**: il prossimo esame non si terrà più il 3 Aprile come previsto, ma in data ancora da destinarsi (ma non prima di Maggio). **Per chi ha già superato l'esame scritto**: chi vuole può contattare il docente per sostenere l'esame orale per via telematica.
 * **Scritto del 12/02/2020**:  [testo e soluzioni]({{< ref "testo_soluzioni_scritto_12022020.md" >}}), [risultati]({{< ref "risultati_scritto_12022020.md" >}}).
 * **Scritto del 22/01/2020**:  [testo e soluzioni]({{< ref "testo_soluzioni_scritto_22012020.md" >}}), [risultati]({{< ref "risultati_scritto_22012020.md" >}}).
 * **Secondo esonero**: [testo e soluzioni]({{< ref "2019/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2019/risultati_secondo_esonero.md" >}}).
