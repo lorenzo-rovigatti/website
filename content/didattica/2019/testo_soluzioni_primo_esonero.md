@@ -31,13 +31,13 @@ Un sistema è formato da tre cariche fisse $q_1 = 10^{-9}$ C, $q_2 = -2 \times 1
 3. Determinare il lavoro esterno da compiere per rimuovere $q_0$ dal sistema **(6 punti)**.
 	* Poiché si parla di forze esterne, $W\_{\rm ext} = \Delta U_e$. Poiché si muove solo $q_0$, la differenza di energia potenziale ha un solo contributo. Inoltre, l'energia potenziale finale di $q_0$ è zero, quindi $W\_{\rm ext}$ è dato semplicemente dall'energia potenziale iniziale di $q_0$ presa col segno meno, cioè da
 	$$
-	W\_{\rm ext} = - \frac{q_0}{4 \pi \epsilon_0a} \left( \frac{q_2}{2} + \frac{2q_1}{\sqrt{5}} \right) = \pm 9.5^{-9} \, {\rm J}
+	W\_{\rm ext} = - \frac{q_0}{4 \pi \epsilon_0a} \left( \frac{q_2}{2} + \frac{2q_1}{\sqrt{5}} \right) = \pm 9.5\times 10^{-9} \, {\rm J}
 	$$
 	dove il segno è determinato dal segno di $q_0$.
 4. Determinare il lavoro che le forze elettrostatiche debbono compiere per rimuovere $q_0$ dal sistema **(6 punti)**.
 	* Il lavoro delle forze interne è uguale al lavoro delle forze esterne cambiato di segno, quindi
 	$$
-	W = -W\_{\rm ext} = \frac{q_0}{4 \pi \epsilon_0a} \left( \frac{q_2}{2} + \frac{2q_1}{\sqrt{5}} \right) = \mp 9.5^{-9} \, {\rm J}
+	W = -W\_{\rm ext} = \frac{q_0}{4 \pi \epsilon_0a} \left( \frac{q_2}{2} + \frac{2q_1}{\sqrt{5}} \right) = \mp 9.5 \times 10^{-9} \, {\rm J}
 	$$
 	dove il segno è di nuovo determinato dal segno di $q_0$ (ma al contrario).
 5. Vi è la possibilità di variare i valori delle cariche fisse. Trovare una combinazione di valori di $q_1$, $q_2$ e $q_3$ per cui almeno una delle tre cariche è diversa da zero e la carica $q_0$ rimane ferma se lasciata libera di muoversi **(4 punti)**.

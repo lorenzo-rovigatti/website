@@ -12,6 +12,7 @@ draft = false
 
 ### Comunicazioni
 
+* **Prove per lo scritto dell'11/05/2020:** [prima]({{< ref "fac_simile_1.md" >}}) e [seconda]({{< ref "fac_simile_2.md" >}}). Sono basate su esercizi d'esonero e di esame. Non ho riportato i passaggi delle soluzioni per evitare che le guardiate prima di provare a farli.
 * **Prossimo esame (aggiornamento del 21/04/2020**: il 17/04 sono uscite le linee guida Sapienza per effettuare esami scritti. Potete trovare tutte le informazioni (insieme ad un vademecum per gli studenti) [qui](https://www.uniroma1.it/it/documento/procedura-straordinaria-conseguente-allemergenza-sanitaria-covid-19-lo-svolgimento-degli).
 Come potete immaginare bisogna riadattare l'esame alla situazione. Nel nostro caso ho deciso di fare un esame scritto più breve (un'ora) a fronte di un orale un po' più corposo.
 Una data che credo possa andare bene per tutti è lunedì 11 Maggio dalle ore 15. Vi dividerò in gruppi che svolgeranno l'esame uno dopo l'altro (a distanza di circa un'ora). Vi prego di farmi sapere se questo orario si sovrappone ad altre lezioni/esami.
