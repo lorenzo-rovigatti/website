@@ -20,5 +20,5 @@ Una spira di forma pentagonale ($l = 10$ cm, $a = 6$ cm) ha massa $g = 10$ g, è
 
 {{< figure src="../images/scritto_12022020_esercizio_2.png"  width="400px">}}
 
-1. Determinare verso e intensità di $i$ **(10 punti)**. [Antiorario, 0.981 A]
+1. Determinare verso e intensità di $i$ **(10 punti)**. [Orario, 0.981 A]
 2. Determinare il modulo della forza magnetica agente sul segmento diagonale in basso a sinistra **(6 punti)**. [0.035 N]
