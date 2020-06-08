@@ -48,7 +48,7 @@ C = \frac{q}{2\sqrt{2}\pi \epsilon_0l^2},
 $$
 si trova
 $$
-E(A) = \sqrt{\frac{\sigma^2}{4\epsilon_0^2} + C^2 - \frac{\sigma}{4\epsilon_0}C + C^2} = 1.91 \times 10^4 \, {\rm V/m}
+E(A) = \sqrt{\frac{\sigma^2}{4\epsilon_0^2} + C^2 - \frac{\sigma}{\epsilon_0}C + C^2} = 1.16 \times 10^4 \, {\rm V/m}
 $$
 
 3. Calcolare la differenza di potenziale tra il punto $B = (l/3, l/3)$ ed il punto $A$ **(6 punti)**.
