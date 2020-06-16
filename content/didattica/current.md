@@ -11,9 +11,9 @@ draft = false
 
 ### Comunicazioni
 
-* **Scritto del 16/06/2020**: appuntamento su Google Meet ore 9:50. Arriverà una email a tutti coloro che hanno chiesto di fare l'esame online qualche minuto prima.
+* **Scritto del 16/06/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_16062020.md" >}}), [risultati]({{< ref "risultati_scritto_16062020.md" >}}). Scrivete al docente per discutere la correzione o per accordare la data dell'orale.
 * **Linee guida per gli esami scritti online**: [qui]({{< ref "linee_guida_online.md" >}}) trovate le linee guida. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
-* **Scritto dell'11/05/2020**:  
+* **Scritto dell'11/05/2020**:
 	* [Testo e soluzioni A-F]({{< ref "testo_soluzioni_scritto_11052020_A-F.md" >}})
 	* [Testo e soluzioni G-Z]({{< ref "testo_soluzioni_scritto_11052020_G-Z.md" >}})
 	* [Testo e soluzioni recupero primo esonero]({{< ref "testo_soluzioni_scritto_11052020_esonero.md" >}})
