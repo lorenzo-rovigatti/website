@@ -11,7 +11,9 @@ draft = false
 
 ### Comunicazioni
 
-* **Scritto del 16/06/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_16062020.md" >}}), [risultati]({{< ref "risultati_scritto_16062020.md" >}}). Scrivete al docente per discutere la correzione o per accordare la data dell'orale.
+* **Scritto del 9/7/2020**: lo scritto *in presenza* si terrà nell'Aula D dell'edificio Cannizzaro (da confermare) alle ore 10, lo scritto *online* alle ore 11:30 a [questo link](https://meet.google.com/csn-xtwm-aqn).
+* **Scritto del 26/06/2020**: [risultati]({{< ref "risultati_scritto_26062020.md" >}}). Scrivete al docente per visionare/discutere gli elaborati.
+* **Scritto del 16/06/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_16062020.md" >}}), [risultati]({{< ref "risultati_scritto_16062020.md" >}}).
 * **Linee guida per gli esami scritti online**: [qui]({{< ref "linee_guida_online.md" >}}) trovate le linee guida. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
 * **Scritto dell'11/05/2020**:
 	* [Testo e soluzioni A-F]({{< ref "testo_soluzioni_scritto_11052020_A-F.md" >}})
