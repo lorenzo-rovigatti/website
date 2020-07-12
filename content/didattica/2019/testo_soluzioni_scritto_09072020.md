@@ -1,5 +1,5 @@
 +++
-title = "Scritto del 16/06/2020, A-F"
+title = "Scritto del 09/07/2020, A-F"
 date = 2020-07-12T08:11:43+02:00
 draft = false
 +++
