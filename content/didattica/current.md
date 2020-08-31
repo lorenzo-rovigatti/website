@@ -11,10 +11,12 @@ draft = false
 
 ### Comunicazioni
 
+* **Scritto dell'8/9/2020**: vi ricordo che entrambi gli scritti durano un'ora (al posto delle usuali due pre-COVID). Ecco i dettagli:
+	* L'esame **in presenza** si terrà in Aula G (edificio Cannizzaro) alle ore 10:00. Tutti gli studenti sono tenuti a specificare le modalità di esame su infostud, ricordando che chi non si prenota per l'esame in presenza non riceverà l'email necessaria per accedere all'Ateneo.
+	* L'esame **online** si terrà alle ore 11:30. [Qui]({{< ref "linee_guida_online.md" >}}) trovate le linee guida per l'esame. Per domande/richieste di chiarimenti sulle modalità scrivete al docente. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
 * **Scritto del 9/7/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_09072020.md" >}}), [risultati]({{< ref "risultati_scritto_09072020.md" >}}).
 * **Scritto del 26/06/2020**: [risultati]({{< ref "risultati_scritto_26062020.md" >}}). Scrivete al docente per visionare/discutere gli elaborati.
 * **Scritto del 16/06/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_16062020.md" >}}), [risultati]({{< ref "risultati_scritto_16062020.md" >}}).
-* **Linee guida per gli esami scritti online**: [qui]({{< ref "linee_guida_online.md" >}}) trovate le linee guida. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
 * **Scritto dell'11/05/2020**:
 	* [Testo e soluzioni A-F]({{< ref "testo_soluzioni_scritto_11052020_A-F.md" >}})
 	* [Testo e soluzioni G-Z]({{< ref "testo_soluzioni_scritto_11052020_G-Z.md" >}})

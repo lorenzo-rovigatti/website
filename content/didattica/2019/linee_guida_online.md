@@ -4,10 +4,10 @@ date = 2020-05-07T08:11:43+02:00
 draft = false
 +++
 
-Vi prego di prestare molta attenzione a tutti i punti riportati qui sotto. Do per scontato che sappiate usare gli strumenti informatici di cui abbiamo discusso e provato le funzionalità approfonditamente nel test del 4 Maggio.
+Vi prego di prestare molta attenzione a tutti i punti riportati qui sotto. Do per scontato che sappiate usare gli strumenti informatici di cui abbiamo discusso e provato le funzionalità approfonditamente nel test del 4 Maggio. 
 
 * Leggete con attenzione le linee guida Sapienza che trovate a [questo link](https://www.uniroma1.it/it/documento/procedura-straordinaria-conseguente-allemergenza-sanitaria-covid-19-lo-svolgimento-degli). **Imparate ad usare la piattaforma prima del giorno dell'esame**. Potete fare dei test utilizzando i codici `GNntXk` o `hHHdyo`
-* Riceverete una email da infostud con il link per accedere al Google Meet qualche minuto prima dell'inizio dell'esame.
+* Riceverete una email da infostud con il link per accedere al Google Meet
 * L’esame dura un’ora
 * Per svolgere l’esame è necessario 
 	* un laptop/tablet per accedere ad [exam.net](https://www.exam.net) e visualizzare il compito e per stabilire la connessione su [Google Meet](https://meet.google.com/) con il docente
@@ -20,5 +20,4 @@ Vi prego di prestare molta attenzione a tutti i punti riportati qui sotto. Do pe
 * È disponibile su exam.net una calcolatrice. In alternativa, potete utilizzare la vostra (che non sia uno smartphone!)
 * Il dispositivo con cui si fanno le foto può essere utilizzato solamente negli ultimi cinque minuti a disposizione, e solamente per fare le foto al compito
 * In considerazione della natura straordinaria delle modalità di esame, le regole saranno applicate molto severamente
-* Come da linee guida Sapienza, l’esame verrà registrato. Se necessario il docente visionerà il video durante la correzione, dopo la quale la registrazione verrà cancellata
 * I risultati veranno pubblicati sulla pagina web del docente nei giorni seguenti l’esame. In caso di esito positivo contattate il docente via email per accordarvi sulla data dell’orale
