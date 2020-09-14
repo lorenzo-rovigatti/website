@@ -6,7 +6,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "localhost:1313/"
+baseurl = "http://localhost:1313/"
 
 # Title of your site
 title = "Lorenzo Rovigatti"
@@ -67,7 +67,7 @@ enableGitInfo = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "lorenzo.rovigatti@uniroma1.it"
-  address = "Stanza 103, Edificio Fermi, Dipartimento di Fisica, Sapienza Università di Roma, Rome, 00185, Italy"
+  address = "Stanza 104, Edificio Fermi, Dipartimento di Fisica, Sapienza Università di Roma, Rome, 00185, Italy"
   office_hours = ""
   phone = ""
   skype = ""
