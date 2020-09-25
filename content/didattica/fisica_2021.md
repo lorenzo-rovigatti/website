@@ -16,7 +16,7 @@ draft = false
 
 ### Orario delle lezioni
 
-* Inizio lezioni: 23/09/2020
+* Inizio lezioni: 28/09/2020
 * Fine lezioni: 20/01/2021
 * Orario:
 	* Martedì 14-16, aula C (primo piano dell'edificio S. Cannizzaro - vecchio edificio di Chimica)
