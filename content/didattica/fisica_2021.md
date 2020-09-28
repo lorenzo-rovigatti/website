@@ -12,6 +12,7 @@ draft = false
 
 ### Comunicazioni
 
+* Per rendere più veloce l'inizio delle lezioni ed evitare di dover accettare ogni studente che segue online si raccomanda di compilare il modulo che si trova a [questo link](https://docs.google.com/forms/d/1gqXvZwm_cwknyPElF3dfJE_aMutHvt0_Mk5GNMFvg7c/edit)
 * Le lezioni saranno trasmesse via streaming a [questo link](https://meet.google.com/amd-pogw-sqo).
 
 ### Orario delle lezioni
@@ -110,3 +111,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 ### Appunti
 
 * [Slide di presentazione]({{< static "didattica/2020/presentazione.pdf" >}})
+* [Slide di ripasso matematica]({{< static "didattica/2020/presentazione_math.pdf" >}})
