@@ -112,3 +112,5 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 
 * [Slide di presentazione]({{< static "didattica/2020/presentazione.pdf" >}})
 * [Slide di ripasso matematica]({{< static "didattica/2020/presentazione_math.pdf" >}})
+* [Lezione del 30/09/2020]({{< ref "2020/0_matematica.md" >}})
+* [Lezione del 01/10/2020]({{< ref "2020/1_elettrostatica_1.md" >}})
