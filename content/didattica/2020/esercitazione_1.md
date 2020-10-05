@@ -1,10 +1,32 @@
 +++
-title = "Esercitazione 01/10/2019"
+title = "Esercitazione del 06/10/2020"
 date = 2019-10-01T09:47:43+02:00
 draft = false
 +++
 
-[Esercizio 1](#esercizio-1) -- [Esercizio 2](#esercizio-2) -- [Esercizio 3](#esercizio-3) -- [Esercizio 4](#esercizio-4) 
+[Esercizio 0](#esercizio-0) -- [Esercizio 1](#esercizio-1) -- [Esercizio 2](#esercizio-2) -- [Esercizio 3](#esercizio-3) -- [Esercizio 4](#esercizio-4) 
+
+## Esercizio 0
+<small>Suggerito alla fine della lezione del 30/09/2020</small>
+
+### Testo
+
+Due cariche $q_1 = 10^{-9}$ C e $q_2 = -2 \times 10^{-9}$ C si trovano in $\vec{r}_1 = (1, 0, 2)$ e $\vec{r}_2 = (0, -1, 0)$, dove le componenti dei vettori sono da intendersi misurate in metri. 
+
+1. Scrivere l'espressione della forza esercitata dalla carica 2 sulla 1, $\vec{F}_{21}$.
+2. Calcolare il modulo di $\vec{F}_{21}$.
+
+### Soluzione
+
+1. Il vettore che congiunge 2 ad 1 vale 
+$$
+\vec{r}\_{21} = \vec{r}\_1 - \vec{r}\_2 = (1, 1, 2),
+$$
+che ha modulo $r\_{21} = \sqrt{6}$ e versore associato $\hat{r} = \frac{1}{\sqrt{6}}(1, 1, 2)$. Sostituendo queste quantità nella legge dI Coulomb troviamo
+$$
+\vec{F}\_{21} = \frac{q_1 q_2}{24 \sqrt{6} \pi \epsilon_0} (1, 1, 2)
+$$
+2. Il modulo del vettore scritto sopra vale $F\_{21} = -\frac{q_1 q_2}{24 \pi \epsilon_0} = 3 \times 10^{-9}$ N.
 
 ## Esercizio 1
 <small>Dall'esempio 1.3 del MNV</small>

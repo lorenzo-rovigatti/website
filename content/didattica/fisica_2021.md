@@ -103,9 +103,47 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 
 <small>Cliccare sulla data per visualizzare/nascondere l'elenco dettagliato, **E** sta per *esercitazione*, **L** per *lezione* e **C** per *correzione* (di compiti e/o esoneri)</small>
 
-{{% expand "23/09/2019, <b>L</b>" %}}
+{{% expand "28/09/2020, <b>L</b>" %}}
 * Presentazione del corso
-* Test di valutazione iniziale di matematica
+* Ripasso di matematica
+{{% /expand %}}
+{{% expand "29/09/2020, <b>L</b>" %}}
+* Ripasso di matematica
+{{% /expand %}}
+{{% expand "30/09/2020, <b>L</b>" %}}
+* Introduzione all'elettrostatica
+	* Carica elettrica
+	* Struttura elettrica della materia
+* Legge di Coulomb
+* Campi scalari, vettoriali e principio di sovrapposizione
+* Campo elettrostatico
+* Distribuzioni continue di cariche
+* Ordini di grandezza e unità di misura
+* Riferimenti bibliografici MNV: 1.1 (senza isolanti/conduttori), 1.2 (senza induzione), 1.3, 1.4, 1.5
+{{% /expand %}}
+{{% expand "06/10/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_1.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 1.1, 1.3, 1.5
+* Esercizi consigliati MNV: 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.9, 1.10 (ricordando che $\sin \theta \approx \theta$ per piccoli angoli), 1.11, 1.12
+{{% /expand %}}
+{{% expand "07/10/2020, <b>L</b>" %}}
+* Linee di campo (o di forza)
+* Moto di una carica in un campo elettrostatico uniforme
+* Lavoro della forza elettrostatica
+	* Circuitazione del campo
+	* Irrotazionalità del campo
+	* Energia potenziale elettrostatica
+* Potenziale elettrostatico
+	* Carica puntiforme
+	* Principio di sovrapposizione
+	* Relazione tra potenziale e campo elettrostatico
+	* Unità di misura
+* Riferimenti bibliografici MNV: 1.6, 1.7, 2.1 (senza forza elettromotrice), 2.2, 2.3, 2.4, 2.6
+{{% /expand %}}
+{{% expand "08/10/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_2.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 1.6, 1.7, 1.8, 2.8
+* Esercizi consigliati MNV: 1.23, 1.24, 2.3, 2.4, 2.5, 2.12, 2.14, 2.20, 2.21
 {{% /expand %}}
 
 ### Appunti
@@ -114,3 +152,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Slide di ripasso matematica]({{< static "didattica/2020/presentazione_math.pdf" >}})
 * [Lezione del 30/09/2020]({{< ref "2020/0_matematica.md" >}})
 * [Lezione del 01/10/2020]({{< ref "2020/1_elettrostatica_1.md" >}})
+* [Lezione del 07/10/2020]({{< ref "2020/2_elettrostatica_2.md" >}})
