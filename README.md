@@ -7,7 +7,6 @@
 
 ## Manage the bibliography
 
-* Download a bib file containing all the publications that need to be converted
-* Install the `BibtexParser` and `unidecode` python3 packages (`pip3 install --user bibtexparser unidecode`)
-* Run the script from the website's root folder. Pass it the bib file you want to generate the md files from.
-
+* Download a `.bib` file containing all the publications that need to be converted
+* Install `academic` with `pip3 install -U academic`
+* `cd` into the website root and run `academic import --bibtex mybib.bib`

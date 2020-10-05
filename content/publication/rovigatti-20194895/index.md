@@ -1,0 +1,58 @@
+---
+# Documentation: https://wowchemy.com/docs/managing-content/
+
+title: 'Connecting elasticity and effective interactions of neutral microgels: The
+  validity of the hertzian model'
+subtitle: ''
+summary: ''
+authors:
+- L. Rovigatti
+- N. Gnan
+- A. Ninarello
+- E. Zaccarelli
+tags:
+- '"Elasticity"'
+- '"Collective behavior;  Effective interactions;  Elastic properties;  Linear elasticity
+  theory;  Packing fractions;  Polymer networks;  Thermo-responsive;  Volume phase
+  transition"'
+- '"Gels"'
+categories: []
+date: '2019-01-01'
+lastmod: 2020-10-05T18:18:10+02:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2020-10-05T16:18:10.678143Z'
+publication_types:
+- '2'
+abstract: "An important open problem in materials science is whether a direct connection\
+  \ exists between single-particle elastic properties and macroscopic bulk behavior.\
+  \ Here, we address this question by focusing on the archetype of soft colloids:\
+  \ thermoresponsive microgels. These colloidal-sized polymer networks are often assumed\
+  \ to interact through a simple Hertzian potential, a classic model in linear elasticity\
+  \ theory. By developing an appropriate methodology that can be generalized to any\
+  \ kind of soft particle, we are able to calculate all the elastic moduli of nonionic\
+  \ microgels across their volume phase transition (VPT). Remarkably, we reproduce\
+  \ many features seen in experiments, including the appearance of a minimum in the\
+  \ Poisson's ratio close to the VPT. By calculating the particle-particle effective\
+  \ interactions and the resulting collective behavior, we find that the Hertzian\
+  \ model works well up to moderate values of the packing fraction. Copyright © 2019\
+  \ American Chemical Society."
+publication: '*Macromolecules*'
+url_pdf: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85069927444&doi=10.1021%2facs.macromol.9b00099&partnerID=40&md5=4f39b280c4e02eecb47bbfdcc90d82a6
+doi: 10.1021/acs.macromol.9b00099
+---
