@@ -8,7 +8,6 @@ abstract = "A re-entrant gas-liquid spinodal was proposed as a possible explanat
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

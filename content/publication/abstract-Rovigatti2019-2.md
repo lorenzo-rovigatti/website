@@ -8,7 +8,6 @@ abstract = " An important open problem in materials science is whether a direct 
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

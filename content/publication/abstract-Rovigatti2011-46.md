@@ -8,7 +8,6 @@ abstract = "We report accurate calculations of the particle density of states in
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

@@ -8,7 +8,6 @@ abstract = "Recent progress has been made in the numerical modelling of neutral 
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

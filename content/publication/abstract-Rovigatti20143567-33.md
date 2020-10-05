@@ -8,7 +8,6 @@ abstract = "Using state-of-the-art numerical techniques, we show that, upon lowe
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

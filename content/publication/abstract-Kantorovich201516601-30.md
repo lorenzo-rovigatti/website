@@ -8,7 +8,6 @@ abstract = "With the help of a unique combination of density functional theory a
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

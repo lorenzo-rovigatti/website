@@ -8,7 +8,6 @@ abstract = "Abstract.: The numerical investigation of the statics and dynamics o
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

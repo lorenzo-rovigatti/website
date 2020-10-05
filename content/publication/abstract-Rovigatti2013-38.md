@@ -8,7 +8,6 @@ abstract = "We study the interplay between phase separation and self-assembly in
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

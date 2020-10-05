@@ -8,7 +8,6 @@ abstract = "We investigate the phase behaviour of 2D mixtures of bi-functional a
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

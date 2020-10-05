@@ -8,7 +8,6 @@ abstract = "By using oxDNA, a coarse-grained nucleotide-level model of DNA, we a
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

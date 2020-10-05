@@ -8,7 +8,6 @@ abstract = "We evaluate, by means of molecular dynamics simulations employing a 
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

@@ -8,7 +8,6 @@ abstract = "The fabrication of versatile building blocks that reliably self-asse
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

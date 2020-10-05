@@ -8,7 +8,6 @@ abstract = "We numerically study a simple fluid composed of particles having a h
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

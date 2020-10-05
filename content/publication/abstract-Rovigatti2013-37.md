@@ -8,7 +8,6 @@ abstract = "In this contribution, we investigate the low-temperature, low-densit
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

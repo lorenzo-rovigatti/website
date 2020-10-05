@@ -8,7 +8,6 @@ abstract = "Thermoresponsive microgels find widespread use as colloidal model sy
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

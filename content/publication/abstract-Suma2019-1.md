@@ -8,7 +8,6 @@ abstract = "Simulations of nucleic acids at different levels of structural detai
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

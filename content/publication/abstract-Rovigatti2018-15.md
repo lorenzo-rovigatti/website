@@ -8,7 +8,6 @@ abstract = "Microgels are soft colloids that, by virtue of their polymeric natur
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

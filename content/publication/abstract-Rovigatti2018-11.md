@@ -8,7 +8,6 @@ abstract = "Abstract.: Patchy particles is the name given to a large class of sy
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

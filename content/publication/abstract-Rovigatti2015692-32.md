@@ -8,7 +8,6 @@ abstract = "We investigate binary mixtures of large colloids interacting through
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

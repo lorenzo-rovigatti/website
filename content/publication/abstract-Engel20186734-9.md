@@ -8,7 +8,6 @@ abstract = "The mechanical properties of DNA nanostructures are of widespread in
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

@@ -8,7 +8,6 @@ abstract = "Polymer brushes are being increasingly used to tailor surface physic
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

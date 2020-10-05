@@ -8,7 +8,6 @@ abstract = "Soft particles display highly versatile properties with respect to h
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

@@ -8,7 +8,6 @@ abstract = "We introduce a sequence-dependent parametrization for a coarse-grain
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

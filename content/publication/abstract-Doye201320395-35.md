@@ -8,7 +8,6 @@ abstract = "To simulate long time and length scale processes involving DNA it is
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

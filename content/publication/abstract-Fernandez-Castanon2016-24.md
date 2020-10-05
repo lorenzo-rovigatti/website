@@ -8,7 +8,6 @@ abstract = "DNA oligomers with properly designed sequences self-assemble into we
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

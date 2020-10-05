@@ -8,7 +8,6 @@ abstract = "We present a concise review of the large variety of self-assembly sc
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

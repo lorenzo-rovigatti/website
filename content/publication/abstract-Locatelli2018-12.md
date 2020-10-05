@@ -8,7 +8,6 @@ abstract = "We present a numerical study in which large-scale bulk simulations o
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

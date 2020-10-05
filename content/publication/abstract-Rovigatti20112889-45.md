@@ -8,7 +8,6 @@ abstract = "We discuss the results of intensive Brownian dynamics simulations of
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

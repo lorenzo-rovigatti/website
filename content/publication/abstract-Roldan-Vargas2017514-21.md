@@ -8,7 +8,6 @@ abstract = "We report a detailed computational study by Brownian dynamics simula
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

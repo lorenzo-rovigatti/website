@@ -8,7 +8,6 @@ abstract = "We investigate the vibrational density of states (vDOS) in harmonic 
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

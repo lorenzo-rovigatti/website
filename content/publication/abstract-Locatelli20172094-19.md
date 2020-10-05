@@ -8,7 +8,6 @@ abstract = "We present a numerical/theoretical approach to efficiently evaluate 
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

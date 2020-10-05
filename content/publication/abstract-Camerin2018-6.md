@@ -8,7 +8,6 @@ abstract = "Thermoresponsive microgels are polymeric colloidal networks that can
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

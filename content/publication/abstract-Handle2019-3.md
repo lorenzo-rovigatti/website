@@ -8,7 +8,6 @@ abstract = "Investigating million-atom systems for very long simulation times, w
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

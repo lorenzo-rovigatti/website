@@ -8,7 +8,6 @@ abstract = "Through extensive state-of-the-art numerical simulations, we study t
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

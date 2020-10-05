@@ -8,7 +8,6 @@ abstract = "Microgels are colloidal-scale particles individually made of cross-l
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

@@ -8,7 +8,6 @@ abstract = "We investigate the phase behaviour of charged soft dumbbells, partic
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

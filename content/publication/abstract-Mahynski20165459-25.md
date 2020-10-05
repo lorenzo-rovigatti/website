@@ -8,7 +8,6 @@ abstract = "Globally ordered colloidal crystal lattices have broad utility in a 
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

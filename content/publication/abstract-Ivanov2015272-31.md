@@ -8,7 +8,6 @@ abstract = "We investigate the structural chain-to-ring transition at low temper
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

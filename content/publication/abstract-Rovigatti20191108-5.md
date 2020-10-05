@@ -8,7 +8,6 @@ abstract = "Microgels are complex macromolecules. These colloid-sized polymer ne
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

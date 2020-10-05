@@ -8,7 +8,6 @@ abstract = "Heteropolymers are important examples of self-assembling systems. Ho
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

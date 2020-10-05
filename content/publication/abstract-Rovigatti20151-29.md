@@ -8,7 +8,6 @@ abstract = "We test the relative performances of two different approaches to the
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

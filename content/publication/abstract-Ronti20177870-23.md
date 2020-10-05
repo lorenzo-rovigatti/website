@@ -8,7 +8,6 @@ abstract = "We employ a method based on Monte Carlo grand-canonical simulations 
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""

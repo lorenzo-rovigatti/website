@@ -8,7 +8,6 @@ abstract = "Limited bonding valence, usually accompanied by well-defined directi
 math = true
 selected = false
 highlight = true
-image = ""
 image_preview = ""
 publication_short = ""
 abstract_short = ""
