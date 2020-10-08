@@ -100,7 +100,7 @@ Lì dove il campo è zero (cioè a sinistra e a destra dei due piani), il potenz
 {{< figure src="../images/esercizio_7_soluzione_2.png" height="80px">}}
 2. Se i piani hanno la stessa densità di carica, il campo sarà diverso da 0 solamente a sinistra e a destra dei due piani, dove vale $\vec{E} = \pm \frac{\sigma}{\epsilon_0}\hat{x}$ (vale il segno $+$ a destra dei piani, cioè per $x > d$, e il segno $-$ a sinistra dei piani, cioè per $x < 0$). Dove il campo vale 0 (cioè tra i due piani) il potenziale è costante. Lo poniamo a 0 (ma potremmo porlo uguale a qualsiasi altro valore, perché?). A sinistra dei piani (cioè per $x < 0$) si ha
 $$
-V(x) = -\int_0^x \vec{E} \cdot d\vec{s} = \int_0^x E dx' = \frac{\sigma}{\epsilon_0} x
+V(x) = -\int_0^|x| \vec{E} \cdot d\vec{s} = \int_0^x E dx' = \frac{\sigma}{\epsilon_0} x
 $$
 perché il campo è diretto verso le $x$ negative. A destra dei piani ($x > d$) si ha invece:
 $$

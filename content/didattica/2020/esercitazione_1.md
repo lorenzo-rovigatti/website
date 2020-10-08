@@ -71,7 +71,7 @@ F_y = -mg + \frac{1}{4\pi\epsilon_0}\frac{q^2}{h^2}
 $$
 L'equazione precedente fissa il valore del rapporto tra il quadrato delle cariche e quello della massa:
 $$
-\frac{q^2}{m} = 4\pi\epsilon_0h^2g
+\frac{q^2}{m} = \pm 4\pi\epsilon_0h^2g
 $$
 **Nota Bene:** la carica compare al quadrato: non importa che $q$ sia positiva o negativa, perché due cariche dello stesso tipo si respingono *sempre*.
 
