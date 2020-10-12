@@ -145,6 +145,32 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: Esempi 1.6, 1.7, 1.8, 2.8
 * Esercizi consigliati MNV: 1.23, 1.24, 2.3, 2.4, 2.5, 2.12, 2.14, 2.20, 2.21
 {{% /expand %}}
+{{% expand "13/10/2020, <b>L</b>" %}}
+* Energia potenziale elettrostatica e conservazione dell'energia
+* Superfici equipotenziali
+* Dipolo elettrico
+	* Potenziale
+	* Campo
+	* Momento meccanico
+* Teorema (legge) di Gauss
+* Riferimenti bibliografici MNV: 2.3, 2.5, 2.7, 2.8 (solo campo uniforme), 3.1
+{{% /expand %}}
+{{% expand "14/10/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_3.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 2.2, 2.6, 2.10
+* Esercizi consigliati MNV: 2.3, 2.4, 2.5, 2.14, 2.17, 2.26
+{{% /expand %}}
+{{% expand "15/10/2020, <b>L</b>" %}}
+* Prima equazione di Maxwell
+* Conduttori
+	* Conduttori cavi
+	* Induzione completa
+	* Gabbia di Faraday
+* Condensatori
+	* In parallelo
+	* In serie
+* Riferimenti bibliografici MNV: 3.4, 4.1, 4.2, 4.3, 4.4
+{{% /expand %}}
 
 ### Appunti
 
@@ -153,3 +179,5 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 30/09/2020]({{< ref "2020/0_matematica.md" >}})
 * [Lezione del 01/10/2020]({{< ref "2020/1_elettrostatica_1.md" >}})
 * [Lezione del 07/10/2020]({{< ref "2020/2_elettrostatica_2.md" >}})
+* [Lezione del 13/10/2020]({{< ref "2020/3_elettrostatica_3.md" >}})
+* [Lezione del 15/10/2020]({{< ref "2020/4_elettrostatica_4.md" >}})
