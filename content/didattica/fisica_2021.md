@@ -171,6 +171,24 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* In serie
 * Riferimenti bibliografici MNV: 3.4, 4.1, 4.2, 4.3, 4.4
 {{% /expand %}}
+{{% expand "20/10/2020, <b>E</b>" %}}
+* Ripasso coordinate sferiche e polari
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_4.md" >}}))
+* Riferimenti bibliografici MNV: Esempio 4.1
+* Esercizi consigliati MNV: 3.9, 3.20 (il punto (a) è più difficile, il (b) meno), 4.4, 4.5, 4.6, 4.7, 4.8, 4.16, 4.17, 4.18, 4.20, 4.21
+{{% /expand %}}
+{{% expand "21/10/2020, <b>L</b>" %}}
+* Energia e densità di energia del campo elettrostatico
+* Dielettrici
+	* Effetti di polarizzazione
+	* Legge di Gauss in presenza di dielettrici
+* Riferimenti bibliografici MNV: 4.5, 4.6, 4.7, 4.8
+{{% /expand %}}
+{{% expand "22/10/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_5.md" >}}))
+* Riferimenti bibliografici MNV: Esempio 4.11
+* Esercizi consigliati MNV: 4.10, 4.11, 4.32, 4.34, 4.35, 4.36, 4.38, 4.39, 4.40
+{{% /expand %}}
 
 ### Appunti
 

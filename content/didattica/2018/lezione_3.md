@@ -39,11 +39,7 @@ La possibilità di accelerare particelle microscopiche (come gli elettroni) tram
 ## Superfici equipotenziali
 <small>MNV: paragrafo 2.5</small>
 
-Le superfici equipotenziali sono quei luoghi dei punti nello spazio per cui vale $V(x, y, z) = $ costante. Dato il rapporto che lega potenziale e campo, possiamo dire che
-
-1. Per ogni punto passa solamente *una* superficie equipotenziale.
-2. Muovendoci lungo una superficie equipotenziale il modulo del campo resta costante.
-3. Le linee di campo sono *sempre* ortogonali alle superfici equipotenziali. Questa proprietà deriva dalle caratteristiche del gradiente.
+Le superfici equipotenziali sono quei luoghi dei punti nello spazio per cui vale $V(x, y, z) = $ costante. Dato il rapporto che lega potenziale e campo, possiamo dire che per ogni punto passa solamente *una* superficie equipotenziale e le linee di campo sono *sempre* ortogonali alle superfici equipotenziali. Questa proprietà deriva dalle caratteristiche del gradiente.
 
 Se disegniamo delle "superfici di livello" separate da $\Delta V$ costanti, più queste sono vicine più il campo localmente sarà forte (perché il potenziale varia più rapidamente!). Pensate alle linee di livello altimetriche!
 
