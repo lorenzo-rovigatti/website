@@ -41,7 +41,7 @@ Troviamo ora le relazioni che legano l'incremento della coordinata $i$-esima all
 Possiamo usare queste relazioni per ottenere l'espressione di un volumetto infinitesimo $d\tau = ds_1 ds_2 ds_3$:
 
 * In coordinate cartesiane $d\tau = dx dy dz$.
-* In coordinate sferiche $d\tau = ds_r ds\_\theta ds\_\phi = r^2 \sin(\theta) dr d\theta d\phi$. 
+* In coordinate sferiche $d\tau = ds_r ds\_\theta ds\_\phi = r^2 \sin\theta dr d\theta d\phi$. 
 
 L'espressione si semplifica in casi specifici:
 
@@ -51,13 +51,13 @@ L'espressione si semplifica in casi specifici:
 
 ### Coordinate polari
 
-Il discorso si semplica in 2D, dove si hanno solamente $r$ e $\theta$:
+Il discorso si semplifica in 2D, dove si hanno solamente $r$ e $\theta$:
 
 $$
 \left\lbrace
 \begin{aligned}
-x &= r \cos(\theta)\\\\\\
-y &= r \sin(\theta)
+x &= r \cos\theta\\\\\\
+y &= r \sin\theta
 \end{aligned}
 \right.
 $$
@@ -105,7 +105,7 @@ $$
 $$
 Possiamo usare questa relazione per calcolare la capacità di un condensatore cilindrico di altezza $h$, per il quale si ha $q = \rho \pi R^2 h$, quindi la differenza di potenziale si può scrivere come
 $$
-\Delta V = \frac{q}{2 \pi \epsilon_0} \log{\left ( \frac{r_2}{r_1} \right)}
+\Delta V = \frac{q}{2 \pi \epsilon_0 h} \log{\left ( \frac{r_2}{r_1} \right)}
 $$
 e quindi
 $$

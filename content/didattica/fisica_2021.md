@@ -12,6 +12,7 @@ draft = false
 
 ### Comunicazioni
 
+* **Primo esonero (13/11 in Aula 4 del NEF ore 13:30)**: tutti gli studenti che vogliono partecipare sono invitati a compilare il seguente [modulo](https://docs.google.com/forms/d/1yWvPqIeQAT6DM9iUoEsajeBgtJz9-TgdhDEF7Cw1mCk/edit).
 * Per rendere più veloce l'inizio delle lezioni ed evitare di dover accettare ogni studente che segue online si raccomanda di compilare il modulo che si trova a [questo link](https://docs.google.com/forms/d/1gqXvZwm_cwknyPElF3dfJE_aMutHvt0_Mk5GNMFvg7c/edit)
 * Le lezioni saranno trasmesse via streaming a [questo link](https://meet.google.com/amd-pogw-sqo).
 
