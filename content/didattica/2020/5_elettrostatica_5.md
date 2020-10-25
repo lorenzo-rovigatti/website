@@ -10,13 +10,13 @@ draft = false
 Il processo di carica di un condensatore consiste nello spostare cariche da un'armatura ad un'altra, e quindi richiede una quantità di lavoro che dipende dalla carica $q$ e dalla capacità $C$ (o, equivalentemente, dalla differenza di potenziale $\Delta V = q / C$). Durante la fase di carica, se il condensatore è posto ad una differenza di potenziale $\Delta V$, il lavoro infinitesimo da compiere per spostare $dq$ da un'armatura all'altra è:
 
 $$
-dW\_{rm ext} = \Delta V dq = \frac{q}{C} dq.
+dW\_{\rm ext} = \Delta V dq = \frac{q}{C} dq.
 $$
 
 Il lavoro complessivo necessario per caricare il condensatore con $q$ è:
 
 $$
-W\_{rm ext} = \int_0^q \frac{q'}{C}dq' = \frac{1}{2} \frac{q^2}{C} = U_e
+W\_{\rm ext} = \int_0^q \frac{q'}{C}dq' = \frac{1}{2} \frac{q^2}{C} = U_e
 $$
 
 L'ultima uguaglianza deriva dal fatto che, per definizione, in un sistema conservativo il lavoro compiuto per "assemblare" un sistema è pari alla sua energia potenziale. Utilizzando le relazione che intercorrono tra $q$, $C$ e $\Delta V$, l'energia elettrostatica si può scrivere in maniera equivalente:

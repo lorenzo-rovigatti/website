@@ -200,3 +200,5 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 07/10/2020]({{< ref "2020/2_elettrostatica_2.md" >}})
 * [Lezione del 13/10/2020]({{< ref "2020/3_elettrostatica_3.md" >}})
 * [Lezione del 15/10/2020]({{< ref "2020/4_elettrostatica_4.md" >}})
+* [Lezione del 21/10/2020]({{< ref "2020/5_elettrostatica_5.md" >}})
+
