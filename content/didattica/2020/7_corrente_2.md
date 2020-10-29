@@ -1,6 +1,6 @@
 +++
-title = "Lezione del 23/10/2018"
-date = 2019-10-20T10:00:44+02:00
+title = "Lezione del 28/10/2020"
+date = 2020-10-26T10:00:44+02:00
 draft = false
 +++
 
@@ -163,7 +163,7 @@ che implicano come qualunque variazione del campo elettrico generi una corrente.
 Un circuito può essere composto da molti elementi che possono essere collegati, a due a due, in serie o in parallelo. Definiamo:
 
 * nodo della rete: un punto in cui tre o più fili/elementi si uniscono;
-* ramo della rete: una porzione di circuito che collega due nodi ed è percorsa da corrente. In generale, i rami possono contenere elementi di diverso tipo (generatori, condensatori, resistori, motori, *etc.*);
+* ramo della rete: una porzione di circuito che collega due nodi. In generale, i rami possono contenere elementi di diverso tipo (generatori, condensatori, resistori, motori, *etc.*);
 * maglia della rete: una parte del circuito che forma un percorso chiuso. È composta da un numero quasiasi di rami (ognuno però incluso non più di una volta). I rami e i nodi di una maglia sono, in generale, condivisi con altre maglie.
 
 ### Prima legge di Kirchhoff
@@ -220,43 +220,3 @@ V_2 & = i_2 R_2 + i_3 R_3
 \end{align}
 
 Le equazioni si risolvono sostituendo la prima nelle ultime due e poi isolando le due correnti. Nello specifico caso in esame si trova $i_1 = -0.143$ A, $i_2 = 0.429$ A e $i_3 = 0.286$ A. Il fatto che $i_1$ sia negativa significa che il suo verso è contrario a quello che abbiamo scelto per applicare le leggi di Kirchoff.
-
-## Alcuni circuiti particolari
-<small>MNV: paragrafo 5.10</small>
-
-### Misure di intensità di corrente
-
-Si vedrà nella seconda parte del corso che una bobina percorsa da corrente ed immersa in un campo magnetico si comporta come un dipolo in un campo elettrico, essendo soggetta ad una coppia di forze il cui momento è proporzionale all'intensità di corrente. Questo effetto può essere utilizzato per misurare la corrente. Se infatti la bobina è libera di ruotare intorno all'asse ma soggetta ad un momento resistente, l'angolo di equilibrio dipenderà dal momento a cui è sottoposta (e quindi dall'intensità di corrente). Se alla bobina è solidale un ago, questo ruoterà a seconda della corrente che scorre nella bobina e indicherà un valore su di una scala graduata appositamente tarata. Il valore massimo di corrente misurabile è in questo caso quella che genera la rotazione massima possibile, ed è detta corrente di fondo scala $i\_{\rm fs}$. Questo strumento è detto *galvanometro*, ed è caratterizzato da $i\_{\rm fs}$ e dalla sua resistenza interna $r_g$. Valori tipici sono $i\_{\rm fs} = 100 \,\mu$A e $R_g = 10\, \Omega$.
-
-Se colleghiamo in parallelo il sistema "galvanometro $+$ resistenza interna" con un resistore $r_s$ (detto *shunt*), possiamo variare la corrente massima che è possibile misurare. Infatti in questo caso si ha che le due resistenze sono poste alla stessa d.d.p., e quindi si trova, utilizzando la legge di Ohm,
-
-$$
-i_g r_g = i_s r_s
-$$
-
-D'altro canto, per la prima legge di Kirchhoff la corrente entrante vale $i = i_g + i_s$, e quindi la corrente entrante e quella che scorre nel galvanometro sono legate da un fattore che dipende dal valore di $r_s$:
-
-$$
-\frac{i}{i_g} = 1 + \frac{r_g}{r_s}.
-$$
-
-Più la resistenza di shunt è minore, maggiori saranno le correnti che sarà possibile misurare. Ad esempio, se $r_s = r_g/99$, la massima corrente misurabile sarà $i = 100 i\_{\rm fs}$. I moderni tester hanno a disposizione resistori di shunt di diverso valore, così da poter misurare intensità di correnti anche molto diverse tra loro. Questi strumenti si chiamano *amperometri*.
-
-**Nota Bene:** l'amperometro va inserito nel ramo del circuito in cui scorre la corrente da misurare. Poiché così facendo si aumenta la resistenza di quel ramo, la corrente misurata sarà *minore* di quella che scorre in assenza dell'amperometro. Utilizzando la legge di Ohm si può vedere come questa differenza sia tanto più piccola quanto più piccola è la resistenza dell'amperometro rispetto a quella del ramo preso in esame.
-
-### Misure di intensità di potenziale
-
-Se colleghiamo un galvanometro ad un circuito, la d.d.p. ai suoi capi vale $\Delta V_g = r_g i_g$. Se il galvanometro è collegato *in parallelo* ad un ramo del circuito, una misura di corrente $i_g$ permette anche di conoscere la d.d.p. a cui sia il galvanometro che il ramo del circuito sono posti applicando la legge di Ohm scritta sopra. A parità di intensità di corrente, il *range* di valori di d.d.p. che è possibile misurare può essere esteso aggiungendo in serie al galvanometro un resistore $R_v$, così da ottenere la relazione
-
-$$
-\Delta V_g = (R_v + r_g) i_g
-$$
-
-Uno strumento che può variare il valore della resistenza in serie in un ampio intervallo è detto *voltmetro* e va connesso in parallelo al ramo del circuito di cui vogliamo conoscere la d.d.p. 
-
-**Nota Bene:** connettere un voltmetro ad un circuito altera il $\Delta V$ iniziale, ma utilizzando la legge di Ohm si può vedere come la differenza sia tanto più piccola quanto più grande è il valore di $R_v$ rispetto a quella del ramo del circuito considerato.
-
-Anche se sono basati sullo stesso concetto, amperometri e voltmetri si utilizzano in maniera diversa:
-
-* Un amperometro deve essere connesso in serie ed avere una resistenza interna la più piccola possibile, in modo da non variare sensibilmente l'intensità di corrente da misurare.
-* Un voltmetro deve essere connesso in parallelo ed avere una resistenza interna il più grande possibile, in modo da non perturbare sensibilmente la d.d.p. da misurare.

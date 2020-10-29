@@ -1,10 +1,73 @@
 +++
-title = "Esercitazione del 24/10/2019"
-date = 2019-10-20T10:00:44+02:00
+title = "Esercitazione del 29/10/2020"
+date = 2020-10-26T10:00:44+02:00
 draft = false
 +++
 
-[Esercizio 26](#esercizio-26) -- [Esercizio 27](#esercizio-27) -- [Esercizio 28](#esercizio-28) -- [Esercizio 29](#esercizio-29) -- [Esercizio 30](#esercizio-30)
+[Esercizio 24](#esercizio-24) -- [Esercizio 25](#esercizio-25) --
+[Esercizio 26](#esercizio-26) -- [Esercizio 27](#esercizio-27) -- [Esercizio 28](#esercizio-28) -- [Esercizio 29](#esercizio-29)
+
+## Esercizio 24
+
+### Testo
+
+Una nuvola temporalesca ha una forma approssimativamente rettangolare, con lati $a = 2.0$ km e $b = 3.0$ km, e fluttua ad un'altezza $h = 500$ m al di sopra di una zona pianeggiante. La nuvola contiene una carica $q = -80$ C. 
+
+1. Sapendo che la rigidità dielettrica dell'aria è circa $3.0 \times 10^6$ V/m, le condizioni descritte sopra sono sufficienti per generare fulmini?
+2. Qual è l'energia elettrostatica del sistema nuvola $+$ terreno?
+
+### Soluzione
+
+Il sistema può essere visto come un condensatore piano di capacità:
+
+$$
+C = \frac{\epsilon_0 \Sigma}{h} = \frac{\epsilon_0 ab}{h} = 10.6 \times 10^{-8}\, \mathrm{F}
+$$
+
+**Nota Bene:** la costante dielettrica relativa dell'aria è praticamente uno, quindi possiamo utilizzare le espressioni valide nel vuoto.
+
+La differenza di potenziale tra la terra (caricata positivamente) e la nuvola (caricata negativamente) vale:
+
+$$
+\Delta V = \frac{q}{C} = 7.5 \times 10^8\, \mathrm{V}
+$$
+
+1. La rigidità dielettrica è il massimo valore del campo elettrostatico che può essere applicato senza causare scariche (fulmini!). Calcoliamo il campo all'interno del "condensatore", utilizzando la solita espressione per i condensatori piani (molto approssimata in questo caso, perché?):
+$$
+E \simeq \Delta V / h = 1.5 \times 10^6\, \frac{\mathrm{V}}{\mathrm{m}}
+$$
+che è più bassa della rigidità dielettrica: niente fulmini (in questa approssimazione)!
+2. L'espressione dell'energia di un qualunque condensatore è $U_e = \frac{1}{2} q\Delta V$, quindi si ha:
+$$
+U_e = \frac{1}{2} q \Delta V = 3 \times 10^{10}\, \mathrm{J}
+$$
+
+---
+
+## Esercizio 25
+<small>Ispirato dall'esercizio III.13 del Mencuccini-Silvestrini</small>
+
+### Testo
+
+{{< figure src="../images/esercizio_25.png" width="600px">}}
+
+Un condensatore piano di dimensioni $a \times b \times h$ è parzialmente riempito (per un tratto $x = a / 3$) di una lastra di dielettrico omogeneo e isotropo di costante dielettrica relativa $\kappa$ e mantenuto ad una d.d.p. $\Delta V$. 
+
+1. Quanto vale la carica $q_d$ che si dispone sulla parte di armatura superiore che si affaccia sul dielettrico?
+2. Calcolare $q_d$ se $\Delta V = 113$ V, $a = b = 10$ cm, $h = 2$ mm e $\kappa = 4$.
+
+### Soluzione
+
+1. Il condensatore può essere visto come due condensatori in parallelo di capacità $C_d = \epsilon_0 \kappa ab / 3h$ e $C_v = 2 \epsilon_0 ab / 3h$. La carica di entrambi i "condensatori" si trova utilizzando la relazione che lega capacità, carica e differenza di potenziale, quindi: 
+$$
+q_d = C_d \Delta V = \frac{\epsilon_0 \kappa ab}{3h} \Delta V
+$$
+2. Sostituiamo i valori dati nelle relazione trovata al punto precedente:
+$$
+q_d = \frac{4}{3} 113 \cdot 8.854 \times 10^{-12} \frac{0.1 \cdot 0.1}{0.002}\, \mathrm{C} = 0.667 \times 10^{-8} \, \mathrm{C}
+$$
+
+---
 
 ## Esercizio 26
 
@@ -146,18 +209,18 @@ Scegliamo il verso orario per la maglia a sinistra e antiorario per quella a des
 Se sostituiamo i valori numerici troviamo:
 
 \begin{align}
-- 18 & = 12 i_1 + 6 (i_1 - i_2) = 18 i_1 - 6 i_2\\\\\\
-12 & = 6 i_2 + 6 (i_2 - i_1) = - 6 i_1 + 12 i_2 
+- 18 & = 18 i_1 + 6 i_2\\\\\\
+-12 & = 12 i_2  + 6 i_1
 \end{align}
 
 da cui ricaviamo:
 
 \begin{align}
-i_1 & = 0.8 \, {\rm A}\\\\\\
-i_2 & = 0.6 \, {\rm A}
+i_1 & = -0.8 \, {\rm A}\\\\\\
+i_2 & = -0.6 \, {\rm A}
 \end{align}
 
-per cui $i_1$ scorre in senso antiorario e $i_2$ scorre in senso orario. In $R_3$ scorre la corrente $i_3 = i_1 + i_2 = 1.4$ A dal basso verso l'alto.
+per cui $i_1$ scorre in senso antiorario e $i_2$ scorre in senso orario. In $R_3$ scorre la corrente $i_3 = i_1 + i_2 = -1.4$ A, quindi dal basso verso l'alto.
 
 Se scegliamo i versi come quelli in figura allora la corrente che scorre nel ramo condiviso ha espressioni diverse per le due maglie. In questo caso l'espressione della corrente che scorre in $R_3$ è differente per le due maglie. In particolare vale
 
@@ -179,48 +242,3 @@ per la maglia di destra. Applicando la seconda equazione di Kirchhoff si ottiene
 \end{align}
 
 le cui soluzioni corrispondono a quelle trovate precedentemente.
-
----
-
-## Esercizio 30
-
-### Testo
-
-{{< figure src="../images/esercizio_30.png" width="150px">}}
-
-Un condensatore piano di dimensioni $a \times b \times h_i$ è riempito completamente con un liquido incomprimibile dielettrico di costante relativa $\kappa$ e mantenuto da un generatore ad una d.d.p. $\Delta V$ costante. Se la distanza tra le due armature diventa $1.5 h_i$,
-
-1. come varia la capacità del condensatore?
-2. se prima di fare questa operazione di allontanamento il generatore venisse spento, cosa succederebbe?
-3. se l'operazione precedente venisse ripetuta per un dielettrico solido, quale sarebbe l'espressione della d.d.p.?
-
-### Soluzione
-
-1. La capacità iniziale del condensatore è:
-$$
-C_i = \frac{\epsilon_0 a b \kappa}{h_i}
-$$
-Poiché il liquido è incomprimibile, il volume che occupa rimane costante. Il volume iniziale è $V_i = abh_i$, mentre quello finale vale $V_f = 1.5 a x h_i$, dove $x$ è l'altezza che raggiunge dopo la variazione di distanza. Ponendo $V_i = V_f$ si ottiene $x = \frac{2}{3}b$. La capacità finale sarà quindi:
-$$
-C_f = \frac{4}{9} \epsilon_0 a b \kappa + \frac{2}{9} \epsilon_0 a b = \frac{\epsilon_0 a b}{h_i} \left( \frac{4}{9}\kappa + \frac{2}{9} \right)
-$$
-La differenza di capacità vale quindi:
-$$
-\Delta C = C_f - C_i = \frac{\epsilon_0 a b}{h_i} \left( \frac{4}{9}\kappa + \frac{2}{9} - \kappa \right) = \frac{\epsilon_0 a b}{h_i} \left( \frac{2}{9} - \frac{5}{9}\kappa \right)
-$$
-2. Se il generatore venisse spento *prima* di allontanare le armature, la carica sulle armature resterebbe la stessa. Inizialmente abbiamo
-$$
-q_i = \Delta V C_i
-$$
-D'altro canto alla fine avremmo
-$$
-q_f = \Delta V_f C_f = q_i = \Delta V C_i
-$$
-e quindi la nuova d.d.p. tra le armature sarebbe:
-$$
-\Delta V_f = \Delta V \frac{C_i}{C_f} = \Delta V \frac{9\kappa}{4\kappa + 2}
-$$
-3. Definito $\sigma = q_i / ab$, il campo nel vuoto è $E = \sigma / \epsilon_0$, mentre nel dielettrico è $E = \sigma / \kappa\epsilon_0$. Il potenziale tra le armature vale quindi:
-$$
-\Delta V = \frac{\sigma \left(\frac{3}{2} h_i - h_i\right)}{\epsilon_0} + \frac{\sigma h_i}{\kappa\epsilon_0} = \frac{q_i}{ab\epsilon_0}\left(\frac{h_i}{2} + \frac{h_i}{\kappa}\right)
-$$

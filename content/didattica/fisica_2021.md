@@ -159,7 +159,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% expand "14/10/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_3.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 2.2, 2.6, 2.10
-* Esercizi consigliati MNV: 2.3, 2.4, 2.5, 2.14, 2.17, 2.26
+* Esercizi consigliati MNV: 2.3, 2.4, 2.5, 2.14, 2.17, 2.26 (solo punto a)
 {{% /expand %}}
 {{% expand "15/10/2020, <b>L</b>" %}}
 * Prima equazione di Maxwell
@@ -190,6 +190,32 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: Esempio 4.11
 * Esercizi consigliati MNV: 4.10, 4.11, 4.32, 4.34, 4.35, 4.36, 4.38, 4.39, 4.40
 {{% /expand %}}
+{{% expand "27/10/2020, <b>L</b>" %}}
+* Corrente elettrica
+* Modello classico della conduzione elettrica
+* Legge di Ohm
+* Potenza ed effetto Joule
+* Resistori
+	* In serie
+	* In parallelo
+* Forza elettromotrice
+* Riferimenti bibliografici MNV: 5.1, 5.2, 5.3, 5.4, 5.5
+{{% /expand %}}
+{{% expand "28/10/2020, <b>L</b>" %}}
+* Circuiti RC
+	* Carica di un condensatore
+	* Scarica di un condensatore
+* Corrente di spostamento
+* Reti elettriche: cenni
+	* Prima legge di Kirchhoff
+	* Seconda legge di Kirchhoff
+* Riferimenti bibliografici MNV: 5.6, 5.7, 5.8, 5.9, esempi 5.9 e 5.10
+{{% /expand %}}
+{{% expand "29/10/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_6.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 5.4, 5.9 e 5.10
+* Esercizi consigliati MNV: 5.1, 5.3, 5.12, 5.18, 5.20, 5.21
+{{% /expand %}}
 
 ### Appunti
 
@@ -201,4 +227,5 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 13/10/2020]({{< ref "2020/3_elettrostatica_3.md" >}})
 * [Lezione del 15/10/2020]({{< ref "2020/4_elettrostatica_4.md" >}})
 * [Lezione del 21/10/2020]({{< ref "2020/5_elettrostatica_5.md" >}})
-
+* [Lezione del 27/10/2020]({{< ref "2020/6_corrente_1.md" >}})
+* [Lezione del 28/10/2020]({{< ref "2020/7_corrente_2.md" >}})
