@@ -1,10 +1,55 @@
 +++
-title = "Esercitazione del 29/10/2019"
-date = 2019-10-27T10:00:44+02:00
+title = "Esercitazione del 03/11/2020"
+date = 2020-10-27T10:00:44+02:00
 draft = false
 +++
 
-[Esercizio 31](#esercizio-31) -- [Esercizio 32](#esercizio-32) -- [Esercizio 33](#esercizio-33)
+[Esercizio 30](#esercizio-30) -- [Esercizio 31](#esercizio-31) -- [Esercizio 32](#esercizio-32) -- [Esercizio 33](#esercizio-33)
+
+## Esercizio 30
+
+### Testo
+
+{{< figure src="../images/esercizio_30.png" width="150px">}}
+
+Un condensatore piano di dimensioni $a \times b \times h_i$ è riempito completamente con un liquido incomprimibile dielettrico di costante relativa $\kappa$ e mantenuto da un generatore ad una d.d.p. $\Delta V$ costante. Se la distanza tra le due armature diventa $1.5 h_i$,
+
+1. come varia la capacità del condensatore?
+2. se prima di fare questa operazione di allontanamento il generatore venisse spento, cosa succederebbe?
+3. se l'operazione precedente venisse ripetuta per un dielettrico solido, quale sarebbe l'espressione della d.d.p.?
+
+### Soluzione
+
+1. La capacità iniziale del condensatore è:
+$$
+C_i = \frac{\epsilon_0 a b \kappa}{h_i}
+$$
+Poiché il liquido è incomprimibile, il volume che occupa rimane costante. Il volume iniziale è $V_i = abh_i$, mentre quello finale vale $V_f = 1.5 a x h_i$, dove $x$ è l'altezza che raggiunge dopo la variazione di distanza. Ponendo $V_i = V_f$ si ottiene $x = \frac{2}{3}b$. La capacità finale sarà quindi:
+$$
+C_f = \frac{4}{9} \epsilon_0 a b \kappa + \frac{2}{9} \epsilon_0 a b = \frac{\epsilon_0 a b}{h_i} \left( \frac{4}{9}\kappa + \frac{2}{9} \right)
+$$
+La differenza di capacità vale quindi:
+$$
+\Delta C = C_f - C_i = \frac{\epsilon_0 a b}{h_i} \left( \frac{4}{9}\kappa + \frac{2}{9} - \kappa \right) = \frac{\epsilon_0 a b}{h_i} \left( \frac{2}{9} - \frac{5}{9}\kappa \right)
+$$
+2. Se il generatore venisse spento *prima* di allontanare le armature, la carica sulle armature resterebbe la stessa. Inizialmente abbiamo
+$$
+q_i = \Delta V C_i
+$$
+D'altro canto alla fine avremmo
+$$
+q_f = \Delta V_f C_f = q_i = \Delta V C_i
+$$
+e quindi la nuova d.d.p. tra le armature sarebbe:
+$$
+\Delta V_f = \Delta V \frac{C_i}{C_f} = \Delta V \frac{9\kappa}{4\kappa + 2}
+$$
+3. Definito $\sigma = q_i / ab$, il campo nel vuoto è $E = \sigma / \epsilon_0$, mentre nel dielettrico è $E = \sigma / \kappa\epsilon_0$. Il potenziale tra le armature vale quindi:
+$$
+\Delta V = \frac{\sigma \left(\frac{3}{2} h_i - h_i\right)}{\epsilon_0} + \frac{\sigma h_i}{\kappa\epsilon_0} = \frac{q_i}{ab\epsilon_0}\left(\frac{h_i}{2} + \frac{h_i}{\kappa}\right)
+$$
+
+---
 
 ## Esercizio 31
 <small>Esercizio II.6 del Mencuccini-Silvestrini</small>

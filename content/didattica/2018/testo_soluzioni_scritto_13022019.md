@@ -39,7 +39,7 @@ Un guscio sferico conduttore di raggio esterno $R = 1$ cm è inizialmente vuoto 
 	$$
 	q_e = \frac{4 \pi \epsilon_0 d^2 F_1}{q} = 10^{-7} \, {\rm C}
 	$$
-2. Il guscio sferico viene collegato a terra (figura (c)). Tenendo in considerazione **tutti** gli effetti di induzione, determinare la densità di carica (da considerarsi costante poiché $d \gg R$) presente sulla superficie esterna del guscio **(6 punti)**.
+2. Il guscio sferico viene collegato a terra (figura (c )). Tenendo in considerazione **tutti** gli effetti di induzione, determinare la densità di carica (da considerarsi costante poiché $d \gg R$) presente sulla superficie esterna del guscio **(6 punti)**.
 {{< figure src="../images_scritto_13022019/esercizio_1B.png" alt="1B" width="400px">}}
 	* La carica libera presente sul guscio ($q_e$) passa alla terra. Le uniche cariche che restano sono quelle dovute all'induzione. Chiamiamo quindi $q_n$ la carica indotta da $q$, posta a distanza $d$. Poiché il guscio è connesso a terra, il suo potenziale deve essere nullo. Imponiamo questa condizione:
 	$$
@@ -82,5 +82,6 @@ Due fili indefiniti sono posti su di un piano inclinato di un angolo $\theta = 1
 	B(O) = B_a(O) + B_b(O) = \frac{\mu_0}{\pi d} (i_a + i_b) = 2.5 \times 10^{-3} \, {\rm T}
 	$$
 3. Il sistema viene immerso in un campo magnetico uniforme di modulo $B = 0.1$ T e direzione $-\hat{z}$. Determinare il valore di $i_a$ necessario affinché il sistema resti in equilibrio. **(4 punti)**.
+	
 	* Poiché è parallelo al filo, il campo magnetico aggiunto non può esercitare alcuna forza su di esso e quindi il valore di $i_a$ non cambia.
- 
+

@@ -12,9 +12,9 @@ draft = false
 
 ### Comunicazioni
 
-* **Primo esonero (13/11 in Aula 4 del NEF ore 13:30)**: tutti gli studenti che vogliono partecipare sono invitati a compilare il seguente [modulo](https://docs.google.com/forms/d/1yWvPqIeQAT6DM9iUoEsajeBgtJz9-TgdhDEF7Cw1mCk/edit).
+* **Primo esonero**: tutti gli studenti che vogliono partecipare sono invitati ad iscriversi al seguente [link](https://docs.google.com/forms/d/1DOfbDris8YxCr6iOH2k8WjdLgOPi5HPWGT842b89Cy8). L'esonero si terrà alle ore 14:00 del 13/11 in modalità online. Gli studenti verranno assegnati in maniera casuale a due gruppi che verranno "controllati" da me e dal prof. Placidi. L'esonero durerà due ore e si svolgerà sulla piattaforma [exam.net](http://www.exam.net/). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esonero, da leggere **attentamente**. Per domande/richieste di chiarimenti sulle modalità scrivete al docente. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
 * Per rendere più veloce l'inizio delle lezioni ed evitare di dover accettare ogni studente che segue online si raccomanda di compilare il modulo che si trova a [questo link](https://docs.google.com/forms/d/1gqXvZwm_cwknyPElF3dfJE_aMutHvt0_Mk5GNMFvg7c/edit)
-* Le lezioni saranno trasmesse via streaming a [questo link](https://meet.google.com/amd-pogw-sqo).
+* Le lezioni saranno trasmesse via streaming tramite la piattaforma Zoom a [questo link](https://uniroma1.zoom.us/j/5337856439). **Nota Bene:** il vecchio [link](https://meet.google.com/amd-pogw-sqo) di Google Meet non sarà più valido.
 
 ### Orario delle lezioni
 
@@ -216,6 +216,20 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: Esempi 5.4, 5.9 e 5.10
 * Esercizi consigliati MNV: 5.1, 5.3, 5.12, 5.18, 5.20, 5.21
 {{% /expand %}}
+{{% expand "03/11/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_7.md" >}}))
+{{% /expand %}}
+{{% expand "04/11/2020, <b>E</b>" %}}
+* Svolgimento esercizi vari (tra cui esoneri ed esami degli anni precedenti)
+{{% /expand %}}
+{{% expand "05/11/2020, <b>L</b>" %}}
+* Introduzione ai fenomeni magnetici
+* Elettricità e magnetismo
+* Forza magnetica
+	* Carica in moto
+	* Conduttore percorso da corrente
+* Riferimenti bibliografici MNV: 6.1, 6.2, 6.3, 6.4, esempio 6.2
+{{% /expand %}}
 
 ### Appunti
 
@@ -229,3 +243,5 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 21/10/2020]({{< ref "2020/5_elettrostatica_5.md" >}})
 * [Lezione del 27/10/2020]({{< ref "2020/6_corrente_1.md" >}})
 * [Lezione del 28/10/2020]({{< ref "2020/7_corrente_2.md" >}})
+* [Lezione del 05/11/2020]({{< ref "2020/8_magnetismo_1.md" >}})
+
