@@ -12,8 +12,9 @@ draft = false
 
 ### Comunicazioni
 
+* **Scritto del 06/11/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_06112020.md" >}}), [risultati]({{< ref "risultati_scritto_06112020.md" >}}). Contattare il docente tramite email per accordarsi sull'orale.
 * **Scritto del 06/11/2020**: l'esame **online** si terrà alle ore 09:00 a questo [link](https://meet.google.com/zgu-gtxw-fgf?hs=122&authuser=0). [Qui]({{< ref "2019/linee_guida_online.md" >}}) trovate le linee guida per l'esame. Per domande/richieste di chiarimenti sulle modalità scrivete al docente. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
-* **Scritto dell'08/09/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_08092020.md" >}}), [risultati]({{< ref "risultati_scritto_08092020.md" >}}). Contattare il docente tramite email per accordarsi sull'orale.
+* **Scritto dell'08/09/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_08092020.md" >}}), [risultati]({{< ref "risultati_scritto_08092020.md" >}}).
 * **Scritto del 9/7/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_09072020.md" >}}), [risultati]({{< ref "risultati_scritto_09072020.md" >}}).
 * **Scritto del 26/06/2020**: [risultati]({{< ref "risultati_scritto_26062020.md" >}}). Scrivete al docente per visionare/discutere gli elaborati.
 * **Scritto del 16/06/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_16062020.md" >}}), [risultati]({{< ref "risultati_scritto_16062020.md" >}}).

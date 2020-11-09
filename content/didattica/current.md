@@ -12,7 +12,5 @@ draft = false
 
 ### Comunicazioni
 
-* **Scritto del 06/11/2020**: l'esame **online** si terrà alle ore 09:00 a questo [link](https://meet.google.com/zgu-gtxw-fgf?hs=122&authuser=0).
-* È [online]({{< ref "fisica_2021.md" >}}) la pagina del nuovo corso 2020/2021. Gli studenti sono invitati a leggere le informazioni ivi contenute.
+* **Scritto del 06/11/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_06112020.md" >}}), [risultati]({{< ref "risultati_scritto_06112020.md" >}}). Contattare il docente tramite email per accordarsi sull'orale.
 * **Scritto dell'08/09/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_08092020.md" >}}), [risultati]({{< ref "risultati_scritto_08092020.md" >}}).
-

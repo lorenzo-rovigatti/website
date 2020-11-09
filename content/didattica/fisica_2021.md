@@ -107,11 +107,11 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% expand "28/09/2020, <b>L</b>" %}}
 * Presentazione del corso
 * Ripasso di matematica
-{{% /expand %}}
-{{% expand "29/09/2020, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "29/09/2020, <b>L</b>" %}}
 * Ripasso di matematica
-{{% /expand %}}
-{{% expand "30/09/2020, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "30/09/2020, <b>L</b>" %}}
 * Introduzione all'elettrostatica
 	* Carica elettrica
 	* Struttura elettrica della materia
@@ -121,13 +121,13 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Distribuzioni continue di cariche
 * Ordini di grandezza e unità di misura
 * Riferimenti bibliografici MNV: 1.1 (senza isolanti/conduttori), 1.2 (senza induzione), 1.3, 1.4, 1.5
-{{% /expand %}}
-{{% expand "06/10/2020, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "06/10/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_1.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 1.1, 1.3, 1.5
 * Esercizi consigliati MNV: 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.9, 1.10 (ricordando che $\sin \theta \approx \theta$ per piccoli angoli), 1.11, 1.12
-{{% /expand %}}
-{{% expand "07/10/2020, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "07/10/2020, <b>L</b>" %}}
 * Linee di campo (o di forza)
 * Moto di una carica in un campo elettrostatico uniforme
 * Lavoro della forza elettrostatica
@@ -140,13 +140,13 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Relazione tra potenziale e campo elettrostatico
 	* Unità di misura
 * Riferimenti bibliografici MNV: 1.6, 1.7, 2.1 (senza forza elettromotrice), 2.2, 2.3, 2.4, 2.6
-{{% /expand %}}
-{{% expand "08/10/2020, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "08/10/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_2.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 1.6, 1.7, 1.8, 2.8
 * Esercizi consigliati MNV: 1.23, 1.24, 2.3, 2.4, 2.5, 2.12, 2.14, 2.20, 2.21
-{{% /expand %}}
-{{% expand "13/10/2020, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "13/10/2020, <b>L</b>" %}}
 * Energia potenziale elettrostatica e conservazione dell'energia
 * Superfici equipotenziali
 * Dipolo elettrico
@@ -155,13 +155,13 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Momento meccanico
 * Teorema (legge) di Gauss
 * Riferimenti bibliografici MNV: 2.3, 2.5, 2.7, 2.8 (solo campo uniforme), 3.1
-{{% /expand %}}
-{{% expand "14/10/2020, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "14/10/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_3.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 2.2, 2.6, 2.10
 * Esercizi consigliati MNV: 2.3, 2.4, 2.5, 2.14, 2.17, 2.26 (solo punto a)
-{{% /expand %}}
-{{% expand "15/10/2020, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "15/10/2020, <b>L</b>" %}}
 * Prima equazione di Maxwell
 * Conduttori
 	* Conduttori cavi
@@ -171,26 +171,26 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* In parallelo
 	* In serie
 * Riferimenti bibliografici MNV: 3.4, 4.1, 4.2, 4.3, 4.4
-{{% /expand %}}
-{{% expand "20/10/2020, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "20/10/2020, <b>E</b>" %}}
 * Ripasso coordinate sferiche e polari
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_4.md" >}}))
 * Riferimenti bibliografici MNV: Esempio 4.1
 * Esercizi consigliati MNV: 3.9, 3.20 (il punto (a) è più difficile, il (b) meno), 4.4, 4.5, 4.6, 4.7, 4.8, 4.16, 4.17, 4.18, 4.20, 4.21
-{{% /expand %}}
-{{% expand "21/10/2020, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "21/10/2020, <b>L</b>" %}}
 * Energia e densità di energia del campo elettrostatico
 * Dielettrici
 	* Effetti di polarizzazione
 	* Legge di Gauss in presenza di dielettrici
 * Riferimenti bibliografici MNV: 4.5, 4.6, 4.7, 4.8
-{{% /expand %}}
-{{% expand "22/10/2020, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "22/10/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_5.md" >}}))
 * Riferimenti bibliografici MNV: Esempio 4.11
 * Esercizi consigliati MNV: 4.10, 4.11, 4.32, 4.34, 4.35, 4.36, 4.38, 4.39, 4.40
-{{% /expand %}}
-{{% expand "27/10/2020, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "27/10/2020, <b>L</b>" %}}
 * Corrente elettrica
 * Modello classico della conduzione elettrica
 * Legge di Ohm
@@ -200,8 +200,8 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* In parallelo
 * Forza elettromotrice
 * Riferimenti bibliografici MNV: 5.1, 5.2, 5.3, 5.4, 5.5
-{{% /expand %}}
-{{% expand "28/10/2020, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "28/10/2020, <b>L</b>" %}}
 * Circuiti RC
 	* Carica di un condensatore
 	* Scarica di un condensatore
@@ -210,26 +210,44 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Prima legge di Kirchhoff
 	* Seconda legge di Kirchhoff
 * Riferimenti bibliografici MNV: 5.6, 5.7, 5.8, 5.9, esempi 5.9 e 5.10
-{{% /expand %}}
-{{% expand "29/10/2020, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "29/10/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_6.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 5.4, 5.9 e 5.10
 * Esercizi consigliati MNV: 5.1, 5.3, 5.12, 5.18, 5.20, 5.21
-{{% /expand %}}
-{{% expand "03/11/2020, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "03/11/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_7.md" >}}))
-{{% /expand %}}
-{{% expand "04/11/2020, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "04/11/2020, <b>E</b>" %}}
 * Svolgimento esercizi vari (tra cui esoneri ed esami degli anni precedenti)
-{{% /expand %}}
-{{% expand "05/11/2020, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "05/11/2020, <b>L</b>" %}}
 * Introduzione ai fenomeni magnetici
 * Elettricità e magnetismo
 * Forza magnetica
 	* Carica in moto
 	* Conduttore percorso da corrente
 * Riferimenti bibliografici MNV: 6.1, 6.2, 6.3, 6.4, esempio 6.2
-{{% /expand %}}
+  {{% /expand %}}
+  {{% expand "10/11/2020, <b>E</b>" %}}
+* Il prodotto vettoriale
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_8.md" >}}))
+* Esercizi consigliati MNV: 6.19, 6.20, 6.21 (difficile), 6.23
+  {{% /expand %}}
+  {{% expand "11/11/2020, <b>L</b>" %}}
+* Momenti meccanici su circuiti piani
+* Il galvanometro
+* Il motore elettrico in corrente continua
+* Moto di una carica in un campo uniforme
+  * nel caso in cui velocità e campo magnetico siano ortogonali;
+  * nel caso generale
+* Riferimenti bibliografici MNV: 6.5, esempio 6.3, 6.7
+  {{% /expand %}}
+  {{% expand "12/11/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_9.md" >}}))
+* Esercizi consigliati MNV: 6.1, 6.2, 6.24, 6.25, 6.26
+  {{% /expand %}}
 
 ### Appunti
 
@@ -244,4 +262,5 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 27/10/2020]({{< ref "2020/6_corrente_1.md" >}})
 * [Lezione del 28/10/2020]({{< ref "2020/7_corrente_2.md" >}})
 * [Lezione del 05/11/2020]({{< ref "2020/8_magnetismo_1.md" >}})
+* [Lezione dell'11/11/2020]({{< ref "2020/9_magnetismo_2.md" >}})
 
