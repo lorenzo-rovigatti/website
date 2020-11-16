@@ -88,7 +88,7 @@ Questa equazione ha tre incognite, e quindi chiaramente infinite soluzioni, perc
 In una spira formata da cinque fili rettilinei scorre una corrente $i$ (vedi figura). La spira è immersa in un campo magnetico di modulo $B$ diretto lungo $\hat{z}$.
 
 1. Determinare le forze (in modulo, direzione e verso) agenti sui due segmenti diagonali.
-2. Determinarre la forza totale agente sulla parte inferiore della spira (cioè sulla parte "diagonale" totale).
+2. Determinare la forza totale agente sulla parte inferiore della spira (cioè sulla parte "diagonale" totale).
 2. Calcolare la forza totale agente sulla spira.
 
 ### Soluzione

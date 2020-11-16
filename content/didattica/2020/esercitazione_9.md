@@ -73,7 +73,7 @@ $$
 
 {{< figure src="../images/esercizio_38.png" width="500px">}}
 
-Una spira rettangolare indeformabile di dimensioni $a = 40$ cm e $b = 1$ m e massa $m = 1$ g è parallela all'asse $x$ e posta ad una distanza $d = 1$ cm da esso (vedi figura). Nella regione è presente un campo magnetico diretto lungo $-\hat{z}$ di modulo $B(y) = A / y$, con $ A = 6 \times 10^{-6}$ T/m.  La forza peso $\vec{F}_p$ agisce nella direzione indicata in figura. Quando nella spira scorre una corrente $i$ il sistema è in equilibrio e la spira rimane sospesa.
+Una spira rettangolare indeformabile di dimensioni $a = 40$ cm e $b = 1$ m e massa $m = 1$ g ha i lati lunghi paralleli all'asse $x$ ed è posta ad una distanza $d = 1$ cm da esso (vedi figura). Nella regione è presente un campo magnetico diretto lungo $-\hat{z}$ di modulo $B(y) = |A / y|$, con $ A = 6 \times 10^{-6}$ Tm.  La forza peso $\vec{F}_p$ agisce in direzione $-\hat{y}$. Quando nella spira scorre una corrente $i$ il sistema è in equilibrio e la spira rimane sospesa.
 
 1. Determinare verso e intensità di $i$.
 2. Si aggiunge nella regione di spazio in figura un campo magnetico uniforme uscente dal foglio e di intensità $B_{\rm add} = 1$ T. Quale deve essere il nuovo valore di $i$ per far sì che il sistema rimanga in equilibrio?
@@ -91,7 +91,7 @@ $$
 $$
 e risolvendo per i:
 $$
-i = \frac{mg}{A} \frac{d(d + a)}{a} = 16.8 \, {\rm A}
+i = \frac{mg}{A} \frac{d(d + a)}{ab} = 16.8 \, {\rm A}
 $$
 2. La risposta non cambia, perché la forza totale agente sulla spira non risente di un campo omogeneo (perché?).
 
@@ -159,4 +159,4 @@ $$
 0 < B < \frac{4}{5} \frac{mv}{qa}
 $$
 5. Non cambia nulla, perché avere una velocità con componente lungo il campo dà luogo ad un moto uniforme elicoidale che non modifica affatto il moto lungo il piano $xy$.
-6. Il verso di percorrenza della circonferenza (o degli archi di circonferenza) dipende dal segno della carica.
+6. Il verso di percorrenza della circonferenza (o degli archi di circonferenza) dipende dal segno della carica quindi, data la simmetria del sistema, con carica negativa si avrebbero le stesse relazioni.

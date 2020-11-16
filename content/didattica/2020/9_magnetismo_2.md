@@ -7,7 +7,11 @@ draft = false
 ## Momenti meccanici su circuiti piani
 <small>MNV: paragrafo 6.5 (senza la parte sulle piccole oscillazioni)</small>
 
-Riassumendo, circuiti chiusi immersi in un campo magnetico $\vec{B}$ uniforme non sono sottoposti ad alcuna forza, e quindi il loro centro di massa (se erano inizialmente fermi) non si muoverà. D'altro canto, l'interazione magnetica può generare un momento delle forze e quindi indurre una rotazione. Studiamo il caso semplice di una spira rettangolare di lati $a$ e $b$ e percorsa da corrente $i$. Poiché la spira è un oggetto planare, la sua normale $\hat{n}$ è costante su tutta la superficie. 
+Riassumendo, circuiti chiusi immersi in un campo magnetico $\vec{B}$ uniforme non sono sottoposti ad alcuna forza, e quindi il loro centro di massa (se erano inizialmente fermi) non si muoverà. D'altro canto, l'interazione magnetica può generare un momento delle forze e quindi indurre una rotazione. In questa prima parte della lezione cercheremo di capire l'origine dei fenomeni che si vedono in questi video:
+
+{{< youtube 4OpkdVevA-8 >}}
+
+Studiamo il caso semplice di una spira rettangolare di lati $a$ e $b$ e percorsa da corrente $i$. Poiché la spira è un oggetto planare, la sua normale $\hat{n}$ è costante su tutta la superficie. 
 
 **Nota Bene:** La normale alla spira è definita utilizzando la regola della vite (o della mano destra) applicata al verso della corrente: la normale è diretta verso di noi se stiamo guardando il circuito dalla direzione per cui la corrente scorre in senso *antiorario*.
 
@@ -79,7 +83,7 @@ $$
 
 {{< figure src="../images/galvanometro.png" alt="Il galvanometro" width="300px">}}
 
-Un galvanometro (vedi figura sopra) è costituito da una bobina (composta da $N$ spire di superficie $\Sigma$) avvolta intorno ad un cilindro di ferro e solidale ad una molla. La molla è, a sua volta, solidale con un ago che si muove lungo una scala graduata. Il sistema bobina $+$ cilindro $+$ molla è posta tra due poli che generano un campo magnetico $\vec{B}$ che può essere considerato uniforme (grazie alla presenza del cilindro). La molla oppone resistenza alla rotazione generando un momento meccanico 
+Un galvanometro (vedi figura sopra) è costituito da una bobina (composta da $N$ spire di superficie $\Sigma$) avvolta intorno ad un cilindro di ferro e solidale ad una molla. La molla è, a sua volta, solidale con un ago che si muove lungo una scala graduata. Il sistema bobina $+$ cilindro $+$ molla è posta tra due poli che generano un campo magnetico $\vec{B}$ che, grazie alla presenza del cilindro, risulta sempre ortognale al momento di dipolo delle spire. La molla oppone resistenza alla rotazione generando un momento meccanico 
 
 $$
 M = k \theta
@@ -122,7 +126,9 @@ Prendiamo ad esempio un'unica spira. Se le connessioni coi poli del generatore f
 ## Moto di una carica in un campo magnetico uniforme
 <small>MNV: paragrafo 6.7</small>
 
-Prendiamo il caso di una particella di carica $q$ e massa $m$ che entra in una regione di spazio in cui è presente un campo uniforme $\vec{B}$. La velocità iniziale della particella è $\vec{v}$.
+Prendiamo il caso di una particella di carica $q$ e massa $m$ che entra in una regione di spazio in cui è presente un campo uniforme $\vec{B}$. La velocità iniziale della particella è $\vec{v}$. Ecco un video esemplificativo:
+
+{{< youtube orsMYomjwIw >}}
 
 ### Il caso $\theta = \pi / 2$
 
@@ -183,7 +189,7 @@ $$
 
 Tutte queste relazioni sono costanti, e ciò conferma la natura uniforme del moto.
 
-**Nota Bene:** il modulo della velocità angolare non dipende dalla velocità iniziale. Poiché $\omega$ e il periodo del moto sono legati dalla relazione $T = \frac{2 \pi}{\omega} = \frac{2 \pi m}{qB}$, anche il periodo risulta essere indipendente da $v$!
+**Nota Bene:** il modulo della velocità angolare non dipende dalla velocità $v$. Poiché $\omega$ e il periodo del moto sono legati dalla relazione $T = \frac{2 \pi}{\omega} = \frac{2 \pi m}{qB}$, anche il periodo risulta essere indipendente da $v$!
 
 Possiamo trovare anche una relazione tra la velocità angolare vettoriale ed il campo magnetico utilizzando l'anticommutatività del prodotto vettoriale:
 

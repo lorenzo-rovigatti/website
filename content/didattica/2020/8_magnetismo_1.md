@@ -9,7 +9,11 @@ draft = false
 
 Alcuni materiali hanno la proprietà di attrarre la limatura di ferro. L'esempio più famoso è quello della *magnetite* (ossidi di ferro), il cui nome deriva dalla città di Magnesia, in Asia Minore, dove si trovavano giacimenti di questo materiale. 
 
-Dato un oggetto fatto di magnetite, che chiamiamo *magnete*, la sua proprietà di attrarre la limatura non è uniforme, ma si concentra in alcune zone dette *poli del magnete*. I fenomeni legati a questa proprietà, al pari dei fenomeni elettrici,  erano considerati curiosità nell'Antichità, e sono stati studiati in maniera sistematica solo in epoca moderna. Le osservazioni sperimentali compiute nel XXVII, XXVIII e XIX secolo possono essere così riassunte:
+Dato un oggetto fatto di magnetite, che chiamiamo *magnete*, la sua proprietà di attrarre la limatura non è uniforme, ma si concentra in alcune zone dette *poli del magnete*. I fenomeni legati a questa proprietà, al pari dei fenomeni elettrici,  erano considerati curiosità nell'Antichità, e sono stati studiati in maniera sistematica solo in epoca moderna. Ecco un video che mostra l'effetto di un magnete sulla limatura:
+
+{{< youtube snNG481SYJw >}}
+
+Le osservazioni sperimentali compiute nel XXVII, XXVIII e XIX secolo possono essere così riassunte:
 
 1. I magneti esercitano una forza l'uno sull'altro causata dalla presenza di un *campo magnetico*. I fenomeni magnetici si verificano anche in assenza di cariche elettriche fisse e non sono quindi ascrivibili ad effetti elettrostatici. Tramite esperimenti controllati è possibile dimostrare come esistano solo due tipi di poli magnetici, per i quali valgono le seguenti proprietà
 	* i poli possono essere *positivi* o *negativi*
@@ -28,7 +32,11 @@ Dato un oggetto fatto di magnetite, che chiamiamo *magnete*, la sua proprietà d
 ## Elettricità e magnetismo
 <small>MNV: paragrafo 6.2</small>
 
-L'insieme dei risultati sperimentali appena riassunti porta a pensare che i magneti (o comunque i materiali magnetizzati) siano composti da dipoli magnetici caratterizzati da un momento di dipolo magnetico $\vec{m}$. Nell'800, dopo che l'invenzione della pila di Volta permise di studiare le correnti elettriche in maniera sistematica, fu notato come la limatura di ferro si addensasse in cerchi concentrici intorno ad un filo percorso da corrente. In linea con quanto detto precedentemente, risulta quindi evidente come delle cariche in movimento (cioè una corrente elettrica) generi un campo magnetico (indicato col simbolo $\vec{B}$).
+L'insieme dei risultati sperimentali appena riassunti porta a pensare che i magneti (o comunque i materiali magnetizzati) siano composti da dipoli magnetici caratterizzati da un momento di dipolo magnetico $\vec{m}$. Nell'800, dopo che l'invenzione della pila di Volta permise di studiare le correnti elettriche in maniera sistematica, fu notato come la limatura di ferro si addensasse in cerchi concentrici intorno ad un filo percorso da corrente, come mostrato in questo video:
+
+{{< youtube caHXwJbkbQU >}}
+
+In linea con quanto detto precedentemente, risulta quindi evidente come delle cariche in movimento (cioè una corrente elettrica) generi un campo magnetico (indicato col simbolo $\vec{B}$).
 
 Il fatto sperimentale che due fili percorsi da corrente interagiscono portò Ampère a ipotetizzare che tutti i fenomeni magnetici siano generati dall'interazione tra cariche elettriche in movimento (cioè da correnti). Per spiegare come fosse possibile che oggetti in cui non sembra scorrere corrente (come quelli composti da magnetite) generino comunque campi magnetici, Ampère ipotizzò anche che esistono correnti microscopiche, dette *correnti molecolari di Ampère* o *correnti amperiane*, che sono responsabili dei fenomeni magnetici in assenza di corrente.
 
