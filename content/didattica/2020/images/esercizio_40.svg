@@ -221,13 +221,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-497.30536"
+     inkscape:cx="-77.60007"
      inkscape:cy="841.74022"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="2560"
-     inkscape:window-height="1333"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
@@ -296,7 +296,7 @@
        inkscape:export-ydpi="373" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.611;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-6);marker-end:url(#Arrow1Mend-5)"
-       d="M 57.988568,76.767991 H 149.78449"
+       d="m 105.15632,76.767991 h 44.62817"
        id="path2078-5"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="373"
@@ -357,15 +357,15 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.34722222px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="100.73066"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.34722233px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="122.95564"
        y="72.671135"
        id="text985"
        inkscape:export-xdpi="373"
        inkscape:export-ydpi="373"><tspan
          sodipodi:role="line"
          id="tspan983"
-         x="100.73066"
+         x="122.95564"
          y="72.671135"
          style="stroke-width:0.26458332">R</tspan></text>
     <g

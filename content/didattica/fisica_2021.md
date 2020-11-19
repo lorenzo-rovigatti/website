@@ -12,6 +12,8 @@ draft = false
 
 ### Comunicazioni
 
+* **Primo esonero**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2020/risultati_primo_esonero.md" >}}). Invito gli studenti che volessero discutere i compiti a scrivermi via e-mail e tenersi liberi per la mattina di martedì 24/11/2020 dalle ore 11:00 in poi.
+* **Lezione del 19/11/2020**: la lezione di Giovedì 19/11/2020 si terrà straordinariamente a [questo link](https://uniroma1.zoom.us/j/96912163505?pwd=QXZ1T0UwNklTR2NNY3dJSUxvcHpiQT09) (ID: 969 1216 3505, passcode: FIS2MAT). Durante la lezione verranno fatte dimostrazioni di fenomeni elettrostatici.
 * **Primo esonero**: tutti gli studenti che vogliono partecipare sono invitati ad iscriversi al seguente [link](https://docs.google.com/forms/d/1DOfbDris8YxCr6iOH2k8WjdLgOPi5HPWGT842b89Cy8). L'esonero si terrà alle ore 14:00 del 13/11 in modalità online. Gli studenti verranno assegnati in maniera casuale a due gruppi che verranno "controllati" da me e dal prof. Placidi. L'esonero durerà due ore e si svolgerà sulla piattaforma [exam.net](http://www.exam.net/). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esonero, da leggere **attentamente**. Per domande/richieste di chiarimenti sulle modalità scrivete al docente. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
 * Per rendere più veloce l'inizio delle lezioni ed evitare di dover accettare ogni studente che segue online si raccomanda di compilare il modulo che si trova a [questo link](https://docs.google.com/forms/d/1gqXvZwm_cwknyPElF3dfJE_aMutHvt0_Mk5GNMFvg7c/edit)
 * Le lezioni saranno trasmesse via streaming tramite la piattaforma Zoom a [questo link](https://uniroma1.zoom.us/j/5337856439). **Nota Bene:** il vecchio [link](https://meet.google.com/amd-pogw-sqo) di Google Meet non sarà più valido.
@@ -248,6 +250,31 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_9.md" >}}))
 * Esercizi consigliati MNV: 6.1, 6.2, 6.24, 6.25, 6.26
   {{% /expand %}}
+  {{% expand "17/11/2020, <b>L</b>" %}}
+* Il fenomeno della bottiglia magnetica
+* Lo spettroscopio di massa
+* Il ciclotrone
+* Campi magnetici prodotti da correnti
+* Legge di Ampère
+* Riferimenti bibliografici MNV: 6.7, 6.8, 7.1, 7.4
+{{% /expand %}}
+{{% expand "18/11/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_10.md" >}}))
+* Esercizi consigliati MNV: 6.3, 6.4, 6.6, 6.8, 6.9, 6.27
+{{% /expand %}}
+{{% expand "24/11/2020, <b>L</b>" %}}
+* Applicazioni della legge di Ampère:
+	* filo indefinito;
+	* filo indefinito di sezione finita;
+	* solenoide indefinito;
+	* solenoide toroidale
+* Forze tra fili percorsi da corrente
+* Proprietà magnetiche della materia
+	* sostanze diamagnetiche;
+	* sostanze paramagnetiche;
+	* sostanze ferromagnetiche;
+* Riferimenti bibliografici MNV: 7.3, 7.5 (senza ciclo d'isteresi), esempi 7.2, 7.3, 7.4
+{{% /expand %}}
 
 ### Appunti
 
@@ -263,4 +290,5 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 28/10/2020]({{< ref "2020/7_corrente_2.md" >}})
 * [Lezione del 05/11/2020]({{< ref "2020/8_magnetismo_1.md" >}})
 * [Lezione dell'11/11/2020]({{< ref "2020/9_magnetismo_2.md" >}})
-
+* [Lezione del 17/11/2020]({{< ref "2020/10_magnetismo_3.md" >}})
+* [Lezione del 24/11/2020]({{< ref "2020/11_magnetismo_4.md" >}})

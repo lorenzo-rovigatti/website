@@ -1,6 +1,6 @@
 +++
-title = "Esercitazione del 19/11/2019"
-date = 2019-11-07T09:24:21+02:00
+title = "Esercitazione del 17/11/2020"
+date = 2020-11-16T09:24:21+02:00
 draft = false
 +++
 
@@ -38,7 +38,7 @@ $$
 
 {{< figure src="../images/esercizio_41.png" width="400px">}}
 
-Un piccolo fascio di ioni di carica $q = 1.6 \times 10^{-19}$ C e velocità iniziale nulla viene accelerato da una d.d.p. $\Delta V = 23$ V e penetra ortogonalmente in una camera a vuoto di uno spettrometro di massa. All'interno vi è un campo magnetico uniforme. Si nota che nello spettrometro il fascio si divide in due componenti: una colpisce la parete da cui sono entrati gli ioni ad una distanza $d_1 = 280$ mm, l'altra ad una distanza $d_2 = 392$ mm. Il primo fascio è composto da ioni sodio aventi $m = 3.8 \times 10^{-26}$ Kg. 
+Un piccolo fascio di ioni di carica $q = 1.6 \times 10^{-19}$ C e velocità iniziale nulla viene accelerato da una d.d.p. $\Delta V = 23$ V e penetra ortogonalmente in una camera a vuoto di uno spettrometro di massa. All'interno vi è un campo magnetico uniforme. Si nota che nello spettrometro il fascio si divide in due componenti: una colpisce la parete da cui sono entrati gli ioni ad una distanza $d_1 = 280$ mm, l'altra ad una distanza $d_2 = 392$ mm. Il primo fascio è composto da ioni sodio aventi $m_1 = 3.8 \times 10^{-26}$ Kg. 
 
 1. Dato il disegno, determinare la direzione ed il verso del campo magnetico.
 2. Calcolare la massa e la velocità del secondo tipo di ioni.
@@ -48,11 +48,11 @@ Un piccolo fascio di ioni di carica $q = 1.6 \times 10^{-19}$ C e velocità iniz
 1. Poiché $q > 0$, il campo deve essere entrante nel foglio.
 2. La velocità degli ioni sodio si calcola dall'energia cinetica, che vale
 $$
-\frac{1}{2} m_i v_i^2 = q\Delta V
+\frac{1}{2} m_1 v_1^2 = q\Delta V
 $$
 da cui si ottiene
 $$
-v_i = \sqrt{\frac{2q\Delta V}{m}} = 1.4 \times 10^4 \, {\rm m / s}
+v_1 = \sqrt{\frac{2q\Delta V}{m_1}} = 1.4 \times 10^4 \, {\rm m / s}
 $$
 I raggi di curvatura delle due traiettorie sono
 \begin{align}
@@ -154,7 +154,7 @@ $$
 
 ---
 
-## Esercizio 44
+## Esercizio 44 (non svolto a lezione)
 
 ### Testo
 
@@ -185,6 +185,7 @@ B = \frac{mg}{i}\frac{a + b}{a} \tan \theta_0  = 5.21 \cdot 10^{-3} \, {\rm T}.
 $$
 
 2. Il lavoro si ottiene integrando il momento meccanico tra $\theta = 0$ e $\theta = \theta_0$:
+
 $$
 W = iabB \int_0^{\theta_0} \cos \theta d\theta = iabB \sin \theta |_0^{\theta_0} = iabB \sin{\theta_0} = 1.3 \times 10^{-4} \, {\rm J}
 $$

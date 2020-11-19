@@ -1,8 +1,36 @@
 +++
-title = "Lezione del 20/11/2019"
-date = 2019-11-17T14:19:34+01:00
+title = "Lezione del 24/11/2020"
+date = 2020-11-15T14:19:34+01:00
 draft = false
 +++
+
+### Forma locale della legge di Ampère
+
+La legge di Ampère è una relazione integrale che può essere riscritta in forma locale utilizzando il teorema di Stokes che, in elettrostatica, è usato in maniera simile per dimostrare come $\vec{E}$ sia *irrotazionale*. In questo caso applicando il teorema si ottiene
+
+$$
+\oint_{\mathcal{C}} \vec{B} \cdot d\vec{s} = \int_{\Sigma(\mathcal{C})} \vec{\nabla} \times \vec{B} \cdot \hat{n} d\Sigma = \mu_0 i
+$$
+
+dove $\Sigma(\mathcal{C}$ (che indichiamo con $\Sigma$ per comodità) è una *qualsiasi* superficie avente come contorno la linea $\mathcal{C}$ su cui calcoliamo la circuitazione e $i$ è la somma delle correnti concatenate. Quest'ultima quantità può essere riscritta come integrale della densità di corrente:
+
+$$
+i =  \int_{\Sigma} \vec{j} \cdot \hat{n} d\Sigma
+$$
+
+dove, chiaramente, $\vec{j} \neq 0$ dove i fili in cui scorre corrente intersecano $\Sigma$. Uguagliando le espressioni membro a membro si ottiene
+
+$$
+\int\_{\Sigma} \vec{\nabla} \times \vec{B} \cdot \hat{n} d\Sigma = \mu_0 \int\_{\Sigma} \vec{j} \cdot \hat{n} d\Sigma
+$$
+
+e quindi, poiché $\Sigma$ è arbitraria, si trova
+
+$$
+\vec{\nabla} \times \vec{B} = \mu_0 \vec{j},
+$$
+
+detta *forma locale della legge di Ampère*. 
 
 ## Applicazioni della legge di Ampère
 

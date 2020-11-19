@@ -1,13 +1,17 @@
 +++
-title = "Lezione del 14/11/2019"
-date = 2019-10-30T14:19:34+01:00
+title = "Lezione del 17/11/2020"
+date = 2020-11-15T14:19:34+01:00
 draft = false
 +++
 
 ### La bottiglia magnetica
 <small>MNV: nota alla fine del paragrafo 6.7</small>
 
-Il moto di una carica in un campo magnetico non uniforme è, in generale, un problema molto complesso. Facciamo un esempio che si applica a situazioni di interesse pratico. Prendiamo un campo con simmetria assiale, che sia più intenso alle estremità e più debole al centro. Se l'asse $z$ è l'asse di simmetria del sistema, possiamo scomporre il campo in due componenti, $B_z$, parallelo a $\hat{z}$, e $B_r$, ortogonale a $\hat{z}$. 
+Il moto di una carica in un campo magnetico non uniforme è, in generale, un problema molto complesso. Qui un video con qualche esempio simulato al computer:
+
+{{< youtube Sf1MGTD9xGY >}}
+
+Facciamo un esempio che si applica a situazioni di interesse pratico. Prendiamo un campo con simmetria assiale, che sia più intenso alle estremità e più debole al centro. Se l'asse $z$ è l'asse di simmetria del sistema, possiamo scomporre il campo in due componenti, $B_z$, parallelo a $\hat{z}$, e $B_r$, ortogonale a $\hat{z}$. 
 
 Disegnando il campo vediamo come $B_z$ sia diretto sempre nello stesso verso (dal polo Nord a quello Sud), mentre $B_r$ cambia segno passando da un polo all'altro. Consideriamo una carica che entra nella regione di spazio in cui è presente il campo. Se scomponiamo la sua velocità vediamo come la componente $B_z$ tenderà a far ruotare le particelle attorno all'asse $z$, mentre $B_r$ tenderà ad intrappolarle accelerandole sempre verso il centro della "bottiglia". La particella quindi tenderà a muoversi su di una traiettoria elicoidale tra i due poli e, in dipendenza dalla sua velocità iniziale, potrebbe rimanere intrappolata anche per lungo tempo. Questo effetto di *confinamento* può essere utilizzato per generare un contenitore senza pareti, utile ad esempio per intrappolare il plasma in alcuni tipi di reattori a fusione nucleare.
 
@@ -187,12 +191,13 @@ $$
 \frac{\mu_0 i}{2 \pi} \oint d\theta = \mu_0 i.
 $$
 
-Questa relazione, che abbiamo ottenuto per un filo rettilineo indefinito, ha carattere del tutto generale ed è nota come *legge di Ampère*, che afferma che la circuitazione del campo magnetico $\vec{B}$ è uguale alla somma delle correnti concatenate, moltiplicata per $\mu_0$. Si ha cioè
+Questa relazione, che abbiamo ottenuto per un filo rettilineo indefinito, ha carattere del tutto generale ed è nota come *legge di Ampère*, che afferma che la circuitazione del campo magnetico $\vec{B}$ è uguale alla somma delle correnti concatenate moltiplicata per $\mu_0$. Si ha cioè
 
 $$
 \oint \vec{B} \cdot d\vec{s} = \mu_0 \sum_k i_k,
 $$
 
+che si può dimostrare applicando il principio di sovrapposizione alla derivazione della formula per il filo singolo.
 Come nel caso della legge di Gauss per il campo elettrostatico, il campo magnetico che compare al primo membro è quello generato da *tutte* le correnti presenti nello spazio, mentre al secondo membro compaiono *tutte* le correnti concatenate al percorso chiuso che stiamo considerando. Il segno con cui si considera una corrente $i_k$ nella somma dipende dal rapporto tra il verso in cui scorre e il verso con cui si percorre la linea chiusa su cui si calcola la circuitazione:
 
 * se i due versi sono legati dalla regola della mano destra (o della vite) si prende $+i_k$;
@@ -200,31 +205,3 @@ Come nel caso della legge di Gauss per il campo elettrostatico, il campo magneti
 
 La legge di Ampère lega direttamente le sorgenti del campo al campo stesso, in maniera analoga a quanto fatto dalla legge di Gauss.
 **Nota Bene:** la legge di Ampère mostra come, in generale, la circuitazione di $\vec{B}$ sia diversa da zero. Anche se in casi specifici (come ad esempio quando il percorso su cui si integra non concatena alcuna corrente) la circuitazione può essere nulla, il campo magnetico è sempre un campo *non conservativo*.
-
-### Forma locale della legge di Ampère
-
-La legge di Ampère è una relazione integrale che può essere riscritta in forma locale utilizzando il teorema di Stokes che, in elettrostatica, è usato in maniera simile per dimostrare come $\vec{E}$ sia *irrotazionale*. In questo applicando il teorema si ottiene
-
-$$
-\oint \vec{B} \cdot d\vec{s} = \int_{\Sigma} \vec{\nabla} \times \vec{B} \cdot \hat{n} d\Sigma = \mu_0 i
-$$
-
-dove $\Sigma$ è una *qualsiasi* superficie avente come contorno la linea su cui calcoliamo la circuitazione e $i$ è la somma delle correnti concatenate. Quest'ultima quantità può essere riscritta come integrale della densità di corrente:
-
-$$
-i =  \int_{\Sigma} \vec{j} \cdot \hat{n} d\Sigma
-$$
-
-dove, chiaramente, $\vec{j} \neq 0$ dove i fili in cui scorre corrente intersecano $\Sigma$. Uguagliando le espressioni membro a membro si ottiene
-
-$$
-\int\_{\Sigma} \vec{\nabla} \times \vec{B} \cdot \hat{n} d\Sigma = \mu_0 \int\_{\Sigma} \vec{j} \cdot \hat{n} d\Sigma
-$$
-
-e quindi, poiché $\Sigma$ è arbitraria, si trova
-
-$$
-\vec{\nabla} \times \vec{B} = \mu_0 \vec{j},
-$$
-
-detta *forma locale della legge di Ampère*. 
