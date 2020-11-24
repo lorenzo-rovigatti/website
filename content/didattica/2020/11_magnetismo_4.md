@@ -9,10 +9,10 @@ draft = false
 La legge di Ampère è una relazione integrale che può essere riscritta in forma locale utilizzando il teorema di Stokes che, in elettrostatica, è usato in maniera simile per dimostrare come $\vec{E}$ sia *irrotazionale*. In questo caso applicando il teorema si ottiene
 
 $$
-\oint_{\mathcal{C}} \vec{B} \cdot d\vec{s} = \int_{\Sigma(\mathcal{C})} \vec{\nabla} \times \vec{B} \cdot \hat{n} d\Sigma = \mu_0 i
+\oint_{\mathcal{C}} \vec{B} \cdot d\vec{s} = \int\_{\Sigma(\mathcal{C})} \vec{\nabla} \times \vec{B} \cdot \hat{n} d\Sigma = \mu_0 i
 $$
 
-dove $\Sigma(\mathcal{C}$ (che indichiamo con $\Sigma$ per comodità) è una *qualsiasi* superficie avente come contorno la linea $\mathcal{C}$ su cui calcoliamo la circuitazione e $i$ è la somma delle correnti concatenate. Quest'ultima quantità può essere riscritta come integrale della densità di corrente:
+dove $\Sigma(\mathcal{C})$ (che indichiamo con $\Sigma$ per comodità) è una *qualsiasi* superficie avente come contorno la linea $\mathcal{C}$ su cui calcoliamo la circuitazione e $i$ è la somma delle correnti concatenate. Quest'ultima quantità può essere riscritta come integrale della densità di corrente:
 
 $$
 i =  \int_{\Sigma} \vec{j} \cdot \hat{n} d\Sigma
@@ -71,16 +71,16 @@ $$
 Abbiamo visto che un filo percorso da una corrente $i$ e immerso in campo magnetico $\vec{B}$ sente una forza dovuta alla forza di Lorentz che agisce sui portatori di carica. Per un tratto di filo di lunghezza infinitesima, questa forza vale
 
 $$
-d\vec{F} = i d\vec{s} \times \vec{B}
+d\vec{F} = i d\vec{l} \times \vec{B}
 $$
 
-e quindi la forza per unità di lunghezza è
+ e quindi la forza per unità di lunghezza è
 
 $$
 \vec{f} = i \hat{t} \times \vec{B}
 $$
 
-poiché $d\vec{s} = \hat{t} ds$, dove $\hat{t}$ è il versore tangente al filo.
+poiché $d\vec{l} = \hat{t} dl$, dove $\hat{t}$ è il versore tangente al filo.
 
 Poniamo che il campo $\vec{B}$ sia quello generato da un altro filo indefinito posto nelle vicinanze. Se i due fili sono paralleli, ognuno avvertirà il campo generato dall'altro con direzione perpendicolare al verso della corrente, quindi le forze risultanti (uguali per il principio di azione e reazione) tenederanno ad avvicinare o ad allontanare i fili, a seconda del verso relativo delle due correnti. In particolare, se disegniamo il sistema vediamo come i due fili si attraggono se le due correnti sono concordi, mentre si respingono se sono discordi. Il modulo della forza per unità di lunghezza si può calcolare utilizzando la legge di Biot-Savart:
 
@@ -99,9 +99,9 @@ $$
 ### Solenoide indefinito
 <small>MNV: esempio 7.3</small>
 
-Calcoliamo il campo magnetico generato da un solenoide indefinito di raggio $R$ caratterizzato da una densità di spire $n$. All'interno del solenoide il campo non può che essere diretto lungo l'asse. D'altro canto, all'esterno il campo deve essere nullo. Questo si può mostrare o considerando il fatto che le linee del campo magnetico in questo caso si chiudono all'infinito.
+Calcoliamo il campo magnetico generato da un solenoide indefinito di raggio $R$ caratterizzato da una densità di spire $n$. All'interno del solenoide il campo non può che essere diretto lungo l'asse. D'altro canto, all'esterno il campo deve essere nullo. Questo si può mostrare considerando il fatto che le linee del campo magnetico in questo caso si chiudono all'infinito.
 
-Calcoliamo la circuitazione del campo su di un percorso rettangolare che abbia due lati paralleli all'asse del solenoide: uno all'interno di quest'ultimo e uno posto a grande distanza (dove si può desumere non ci sia campo magnetico). È chiaro che l'unico lato che contribuisce è quello interno al solenoide e parallelo all'asse, poiché esternamente si ha $B = 0$, mentre gli altri due lati sono ortogonali al campo e quindi $\vec{B} \cdot d\vec{s} = 0$. Applicando la legge di Ampère si trova quindi
+Calcoliamo la circuitazione del campo su di un percorso rettangolare che abbia due lati paralleli all'asse del solenoide: uno all'interno di quest'ultimo e uno posto a grande distanza (dove si può desumere che non ci sia campo magnetico). È chiaro che l'unico lato che contribuisce è quello interno al solenoide e parallelo all'asse, poiché esternamente si ha $B = 0$, mentre gli altri due lati sono ortogonali al campo e quindi $\vec{B} \cdot d\vec{s} = 0$. Applicando la legge di Ampère si trova quindi
 
 $$
 \oint \vec{B} \cdot d\vec{s} = B h = \mu_0 n h i
@@ -113,7 +113,7 @@ $$
 B = \mu_0 n i.
 $$
 
-Notiamo prima di tutto che questo risultato non dipende dalla distanza dall'asse del segmento lungo $h$ su cui stiamo calcolando la circuitazione. Il campo all'interno del solenoide ha quindi sempre lo stesso modulo, oltre a direzione e verso: $\vec{B}$ è uniforme. Notiamo anche che $B$ non dipende dal raggio del solenoide.
+Notiamo prima di tutto che questo risultato non dipende dalla distanza dall'asse del segmento lungo $h$ su cui stiamo calcolando la circuitazione. Il campo all'interno del solenoide ha quindi sempre lo stesso modulo, oltre a direzione e verso: $\vec{B}$ è uniforme. Notiamo anche che $B$ non dipende né dal raggio né dalla sezione del solenoide: solenoidi a base quadrata, circolare o di qualunque altra forma generano tutti lo stesso campo.
 
 ### Solenoide toroidale
 <small>MNV: esempio 7.4</small>
@@ -174,7 +174,7 @@ $$
 una relazione che ricorda $\vec{D} = \epsilon \vec{E}$. Possiamo applicare queste relazioni alle leggi del magnetismo che già conosciamo. Per esempio, il campo magnetico generato da un circuito percorso da corrente immerso in un materiale caratterizzato da $k_m$ sarà dato dalla legge di Ampère-Laplace:
 
 $$
-\vec{B} = \frac{\mu i}{4 \pi} \oint \frac{d\vec{s} \times \hat{r}}{r^2},
+\vec{B} = \frac{\mu i}{4 \pi} \oint \frac{d\vec{l} \times \hat{r}}{r^2},
 $$
 
 mentre la legge di Ampère diventa
@@ -227,7 +227,9 @@ Questi materiali hanno $\kappa_m < 1$ e quindi $\chi_m < 0$. Se consideriamo nuo
 
 La suscettività di sostanze diamagnetiche comuni è dell'ordine di $-10^{-5}$ per i solidi e i liquidi e $-10^{-8}$ per i gas.
 
-La fenomenologia delle sostanze diamagnetiche è tale per cui sono spesso chiamate "non magnetiche" perché non mostrano rilevanti effetti di natura magnetica. Esempi sono l'acqua, molte sostanze organiche (DNA, olii), il mercurio, l'oro e il rame.
+La fenomenologia delle sostanze diamagnetiche è tale per cui sono spesso chiamate "non magnetiche" perché non mostrano rilevanti effetti di natura magnetica. Esempi sono l'acqua, molte sostanze organiche (DNA, olii), il mercurio, l'oro e il rame. Il diamagnetismo può essere sfruttato per far levitare oggetti (e animali!), come mostrato in questo video:
+
+{{< youtube KlJsVqc0ywM >}}
 
 ### Sostanze paramagnetiche
 

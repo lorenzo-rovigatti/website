@@ -128,6 +128,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_1.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 1.1, 1.3, 1.5
 * Esercizi consigliati MNV: 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.9, 1.10 (ricordando che $\sin \theta \approx \theta$ per piccoli angoli), 1.11, 1.12
+* [Appunti](/files/appunti/2020/appunti_06_10.pdf)
   {{% /expand %}}
   {{% expand "07/10/2020, <b>L</b>" %}}
 * Linee di campo (o di forza)
@@ -142,10 +143,12 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Relazione tra potenziale e campo elettrostatico
 	* Unità di misura
 * Riferimenti bibliografici MNV: 1.6, 1.7, 2.1 (senza forza elettromotrice), 2.2, 2.3, 2.4, 2.6
+* [Appunti](/files/appunti/2020/appunti_07_10.pdf)
   {{% /expand %}}
   {{% expand "08/10/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_2.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 1.6, 1.7, 1.8, 2.8
+* [Appunti](/files/appunti/2020/appunti_08_10.pdf)
 * Esercizi consigliati MNV: 1.23, 1.24, 2.3, 2.4, 2.5, 2.12, 2.14, 2.20, 2.21
   {{% /expand %}}
   {{% expand "13/10/2020, <b>L</b>" %}}
@@ -157,11 +160,13 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Momento meccanico
 * Teorema (legge) di Gauss
 * Riferimenti bibliografici MNV: 2.3, 2.5, 2.7, 2.8 (solo campo uniforme), 3.1
+* [Appunti](/files/appunti/2020/appunti_13_10.pdf)
   {{% /expand %}}
   {{% expand "14/10/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_3.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 2.2, 2.6, 2.10
 * Esercizi consigliati MNV: 2.3, 2.4, 2.5, 2.14, 2.17, 2.26 (solo punto a)
+* [Appunti](/files/appunti/2020/appunti_14_10.pdf)
   {{% /expand %}}
   {{% expand "15/10/2020, <b>L</b>" %}}
 * Prima equazione di Maxwell
@@ -173,12 +178,14 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* In parallelo
 	* In serie
 * Riferimenti bibliografici MNV: 3.4, 4.1, 4.2, 4.3, 4.4
+* [Appunti](/files/appunti/2020/appunti_15_10.pdf)
   {{% /expand %}}
   {{% expand "20/10/2020, <b>E</b>" %}}
 * Ripasso coordinate sferiche e polari
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_4.md" >}}))
 * Riferimenti bibliografici MNV: Esempio 4.1
 * Esercizi consigliati MNV: 3.9, 3.20 (il punto (a) è più difficile, il (b) meno), 4.4, 4.5, 4.6, 4.7, 4.8, 4.16, 4.17, 4.18, 4.20, 4.21
+* [Appunti](/files/appunti/2020/appunti_20_10.pdf)
   {{% /expand %}}
   {{% expand "21/10/2020, <b>L</b>" %}}
 * Energia e densità di energia del campo elettrostatico
@@ -186,11 +193,13 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Effetti di polarizzazione
 	* Legge di Gauss in presenza di dielettrici
 * Riferimenti bibliografici MNV: 4.5, 4.6, 4.7, 4.8
+* [Appunti](/files/appunti/2020/appunti_21_10.pdf)
   {{% /expand %}}
   {{% expand "22/10/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_5.md" >}}))
 * Riferimenti bibliografici MNV: Esempio 4.11
 * Esercizi consigliati MNV: 4.10, 4.11, 4.32, 4.34, 4.35, 4.36, 4.38, 4.39, 4.40
+* [Appunti](/files/appunti/2020/appunti_22_10.pdf)
   {{% /expand %}}
   {{% expand "27/10/2020, <b>L</b>" %}}
 * Corrente elettrica
@@ -202,6 +211,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* In parallelo
 * Forza elettromotrice
 * Riferimenti bibliografici MNV: 5.1, 5.2, 5.3, 5.4, 5.5
+* [Appunti](/files/appunti/2020/appunti_27_10.pdf)
   {{% /expand %}}
   {{% expand "28/10/2020, <b>L</b>" %}}
 * Circuiti RC
@@ -212,17 +222,21 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Prima legge di Kirchhoff
 	* Seconda legge di Kirchhoff
 * Riferimenti bibliografici MNV: 5.6, 5.7, 5.8, 5.9, esempi 5.9 e 5.10
+* [Appunti](/files/appunti/2020/appunti_28_10.pdf)
   {{% /expand %}}
   {{% expand "29/10/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_6.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 5.4, 5.9 e 5.10
 * Esercizi consigliati MNV: 5.1, 5.3, 5.12, 5.18, 5.20, 5.21
+* [Appunti](/files/appunti/2020/appunti_29_10.pdf)
   {{% /expand %}}
   {{% expand "03/11/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_7.md" >}}))
+* [Appunti](/files/appunti/2020/appunti_03_11.pdf)
   {{% /expand %}}
   {{% expand "04/11/2020, <b>E</b>" %}}
 * Svolgimento esercizi vari (tra cui esoneri ed esami degli anni precedenti)
+* [Appunti](/files/appunti/2020/appunti_04_11.pdf)
   {{% /expand %}}
   {{% expand "05/11/2020, <b>L</b>" %}}
 * Introduzione ai fenomeni magnetici
@@ -231,11 +245,13 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Carica in moto
 	* Conduttore percorso da corrente
 * Riferimenti bibliografici MNV: 6.1, 6.2, 6.3, 6.4, esempio 6.2
+* [Appunti](/files/appunti/2020/appunti_05_11.pdf)
   {{% /expand %}}
   {{% expand "10/11/2020, <b>E</b>" %}}
 * Il prodotto vettoriale
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_8.md" >}}))
 * Esercizi consigliati MNV: 6.19, 6.20, 6.21 (difficile), 6.23
+* [Appunti](/files/appunti/2020/appunti_10_11.pdf)
   {{% /expand %}}
   {{% expand "11/11/2020, <b>L</b>" %}}
 * Momenti meccanici su circuiti piani
@@ -245,10 +261,12 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
   * nel caso in cui velocità e campo magnetico siano ortogonali;
   * nel caso generale
 * Riferimenti bibliografici MNV: 6.5, esempio 6.3, 6.7
+* [Appunti](/files/appunti/2020/appunti_11_11.pdf)
   {{% /expand %}}
   {{% expand "12/11/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_9.md" >}}))
 * Esercizi consigliati MNV: 6.1, 6.2, 6.24, 6.25, 6.26
+* [Appunti](/files/appunti/2020/appunti_12_11.pdf)
   {{% /expand %}}
   {{% expand "17/11/2020, <b>L</b>" %}}
 * Il fenomeno della bottiglia magnetica
@@ -257,10 +275,15 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Campi magnetici prodotti da correnti
 * Legge di Ampère
 * Riferimenti bibliografici MNV: 6.7, 6.8, 7.1, 7.4
+* [Appunti](/files/appunti/2020/appunti_17_11.pdf)
 {{% /expand %}}
 {{% expand "18/11/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_10.md" >}}))
 * Esercizi consigliati MNV: 6.3, 6.4, 6.6, 6.8, 6.9, 6.27
+* [Appunti](/files/appunti/2020/appunti_18_11.pdf)
+{{% /expand %}}
+{{% expand "19/11/2020, <b>L</b>" %}}
+* Dimostrazioni di elettrostatica
 {{% /expand %}}
 {{% expand "24/11/2020, <b>L</b>" %}}
 * Applicazioni della legge di Ampère:
@@ -274,9 +297,23 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* sostanze paramagnetiche;
 	* sostanze ferromagnetiche;
 * Riferimenti bibliografici MNV: 7.3, 7.5 (senza ciclo d'isteresi), esempi 7.2, 7.3, 7.4
+* [Appunti](/files/appunti/2020/appunti_24_11.pdf)
+{{% /expand %}}
+{{% expand "25/11/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_11.md" >}}))
+* Esercizi consigliati MNV: 7.1, 7.2, 7.3, 7.14
+{{% /expand %}}
+{{% expand "26/11/2020, <b>L</b>" %}}
+* Ferromagnetismo
+* Meccanismi di magnetizzazione
+  * Perturbazione del moto orbitale elettronico
+  * Magnetizzazione per orientamento
+* La legge di Gauss per il campo magnetico
+* Equazioni generali della magnetostatica
+* Riferimenti bibliografici MNV: ultima parte del 7.5, 7.6, 7.7, 7.8
 {{% /expand %}}
 
-### Appunti
+### Note
 
 * [Slide di presentazione]({{< static "didattica/2020/presentazione.pdf" >}})
 * [Slide di ripasso matematica]({{< static "didattica/2020/presentazione_math.pdf" >}})
@@ -292,3 +329,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione dell'11/11/2020]({{< ref "2020/9_magnetismo_2.md" >}})
 * [Lezione del 17/11/2020]({{< ref "2020/10_magnetismo_3.md" >}})
 * [Lezione del 24/11/2020]({{< ref "2020/11_magnetismo_4.md" >}})
+* [Lezione del 26/11/2020]({{< ref "2020/12_magnetismo_5.md" >}})

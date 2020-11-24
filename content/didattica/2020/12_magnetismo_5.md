@@ -1,6 +1,6 @@
 +++
-title = "Lezione del 26/11/2019"
-date = 2019-10-30T14:19:34+01:00
+title = "Lezione del 26/11/2020"
+date = 2020-11-23T14:19:34+01:00
 draft = false
 +++
 

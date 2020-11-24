@@ -18,7 +18,7 @@ draft = false
 | 1811521   | insufficiente |
 | 1833915   | 24            |
 | 1835760   | 20            |
-| 1857196   | insufficiente |
+| 1857196   | 18            |
 | 1885279   | insufficiente |
 | 1886980   | 24            |
 | 1891610   | 24            |

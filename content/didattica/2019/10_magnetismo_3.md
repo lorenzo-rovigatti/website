@@ -206,7 +206,7 @@ La legge di Ampère lega direttamente le sorgenti del campo al campo stesso, in 
 La legge di Ampère è una relazione integrale che può essere riscritta in forma locale utilizzando il teorema di Stokes che, in elettrostatica, è usato in maniera simile per dimostrare come $\vec{E}$ sia *irrotazionale*. In questo applicando il teorema si ottiene
 
 $$
-\oint \vec{B} \cdot d\vec{s} = \int_{\Sigma} \vec{\nabla} \times \vec{B} \cdot \hat{n} d\Sigma = \mu_0 i
+\oint \vec{B} \cdot d\vec{s} = \int\_{\Sigma} \vec{\nabla} \times \vec{B} \cdot \hat{n} d\Sigma = \mu_0 i
 $$
 
 dove $\Sigma$ è una *qualsiasi* superficie avente come contorno la linea su cui calcoliamo la circuitazione e $i$ è la somma delle correnti concatenate. Quest'ultima quantità può essere riscritta come integrale della densità di corrente:
