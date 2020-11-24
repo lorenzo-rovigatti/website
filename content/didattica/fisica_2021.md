@@ -58,6 +58,7 @@ Il docente riceve nella stanza 104 al primo piano dell'edificio Fermi (nuovo edi
 	* C. Schönberg, "360 esercizi e problemi di Fisica II", Schönenfeld & Ziegler
 * Animazioni/simulazioni
 	* [Le linee del campo elettrico]({{< ref "html-field-lines/index.html" >}})
+	* [Ferromagneti e paramagneti: il modello di Ising]({{< ref "ising.js/index.html" >}})
 
 ### Programma
 
