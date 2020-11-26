@@ -6,7 +6,7 @@ draft = false
 
 ### Fenomenologia del ferromagnetismo
 
-La dipendenza delle permeabilità, o, analogamente, della suscettività, si trova misurando sperimentalmente il rapporto tra $\vec{H}$ e $\vec{M}$ oppure, equivalentemente, tra $\vec{H}$ e $\vec{B}$.
+La dipendenza della permeabilità, o, analogamente, della suscettività, si trova misurando sperimentalmente il rapporto tra $\vec{H}$ e $\vec{M}$ oppure, equivalentemente, tra $\vec{H}$ e $\vec{B}$.
 
 {{< figure src="../images/isteresi.png" width="400px">}}
 
@@ -49,7 +49,10 @@ $$
 [BH] = {\rm J / m^3}
 $$
 
+I fenomeni di paramagnetismo e ferromagnetismo possono essere studiati con modelli teorici e numerici come quello di Ising, sviluppato negli anni '40. [Qui]({{< ref "../ising.js/index.html" >}}) potete trovare una pagina dove simulare il modello di Ising in due dimensioni.
+
 ## Meccanismi di magnetizzazione
+
 <small>MNV: paragrafo 7.6</small>
 
 Analogamente al fenomeno della polarizzazione, i principali meccanismi di magnetizzazione sono due,
@@ -140,7 +143,7 @@ Consideriamo una superficie chiusa qualsiasi che racchiuda delle sorgenti del ca
 È quindi chiaro che il flusso totale di $\vec{B}$ attraverso qualunque superficie chiusa non possa che essere zero, cioè:
 
 $$
-\int_{\Sigma} \vec{B} \cdot \hat{n} d\Sigma = 0,
+\oint_\Sigma \vec{B} \cdot \hat{n} d\Sigma = 0,
 $$
 
 nota come *legge di Gauss per il campo magnetico*. Utilizzando il teorema della divergenza si può scrivere anche la forma locale di questa legge:

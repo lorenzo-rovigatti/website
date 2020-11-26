@@ -34,7 +34,7 @@ $$
 
 2. Poiché i campi hanno verso opposto, lungo l'asse $y$ le componenti $x$ sono uguali e contrarie e quindi si cancellano. Il campo sarà quindi dato da $\vec{B} = 2 B_y \hat{y}$. Per trovare il valore di $B_y$ disegniamo $\vec{B}$ e vediamo che $B_y = B \sin \theta$, dove 
 $$
-\sin \theta = \frac{a}{r} = \frac{y}{\sqrt{a^2 + y^2}}
+\sin \theta = \frac{a}{r} = \frac{a}{\sqrt{a^2 + y^2}}
 $$
 e quindi il campo vale
 $$
@@ -57,11 +57,11 @@ B_y(0, y, 0) = 0.
 $$
 D'altro canto, le componenti $x$ dei due campi in questo caso si sommerebbero, per cui si avrebbe $\vec{B} = 2B_x \hat{x}$. Le componenti $x$ si trovano con una costruzione analoga a quella fatta prima con $B_x = B \cos \theta$, dove
 $$
-\cos \theta = \frac{a}{r} = \frac{a}{\sqrt{a^2 + y^2}}
+\cos \theta = \frac{y}{r} = \frac{y}{\sqrt{a^2 + y^2}}
 $$
 e quindi
 $$
-\vec{B}(0, y, 0) = -\frac{\mu_0 i}{\pi}\frac{a}{a^2 + y^2}\hat{x}
+\vec{B}(0, y, 0) = -\frac{\mu_0 i}{\pi}\frac{y}{a^2 + y^2}\hat{x}
 $$
 
 ---
