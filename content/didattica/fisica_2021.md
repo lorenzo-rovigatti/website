@@ -314,6 +314,24 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: ultima parte del 7.5, 7.6, 7.7, 7.8
 * [Appunti](../../files/appunti/2020/appunti_26_11.pdf)
 {{% /expand %}}
+{{% expand "01/12/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_12.md" >}}))
+* Esercizi consigliati MNV: 7.19, 7.23, 7.24 punto a), 7.27, 7.30
+{{% /expand %}}
+{{% expand "02/12/2020, <b>L</b>" %}}
+* Campi elettrici e magnetici variabili nel tempo
+* Legge di Faraday
+* Campo elettrico indotto
+* Applicazioni della legge di Farday
+	* Generatore di tensione (continua ed alternata)
+	* Correnti di Foucault
+	* Misure di campo magnetico
+* Riferimenti bibliografici MNV:  8.1, 8.2, 8.3
+{{% /expand %}}
+{{% expand "03/12/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_13.md" >}}))
+* Esercizi consigliati MNV: 8.1 punto a), 8.3, 8.4
+{{% /expand %}}
 
 ### Note
 
@@ -332,3 +350,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 17/11/2020]({{< ref "2020/10_magnetismo_3.md" >}})
 * [Lezione del 24/11/2020]({{< ref "2020/11_magnetismo_4.md" >}})
 * [Lezione del 26/11/2020]({{< ref "2020/12_magnetismo_5.md" >}})
+* [Lezione del 02/12/2020]({{< ref "2020/13_elettromagnetismo_1.md" >}})

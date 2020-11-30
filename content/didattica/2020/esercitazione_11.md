@@ -4,7 +4,7 @@ date = 2020-11-23T09:24:21+02:00
 draft = false
 +++
 
-[Esercizio 45](#esercizio-45) -- [Esercizio 46](#esercizio-46) -- [Esercizio 47](#esercizio-47)
+[Esercizio 45](#esercizio-45)
 
 ## Esercizio 45
 <small>Ispirato all'esercizio 7.1 del MNV</small>
@@ -63,61 +63,3 @@ e quindi
 $$
 \vec{B}(0, y, 0) = -\frac{\mu_0 i}{\pi}\frac{y}{a^2 + y^2}\hat{x}
 $$
-
----
-
-## Esercizio 46
-
-### Testo
-
-{{< figure src="../images/esercizio_46.png" width="300px">}}
-
-Sei lunghi fili complanari percorsi da una corrente $i = 1$ A sono disposti in modo tale da delimitare una regione esagonale di lato $l = 10$ cm (vedi regione grigia in figura). Il verso delle correnti porta a percorrere l'esagono in senso orario. Determinare verso e intensità della componente di $\vec{B}$ perpendicolare al piano nel centro dell'esagono.
-
-### Soluzione
-
-Usando la regola della mano destra (o della vite) si trova che i campi generati singolarmente dai fili nel centro dell'esagono sono sempre entranti nel piano. Per ragioni di simmetria le intensità dei campi nel centro saranno tutte uguali e, in particolare, saranno dati dalla legge di Biot-Savart, $B_s = \frac{\mu_0 i}{2 \pi r}$, dove $r$ è la distanza dal centro. Questa si può calcolare disegnando il sistema e notando che 
-
-$$
-r = \frac{l}{2} \frac{1}{\tan(\theta)}
-$$
-
-dove $\theta = \pi / 6$ è metà dell'angolo che sottende ogni lato e che, in un esagono, vale $60^\circ = \pi / 3$. Sostituendo nella relazione precedente si trova
-
-$$
-B = 6 B_s = 6\frac{\mu_0 i}{2 \pi r} = 12\frac{\mu_0 i}{2 \pi l} \tan\left( \frac{\pi}{6} \right) = 13.86 \, {\rm \mu T}
-$$
-
----
-
-## Esercizio 47
-
-### Testo
-
-{{< figure src="../images/esercizio_47.png" width="600px">}}
-
-Una spira rettangolare indeformabile di dimensioni $a = 40$ cm e $b = 1$ m e massa $m = 1$ g è parallela ad un filo (fisso e parallelo all'asse $x$) e posta ad una distanza $d = 1$ cm da esso (vedi figura). Nel filo scorre una corrente $i_f = 30$ A verso destra ($x$ crescenti). La forza peso $\vec{F}_p$ agisce nella direzione indicata in figura. Quando nella spira scorre una corrente $i$ il sistema è in equilibrio e la spira rimane sospesa.
-
-1. Determinare verso e intensità di $i$.
-2. Si aggiunge nella regione di spazio in figura un campo magnetico uniforme uscente dal foglio e di intensità $B_{\rm add} = 1$ T. Quale deve essere il nuovo valore di $i$ per far sì che il sistema rimanga in equilibrio?
-
-### Soluzione
-
-1. Il campo magnetico generato dal filo è entrante nella regione di spazio in cui è presente la spira, e il suo modulo vale
-$$
-B(r ) = \frac{\mu_0 i_f}{2 \pi r},
-$$
-dove r è la distanza tra il filo e il punto in cui si calcola il campo. Il verso di $i$ deve essere tale per cui la forza magnetica $F_m$ che il circuito sente sia contrapposta alla forza peso. In questo caso $F_m$ ha due contributi dati dalle due porzioni di spira parallele al filo. Il contributo dato dal filo più in alto è più forte, poiché lì il campo è maggiore (poiché $r$ è minore), quindi deve essere quello che determina il verso della corrente. Per far sì che si generi una forza verso l'alto, $i$ deve scorrere lungo $\hat{x}$ in questa parte di spira. Ne consegue che $i_s$ scorre in senso orario.
-Affinché la spira sia in equilibrio, le intensità della forza peso e di quella magnetica devono essere uguali. La forza peso vale semplicemente $mg$. Quella magnetica è dovuta alla presenza del campo magnetico e ha due contributi dovuti alle due parti di spira parallele all'asse $x$, che si sommano direttamente poiché hanno la stessa direzione:
-$$
-F_m = i b B(d) + i b B(d + a) = i b \frac{\mu_0 i_f}{2 \pi} \left( \frac{1}{d} - \frac{1}{d + a}\right).
-$$
-Uguagliando le due forze si ottiene
-$$
- \frac{\mu_0 i_f}{2 \pi} i b \left( \frac{1}{d} - \frac{1}{d + a} \right) = mg
-$$
-e risolvendo per i:
-$$
-i = \frac{2\pi mg}{\mu_0 i_f} \frac{d(d + a)}{a} = 16.8 \, {\rm A}
-$$
-2. La risposta non cambia, perché la forza totale agente sulla spira non risente di un campo omogeneo (perché?).
