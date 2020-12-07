@@ -23,37 +23,37 @@ I due campi sono quindi differenti aspetti legati allo stesso concetto di *campo
 
 Consideriamo i due esperimenti seguenti:
 
-* si prenda una spira collegata ad un galvanometro ed un magnete. Si trova che avvicinando o allontanando il magnete dalla spira il galvanometro misurerà una corrente positiva o negativa.
+* si prenda una spira collegata ad un galvanometro e un magnete. Si trova che avvicinando o allontanando il magnete dalla spira il galvanometro misurerà una corrente positiva o negativa.
 * Si prenda una spira collegata ad un galvanometro e la si ponga vicino ad un solenoide di lunghezza finita e nucleo di ferro (per amplificare l'intensità del campo). Il solenoide è collegato ad un generatore tramite un interruttore. Si trova che il galvanometro misurerà una corrente solamente per periodi di tempo molto brevi che seguono l'apertura o la chiusura del circuito solenoide-generatore. Questi periodi in cui la corrente è diversa da zero coincidono con i periodi durante i quali il campo magnetico generato dal solenoide varia nel tempo.
 
 La mole di dati estratti da questi e molti altri esperimenti si può riassumere nella *legge di Faraday*: se $\mathcal{C}$ è un percorso chiuso, la circuitazione del campo elettrico lungo $\mathcal{C}$ è legata alla derivata temporale del flusso magnetico concatenato a $\mathcal{C}$ dalla relazione:
 
 $$
-\oint \vec{E} \cdot d\vec{s} = - \frac{d\Phi(\vec{B})}{dt}.
+\oint_\mathcal{C} \vec{E} \cdot d\vec{s} = - \frac{d\Phi_\mathcal{C}(\vec{B})}{dt}.
 $$
 
 Ricordando che la forza elettromotrice è definita come la circuitazione del campo elettrico:
 
 $$
-\mathcal{E} = \oint \vec{E} \cdot d\vec{s},
+\mathcal{E} = \oint_\mathcal{C} \vec{E} \cdot d\vec{s},
 $$
 
 si ottiene
 
 $$
-\mathcal{E}_i = - \frac{d\Phi(\vec{B})}{dt}.
+\mathcal{E}_i = - \frac{d\Phi_\mathcal{C}(\vec{B})}{dt}.
 $$
 
 Se $\mathcal{C}$ identifica un circuito di resistenza $R$, in esso circolerà una corrente *indotta* (dovuta alla forza elettromotrice)
 
 $$
-i = \frac{\mathcal{E}}{R} = - \frac{1}{R} \frac{d\Phi(\vec{B})}{dt}.
+i = \frac{\mathcal{E}_i}{R} = - \frac{1}{R} \frac{d\Phi_\mathcal{C}(\vec{B})}{dt}.
 $$
 
 D'altro canto, se il circuito è aperto e collegato ad un voltmetro, quest'ultimo misurerà una differenza di potenziale
 
 $$
-\Delta V = \mathcal{E} = -\frac{d\Phi(\vec{B})}{dt}.
+\Delta V = \mathcal{E}_i = -\frac{d\Phi_\mathcal{C}(\vec{B})}{dt}.
 $$
 
 La forza elettromotrice dovuta alla variazione di flusso si comporta quindi come un generatore di tensione. 
@@ -67,7 +67,7 @@ Il segno meno davanti alla derivata del flusso nella legge di Faraday è così i
 * Se il flusso aumenta nel tempo, la forza elettromotrice è negativa e la corrente indotta genererà, a sua volta, un flusso che tenderà a *contrastare* l'ulteriore aumento di $\Phi(\vec{B})$.
 * se il flusso diminuisce nel tempo, la forza elettromotrice è positiva e la corrente indotta genererà, a sua volta, un flusso che tenderà ad aumentare $\Phi(\vec{B})$.
 
-Ad esempio, prendiamo un campo magnetico diretto parallelamente al momento magnetico di una spira. Se il campo magnetico è variabile nel tempo, lo è anche il flusso concatenato con la spira. Applicando la legge di Faraday troviamo che se il campo aumenta di intensità, il flusso aumenta,  la corrente indotta gira in verso antiorario e genera quindi un flusso negativo che si oppone ad un ulteriore aumento. Viceversa in caso di flusso del campo decrescente.
+Ad esempio, prendiamo un campo magnetico diretto parallelamente alla normale di una spira. Se il campo magnetico è variabile nel tempo, lo è anche il flusso concatenato con la spira. Applicando la legge di Faraday troviamo che se il campo aumenta di intensità il flusso aumenta, e questo aumento genererà una corrente indotta il cui verso sara tale da generare un flusso negativo che si opporrà a un ulteriore aumento. Viceversa in caso di flusso del campo decrescente.
 
 Questa proprietà della legge di Faraday è un aspetto particolare del principio di conservazione dell'energia. Per capirlo, prendiamo due fili indefiniti paralleli. Se in uno dei due scorre una corrente dipendente dal tempo, questa genera un campo magnetico il cui flusso concatenato con l'altro varia nel tempo, inducendo quindi una corrente nel secondo filo. Se questa corrente fosse nella stessa direzione della prima, un meccanismo di rinforzo positivo contribuirebbe a generare correnti sempre maggiori nei fili, in aperta violazione del principio di conservazione dell'energia. Ne deriva che la corrente debba avere verso opposto.
 
@@ -77,7 +77,7 @@ Questa proprietà della legge di Faraday è un aspetto particolare del principio
 Consideriamo la legge di Faraday, esplicitando la definizione di flusso:
 
 $$
-\mathcal{E}_i = \oint\_{\mathcal{C}(t)} \vec{E}_i \cdot d\vec{s} = - \frac{d\Phi(\vec{B})}{dt} = - \frac{d}{d t} \int\_{\Sigma(t)} \vec{B}(t) \cdot \hat{n} d\Sigma
+\mathcal{E}_i = \oint\_{\mathcal{C}(t)} \vec{E}_i \cdot d\vec{s} = - \frac{d\Phi\_{\mathcal{C}(t)}(\vec{B})}{dt} = - \frac{d}{d t} \int\_{\Sigma(t)} \vec{B}(t) \cdot \hat{n} d\Sigma
 $$
 
 dove $\mathcal{C}(t)$ è la linea chiusa che stiamo considerando (e che potrebbe variare nel tempo), mentre $\Sigma(t)$ è una qualsiasi superficie che ha $\mathcal{C}(t)$ come contorno. È chiaro che la forza elettromotrice risultante contiene due contributi dovuti a
@@ -179,7 +179,7 @@ $$
 q = \int\_{t_1}^{t_2} dq = \int\_{t_1}^{t_2} i(t) dt = - \frac{1}{R} \int\_{\Phi_1}^{\Phi_2} d\Phi = \frac{\Phi_1 - \Phi_2}{R},
 $$
 
-e dipende quindi solo dalla differenza dei flussi iniziale e finale. Se la bobina ha dimensioni abbastanza piccole da poter considerare il campo magnetico uniforme sulla sua superficie e viene orientata in maniera che il suo momento di dipolo magnetico è parallelo al campo, il flusso iniziale vale semplicemente
+e dipende quindi solo dalla differenza dei flussi iniziale e finale. Se la bobina ha dimensioni abbastanza piccole da poter considerare il campo magnetico uniforme sulla sua superficie e viene orientata in maniera che il suo momento di dipolo magnetico sia parallelo al campo, il flusso iniziale vale semplicemente
 
 $$
 \Phi_1 = N B \Sigma
