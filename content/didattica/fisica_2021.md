@@ -317,6 +317,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% expand "01/12/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_12.md" >}}))
 * Esercizi consigliati MNV: 7.19, 7.23, 7.24 punto a), 7.27, 7.30
+* [Appunti](../../files/appunti/2020/appunti_01_12.pdf)
 {{% /expand %}}
 {{% expand "02/12/2020, <b>L</b>" %}}
 * Campi elettrici e magnetici variabili nel tempo
@@ -327,10 +328,24 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Correnti di Foucault
 	* Misure di campo magnetico
 * Riferimenti bibliografici MNV:  8.1, 8.2, 8.3
+* [Appunti](../../files/appunti/2020/appunti_02_12.pdf)
 {{% /expand %}}
 {{% expand "03/12/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_13.md" >}}))
 * Esercizi consigliati MNV: 8.1 punto a), 8.3, 8.4
+* [Appunti](../../files/appunti/2020/appunti_03_12.pdf)
+{{% /expand %}}
+{{% expand "09/12/2020, <b>L</b>" %}}
+* Autoflusso
+* Autoinduzione
+	* Apertura di un circuito induttivo
+	* Chiusura di un circuito induttivo
+* Energia magnetica
+* Riferimenti bibliografici MNV: 8.4, esempio 8.4, 8.5
+{{% /expand %}}
+{{% expand "10/12/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_14.md" >}}))
+* Esercizi consigliati MNV: 8.2, 8.5, 8.6, 8.7
 {{% /expand %}}
 
 ### Note
@@ -351,3 +366,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 24/11/2020]({{< ref "2020/11_magnetismo_4.md" >}})
 * [Lezione del 26/11/2020]({{< ref "2020/12_magnetismo_5.md" >}})
 * [Lezione del 02/12/2020]({{< ref "2020/13_elettromagnetismo_1.md" >}})
+* [Lezione del 10/12/2020]({{< ref "2020/14_elettromagnetismo_2.md" >}})
