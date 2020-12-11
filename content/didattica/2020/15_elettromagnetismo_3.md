@@ -1,6 +1,6 @@
 +++
-title = "Lezione del 10/12/2019"
-date = 2019-11-28T07:19:34+01:00
+title = "Lezione del 10/12/2020"
+date = 2020-12-08T07:19:34+01:00
 draft = false
 +++
 
@@ -19,7 +19,7 @@ $$
 \oint\_{\mathcal{C}} \vec{B} \cdot d\vec{s} = \mu_0 \int\_{\Sigma} \vec{j}_c \cdot \hat{n} d\Sigma
 $$
 
-perché $i_c$ si può sempre scrivere come flusso di $\vec{j}_c$. In questo caso $\Sigma$ è una qualsiasi superficie che ha $\mathcal{C}$ come contorno. Se utilizziamo la relazione precedente prendendo come $\Sigma$ una superficie che è attraversata dal filo, l'integrale sulla destra si calcola immediatamente ed ha risultato $\mu_0 i_c$. Consideriamo invece il caso di una superficie che passa tra le due pareti del condensatore senza toccare il filo. In questo caso la densità di corrente di conduzione è chiaramente nulla, ma il valore dell'integrale *non può* dipendere dalla superficie che scegliamo, perché discende direttamente dal teorema di Ampère.
+perché $i_c$ si può sempre scrivere come flusso di $\vec{j}_c$. In questo caso $\Sigma$ è una qualsiasi superficie che ha $\mathcal{C}$ come contorno. Se utilizziamo la relazione precedente prendendo come $\Sigma$ una superficie che è attraversata dal filo, l'integrale sulla destra si calcola immediatamente ed ha risultato $\mu_0 i_c$. Consideriamo invece il caso di una superficie che passa tra le due pareti del condensatore senza toccare il filo. In questo caso la densità di corrente di conduzione è chiaramente nulla, ma il valore dell'integrale *non può* dipendere dalla superficie che scegliamo dato che discende direttamente dal teorema di Ampère.
 
 Questo apparente paradosso si risolve con il concetto di *corrente di spostamento*, che abbiamo introdotto nella parte relativa ai circuiti. Effettivamente durante la carica (o la scarica) di un condensatore, su un'armatura si verifica una variazione di carica per unità di tempo $dq / dt$ uguale in modulo ma opposta in segno a quella che si verifica sull'altra armatura. Questa variazione è a tutti gli effetti modellizzabile come una corrente $i_s$ (non di conduzione) legata alla variazione del flusso del campo elettrico. Si trova infatti che vale
 
@@ -90,7 +90,7 @@ $$
 da cui si deriva l'espressione del modulo del campo magnetico:
 
 $$
-B = \frac{\mu_0 r^2}{2 \pi a^2} \frac{\mathcal{E}}{R} e^{-\frac{t}{\tau}}
+B = \frac{\mu_0 r}{2 \pi a^2} \frac{\mathcal{E}}{R} e^{-\frac{t}{\tau}}
 $$
 
 
@@ -132,7 +132,7 @@ Equazioni in questa forma hanno una soluzione banale ($\vec{B} = 0$ e $\vec{E} =
 Le equazioni di Faraday e di Ampère-Maxwell possono essere riscritte in forma *locale* utilizzando il teorema di Stokes. Si ha infatti che
 
 $$
-\oint \vec{E} \cdot d\vec{s} = \int\_{\Sigma} \vec{\nabla} \times \vec{E} \cdot \hat{n} d\Sigma = - \frac{\partial}{\partial t} \int\_{\Sigma} \vec{B} \cdot \hat{n} d\Sigma = - \int\_{\Sigma} \frac{\partial \vec{B}}{\partial t} \cdot \hat{n} d\Sigma.
+\oint_\mathcal{C} \vec{E} \cdot d\vec{s} = \int\_{\Sigma(\mathcal{C})} \vec{\nabla} \times \vec{E} \cdot \hat{n} d\Sigma = - \frac{\partial}{\partial t} \int\_{\Sigma(\mathcal{C})} \vec{B} \cdot \hat{n} d\Sigma = - \int\_{\Sigma(\mathcal{C})} \frac{\partial \vec{B}}{\partial t} \cdot \hat{n} d\Sigma.
 $$
 
 Poiché questa relazione è vera per qualunque $\Sigma$, si deve avere
@@ -144,7 +144,7 @@ $$
 In maniera del tutto analoga si trova 
 
 $$
-\oint \vec{B} \cdot d\vec{s} = \int\_{\Sigma} \vec{\nabla} \times \vec{B} \cdot \hat{n} d\Sigma = \mu_0 \int\_{\Sigma} \vec{j} \cdot \hat{n} d\Sigma + \epsilon_0 \mu_0 \int\_{\Sigma} \frac{\partial \vec{E}}{\partial t} \cdot \hat{n} d\Sigma
+\oint_\mathcal{C} \vec{B} \cdot d\vec{s} = \int\_{\Sigma(\mathcal{C})} \vec{\nabla} \times \vec{B} \cdot \hat{n} d\Sigma = \mu_0 \int\_{\Sigma(\mathcal{C})} \vec{j} \cdot \hat{n} d\Sigma + \epsilon_0 \mu_0 \int\_{\Sigma(\mathcal{C})} \frac{\partial \vec{E}}{\partial t} \cdot \hat{n} d\Sigma
 $$
 
 e quindi
@@ -164,7 +164,7 @@ Questa è la forma più comoda dal punto di vista pratico, poiché queste relazi
 
 ## Conservazione della carica
 
-Prendiamo la divergenza dell'equazione di Maxwell in forma differenziale che lega il campo magnetico alle sue sorgenti. Poiché il risultato di un prodotto vettoriale è sempre ortogonale ad entrambi i vettori che andiamo a moltiplicare, $\vec{nabla} \cdot (\vec{nabla} \times \vec{B}) = 0$, quindi
+Prendiamo la divergenza dell'equazione di Maxwell in forma differenziale che lega il campo magnetico alle sue sorgenti. Poiché il risultato di un prodotto vettoriale è sempre ortogonale ad entrambi i vettori che andiamo a moltiplicare, $\vec{\nabla} \cdot (\vec{\nabla} \times \vec{B}) = 0$, quindi
 
 $$
 \vec{\nabla} \cdot \vec{j} + \epsilon_0 \frac{\partial}{\partial t} \vec{\nabla} \cdot \vec{E} = 0

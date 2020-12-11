@@ -1,5 +1,5 @@
 +++
-title = "Lezione del 10/12/2020"
+title = "Lezione del 09/12/2020"
 date = 2020-12-07T07:19:34+01:00
 draft = false
 +++
@@ -36,7 +36,7 @@ $$
 dove $r$ è la distanza dal centro del solenoide. Calcoliamo il flusso attraverso una singola spira (per cui vale $\hat{n} = \hat{\phi}$):
 
 $$
-\Phi_s(\vec{B}) = \int\_\Sigma \vec{B} \cdot \hat{n} = \frac{\mu_0 N i}{2 \pi } \int_0^a da \int_0^b \frac{db'}{R + b'} = \frac{\mu_0 N i a}{2 \pi} \int_0^b \frac{db'}{R + b'} = \frac{\mu_0 N i a}{2 \pi} \log\left( \frac{R + b}{R} \right)
+\Phi_s(\vec{B}) = \int\_\Sigma \vec{B} \cdot \hat{n} d\Sigma = \frac{\mu_0 N i}{2 \pi } \int_0^a da \int_0^b \frac{db'}{R + b'} = \frac{\mu_0 N i a}{2 \pi} \int_0^b \frac{db'}{R + b'} = \frac{\mu_0 N i a}{2 \pi} \log\left( \frac{R + b}{R} \right)
 $$
 
 e quindi per $N$ spire vale
@@ -134,7 +134,13 @@ $$
 \frac{\mathcal{E}_L}{R'} = i(t),
 $$
 
-cioè proprio la corrente che scorre nel circuito. Il grande valore di $\mathcal{E}_L$ fa sì che tra i contatti dell'interruttore si generi un campo che può talvolta eccedere la resistenza dielettrica del mezzo: in questo caso si possono generare scintille o addirittura incendi.
+cioè proprio la corrente che scorre nel circuito. Il grande valore di $\mathcal{E}_L$ fa sì che tra i contatti dell'interruttore si generi un campo che può talvolta eccedere la resistenza dielettrica del mezzo: in questo caso si possono generare scintille o addirittura incendi. 
+
+Un esempio di sistema in cui si genera una $\mathcal{E}_L > \mathcal{E}$ è mostrato nel video seguente:
+
+{{< youtube HxTYsO_4NBk >}}
+
+dove viene mostrato il comportamento di un circuito composto da una batteria da $9$ V, da un induttore e da una lampadina che richiede 60-70 $V$. Quest'ultima si accende (anche se brevemente) solo quando il circuito viene aperto, perché per un breve istante la forza elettromotrice indotta è sufficientemente alta da fornire il potenziale necessario alla lampadina.
 
 ## Energia magnetica
 <small>MNV: paragrafo 8.5</small>
@@ -145,7 +151,7 @@ $$
 \mathcal{P} = \mathcal{E}i = Ri^2 + Li \frac{di}{dt}
 $$
 
-e quindi il lavoro nel tempo $dt$ vale
+perché $\mathcal{E} + \mathcal{E}_L = Ri$ e quindi $\mathcal{E} = Ri - \mathcal{E}_L$. Il lavoro nel tempo $dt$ vale quindi
 
 $$
 \mathcal{E}i dt = Ri^2 dt + Li di.
