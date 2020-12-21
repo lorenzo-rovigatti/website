@@ -1,6 +1,6 @@
 +++
-title = "Lezione del 12/12/2019"
-date = 2019-12-08T07:19:34+01:00
+title = "Lezione del 22/12/2020"
+date = 2020-12-21T07:19:34+01:00
 draft = false
 +++
 
@@ -45,7 +45,7 @@ Possiamo ora utilizzare le altre due equazioni di Maxwell (in cui figurano i rot
 0 = \frac{\partial E_x}{\partial t}, & \frac{\partial B_z}{\partial x} = -\epsilon_0 \mu_0  \frac{\partial E_y}{\partial t}, & \frac{\partial B_y}{\partial x} = \epsilon_0 \mu_0 \frac{\partial E_z}{\partial t}.
 \end{matrix}
 
-Poiché le componenti lungo $x$ dei campi hanno derivate nulle sia rispetto al tempo che rispetto allo spazio, si trova che $E_x$ e $B_x$ devono essere *costanti*. In generale esistono situazioni in cui è presente nello spazio un campo costante e diverso da zero (per esempio il campo generato da un piano indefinito), ma in questo caso sappiamo che non ci sono sorgenti di campo: $E_x$ e $B_x$ devono essere non solo costanti ma proprio nulli.
+Poiché le componenti lungo $x$ dei campi hanno derivate nulle sia rispetto al tempo che rispetto allo spazio, si trova che $E_x$ e $B_x$ devono essere *costanti*. In generale esistono situazioni in cui è presente nello spazio un campo costante e diverso da zero, per esempio il campo elettrico generato da un piano indefinito o il campo magneetico presente all'interno di un solenoide. Questi, però, sono tutti casi in cui sono presenti delle sorgenti di campo. Qui consideriamo il caso in cui le sorgenti di campo sono assenti. Ne discende che $E_x$ e $B_x$ devono essere non solo costanti ma proprio nulli.
 
 Per risolvere questo set di equazioni consideriamo le relazioni che legano $E_y$ e $B_z$. Derivandone una rispetto al tempo e l'altra rispetto a $x$ si trova
 
@@ -130,7 +130,7 @@ Diamo ora altre definizioni utili:
 * è definita *fase* dell'onda l'argomento della funzione, $\phi \equiv kx - \omega t$.
 * Tutti i punti dello spazio aventi, in un certo istante, la stessa fase sono detti *fronte d'onda*. Nel caso di un'onda piana il fronte d'onda è, per l'appunto, un piano. La funzione che rappresenta l'onda prende lo stesso valore su tutto il fronte d'onda. Poiché la funzione è periodica, la stessa situazione si ripete a distanze multiple di $\lambda$: il fronte d'onda, come del resto l'onda in generale, si muove lungo la direzione di propagazione con velocità $v$.
 
-Questi concetti di generalizzano anche in presenza di onde non piane. In particolare, il fronte d'onda è sempre definito come il luogo dei punti per i quali, in un certo istante, la fase dell'onda è costante.
+Questi concetti si generalizzano anche in presenza di onde non piane. In particolare, il fronte d'onda è sempre definito come il luogo dei punti per i quali, in un certo istante, la fase dell'onda è costante.
 
 #### Onde elettromagnetiche piane
 
@@ -196,7 +196,7 @@ Tutte queste proprietà delle onde (dalla relazione tra le componenti alla direz
 ### Energia e quantità di moto di un'onda
 <small>MNV: paragrafo 10.4, 10.5</small>
 
-Abbiamo visto come sia possibile associare un'energia alla presenza di campi, sia magnetici che elettrici, in una regiona di spazio. Considerando la relazione che lega i modulli dei campi, in questo caso la densità di energia vale
+Abbiamo visto come sia possibile associare un'energia alla presenza di campi, sia magnetici che elettrici, in una regione di spazio. Considerando la relazione che lega i modulli dei campi, in questo caso la densità di energia vale
 
 $$
 u = \frac{1}{2} \epsilon_0 E^2 + \frac{1}{2\mu_0} B^2 = \frac{1}{2} \epsilon_0 E^2 + \frac{1}{2\mu_0} \frac{E^2}{c^2} = \epsilon_0 E^2

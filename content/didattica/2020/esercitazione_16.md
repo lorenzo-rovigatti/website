@@ -1,12 +1,12 @@
 +++
-title = "Esercitazione del 17/12/2019"
-date = 2019-12-11T12:24:21+02:00
+title = "Esercitazione del 17/12/2020"
+date = 2020-12-14T12:24:21+02:00
 draft = false
 +++
 
-[Esercizio 61](#esercizio-61) -- [Esercizio 62](#esercizio-62) -- [Esercizio 52](#esercizio-52)
+[Esercizio 61](#esercizio-61) -- [Esercizio 62](#esercizio-62) -- [Esercizio 52](#esercizio-52) -- [Esercizio 44](#esercizio-44)
 
-## Esercizio 61
+## Esercizio 61 (non svolto in aula)
 
 ### Testo
 
@@ -146,3 +146,44 @@ e quindi $v_2$ vale:
 $$
 v_2 = (v_2 - v_1) + v_1 = 3 \times 10^6 \, {\rm m/s}
 $$
+
+---
+
+## Esercizio 44
+
+### Testo
+
+{{< figure src="../images/esercizio_44.png" width="300px">}}
+
+Una spira rettangolare rigida di lati $a = 10$ cm e $b = 20$ cm ha una densità lineare di massa $\lambda_m = 0.05$ g/cm ed è percorsa da una corrente $i = 6$ A. Essa è posta inizialmente sul piano $xy$ con il lato a $y$ maggiori (lungo $a$) combaciante con l'asse $x$ e, in questa configurazione, la corrente scorre in verso antiorario. La spira può ruotare liberamente (senza attrito) intorno a quest'asse, mentre la forza peso agisce in direzione $-\hat{y}$. Determinare 
+
+1. il modulo ed il verso del campo magnetico $\vec{B}$, uniforme e parallelo all'asse $y$, che produce una rotazione della spira verso $\hat{z}$ di $\theta_0 = 12^\circ = 0.209$ rad;
+2. il lavoro compiuto dal campo sulla spira per produrre detta rotazione.
+
+### Soluzione
+
+1. Se la spira è in equilibrio quando forma un certo angolo $\theta$, significa che per questo valore dell'angolo i momenti meccanici presenti si equivalgono. Calcoliamoli rispetto all'asse $x$. Il fatto che la spira sia libera di ruotare rispetto al lato più in alto significa che quest'ultimo è fermo, e cioè non risente di eventuali forze presenti. Il momento magnetico sarà quindi dato dalla forza che agisce sull'altro lato di dimensione $a$, che vale
+
+$$
+\vec{F}_m = i a B \hat{x} \times \hat{y} = i a B \hat{z}
+$$
+
+e che, rispetto all'asse $x$, genera un momento meccanico magnetico
+$$
+\vec{M}_m = -i a b B \sin\left( \frac{\pi}{2} - \theta_0 \right) \hat{x}
+$$
+**Nota Bene:** data la definizione di $\theta$, il braccio del momento *non è* $\theta$ ma $\pi / 2 - \theta$ (disegnare il sistema di profilo per dimostrarlo!). D'altro canto, la forza peso vale in modulo $mg = 2\lambda_m (a + b) g$ ed è applicata a distanza $b / 2 \sin \theta_0$, quindi il suo momento rispetto ad $\hat{x}$ vale
+$$
+\vec{M}_g = \lambda_m (a + b)b g \sin \theta_0 \hat{x}
+$$
+I segni che abbiamo trovato considerando il verso di $\vec{B}$ parallelo a $\hat{y}$ sono corretti, perché così facendo si trova che i due momenti hanno verso opposto, e quindi effettivamente $\hat{B} = \hat{y}$. Eguagliando i moduli dei due momenti possiamo ricavare il modulo del campo:
+$$
+B = \frac{\lambda g}{i}\frac{a + b}{a} \tan \theta_0  = 5.21 \cdot 10^{-3} \, {\rm T}.
+$$
+
+2. Il lavoro si ottiene integrando il momento meccanico tra $\theta = 0$ e $\theta = \theta_0$:
+
+$$
+W = iabB \int_0^{\theta_0} \cos \theta d\theta = iabB \sin \theta |_0^{\theta_0} = iabB \sin{\theta_0} = 1.3 \times 10^{-4} \, {\rm J}
+$$
+

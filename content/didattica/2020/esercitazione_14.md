@@ -12,7 +12,7 @@ draft = false
 
 {{< figure src="../images/esercizio_55.png" width="500px">}}
 
-In un piano inclinato di angolo $\alpha=\pi / 6 = 30^\circ$ sono poste due rotaie parallele, distanti $l=10$ cm, di resistenza elettrica trascurabile e connesse elettricamente tra loro alla sommità. Su di esse può scorrere senza attrito una sbarretta conduttrice di massa $m=10$ g e resistenza elettrica $R=0.1\, \Omega$. Il tutto è immerso in un campo magnetico uniforme e costante, diretto verticalmente, di modulo $B=0.5$ T. Ad un certo istante la sbarretta viene lasciata libera di scivolare lungo il piano inclinato. Determinare:
+In un piano inclinato di angolo $\theta=\pi / 6 = 30^\circ$ sono poste due rotaie parallele, distanti $l=10$ cm, di resistenza elettrica trascurabile e connesse elettricamente tra loro alla sommità. Su di esse può scorrere senza attrito una sbarretta conduttrice di massa $m=10$ g e resistenza elettrica $R=0.1\, \Omega$. Il tutto è immerso in un campo magnetico uniforme e costante, diretto verticalmente, di modulo $B=0.5$ T. Ad un certo istante la sbarretta viene lasciata libera di scivolare lungo il piano inclinato. Determinare:
 
 1. verso e intensità della corrente indotta nella spira individuata dal sistema rotaie-sbarretta in funzione della velocità della sbarretta.
 2. la velocità limite della sbarretta nel suo moto di scivolamento.
@@ -21,27 +21,27 @@ In un piano inclinato di angolo $\alpha=\pi / 6 = 30^\circ$ sono poste due rotai
 
 1. Il verso è dato dalla legge di Lenz: poiché il flusso attraverso la spira aumenta, il campo magnetico generato dalla corrente indotta deve opporsi a quello esterno e quindi, nel sistema di riferimento indicato in figura, la corrente scorre lungo $-\hat{z}$ all'interno della sbarretta. Possiamo ricavare la corrente a partire dalla legge di Faraday. Il flusso del campo attraverso la superficie della spira è
 $$
-\Phi(B) = l x B \cos \alpha
+\Phi(B) = l x B \cos \theta
 $$
-perché tra la normale alla spira e il campo magnetico vi è un angolo $\alpha$. $x$ indica lo spostamento della sbarretta lungo il piano parallelo rispetto alla sua posizione iniziale. La forza elettromotrice indotta sarà quindi
+perché tra la normale alla spira e il campo magnetico vi è un angolo $\theta$. $x$ indica lo spostamento della sbarretta lungo il piano parallelo rispetto alla sua posizione iniziale. La forza elettromotrice indotta sarà quindi
 $$
-\mathcal{E}_i = -\frac{d \Phi(B)}{dt} = - I B \cos \alpha v(t)
+\mathcal{E}_i = -\frac{d \Phi(B)}{dt} = - l B \cos \theta v(t)
 $$
 perché $dx / dt = v(t)$, quindi la corrente ha intensità
 $$
-i = \frac{l B \cos \alpha v(t)}{R}
+i = \frac{l B \cos \theta v(t)}{R}
 $$
 2. La velocità limite si raggiunge quando $v$ rimane costante durante il moto. Affinché la velocità sia costante l'accelerazione deve essere nulla, e quindi la somma delle forze deve anch'essa azzerarsi. Le componenti ortogonali al piano si azzerano in forza della reazione normale. Le componenti parallele, d'altro canto, devono azzerarsi perché uguali in modulo ma opposte in verso. Col sistema di riferimento indicato in figura la forza peso ha direzione $-\hat{y}$, mentre quella magnetica vale 
 $$
-\vec{F}_m = i \vec{l} \times \vec{B} = -\frac{I^2 B^2}{R} \cos \alpha v(t) \hat{x}
+\vec{F}_m = i \vec{l} \times \vec{B} = \frac{l^2 B^2}{R} \cos \theta v(t) \hat{x}
 $$
 poiché la corrente scorre nella sbarretta verso $\hat{z}$ e $\vec{B}$ è diretto lungo $\hat{y}$. Eguagliando le intensità delle componenti delle due forze lungo il piano inclinato si trova
 $$
-mg \sin\alpha = \frac{I^2 B^2}{R} \cos^2 \alpha v\_{\rm lim}
+mg \sin\theta = \frac{l^2 B^2}{R} \cos^2 \theta v\_{\rm lim}
 $$
 da cui si ricava
 $$
-v\_{\rm lim} = \frac{mg R \tan \alpha}{l^2 B^2 \cos \alpha}
+v\_{\rm lim} = \frac{mg R \tan \theta}{l^2 B^2 \cos \theta}
 $$
 
 ---
@@ -86,7 +86,7 @@ $$
 
 {{< figure src="../images/esercizio_57.png" width="500px">}}
 
-Un circuito chiuso di forma rettangolare di dimensioni $a = 40$ cm e $b = 10$ cm contenente un condensatore di capacità $C$  è parzialmente immerso in una regione di campo magnetico larga $L = 20$ cm (vedi disegno). Il campo magnetico ha direzione e verso ortogonale al circuito e modulo che varia nel tempo con la legge $B(t) = B_0 \exp(-t / \tau)$.  Determinare segno e quantità di carica $q(t)$ presente sulle armature del condensatore.
+Un circuito chiuso di forma rettangolare di dimensioni $a$ cm e $b$ cm contenente un condensatore di capacità $C$  è parzialmente immerso in una regione di campo magnetico larga $L$ cm (vedi disegno). Il campo magnetico ha direzione e verso ortogonale al circuito e modulo che varia nel tempo con la legge $B(t) = B_0 \exp(-t / \tau)$.  Determinare segno e quantità di carica $q(t)$ presente sulle armature del condensatore.
 
 ### Soluzione
 

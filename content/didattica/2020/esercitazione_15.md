@@ -1,14 +1,12 @@
 +++
-title = "Esercitazione del 11/12/2019"
-date = 2019-12-05T12:24:21+02:00
+title = "Esercitazione del 16/12/2020"
+date = 2020-12-14T12:24:21+02:00
 draft = false
 +++
 
 [Esercizio 58](#esercizio-58) -- [Esercizio 59](#esercizio-59) -- [Esercizio 60](#esercizio-60)
 
 ## Esercizio 58
-
-### <u>Attenzione, in aula il docente ha risolto il terzo punto della prima parte in maniera errata. Qui trovate la soluzione esatta.</u>
 
 ### Testo
 
@@ -76,23 +74,27 @@ che, dati i versi indicati in figura, ha direzione verso destra.
 	$$
 
 ---
-	
+
 ## Esercizio 59
 
 ### Testo
 
-Un circuito è composto da una batteria, da una resistenza $R$, da un'induttanza ($L = 9.44$ H) e da un interruttore, inizialmente chiuso. Al tempo zero l'interruttore viene aperto. Sapendo che nei primi $15$ s la corrente passa da $1.16$ A a $10.2$ mA, determinare il valore della resistenza $R'$ presente tra i due poli dell'interruttore.
+Un circuito è composto da una batteria di f.e.m. $\mathcal{E}$, da una resistenza $R = 0.1 \, \Omega$, da un'induttanza ($L = 9.44$ H) e da un interruttore, inizialmente chiuso. Al tempo zero l'interruttore viene aperto. Sapendo che nei primi $15$ s la corrente passa da $1.16$ A a $10.2$ mA. Determinare
+
+1. il valore di $\mathcal{E}$;
+2. il valore della resistenza $R'$ presente tra i due poli dell'interruttore.
 
 ### Soluzione
 
-La legge oraria con cui varia l'intensità di corrente in un circuito $RL$ che viene scollegato dal generatore è
-
+1. La legge oraria con cui varia l'intensità di corrente in un circuito $RL$ che viene scollegato dal generatore è
 $$
 i(t) = i\_{\infty} e^{-\frac{t}{\tau}},
 $$
-
-dove $i\_{\infty} = \frac{\mathcal{E}}{R}$ è il valore della corrente a circuito chiuso e $\tau = L / R'$. Dal testo si capisce che $i\_{\infty} = 1.16$ A e quindi $i(15 \, {\rm s}) = 10.2$ mA. Risolvendo per $R'$ si trova
-
+dove $i\_{\infty} = \frac{\mathcal{E}}{R}$ è il valore della corrente a circuito chiuso e $\tau = L / R'$. Dal testo si capisce che $i\_{\infty} = 1.16$ A e $i(15 \, {\rm s}) = 10.2$ mA. Utilizzando la prima relazione si trova
+$$
+\mathcal{E} = R i\_{\infty} = 0.116 \, {\rm V}.
+$$
+2. Sapendo che $i(15 \, {\rm s}) = 10.2$ mA e risolvendo per $R'$ si trova
 $$
 R' = \frac{L}{15 \, {\rm s}} \log \left( \frac{i\_{\infty}}{i(15 \, {\rm s})} \right) = 2.98 \, \Omega
 $$
@@ -128,6 +130,7 @@ $$
 U = \frac{1}{2} L i\_{\infty}^2 = 0.32 \, {\rm J}
 $$
 3. Il valore si ottiene sostituendo $t = 3 L / R$ in $i(t)$, trovando
+
 $$
 i(3 L / R) = 38\, {\rm A}
 $$

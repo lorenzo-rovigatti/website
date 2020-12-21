@@ -12,7 +12,7 @@ draft = false
 
 ### Comunicazioni
 
-* **Secondo esonero**: tutti gli studenti che vogliono partecipare sono invitati ad iscriversi al seguente [link](https://docs.google.com/forms/d/18g6MeT3VKRODUMQWXzEwc1KyqDqTpMekqYTEqx8v2Qw/edit). L'esonero si terrà alle ore 11:00 del 23/12 in modalità online. Gli studenti verranno assegnati in maniera casuale a due gruppi che verranno "controllati" da me e dal prof. Russo. L'esonero durerà due ore e si svolgerà sulla piattaforma [exam.net](http://www.exam.net/). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esonero, da leggere **attentamente**. Per domande/richieste di chiarimenti sulle modalità scrivete al docente. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
+* **Secondo esonero**: L'esonero comincerà alle ore 10:50 del 23/12 in modalità online al link inviato agli studenti che si sono iscritti tramite modulo Google. Gli studenti verranno assegnati in maniera casuale a due gruppi che verranno "controllati" da me e dal prof. Russo. L'esonero durerà due ore e si svolgerà sulla piattaforma [exam.net](http://www.exam.net/). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esonero, da leggere **attentamente**. Per domande/richieste di chiarimenti sulle modalità scrivete al docente. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
 * **Primo esonero**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2020/risultati_primo_esonero.md" >}}).
 * **Lezione del 19/11/2020**: la lezione di Giovedì 19/11/2020 si terrà straordinariamente a [questo link](https://uniroma1.zoom.us/j/96912163505?pwd=QXZ1T0UwNklTR2NNY3dJSUxvcHpiQT09) (ID: 969 1216 3505, passcode: FIS2MAT). Durante la lezione verranno fatte dimostrazioni di fenomeni elettrostatici.
 * Per rendere più veloce l'inizio delle lezioni ed evitare di dover accettare ogni studente che segue online si raccomanda di compilare il modulo che si trova a [questo link](https://docs.google.com/forms/d/1gqXvZwm_cwknyPElF3dfJE_aMutHvt0_Mk5GNMFvg7c/edit)
@@ -353,6 +353,25 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 8.7, 8.8, 8.9
 * [Appunti](../../files/appunti/2020/appunti_10_12.pdf)
 {{% /expand %}}
+{{% expand "15/12/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_14.md" >}}))
+* Esercizi consigliati MNV: 8.2, 8.5, 8.6, 8.7
+{{% /expand %}}
+{{% expand "16/12/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_15.md" >}}))
+* Esercizi consigliati MNV: 8.10, 8.11, 8.13, 8.28, 8.29, 8.30, 8.31
+{{% /expand %}}
+{{% expand "17/12/2020, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_16.md" >}}))
+{{% /expand %}}
+{{% expand "22/12/2020, <b>L</b>" %}}
+* Onde elettromagnetiche come soluzioni delle equazioni di Maxwell
+* Onde piane
+* Onde armoniche
+* Energia e quantità di moto di un'onda
+* Spettro delle onde elettromagnetiche
+* Riferimenti bibliografici MNV: 10.1, 10.2, 10.3, 10.4, 10.5, 10.8
+{{% /expand %}}
 
 ### Note
 
@@ -374,3 +393,4 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 02/12/2020]({{< ref "2020/13_elettromagnetismo_1.md" >}})
 * [Lezione del 09/12/2020]({{< ref "2020/14_elettromagnetismo_2.md" >}})
 * [Lezione del 10/12/2020]({{< ref "2020/15_elettromagnetismo_3.md" >}})
+* [Lezione del 22/12/2020]({{< ref "2020/16_onde_1.md" >}})
