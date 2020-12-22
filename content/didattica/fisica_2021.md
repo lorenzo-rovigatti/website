@@ -356,10 +356,12 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 {{% expand "15/12/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_14.md" >}}))
 * Esercizi consigliati MNV: 8.2, 8.5, 8.6, 8.7
+* [Appunti](../../files/appunti/2020/appunti_15_12.pdf)
 {{% /expand %}}
 {{% expand "16/12/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_15.md" >}}))
 * Esercizi consigliati MNV: 8.10, 8.11, 8.13, 8.28, 8.29, 8.30, 8.31
+* [Appunti](../../files/appunti/2020/appunti_16_12.pdf)
 {{% /expand %}}
 {{% expand "17/12/2020, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_16.md" >}}))
@@ -371,6 +373,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Energia e quantità di moto di un'onda
 * Spettro delle onde elettromagnetiche
 * Riferimenti bibliografici MNV: 10.1, 10.2, 10.3, 10.4, 10.5, 10.8
+* [Appunti](../../files/appunti/2020/appunti_22_12.pdf)
 {{% /expand %}}
 
 ### Note

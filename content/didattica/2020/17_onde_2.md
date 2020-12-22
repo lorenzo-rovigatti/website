@@ -131,7 +131,7 @@ $$
 E(r, t) = E_0(r ) \cos(kr - \omega t).
 $$
 
-Si parla in questo caso di onda *sferica*, perché per $t$ costante i fronti d'onda, cioè il luogo dei punti in qui la fase è costante, sono sfere.
+Si parla in questo caso di onda *sferica*, perché per $t$ costante i fronti d'onda, cioè il luogo dei punti in qui la fase è costante, sono sfere. A [questa](https://phet.colorado.edu/sims/html/waves-intro/latest/waves-intro_it.html) pagina si può simulare una sorgente di onde sferiche, elettromagnetiche e non.
 
 La potenza media che attraversa una superficie sferica di raggio $r$ sarà data dall'intensità dell'onda $I(r )$ per la superficie della sfera, $4 \pi r^2$, e quindi
 

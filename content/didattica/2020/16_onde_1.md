@@ -10,6 +10,8 @@ Le onde sono fenomeni fisici comuni che appaiono in molti contesti ogniqualvolta
 
 Le onde con cui abbiamo più familiarità sono quelle *meccaniche*, che richiedono un mezzo materiale per propagarsi. Esempi noti sono le onde sonore, le onde sulla superficie di un liquido oppure le onde che si ottengono facendo oscillare una corda tesa. **Nota Bene:** in tutti questi casi il trasporto non è di materia ma di energia e quantità di moto (anche se in alcuni casi, come per le onde del mare, potrebbe sembrare il contrario).
 
+A [questo](https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_it.html) link trovate una pagina per simulare onde su di una corda.
+
 ### Soluzione delle equazioni di Maxwell
 <small>MNV: paragrafo 10.3</small>
 
@@ -45,7 +47,7 @@ Possiamo ora utilizzare le altre due equazioni di Maxwell (in cui figurano i rot
 0 = \frac{\partial E_x}{\partial t}, & \frac{\partial B_z}{\partial x} = -\epsilon_0 \mu_0  \frac{\partial E_y}{\partial t}, & \frac{\partial B_y}{\partial x} = \epsilon_0 \mu_0 \frac{\partial E_z}{\partial t}.
 \end{matrix}
 
-Poiché le componenti lungo $x$ dei campi hanno derivate nulle sia rispetto al tempo che rispetto allo spazio, si trova che $E_x$ e $B_x$ devono essere *costanti*. In generale esistono situazioni in cui è presente nello spazio un campo costante e diverso da zero, per esempio il campo elettrico generato da un piano indefinito o il campo magneetico presente all'interno di un solenoide. Questi, però, sono tutti casi in cui sono presenti delle sorgenti di campo. Qui consideriamo il caso in cui le sorgenti di campo sono assenti. Ne discende che $E_x$ e $B_x$ devono essere non solo costanti ma proprio nulli.
+Poiché le componenti lungo $x$ dei campi hanno derivate nulle sia rispetto al tempo che rispetto allo spazio, si trova che $E_x$ e $B_x$ devono essere *costanti*. In generale esistono situazioni in cui è presente nello spazio un campo costante e diverso da zero, per esempio il campo elettrico generato da un piano indefinito o il campo magnetico presente all'interno di un solenoide. Questi, però, sono tutti casi in cui sono presenti delle sorgenti di campo. Qui consideriamo il caso in cui le sorgenti di campo sono assenti. Ne discende che $E_x$ e $B_x$ devono essere non solo costanti ma proprio nulli.
 
 Per risolvere questo set di equazioni consideriamo le relazioni che legano $E_y$ e $B_z$. Derivandone una rispetto al tempo e l'altra rispetto a $x$ si trova
 
@@ -196,7 +198,7 @@ Tutte queste proprietà delle onde (dalla relazione tra le componenti alla direz
 ### Energia e quantità di moto di un'onda
 <small>MNV: paragrafo 10.4, 10.5</small>
 
-Abbiamo visto come sia possibile associare un'energia alla presenza di campi, sia magnetici che elettrici, in una regione di spazio. Considerando la relazione che lega i modulli dei campi, in questo caso la densità di energia vale
+Abbiamo visto come sia possibile associare un'energia alla presenza di campi, sia magnetici che elettrici, in una regione di spazio. Considerando la relazione che lega i moduli dei campi, in questo caso la densità di energia vale
 
 $$
 u = \frac{1}{2} \epsilon_0 E^2 + \frac{1}{2\mu_0} B^2 = \frac{1}{2} \epsilon_0 E^2 + \frac{1}{2\mu_0} \frac{E^2}{c^2} = \epsilon_0 E^2
@@ -237,12 +239,22 @@ Un'onda non possiede solo un'energia intrinseca, ma anche una quantità di moto.
 * nel caso di assorbimento completo *tutta* la quantità di moto viene ceduta all'oggetto colpito. In questo caso si ha $p_{\rm rad} = \frac{I}{c} = \frac{1}{2} \epsilon_0 E_0^2$.
 * Se l'oggetto colpito ha la proprietà di riflettere completamente l'onda, questa dopo l'urto si propagherà in direzione $-\hat{x}$, e quindi l'impulso trasferito al corpo sarà doppio rispetto a prima. In questo caso la pressione di radiazione varrà quindi $p_{\rm rad} = \epsilon_0 E_0^2$.
 
-Un'interessante applicazione di questa proprietà delle onde elettromagnetiche sono le cosiddette *pinzette ottiche* (*optical tweezers* in inglese), il cui sviluppo da parte di Arthur Ashkin è stato premiato nel 2018 con il Nobel per la fisica. Questa tecnologia utilizza fasci laser per intrappolare ed eventualmente spostare a piacere piccoli oggetti microscopici quali particelle colloidali, batteri e cellule. Se siete curiosi date un'occhiata [qui](https://www.youtube.com/watch?v=ju6wENPtXu8) o [qui](https://www.youtube.com/watch?v=mBE6xboXeHM) per vedere come piccole sfere micrometriche o globuli rossi possono essere manipolati e spostati a piacere!
+Un'interessante applicazione di questa proprietà delle onde elettromagnetiche sono le cosiddette *pinzette ottiche* (*optical tweezers* in inglese), il cui sviluppo da parte di Arthur Ashkin è stato premiato nel 2018 con il Nobel per la fisica. Questa tecnologia utilizza fasci laser per intrappolare ed eventualmente spostare a piacere piccoli oggetti microscopici quali particelle colloidali, batteri e cellule. Se siete curiosi date un'occhiata ai due video seguenti per vedere come piccole sfere micrometriche o globuli rossi possono essere manipolati e spostati a piacere:
+
+{{< youtube ju6wENPtXu8 >}}
+
+<br/>
+
+{{< youtube mBE6xboXeHM >}}
+
+A [questa](https://phet.colorado.edu/sims/cheerpj/optical-tweezers/latest/optical-tweezers.html?simulation=optical-tweezers&locale=it) è anche possibile simulare un esperimento eseguito con pinzette ottiche. Attenzione, le opzioni sono tante!
 
 ### Spettro delle onde elettromagnetiche
 <small>MNV: paragrafo 10.8</small>
 
-Le onde elettromagnetiche possono avere frequenze in intervallo di valori molto ampio, che va da $10^2$ Hz fino a $10^18$ Hz. Questo *spettro* di frequenze è stato storicamente suddiviso in *bande*:
+Le onde elettromagnetiche possono avere frequenze in intervallo di valori molto ampio, che va da $10^2$ Hz fino a $10^{18}$ Hz. Questo *spettro* di frequenze è stato storicamente suddiviso in *bande*, mostrate in figura:
+
+{{< figure src="../images/spettro_elettromagnetico.png" alt="spettro elettromagnetico" width="90%">}}
 
 #### Onde hertziane o radio,$(10^2 \leq \nu \leq 10^9)$ Hz, $(3 \times 10^6 \geq \lambda \geq 0.3)$ m
 
