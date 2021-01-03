@@ -1,6 +1,6 @@
 +++
 title = "Esercitazione del 22/10/2020"
-date = 2019-10-16T09:47:43+02:00
+date = 2020-10-21T09:47:43+02:00
 draft = false
 +++
 
@@ -193,11 +193,11 @@ Questi valori si possono validare a due a due considerando che la quantità di c
 3. Per il principio della gabbia di Faraday, il fatto che il conduttore più esterno sia messo o meno a terra non cambia la d.d.p. tra i due conduttori, che vale sempre:
 $$
 \Delta V\_{1,3} = V(R_1) - V(R_3) = \int\_{R_1}^{R_3} \vec{E} \cdot d\vec{s} = \int\_{R_1}^{R_2} \frac{\sigma R_1}{\kappa_1 \epsilon_0 r} dr + \int\_{R_2}^{R_3} \frac{\sigma R_1}{\kappa_2 \epsilon_0 r} dr = \frac{\sigma R_1}{\epsilon_0} \left( \frac{1}{\kappa_1} \log\left( \frac{R2}{R1}\right) + \frac{1}{\kappa_2} \log\left( \frac{R3}{R2}\right)\right)
- $$
+$$
  D'altro canto, la d.d.p. tra il guscio esterno ed un punto qualsiasi al suo esterno vale $0$ nel caso sia messo a terra (applicate il teorema di Gauss per dimostrarlo!), oppure
- $$
+$$
  \Delta V_4(r ) = \int\_{R_4}^r \frac{\sigma R_1}{\epsilon_0 r} dr = \frac{\sigma R_1}{\epsilon_0} \log\left( \frac{r}{R_4} \right)
- $$
+$$
  nel caso in cui non lo sia (vedi sopra per l'espressione del campo). La differenza di potenziale totale è quindi diversa nei due casi e vale:
  \begin{align}
 \Delta V(r ) & = \Delta V\_{1,3} + \Delta V_4(r )\\\\\\

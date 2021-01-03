@@ -1,6 +1,6 @@
 +++
 title = "Lezione del 07/10/2020"
-date = 2019-10-01T09:47:43+02:00
+date = 2020-10-06T09:47:43+02:00
 draft = false
 +++
 
@@ -213,9 +213,9 @@ $$
 \oint \vec{E} \cdot d\vec{s} = \int_\Sigma \vec{\nabla} \times \vec{E} \cdot \hat{n} d\Sigma = 0,
 $$
  dove $\hat{n}$ è il versore *normale* alla superficie. Poiché l'integrale a destra deve essere vero per *qualunque* $\Sigma$ che abbia come contorno $\mathcal{C}$, si deve avere, in ogni punto dello spazio,
- 
- $$
+
+$$
  \vec{\nabla} \times \vec{E} = 0
- $$
- 
+$$
+
 Ne deriva che il campo elettrostatico, essendo conservativo, è anche *irrotazionale*, cioè ha sempre rotore nullo. La relazione precedente, valida per il campo elettrostatico in ogni punto dello spazio, può essere dimostrata scrivendo esplicitamente le componenti del rotore e sostituendo alle componenti del campo le derivata del potenziale.

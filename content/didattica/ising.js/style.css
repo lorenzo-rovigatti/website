@@ -1,0 +1,95 @@
+body {
+    color: #526066;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+button {
+    margin-bottom: 3px;
+}
+
+.l-content {
+    margin: 0 auto;
+}
+
+.banner {
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    margin-bottom: 0em;
+    display: table;
+}
+
+.banner-head {
+    display: table-cell;
+    vertical-align: middle;
+    margin-bottom: 0;
+    font-size: 2em;
+    background-color: rgba(230,230,230,0.5);
+    font-weight: 500;
+    text-shadow: 0 1px 1px black;
+}
+
+#advanced-controls {
+    display: none;
+}
+
+#canvas {
+    border: 2px solid black;
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+#controls {
+    padding: 0 10px;
+    margin: auto;
+    width: 300px;
+}
+
+#results {
+    padding: 0 10px;
+    margin: auto;
+    width: 400px;
+}
+
+.current-data {
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 300px;
+}
+
+.current-data thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.current-data th,
+.current-data td {
+    padding: 12px 15px;
+    min-width: 50px;
+}
+
+.current-data tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.current-data tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.current-data tbody tr:last-of-type {
+    border-bottom: 2px solid #AAA;
+}
+
+

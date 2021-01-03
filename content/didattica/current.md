@@ -17,5 +17,7 @@ draft = false
 
 ### Comunicazioni
 
+* **Fine delle lezioni**: Le ultime tre lezioni del corso si terranno il 7, 12 e 13 Gennaio 2021.
+* **Secondo esonero**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2020/risultati_secondo_esonero.md" >}}).
 * **Scritto del 06/11/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_06112020.md" >}}), [risultati]({{< ref "risultati_scritto_06112020.md" >}}). Contattare il docente tramite email per accordarsi sull'orale.
 * **Scritto dell'08/09/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_08092020.md" >}}), [risultati]({{< ref "risultati_scritto_08092020.md" >}}).

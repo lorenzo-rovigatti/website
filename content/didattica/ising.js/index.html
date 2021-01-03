@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <script src="ising.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+        
+    <title>Ferromagneti e paramagneti: il modello di Ising</title>
+</head>
+
+    <body>
+        <div class="banner">
+            <h1 class="banner-head">
+                Ferromagneti e paramagneti: il modello di Ising
+            </h1>
+        </div>
+                
+        <div class="l-content">
+        
+            <div class="pure-g">
+                <div class="pure-u-1 pure-u-lg-1-4">
+                    <div id="controls">
+                        <h2>Controlli</h2>
+                
+                        <div id='panel'>
+                            <form class="pure-form pure-form-stacked" id="control-form">
+                                <fieldset>
+                                    <label for="temp">Temperatura</label>
+                                    <input style='width:150px;' type="range" id="temp" min=0 max=5 step=0.001 oninput='update_temp()' onchange="update_temp()"/>
+                                    <span onclick='dotextbox(this.id)' class='eb_span' id="label_temp"></span>
+                                    <input style='width: 80px; display: none;' id='label_temp_input' type='text' value='' onblur='undotextbox(this.id)'>
+                                    
+                                    <label for="field">Campo</label>
+                                    <input style="width:150px;" type="range" id="field" min=-2 max=2 step=0.00001 value=0.0 oninput='update_field()' onchange="update_field()"/>
+                                    <span onclick='dotextbox(this.id)' class='eb_span' id="label_field"></span>
+                                    <input style='width: 80px; display: none;' id='label_field_input' type='text' value='' onblur='undotextbox(this.id)'>
+                                </fieldset>
+                                
+                                <label for="toggle-advanced-controls" class="pure-checkbox">
+                                    <input type="checkbox" id="toggle-advanced-controls" value="" /> Mostra controlli avanzati
+                                </label>
+                                    
+                                <fieldset id="advanced-controls">
+                                    <label for="frames">Frequenza di aggiornamento</label>
+                                    <input style="width:150px;" type="range" id="frames" min=1 max=20 step=1 value=1 oninput='update_frames()' onchange="update_frames()"/>
+                                    <span onclick='dotextbox(this.id)' class='eb_span' id="label_frames"></span>
+                                    <input style='width: 80px; display: none;' id='label_frames_input' type='text' value='' onblur='undotextbox(this.id)'>
+                                    
+                                    <label for="method">Dinamica</label>
+                                    <label for="method" class="pure-radio">
+                                        <input type='radio' name='method' onclick='update_method()' checked=true id='method_metropolis' value='metropolis'>
+                                        Metropolis
+                                    </label>
+                                    <label for="method" class="pure-radio">
+                                        <input type='radio' name='method' onclick='update_method()' id='method_wolff' value='wolff'>
+                                        Wolff
+                                    </label>
+                                    
+                                    <label for='changenum'>Taglia del sistema</label>
+                                    <select id='changenum' onchange='change_num()'>
+                                        <option value="512">512</option>
+                                        <option value="256" selected="selected">256</option>
+                                        <option value="128">128</option>
+                                        <option value="64">64</option>
+                                        <option value="32">32</option>
+                                        <option value="16">16</option>
+                                    </select>
+                                </fieldset>
+                                
+                                <fieldset>
+                                    <button type="button" id='dostep' onclick='update_step()' class="pure-button">Passo</button>
+                                    <button type="button" id='pause' onclick='update_pause()' class="pure-button">Start</button>
+                                    <button type="button" id='restart' onclick='update_restart()' class="pure-button">Reset</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pure-u-1 pure-u-lg-1-2">
+                    <table class="current-data">
+                        <tr>
+                            <th></th>
+                            <th>t</th>
+                            <th>e</th>
+                            <th>m</th>
+                        </tr>
+                        
+                        <tr>
+                            <th></th>
+                            <td><span id="current-time"></span></td>
+                            <td><span id="current-energy"></span></td>
+                            <td><span id="current-magnetization"></span></td>
+                        </tr>
+                        
+                        <tr>
+                            <th>media</th>
+                            <td></td>
+                            <td><span id="average-energy"></span></td>
+                            <td><span id="average-magnetization"></span></td>
+                        </tr>
+                        
+                        <tr>
+                            <th>varianza</th>
+                            <td></td>
+                            <td><span id="variance-energy"></span></td>
+                            <td><span id="variance-magnetization"></span></td>
+                        </tr>
+                    </table>
+                        
+                    <canvas id='canvas' height=512 width=512></canvas>
+                </div>
+                
+                <div class="pure-u-1 pure-u-lg-1-4">
+                    <div id="results">
+                        <h2>Risultati</h2>
+
+                        <br>
+                        <div id='isinggraph'>
+                            <canvas id='canvas-graph' height=150 width=280></canvas>
+                        </div>
+
+                        <form class="pure-form pure-form-stacked" id="results-form">
+                            <fieldset>
+                                <label for='changegraph'>Quantità graficata</label>
+                                <select id='changegraph' onchange='change_graph()'>
+                                    <option value="none">nessuna</option>
+                                    <option value="energy" selected='selected'>energia</option>
+                                    <option value="mag">magnetizzazione</option>
+                                </select>
+                                <button type="button" id='resetdata' onclick='init_measurements()' class="pure-button">Reset</button>
+                                <button type="button" id='downloaddata' onclick='download_measurements()' class="pure-button">Scarica dati</button>
+                                <br/>
+                                <button type="button" id='downloadgraph' onclick='download_graph()' class="pure-button">Scarica grafico</button>
+                                <button type="button" id='downloadgraph' onclick='download_field()' class="pure-button">Scarica figura</button>
+                            
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        
+        
+        </div>
+</body>

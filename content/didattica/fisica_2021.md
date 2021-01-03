@@ -12,6 +12,8 @@ draft = false
 
 ### Comunicazioni
 
+* **Fine delle lezioni**: Le ultime tre lezioni del corso si terranno il 7, 12 e 13 Gennaio 2021.
+* **Secondo esonero**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2020/risultati_secondo_esonero.md" >}}).
 * **Secondo esonero**: L'esonero comincerà alle ore 10:50 del 23/12 in modalità online al link inviato agli studenti che si sono iscritti tramite modulo Google. Gli studenti verranno assegnati in maniera casuale a due gruppi che verranno "controllati" da me e dal prof. Russo. L'esonero durerà due ore e si svolgerà sulla piattaforma [exam.net](http://www.exam.net/). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esonero, da leggere **attentamente**. Per domande/richieste di chiarimenti sulle modalità scrivete al docente. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
 * **Primo esonero**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2020/risultati_primo_esonero.md" >}}).
 * **Lezione del 19/11/2020**: la lezione di Giovedì 19/11/2020 si terrà straordinariamente a [questo link](https://uniroma1.zoom.us/j/96912163505?pwd=QXZ1T0UwNklTR2NNY3dJSUxvcHpiQT09) (ID: 969 1216 3505, passcode: FIS2MAT). Durante la lezione verranno fatte dimostrazioni di fenomeni elettrostatici.

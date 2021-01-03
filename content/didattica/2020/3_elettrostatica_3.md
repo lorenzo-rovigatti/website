@@ -1,6 +1,6 @@
 +++
 title = "Lezione del 13/10/2020"
-date = 2019-10-07T09:47:43+02:00
+date = 2020-10-12T09:47:43+02:00
 draft = false
 +++
 
@@ -166,6 +166,7 @@ Diamo un'interpretazione geometrica del teorema di Gauss disegnando il flusso ge
 	* Se la carica è *esterna* alla superficie, le sue linee di campo che entrano nella superficie (e quindi danno contributo negativo all'integrale) ne devono anche uscire (dando contributo positivo all'integrale). Intuitivamente vediamo come il flusso totale (cioè il contributo delle cariche esterne al flusso) debba essere nullo.
 	* Se la carica è *interna* alla superficie, le sue linee di campo (a seconda del segno della carica) saranno sempre entranti o uscenti la superficie, e quindi contribuiranno tutte allo stesso modo all'integrale: il contributo totale sarà quindi positivo per cariche positive e negativo per cariche negative.
 	
+
 I punti precedenti, insieme al principio di sovrapposizione, forniscono una spiegazione intuitiva del teorema di Gauss. Per una dimostrazione matematicamente ineccepibile si può vedere il paragrafo 3.2 del MNV (non nel programma). È importante però sapere che il teorema di Gauss vale per il campo elettrico perché l'intensità di $E$ diminuisce con il quadrato della distanza. In qualunque altro caso il teorema di Gauss non sarebbe valido.
 
 Il teorema di Gauss è utile da un punto di vista pratico per calcolare il campo elettrostatico di distribuzioni di carica molto simmetriche (cilindriche, sferiche, piane, *etc.*). Permette, ad esempio, di calcolare immediatamente:
