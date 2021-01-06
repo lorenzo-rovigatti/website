@@ -377,6 +377,34 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 10.1, 10.2, 10.3, 10.4, 10.5, 10.8
 * [Appunti](../../files/appunti/2020/appunti_22_12.pdf)
 {{% /expand %}}
+{{% expand "07/01/2021, <b>L</b>" %}}
+* La luce e l'indice di rifrazione
+* Riflessione e rifrazione
+	* Dispersione della luce
+* Interferenza: l'esperimento di Young
+* Riferimenti bibliografici MNV: 11.1, 11.3, 13.1, 13.2 (senza la derivazione di $I(\theta)$, senza l'uso della lente convergente e senza l'interferenza da sorgenti incoerenti)
+{{% /expand %}}
+{{% expand "12/01/2021, <b>L</b>" %}}
+* Interferenza da lamine sottili
+* Diffrazione
+* Principio di Huygens-Fresnel (cenni)
+* Diffrazione di Fraunhofer per una fenditura rettilinea
+	* Effetti cromatici
+* Diffrazione prodotta da un'apertura circolare
+* Limite di risoluzione delle lenti
+* Riferimenti bibliografici MNV: 13.3, 14.1, 11.2 (solo l'enunciato del principio di Huygens-Fresnel), 14.2, esempio 14.2, 14.3, 14.4
+{{% /expand %}}
+{{% expand "13/01/2021, <b>L</b>" %}}
+* Ottica geometrica: definizioni e convenzioni
+* Specchi
+	* Convessi
+	* Concavi
+	* Piani
+* Diottri
+* Lenti sottili
+* Aberrazioni (cenni)
+* Riferimenti bibliografici MNV: 12.1, 12.2, 12.3, 12.4, 12.5, 12.6 (tipi di aberrazioni esistenti)
+{{% /expand %}}
 
 ### Note
 
@@ -399,3 +427,6 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Lezione del 09/12/2020]({{< ref "2020/14_elettromagnetismo_2.md" >}})
 * [Lezione del 10/12/2020]({{< ref "2020/15_elettromagnetismo_3.md" >}})
 * [Lezione del 22/12/2020]({{< ref "2020/16_onde_1.md" >}})
+* [Lezione del 07/01/2021]({{< ref "2020/17_onde_2.md" >}})
+* [Lezione del 12/01/2021]({{< ref "2020/18_onde_3.md" >}})
+* [Lezione del 13/01/2021]({{< ref "2020/19_onde_4.md" >}})

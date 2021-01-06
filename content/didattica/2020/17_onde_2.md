@@ -1,7 +1,8 @@
 +++
-title = "Lezione del 19/12/2019"
-date = 2019-12-08T07:19:34+01:00
+title = "Lezione del 07/01/2021"
+date = 2021-01-06T07:19:34+01:00
 draft = false
+
 +++
 
 ## La luce e l'indice di rifrazione
@@ -12,6 +13,7 @@ Quando un'onda passa da un mezzo all'altro si osservano, in generale, due fenome
 * parte dell'onda viene *riflessa*: si propaga all'indietro all'interno del primo mezzo;
 * parte dell'onda viene *rifratta*: si propaga nel secondo mezzo con una direzione diversa da quella incidente.
 	
+
 Sebbene questi fenomeni avvengano per qualunque tipo di onda elettromagnetica, ci occuperemo in particolare della luce, cioè di quelle onde che hanno frequenze nello spettro del visibile ($(3.8 \times 10^{14} \leq \nu \leq 7.9 \times 10^{14})$ Hz, $(0.78 \times 10^{-6} \geq \lambda \geq 0.38 \times 10^{-6})$ m).
 
 La luce si propaga con velocità $c$ nel vuoto e con velocità $v < c$ in un mezzo. In generale, $v$ dipende dalla proprietà fisiche del mezzo. Si definisce *indice di rifrazione* del mezzo la quantità
@@ -112,6 +114,10 @@ Si può fare facilmente esperienza di questo fenomeno immergendosi nell'acqua ($
 
 Dal punto di vista applicativo, questo fenomeno è molto utilizzato, ad esempio nelle fibre ottiche: un raggio di luce che penetra con un angolo maggiore di quello limite rispetto alle superfici laterali attraverso la base di un lungo e sottile cilindro di vetro (o altro materiale trasparente). Il raggio viene continuamente (e totalmente) riflesso dalle superfici laterali e rimane quindi all'interno di questa *guida di luce*. L'effetto è presente anche se le guide non sono rettilinee (purché l'angolo formato non faccia sì che il fascio di luce incontri la superficie con un angolo minore di $\theta_0$). Le fibre ottiche trovano applicazioni in tanti campi, dalla medicina (*endoscopie*) alle telecomunicazioni.
 
+Un interessante esempio di effetto dovuto alla rifrazione è quello che si vede in questo video, che si può riprodurre facilmente anche a casa:
+
+{{< youtube 9n362snGUdw >}}
+
 ### Dispersione della luce
 
 Il discorso sulla riflessione e rifrazione di un raggio di luce appena fatto vale strettamente solo nel caso di raggi *monocromatici*, cioè composti da onde aventi tutte la stessa lunghezza d'onda. D'altro canto, se la luce incidente è composta da uno *spettro* di onde, si osserva come l'angolo $\theta_t$ sia diverso per ogni componente del raggio. Sperimentalmente si trova infatti che l'indice di rifrazione dipende dalla lunghezza d'onda della luce incidente. Si trova cioè che $n = n(\lambda)$. Nello spettro visibile questa dipendenza è, in generale, non fortissima ma facilmente osservabile dal punto di vista sperimentale e monotona: $n$ diminuisce all'aumentare della lunghezza d'onda. L'effetto principale di questa dipendenza è che le componenti nel violetto vengono deviate maggiormente rispetto a quelle nel rosso.
@@ -155,7 +161,9 @@ B(r, t) & = \frac{E_0}{cr} \cos(kr - \omega t)
 ## Interferenza
 <small>MNV: paragrafo 13.1</small>
 
-I fenomeni di interferenza avvengono quando due onde (di qualsiasi natura, non solo elettromagnetica) si sovrappongono nello spazio.
+I fenomeni di interferenza avvengono quando due onde (di qualsiasi natura, non solo elettromagnetica) si sovrappongono nello spazio. A [questo](https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_it.html) link si può eseguire una simulazione di interferenza tra onde meccaniche. Un esempio reale di tale interferenza è mostrato nel video seguente:
+
+{{< youtube BddgVHiAZF4 >}}
 
 Definiamo prima di tutto le condizioni per le quali l'interfenza può avvenire. Consideriamo due onde armoniche sferiche aventi stessa frequenza (e quindi stessa lunghezza d'onda). Queste sono generate da due sorgenti distinte $S_1$ ed $S_2$. Consideriamo ora i campo elettrici nel punto $P$ distante $r_1$ da $S_1$ ed $r_2$ da $S_2$:
 
