@@ -383,6 +383,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Dispersione della luce
 * Interferenza: l'esperimento di Young
 * Riferimenti bibliografici MNV: 11.1, 11.3, 13.1, 13.2 (senza la derivazione di $I(\theta)$, senza l'uso della lente convergente e senza l'interferenza da sorgenti incoerenti)
+* [Appunti](../../files/appunti/2020/appunti_07_01.pdf)
 {{% /expand %}}
 {{% expand "12/01/2021, <b>L</b>" %}}
 * Interferenza da lamine sottili
