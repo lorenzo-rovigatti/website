@@ -394,6 +394,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Diffrazione prodotta da un'apertura circolare
 * Limite di risoluzione delle lenti
 * Riferimenti bibliografici MNV: 13.3, 14.1, 11.2 (solo l'enunciato del principio di Huygens-Fresnel), 14.2, esempio 14.2, 14.3, 14.4
+* [Appunti](../../files/appunti/2020/appunti_12_01.pdf)
 {{% /expand %}}
 {{% expand "13/01/2021, <b>L</b>" %}}
 * Ottica geometrica: definizioni e convenzioni

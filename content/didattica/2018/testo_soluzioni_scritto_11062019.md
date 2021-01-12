@@ -32,7 +32,7 @@ $$
 $$
 Applicando il teorema di Gauss possiamo considerare la sfera come una carica puntiforme di carica $q_s = \frac{4}{3} \pi R^3 \rho = 3.35 \times 10^{-8}$ C. Il contributo dato da questa carica ha direzione
 $$
-\hat{r} = \frac{1}{r_s}\left(2R, \frac{3}{2}\right),
+\hat{r} = \frac{R}{r_s}\left(2, \frac{3}{2}\right),
 $$
 dove $r_s = 5 / 2 R$ è la distanza del centro della sfera dal vertice $(2R, 3 / 2 R)$. Il campo elettrico generato dalla sfera vale quindi:
 $$

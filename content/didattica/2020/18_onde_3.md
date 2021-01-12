@@ -67,14 +67,22 @@ $$
 \delta = 2 k n d - \pi = \frac{4 \pi n d}{\lambda} - \pi.
 $$
 
-Similmente al caso di Young, si ottiene il massimo di intensità quando, se $m$ è un qualsiasi numero intero, $\delta = 2 m \pi$ (cioè $d = \frac{\lambda (2m + 1)}{4n}$, mentre la condizione $\delta = (2m + 1) \pi$ (cioè $d = \frac{\lambda m}{2n}$) è legata ai minimi di intensità. Questo significa che, a parità di $d$, alcune lunghezze d'onda saranno più visibili di altre. Questo fa sì che sulla superficie si generi un effetto iridescente, come quello che si osserva, ad esempio, sulle bolle di sapone:
+Similmente al caso di Young, si ottiene il massimo di intensità quando, se $m$ è un qualsiasi numero intero, $\delta = 2 m \pi$ (cioè $d = \frac{\lambda (2m + 1)}{4n}$), mentre la condizione $\delta = (2m + 1) \pi$ (cioè $d = \frac{\lambda m}{2n}$) è legata ai minimi di intensità. Questo significa che, a parità di $d$, alcune lunghezze d'onda saranno più visibili di altre. Questo fa sì che sulla superficie si generi un effetto iridescente, come quello che si osserva, ad esempio, sulle bolle di sapone:
 
 {{< figure src="../images/thin_film_interference.jpg" alt="L'nterferenza da lamine sottili in azione!" width="50%">}}
+
+In questo video potete vedere diversi esempi:
+
+{{< youtube WTxDyYHaYAI >}}
 
 ## Diffrazione
 <small>MNV: paragrafo 14.1</small>
 
 La diffrazione è un caso particolare di interferenza per cui un'onda interferisce con se stessa dopo essere passata per strette fenditure oppure aver incontrato ostacoli di dimensioni comparabili con la sua lunghezza d'onda. Consideriamo un'onda che incontri un ostacolo opaco avente un bordo netto. Uno schermo posto oltre l'ostacolo mostrerà una *figura di diffrazione* formata da frange chiare e scure che si fanno via via più strette. È interessante notare che l'intensità luminosa che appare sulla parte di schermo posta dietro all'ostacolo non è nulla come avverrebbe se le onde si propagassero esclusivamente in linea retta. La diffrazione infatti, come l'interferenza, è un fenomeno legato alla natura *ondulatoria* della luce.
+
+Ecco un video che mostra alcuni esempi di diffrazione:
+
+{{< youtube 9D8cPrEAGyc >}}
 
 Il comportamento dell'onda, e la figura di diffrazione che ne risulta, possono essere analizzati utilizzando il principio di Huygens-Fresnel.
 
@@ -83,12 +91,18 @@ Il comportamento dell'onda, e la figura di diffrazione che ne risulta, possono e
 
 Il principio di Huygens-Fresnel afferma che tutti i punti che compongono un dato fronte d'onda possono essere considerati sorgenti puntiformi di onde sferiche secondarie aventi frequenza, lunghezza d'onda e velocità di propagazione uguali a quelle dell'onda primaria. La posizione del fronte d'onda dopo un tempo $\Delta t$ è data dalla superficie tangente a queste onde secondarie.
 
-Questo principio serve a prevedere la posizione del fronte d'onda nel caso in cui siano presenti ostacoli o fenditure lungo la direzione di propagazione.
+Questo principio serve a prevedere la posizione del fronte d'onda nel caso in cui siano presenti ostacoli o fenditure lungo la direzione di propagazione. Ecco un esempio grafico:
+
+{{< figure src="../images/huygens_fresnel.svg" alt="Un esempio del principio di Huygens-Fresnel" width="70%">}}
 
 ## Diffrazione di Fraunhofer
 <small>MNV: paragrafo 14.2</small>
 
 Esistono diversi modi con cui i fenomeni di diffrazione possono essere prodotti. Qui ci concentreremo sulla *diffrazione di Fraunhofer*, in cui sia la sorgente dell'onda che lo schermo su cui si forma la figura di diffrazione sono posti a grande distanza dalle fenditure o dagli ostacoli che generano la diffrazione stessa.
+
+Ecco una figura che mostra schematicamente il comportamento del sistema che andiamo a studiare:
+
+{{< figure src="../images/diffraction.png" alt="Diffrazione" width="70%">}}
 
 Consideriamo una parete con un'unica fenditura di larghezza $a$. Dividiamo (arbitrariamente) la fenditura in $2 m$ parti (con $m \geq 1$). Secondo il principio di Huygens-Fresnel, ogni parte si comporterà come una sorgente di luce. Ragionando in questa maniera, la figura di diffrazione non è altro che una figura di interferenza dovuta alle diverse parti della fenditura. Consideriamo tutti i raggi (secondari) che escono dalla fenditura con un angolo $\theta$. Consideriamo le onde generate da sorgenti vicine, poste quindi a distanza $a / 2m$: la differenza tra i loro percorsi è 
 
@@ -108,7 +122,9 @@ $$
 I(\theta) = I\_{\rm max} \left[ \frac{\sin (\pi a \sin \theta / \lambda)}{\pi a \sin \theta / \lambda} \right]^2.
 $$
 
-Questa espressione mostra come l'intensità sia una funzione sì oscillante, ma il cui modulo decresce all'aumentare di $\theta$. Inoltre, $I(\theta)$ ha un massimo per $\theta = 0$, mentre i minimi sono dati dall'espressione trovata precedentemente. Gli altri massimi di questa funzione sono dati dalla condizione $\tan \alpha = \alpha$, non risolvibile analiticamente ma solo numericamente. 
+Questa espressione mostra come l'intensità sia una funzione sì oscillante, ma il cui modulo decresce all'aumentare di $\theta$. Inoltre, $I(\theta)$ ha un massimo per $\theta = 0$, mentre i minimi sono dati dall'espressione trovata precedentemente. Gli altri massimi di questa funzione sono dati dalla condizione $\tan \alpha = \alpha$, non risolvibile analiticamente ma solo numericamente. Ecco un grafico della funzione:
+
+{{< figure src="../images/diffraction_intensity.png" alt="L'intensità della figura di diffrazione data da una fessura" width="70%">}}
 
 Si può dimostrare come la maggior parte della potenza sia concentrata nella fascia centrale, che viene anche detta *immagine della fenditura*.
 
@@ -117,24 +133,28 @@ Si può dimostrare come la maggior parte della potenza sia concentrata nella fas
 
 È chiaro dalle relazioni ricavate precedentemente che le figure di diffrazione dipendono, a parità di apparato sperimentale utilizzato, dalla lunghezza d'onda della luce incidente. Poiché la maggior parte dell'intensità è sempre concentrata nella frangia centrale, indipendentemente da $\lambda$, il pattern di diffrazione sarà bianco nel centro. D'altro canto, al variare di $\theta$ le posizioni dei minimi di intensità dipenderanno da $\lambda$, e quindi spostandosi dal punto bianco centrale si osserveranno frange colorate. Poiché la distanza del minimo dal centro aumenta con la lunghezza d'onda, la prima frangia colorata diventerà sempre più rossa all'aumentare di $\theta$. 
 
+{{< figure src="../images/diffraction_cromatic.png" alt="Effetti cromatici nella diffrazione" width="70%">}}
+
 ## Diffrazione prodotta da un'apertura circolare
 <small>MNV: paragrafo 14.3</small>
 
 Quando la fenditura attraversata dalla luce è di forma circolare, la figura di diffrazione acquista una simmetria radiale. Dal punto di vista qualitativo le frange che si osservano solo molto simili a quelle del caso rettilineo, anche se la dimostrazione analitica è più complicata. Un risultato importante è che l'angolo $\theta$ per il quale si osserva il primo minimo dell'intensità è dato dalla relazione
 
 $$
-\sin \theta = 0.61 \frac{\lambda}{R}
+\sin \theta_m = 0.61 \frac{\lambda}{R}
 $$
 
 dove $R$ è il raggio dell'apertura. Se, come spesso accade, $\lambda \ll R$, la relazione precedente si può approssimare:
 
 $$
-\theta \approx 0.61 \frac{\lambda}{R}.
+\theta_m \approx 0.61 \frac{\lambda}{R}.
 $$
 
-Si definisce in questo caso $2\theta$ come la larghezza angolare del massimo centrale. Anche in questo caso la maggior parte dell'intensità dell'onda è concentrata nella "frangia" (cioè cerchio) centrale, che viene detto *immagine* dell'apertura circolare.
+Si definisce in questo caso $2\theta_m$ come la larghezza angolare del massimo centrale. Anche in questo caso la maggior parte dell'intensità dell'onda è concentrata nella "frangia" (cioè cerchio) centrale, che viene detto *immagine* dell'apertura circolare. Ecco un esempio:
 
-Questi risultati si applicano anche al caso in cui la fenditura venga sostituita da una lente di raggio $R$. L'immagine di una sorgente puntiforme molto lontana sarà quindi data non da un punto, ma da un disco di dimensioni finite: la dimensione angolare è chiaramente la quantità $2 \theta$ calcolata precedentemente, che equivale ad una dimensione lineare $d = 2 \theta L$, dove $L$ è la distanza della lente dallo schermo. 
+{{< figure src="../images/diffraction_circular.jpeg" alt="Diffrazione da fenditura circolare" width="50%">}}
+
+Questi risultati si applicano anche al caso in cui la fenditura venga sostituita da una lente di raggio $R$. L'immagine di una sorgente puntiforme molto lontana sarà quindi data non da un punto, ma da un disco di dimensioni finite: la dimensione angolare è chiaramente la quantità $2 \theta_m$ calcolata precedentemente, che equivale ad una dimensione lineare $d = 2 \theta_m L$, dove $L$ è la distanza della lente dallo schermo. 
 
 ## Limite di risoluzione delle lenti
 <small>MNV: paragrafo 14.4</small>
@@ -157,4 +177,4 @@ $$
 \rho = \frac{1}{\alpha\_{\rm min}}.
 $$
 
-Questa limitazione pone seri limiti alle osservazioni che è possibile fare utilizzando microscopi, lenti fotografiche e telescopi. 
+Questa limitazione pone seri limiti alle osservazioni che è possibile fare utilizzando microscopi, lenti fotografiche e telescopi. Questi limiti possono essere superati solo *indirettamente* utilizzando tecniche di [https://en.wikipedia.org/wiki/Super-resolution_microscopy](microscopia a super-risoluzione), che sono valsi a Eric Betzig, W.E. Moerner e Stefan Hell il premio Nobel per la Chimica nel 2014.

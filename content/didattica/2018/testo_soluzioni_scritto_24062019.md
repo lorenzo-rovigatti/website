@@ -31,7 +31,7 @@ $$
 $$
 \vec{E}_c = \frac{q}{4\pi \epsilon_0}\frac{\hat{r}_A}{r_A^2}
 $$
-dove $r_A = l/\sqrt{2}$ e $\hat{r}_A = \frac{1}{r_A}(l/2, l/2) = l/\sqrt{2}(1, 1)$, quindi
+dove $r_A = l/\sqrt{2}$ e $\hat{r}_A = \frac{1}{r_A}(l/2, l/2) = 1/\sqrt{2}(1, 1)$, quindi
 $$
 \vec{E}_c = \frac{q}{2\sqrt{2}\pi \epsilon_0l^2}(1, 1)
 $$
@@ -71,8 +71,6 @@ $$
 $$
 
 ---
-
-\newpage
 
 ## Magnetismo
 
