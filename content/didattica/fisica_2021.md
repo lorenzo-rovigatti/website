@@ -408,6 +408,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Lenti sottili
 * Aberrazioni (cenni)
 * Riferimenti bibliografici MNV: 12.1, 12.2, 12.3, 12.4, 12.5, 12.6 (tipi di aberrazioni esistenti)
+* [Appunti](../../files/appunti/2020/appunti_13_01.pdf)
 {{% /expand %}}
 
 ### Note
