@@ -194,7 +194,7 @@ Young è stato il primo a produrre l'interferenza di due onde luminose, nel 1801
 Il fenomeno si può formalizzare calcolando come varia l'intensità del campo sullo schermo al variare della differenza di distanza percorsa dalle due onde per raggiungere un punto $P$ dello schermo, $r_2 - r_1$. Come abbiamo visto prima, questa è legata alla differenza di fase tra le due onde, definita come $\delta = k(r_2 - r_1)$, che può essere riscritta in funzione di un angolo $\theta$ come
 
 $$
-\delta = k d \sin \theta = \frac{2 \pi}{\lambda} \sin \theta
+\delta = k d \sin \theta = \frac{2 \pi}{\lambda d} \sin \theta
 $$
 
 dove abbiamo utilizzato il rapporto che lega il vettore d'onda alla lunghezza d'onda. Si trova come l'intensità del campo sullo schermo ha andamento 
