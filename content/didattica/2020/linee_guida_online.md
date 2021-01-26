@@ -6,7 +6,7 @@ draft = false
 
 Vi prego di prestare molta attenzione a tutti i punti riportati qui sotto.
 
-* Leggete con attenzione le linee guida Sapienza che trovate a [questo link](https://www.uniroma1.it/it/documento/procedura-straordinaria-conseguente-allemergenza-sanitaria-covid-19-lo-svolgimento-degli). **Imparate ad usare la piattaforma prima del giorno dell'esame**. Potete fare dei test utilizzando i codici `GNntXk` o `hHHdyo`
+* Leggete con attenzione le linee guida Sapienza che trovate a [questo link](https://www.uniroma1.it/it/documento/procedura-straordinaria-conseguente-allemergenza-sanitaria-covid-19-lo-svolgimento-degli). **Imparate ad usare la piattaforma prima del giorno dell'esame**. Potete fare dei test utilizzando i codici `4DFcw2`
 * Vi verrà comunicato con anticipo (via email e tramite il sito) il link di Zoom/Meet a cui accedere.
 * La prova scritta dura due ore.
 * Per svolgere l’esame è necessario 
