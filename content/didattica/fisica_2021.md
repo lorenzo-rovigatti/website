@@ -12,7 +12,7 @@ draft = false
 
 ### Comunicazioni
 
-* **Scritto del 26/01/2020**:: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210126.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210126.md" >}}). Gli orali si svolgeranno dal 2 Febbraio. Vi invito a comunicarmi via mail la tipologia di orale che volete sostenere (in presenza o online).
+* **Scritto del 26/01/2020**:: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210126.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210126.md" >}}). Gli orali si svolgeranno dal 2 Febbraio. Vi invito a comunicarmi via mail la tipologia di orale che volete sostenere (in presenza o online). Chi volesse discutere l'elaborato può scrivermi via mail per prendere un appuntamento.
 * **Fine delle lezioni**: Le ultime tre lezioni del corso si terranno il 7, 12 e 13 Gennaio 2021.
 * **Secondo esonero**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2020/risultati_secondo_esonero.md" >}}).
 * **Primo esonero**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_primo_esonero.md" >}}), [risultati]({{< ref "2020/risultati_primo_esonero.md" >}}).
