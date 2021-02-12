@@ -12,9 +12,9 @@ draft = false
 
 ### Comunicazioni
 
-* **Scritto dell'11/02/2021**: l'esame comincerà alle ore 14:00. Vi chiedo di presentarvi dieci-quindici minuti prima per l'appello.
-  * L'esame **online** si terrà alle a questo [link](https://uniroma1.zoom.us/j/85743295070?pwd=VElpUWdibEYraWtTSHMxNDQ3dEdBdz09). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida **aggiornate** per l'esame. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
-  * L'esame in presenza si terrà in aula 3 (edificio Fermi, nuovo edificio di Fisica, CU033).
+* **Scritto dell'11/02/2020**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210211.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210211.md" >}}). Scrivetemi per visionare i compiti e/o qualora aveste problemi di orario. Gli orali si terranno:
+  * Online martedì 16 alle ore 10:00 a questo [link zoom](https://uniroma1.zoom.us/j/84875210806?pwd=bWkydlpmSnJRS24yek9vS1FPbU9QQT09) (Meeting ID: 848 7521 0806 Passcode: 766506).
+  * In presenza mercoledì 17 alle ore 14:00 in Aula 3 (edificio Fermi, CU033).
 * **Scritto del 26/01/2020**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210126.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210126.md" >}}).
 * **Fine delle lezioni**: Le ultime tre lezioni del corso si terranno il 7, 12 e 13 Gennaio 2021.
 * **Secondo esonero**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2020/risultati_secondo_esonero.md" >}}).
