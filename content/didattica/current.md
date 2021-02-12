@@ -17,9 +17,10 @@ draft = false
 
 ### Comunicazioni
 
-* **Scritto del 26/01/2020**: L'esame scritto si terrà in contemporanea in presenza e online. Chi vuole potrà recuperare uno solo degli esoneri svolgendo solo il primo o il secondo esercizio (a seconda dell'esonero da recuperare) in un'ora. Vi ricordo che è **vostra** responsabilità consegnare in tempo. Ecco i dettagli:
-  * L'esame in presenza si terrà in aula 7 (nuovo edificio di Fisica, edificio Fermi) alle ore 11:00. Mi raccomando, prenotatevi su Infostud indicando che volete svolgere l'esame in presenza oppure non riceverete l'email di convocazione e quindi non potrete entrare in Ateneo!
-  * L'esame online si terrà alla stessa ora su Zoom, dove il professor John Russo mi aiuterà per la sorveglianza. Il link per il meeting verrà inviato a coloro che si sono iscritti all'appello su Infostud qualche giorno prima dell'esame. Come al solito l'esame si svolgerà sulla piattaforma [exam.net](http://www.exam.net/). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esame, da leggere **attentamente**. Per domande/richieste di chiarimenti sulle modalità scrivete al docente. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
+* **Scritto dell'11/02/2021**: l'esame comincerà alle ore 14:00. Vi chiedo di presentarvi dieci-quindici minuti prima per l'appello.
+  * L'esame **online** si terrà alle a questo [link](https://uniroma1.zoom.us/j/85743295070?pwd=VElpUWdibEYraWtTSHMxNDQ3dEdBdz09). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida **aggiornate** per l'esame. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
+  * L'esame in presenza si terrà in aula 3 (edificio Fermi, nuovo edificio di Fisica, CU033).
+* **Scritto del 26/01/2020**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210126.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210126.md" >}}).
 * **Fine delle lezioni**: Le ultime tre lezioni del corso si terranno il 7, 12 e 13 Gennaio 2021.
 * **Secondo esonero**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_secondo_esonero.md" >}}), [risultati]({{< ref "2020/risultati_secondo_esonero.md" >}}).
 * **Scritto del 06/11/2020**: [testo e soluzioni]({{< ref "testo_soluzioni_scritto_06112020.md" >}}), [risultati]({{< ref "risultati_scritto_06112020.md" >}}). Contattare il docente tramite email per accordarsi sull'orale.
