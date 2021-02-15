@@ -67,7 +67,7 @@ Una particella di massa $m = 1.68 \times 10^{-27}$ Kg e carica $q = 1.602 \times
 
    * Poiché il campo magnetico nella regione piena ha la stessa direzione e lo stesso verso di $\vec{B}_v$ e la forza di Lorentz non fa lavoro, le componenti restano inviariate, quindi si ha:
      $$
-     v_o = v \cos\theta = 8.66 \times 10^{5} \, {\rm m/s}
+     v_o = v \sin\theta = 8.66 \times 10^{5} \, {\rm m/s}
      $$
 
      $$
