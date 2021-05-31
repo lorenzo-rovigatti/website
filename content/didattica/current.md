@@ -17,9 +17,10 @@ draft = false
 
 ### Comunicazioni
 
-* **Esame del 13/04/2021**: lo scritto si terrà alle ore 16:30
-  * Online a questo [link zoom](https://uniroma1.zoom.us/j/86473381765?pwd=QmtXVXRuQ3dqZGVtbU5mQ1lBZWExZz09) (Meeting ID: 864 7338 1765 Passcode: 219841).
-  * In presenza in Aula 4 (edificio Fermi, CU033).
+* **Scritto del 15/06/2021**: lo scritto si terrà alle ore 15:00
+    * Online a questo [link zoom](https://uniroma1.zoom.us/j/89199866394?pwd=bVNJNmgvQWdRb1kwT0ZZZlc5UlRKUT09) (Meeting ID: 891 9986 6394 Passcode: 724053). 
+    * In presenza in Aula 4 (edificio Fermi, CU033).
+* **Scritto del 13/04/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210413.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210413.md" >}}).
 * **Scritto dell'11/02/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210211.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210211.md" >}}).
 * **Scritto del 26/01/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210126.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210126.md" >}}).
 * **Fine delle lezioni**: Le ultime tre lezioni del corso si terranno il 7, 12 e 13 Gennaio 2021.
