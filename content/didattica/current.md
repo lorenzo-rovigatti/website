@@ -17,9 +17,7 @@ draft = false
 
 ### Comunicazioni
 
-* **Scritto del 15/06/2021**: lo scritto si terrà alle ore 15:00
-    * Online a questo [link zoom](https://uniroma1.zoom.us/j/89199866394?pwd=bVNJNmgvQWdRb1kwT0ZZZlc5UlRKUT09) (Meeting ID: 891 9986 6394 Passcode: 724053). 
-    * In presenza in Aula 4 (edificio Fermi, CU033).
+* **Scritto del 15/06/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210615.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210615.md" >}}). Gli orali si terranno in Aula VIII (nuovo edificio di Chimica) lunedì 21/06 alle ore 9:00. Chi non può in quella data o ha intenzione di venire in altre sessioni mi scriva.
 * **Scritto del 13/04/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210413.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210413.md" >}}).
 * **Scritto dell'11/02/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210211.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210211.md" >}}).
 * **Scritto del 26/01/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210126.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210126.md" >}}).
