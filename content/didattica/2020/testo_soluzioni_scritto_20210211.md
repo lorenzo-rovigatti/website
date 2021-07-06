@@ -1,5 +1,5 @@
 +++
-title = "Scritto del 26/01/2021"
+title = "Scritto del 11/02/2021"
 date = 2021-01-26T16:18:43+02:00
 draft = false
 

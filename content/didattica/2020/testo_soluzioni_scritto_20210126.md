@@ -12,7 +12,7 @@ Un conduttore sferico di raggio $R_1 = 10$ cm è circondato da un guscio sferico
 {{< figure src="../images/scritto_20210126_esercizio_1.png"  width="400px">}}
 
 1. Il conduttore più interno viene caricato con carica $q$. Alla fine della procedura si trova che la superficie conduttrice più esterna possiede una densità superficiale di carica $\sigma_3 = 10^{-7}$ C/m$^2$. Calcolare la densità di carica che si trova sulla superficie del conduttore sferico $\sigma_1$e sulla superficie interna del guscio conduttore $\sigma_2$ **(6 punti)**.
-	* La carica sulla superficie esterna è, in modulo, la stessa delle due più interne, e infatti si ha $q_1 = q_3$ e $q_2 = -q_3$. Considerando che $\sigma_3 = q_3 4 \pi R_3^2$ si trova
+	* La carica sulla superficie esterna è, in modulo, la stessa delle due più interne, e infatti si ha $q_1 = q_3$ e $q_2 = -q_3$. Considerando che $\q_3 = \sigma_3 4 \pi R_3^2$ si trova
 	$$
 	\sigma_1 = \sigma_3 \frac{R_3^2}{R_1^2} = 4 \times 10^{-7} {\rm C/m^2}
 	$$
