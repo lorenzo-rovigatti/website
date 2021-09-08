@@ -12,7 +12,11 @@ draft = false
 
 ### Comunicazioni
 
-* **Scritto del 15/06/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210615.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210615.md" >}}). Gli orali si terranno in Aula VIII (nuovo edificio di Chimica) lunedì 21/06 alle ore 9:00. Chi non può in quella data o ha intenzione di venire in altre sessioni mi scriva.
+* **Esame del 14/09/2021**: lo scritto si terrà alle ore 10:00:
+  * in presenza nell'Aula VIII dell'edificio Caglioti
+  * online su zoom a [questo](https://uniroma1.zoom.us/j/82978950845?pwd=S2pISlhLRFE5Ymt0NFJIck5aa3NzUT09) link (meeting ID: 829 7895 0845 - passcode: Kt4PLoh8). [Qui]({{< ref "2019/linee_guida_online.md" >}}) trovate le linee guida per l'esame.
+* **Scritto del 13/07/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210713.md" >}}).
+* **Scritto del 15/06/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210615.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210615.md" >}}).
 * **Scritto del 13/04/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210413.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210413.md" >}}).
 * **Scritto dell'11/02/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210211.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210211.md" >}}).
 * **Scritto del 26/01/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210126.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210126.md" >}}).
@@ -39,6 +43,7 @@ Il docente riceve nella stanza 104 al primo piano dell'edificio Fermi (nuovo edi
 * Orari
 	* Martedì 11-13 (durante il corso)
 	* In qualunque altro giorno (a seconda della disponibilità del docente), previo appuntamento accordato via email
+
 ### Modalit&agrave; di esame
 
 * L'esame prevede una prova scritta ed una prova orale.
@@ -49,6 +54,7 @@ Il docente riceve nella stanza 104 al primo piano dell'edificio Fermi (nuovo edi
 	* è possibile portare un libro di testo oppure un quaderno di appunti (*senza* esercizi svolti);
 	* si consiglia di portare una calcolatrice.
 * Sia il voto degli esoneri che quello degli scritti sono validi fino alla sessione di Settembre compresa
+
 ### Materiale didattico
 
 * Testo di riferimento:
