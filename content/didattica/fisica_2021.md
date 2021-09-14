@@ -12,9 +12,7 @@ draft = false
 
 ### Comunicazioni
 
-* **Esame del 14/09/2021**: lo scritto si terrà alle ore 10:00:
-  * in presenza nell'Aula VIII dell'edificio Caglioti
-  * online su zoom a [questo](https://uniroma1.zoom.us/j/82978950845?pwd=S2pISlhLRFE5Ymt0NFJIck5aa3NzUT09) link (meeting ID: 829 7895 0845 - passcode: Kt4PLoh8). [Qui]({{< ref "2019/linee_guida_online.md" >}}) trovate le linee guida per l'esame.
+* **Scritto del 14/09/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210914.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210914.md" >}}). Contattare il docente per visionare i compiti e/o accordarsi per l'orale.
 * **Scritto del 13/07/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210713.md" >}}).
 * **Scritto del 15/06/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210615.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210615.md" >}}).
 * **Scritto del 13/04/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210413.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210413.md" >}}).

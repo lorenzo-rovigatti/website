@@ -32,12 +32,12 @@ weight = 5
   course = "Bachelor Degree in Physics"
   institution = "Sapienza Università di Roma"
   year = 2007
- 
+
 +++
 
 # Biography
 
-I have received my Master's degree in Physics (2009) and PhD diploma in Materials Science (2012) from Sapienza University of Rome before holding post-doc positions in Rome, Vienna (as a List-Meitner fellow in the Computational Physics group of the University of Vienna), Oxford (as a Marie Skłodowska-Curie fellow in the Physics Department) and back in Rome at the Institute of Complex Systems at CNR. Currently, I am a Rita-Levi Montalcini fellow in the Physics Department at Sapienza. Throughout my career I have focussed on the collective behaviour of colloidal systems, as investigated through a combination of theory and simulation.
+I have received my Master's degree in Physics (2009) and PhD diploma in Materials Science (2012) from Sapienza University of Rome before holding post-doc positions in Rome, Vienna (as a List-Meitner fellow in the Computational Physics group of the University of Vienna), Oxford (as a Marie Skłodowska-Curie fellow in the Physics Department) and back in Rome at the Institute of Complex Systems at CNR. I then spent three years as a Rita-Levi Montalcini fellow in the Physics Department at Sapienza for three years before becoming an Associate Professor. Throughout my career I have focussed on the collective behaviour of colloidal systems, as investigated through a combination of theory and simulation.
 
 # My research
 
