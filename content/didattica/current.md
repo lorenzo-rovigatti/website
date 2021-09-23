@@ -4,16 +4,20 @@ date = 2019-09-22T08:06:49+02:00
 draft = false
 +++
 
+## Fisica 2 per Scienze Chimiche
+
+### [A.A. 2021 / 2022]({{< ref "fisica_2122.md" >}})
+
+## Animazioni/simulazioni
+
+* [Le linee del campo elettrico]({{< ref "html-field-lines/index.html" >}})
+* [Ferromagneti e paramagneti: il modello di Ising]({{< ref "ising.js/index.html" >}})
+
 ## Fisica 2 per Chimici Industriali
 
 ### [A.A. 2020 / 2021]({{< ref "fisica_2021.md" >}})
 ### [A.A. 2019 / 2020]({{< ref "fisica_1920.md" >}})
 ### [A.A. 2018 / 2019]({{< ref "fisica_1819.md" >}})
-
-### Animazioni/simulazioni
-
-* [Le linee del campo elettrico]({{< ref "html-field-lines/index.html" >}})
-* [Ferromagneti e paramagneti: il modello di Ising]({{< ref "ising.js/index.html" >}})
 
 ### Comunicazioni
 
