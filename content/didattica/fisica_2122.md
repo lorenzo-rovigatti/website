@@ -12,18 +12,19 @@ draft = false
 
 ### Comunicazioni
 
+* Andate sul [sito e-learning del corso](https://elearning.uniroma1.it/course/view.php?id=13879) e iscrivetevi per poter ricevere le comunicazioni del docente
 * [Slide di presentazione]({{< static "didattica/2021/presentazione.pdf" >}})
 * [Slide di ripasso matematica]({{< static "didattica/2021/presentazione_math.pdf" >}})
-* Le lezioni saranno trasmesse via streaming su [Google Meet](https://meet.google.com/qam-mhzv-evo).
 
 ### Orario delle lezioni
 
 * Inizio lezioni: 28/09/2021
 * Fine lezioni: 14/01/2022
-* Orario:
-	* Martedì 16-18, aula III (primo piano dell'edificio Caglioti - nuovo edificio di Chimica)
-	* Mercoledì 16-18, aula III (primo piano dell'edificio Caglioti - nuovo edificio di Chimica)
-	* Venerdì 14-17, aula III (primo piano dell'edificio Caglioti - nuovo edificio di Chimica)
+* Le lezioni si terranno in aula III (primo piano dell'edificio Caglioti - nuovo edificio di Chimica) con orario:
+	* Martedì 16-18
+	* Mercoledì 16-18
+	* Venerdì 14-17
+* Le lezioni saranno trasmesse via streaming su [Google Meet](https://meet.google.com/qam-mhzv-evo), ma consiglio **fortemente** di venire in presenza
 
 ### Ricevimento
 
@@ -38,7 +39,6 @@ Il docente riceve nella stanza 104 al primo piano dell'edificio Fermi (nuovo edi
 * L'esame prevede una prova scritta ed una prova orale.
 * La validità di una prova scritta è di tre appelli. In altre parole, coloro che abbiano superato una prova scritta possono sostenere la prova orale entro le tre sessioni orali successive (inclusa quella della medesima prova scritta, che comprende sempre la relativa sessione orale). 
 * Durante le prove d'esame non è consentito l'utilizzo di alcun libro o tipo di appunti.
-* 
 ### Materiale didattico
 
 * Testo di riferimento:
