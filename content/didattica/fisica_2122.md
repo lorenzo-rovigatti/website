@@ -14,7 +14,6 @@ draft = false
 
 * Andate sul [sito e-learning del corso](https://elearning.uniroma1.it/course/view.php?id=13879) e iscrivetevi per poter ricevere le comunicazioni del docente
 * [Slide di presentazione]({{< static "didattica/2021/presentazione.pdf" >}})
-* [Slide di ripasso matematica]({{< static "didattica/2021/presentazione_math.pdf" >}})
 
 ### Orario delle lezioni
 
@@ -50,6 +49,7 @@ Il docente riceve nella stanza 104 al primo piano dell'edificio Fermi (nuovo edi
 	* M. Nigro, C. Voci, "Problemi di Fisica Generale -- Elettromagnetismo e Ottica", Cortina (Padova)
 	* C. Schönberg, "360 esercizi e problemi di Fisica II", Schönenfeld & Ziegler
 * Animazioni/simulazioni
+	* [Visualizza campi vettoriali in 2D](https://www.geogebra.org/m/QPE4PaDZ)
 	* [Le linee del campo elettrico]({{< ref "html-field-lines/index.html" >}})
 	* [Ferromagneti e paramagneti: il modello di Ising]({{< ref "ising.js/index.html" >}})
 
@@ -99,7 +99,17 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 
 <small>Cliccare sulla data per visualizzare/nascondere l'elenco dettagliato, **E** sta per *esercitazione* e **L** per *lezione*)</small>
 
-{{% expand "28/09/2020, <b>L</b>" %}}
+{{% expand "28/09/2021, <b>L</b>" %}}
 * Presentazione del corso
-* Ripasso di matematica
+{{% /expand %}}
+{{% expand "29/09/2021, <b>L</b>" %}}
+* Introduzione all'elettrostatica
+	* Carica elettrica
+	* Struttura elettrica della materia
+* Legge di Coulomb
+* Campi scalari, vettoriali e principio di sovrapposizione
+* Campo elettrostatico
+* Riferimenti bibliografici MNV: 1.1 (senza isolanti/conduttori), 1.2 (senza induzione), 1.3, 1.4
+* [Visualizza campi vettoriali in 2D](https://www.geogebra.org/m/QPE4PaDZ)
+* [Appunti](../../files/appunti/2021/appunti_29_09.pdf)
 {{% /expand %}}

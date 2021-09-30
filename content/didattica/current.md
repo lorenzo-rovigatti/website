@@ -10,6 +10,7 @@ draft = false
 
 ## Animazioni/simulazioni
 
+* [Visualizza campi vettoriali in 2D](https://www.geogebra.org/m/QPE4PaDZ)
 * [Le linee del campo elettrico]({{< ref "html-field-lines/index.html" >}})
 * [Ferromagneti e paramagneti: il modello di Ising]({{< ref "ising.js/index.html" >}})
 
