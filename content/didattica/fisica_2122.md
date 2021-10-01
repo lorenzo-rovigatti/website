@@ -38,6 +38,7 @@ Il docente riceve nella stanza 104 al primo piano dell'edificio Fermi (nuovo edi
 * L'esame prevede una prova scritta ed una prova orale.
 * La validità di una prova scritta è di tre appelli. In altre parole, coloro che abbiano superato una prova scritta possono sostenere la prova orale entro le tre sessioni orali successive (inclusa quella della medesima prova scritta, che comprende sempre la relativa sessione orale). 
 * Durante le prove d'esame non è consentito l'utilizzo di alcun libro o tipo di appunti.
+
 ### Materiale didattico
 
 * Testo di riferimento:
@@ -112,4 +113,10 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 1.1 (senza isolanti/conduttori), 1.2 (senza induzione), 1.3, 1.4
 * [Visualizza campi vettoriali in 2D](https://www.geogebra.org/m/QPE4PaDZ)
 * [Appunti](../../files/appunti/2021/appunti_29_09.pdf)
+{{% /expand %}}
+{{% expand "01/10/2021, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_1.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 1.1, 1.3, 1.5
+* Esercizi consigliati MNV: 1.1, 1.2, 1.3, 1.4,1.10 (ricordando che $\sin \theta \approx \theta$ per piccoli angoli), 1.11
+* [Appunti](../../files/appunti/2021/appunti_01_10.pdf)
 {{% /expand %}}
