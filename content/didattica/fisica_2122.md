@@ -120,3 +120,22 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercizi consigliati MNV: 1.1, 1.2, 1.3, 1.4,1.10 (ricordando che $\sin \theta \approx \theta$ per piccoli angoli), 1.11
 * [Appunti](../../files/appunti/2021/appunti_01_10.pdf)
 {{% /expand %}}
+{{% expand "05/10/2021, <b>L</b>" %}}
+* Distribuzioni continue di cariche
+* Linee di campo (o di forza)
+* Riferimenti bibliografici MNV: 1.5, 1.6
+* [Appunti](../../files/appunti/2021/appunti_05_10.pdf)
+{{% /expand %}}
+{{% expand "06/10/2021, <b>L</b>" %}}
+* Moto di una carica in un campo elettrostatico uniforme
+* Lavoro della forza elettrostatica
+	* Circuitazione del campo
+	* Irrotazionalità del campo
+	* Energia potenziale elettrostatica
+* Potenziale elettrostatico
+	* Carica puntiforme
+	* Principio di sovrapposizione
+	* Unità di misura
+* Riferimenti bibliografici MNV: 1.7, 2.1, 2.2
+* [Appunti](../../files/appunti/2021/appunti_06_10.pdf) (**N.B.** c'è un'incoerenza nelle note: fino a pagina 6 $\Delta V\_{AB} = V(B) - V(A)$, mentre a pagina 7 $\Delta V\_{AB} = V(A) - V(B)$!)
+{{% /expand %}}
