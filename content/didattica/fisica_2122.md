@@ -139,3 +139,10 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 1.7, 2.1, 2.2
 * [Appunti](../../files/appunti/2021/appunti_06_10.pdf) (**N.B.** c'è un'incoerenza nelle note: fino a pagina 6 $\Delta V\_{AB} = V(B) - V(A)$, mentre a pagina 7 $\Delta V\_{AB} = V(A) - V(B)$!)
 {{% /expand %}}
+{{% expand "08/10/2021, <b>E + L</b>" %}}
+* Relazione tra potenziale e campo elettrostatico
+* Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_2.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 1.6, 1.7, 1.8, 2.8, paragrafo 2.4
+* Esercizi consigliati MNV: 1.13, 1.23, 1.24
+* [Appunti](../../files/appunti/2021/appunti_08_10.pdf)
+{{% /expand %}}

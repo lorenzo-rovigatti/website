@@ -1,7 +1,8 @@
 +++
-title = "Esercitazione del 08/10/2020"
-date = 2020-10-07T09:47:43+02:00
+title = "Esercitazione dell'8/10/2021"
+date = 2021-10-07T09:47:43+02:00
 draft = false
+
 +++
 
 [Esercizio 5](#esercizio-5) -- [Esercizio 6](#esercizio-6) -- [Esercizio 7](#esercizio-7) -- [Esercizio 8](#esercizio-8) -- [Esercizio 9](#esercizio-9)
@@ -44,7 +45,7 @@ $$
 
 {{< figure src="../images/esercizio_6.png" height="100px">}}
 
-Una carica $q$ è distribuita uniformemente su un sottile disco di raggio R. Consideriamo un sistema di riferimento tale che l'origine è nel centro del disco e $\hat{x}$ è orientato in maniera concorde all'asse del disco.
+Una carica $q$ è distribuita uniformemente su un sottile disco di raggio R. Consideriamo il sistema di riferimento che ha l'origine nel centro del disco e $\hat{x}$ orientato in maniera concorde all'asse del disco.
 
 1. Calcolare il modulo del campo elettrico in $\vec{r} = (x, 0, 0)$ al variare di $x$.
 2. Cosa succede quando $R \to \infty$?
@@ -63,13 +64,13 @@ $$
 
 2. Nel limite per $R \to \infty$ (tenendo $x$ costante) la radice al denominatore tende all'infinito e quindi la frazione tende a 0. Il risultato è
 $$
-E_x = \frac{\sigma}{2\epsilon_0}
+E_x = {\rm sgn}(x) \frac{\sigma}{2\epsilon_0}
 $$
-In questo limite (in cui il disco carico diventa effettivamente un piano indefinito uniformemente carico) il campo è *uniforme*, cioè prende lo stesso valore in tutti i punti dello spazio. La stessa espressione è valida nel caso in cui ci avviciniamo molto ad una superficie carica (cioè nel limite in cui la superficie è così vicino da *sembrarci* un piano infinito).
+dove ${\rm sgn}(x)$ indica il segno di $x$. Questo fattore viene dal fatto che $\sqrt{x^2} = |x|$, quindi $x / |x| = {\rm sgn}(x)$. Nel limite di grandi $R$ (in cui il disco carico diventa effettivamente un piano indefinito uniformemente carico) il campo è *uniforme*, cioè prende lo stesso valore in tutti i punti dello spazio. La stessa espressione è valida nel caso in cui ci avviciniamo molto ad una superficie carica (cioè nel limite in cui la superficie è così vicino da *sembrarci* un piano infinito).
 
-3. Sia che $R$ sia finito sia che tenda all'infinito, il limite di $\vec{E}$ per $x \to 0$ è diverso venendo da sinistra o da destra: il modulo resta lo stesso, mentre il verso è opposto. Il campo ha quindi una *discontinuità* in $x = 0$: il campo ha un salto di valore pari a $\Delta E = \frac{\sigma}{\epsilon_0}$. Vettorialmente si può scrivere che, ad esempio nel limite $R \to \infty$, 
+3. Sia che $R$ sia finito sia che tenda all'infinito, il limite di $\vec{E}$ per $x \to 0$ è diverso venendo da sinistra o da destra: il modulo resta lo stesso, mentre il verso è opposto. Il campo ha quindi una *discontinuità* in $x = 0$: il campo ha un salto di valore pari a $\Delta E = \frac{\sigma}{\epsilon_0}$. Vettorialmente si può scrivere che nel limite $R \to \infty$
 $$
-\vec{E} = \pm \frac{\sigma}{2 \epsilon_0} \hat{x}
+\vec{E} = {\rm sgn}(x) \frac{\sigma}{2 \epsilon_0} \hat{x}
 $$
 
 ---
@@ -98,9 +99,9 @@ $$
 $$
 Lì dove il campo è zero (cioè a sinistra e a destra dei due piani), il potenziale deve essere costante. Poiché la funzione potenziale deve essere sempre continua (perché?), troviamo $V(x) = 0$ per $x < 0$ e $V(x) = -\frac{\sigma d}{\epsilon_0}$ per $x > d$.
 {{< figure src="../images/esercizio_7_soluzione_2.png" height="80px">}}
-2. Se i piani hanno la stessa densità di carica, il campo sarà diverso da 0 solamente a sinistra e a destra dei due piani, dove vale $\vec{E} = \pm \frac{\sigma}{\epsilon_0}\hat{x}$ (vale il segno $+$ a destra dei piani, cioè per $x > d$, e il segno $-$ a sinistra dei piani, cioè per $x < 0$). Dove il campo vale 0 (cioè tra i due piani) il potenziale è costante. Lo poniamo a 0 (ma potremmo porlo uguale a qualsiasi altro valore, perché?). A sinistra dei piani (cioè per $x < 0$) si ha
+2. Se i piani hanno la stessa densità di carica, il campo sarà diverso da 0 solamente a sinistra e a destra dei due piani, dove vale $\vec{E} = {\rm sgn}(x) \frac{\sigma}{\epsilon_0}\hat{x}$ (cioè il campo ha segno $+$ a destra dei piani, $x > d$, e il segno $-$ a sinistra dei piani, $x < 0$). Dove il campo vale 0 (cioè tra i due piani) il potenziale è costante. Lo poniamo a 0 (ma potremmo porlo uguale a qualsiasi altro valore, perché?). A sinistra dei piani (cioè per $x < 0$) si ha
 $$
-V(x) = -\int_0^|x| \vec{E} \cdot d\vec{s} = \int_0^x E dx' = \frac{\sigma}{\epsilon_0} x
+V(x) = -\int_0^{x} \vec{E} \cdot d\vec{s} = \int_0^x E dx' = \frac{\sigma}{\epsilon_0} x
 $$
 perché il campo è diretto verso le $x$ negative. A destra dei piani ($x > d$) si ha invece:
 $$
@@ -108,6 +109,8 @@ V(x) = -\int_d^x \vec{E} \cdot d\vec{s} = -\int_d^x E dx' = -\frac{\sigma}{\epsi
 $$
 
 ---
+
+I due esercizi che seguono verranno discussi a lezione più avanti.
 
 ## Esercizio 8
 
