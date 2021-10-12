@@ -120,7 +120,7 @@ I due esercizi che seguono verranno discussi a lezione più avanti.
 
 Due piani indefiniti paralleli caricati con densità superficiale $\sigma_1$ e $\sigma_2$ sono posti in $x_1 = 0$ e $x_2 = d$.
 
-1. Calcolare il lavoro che occorre compiere per spostare una carica $q_0$ tra i punti $(\delta, 0, 0)$ e $(5\delta, 0, 0)$, entrambi compresi tra i due piani. Il problema si può risolvere sia utilizzando la definizione di lavoro che il legame che sussiste tra il lavoro e il potenziale.
+1. Calcolare il lavoro che la forza elettrostatica compie per spostare una carica $q_0$ tra i punti $(\delta, 0, 0)$ e $(5\delta, 0, 0)$, entrambi compresi tra i due piani. Il problema si può risolvere sia utilizzando la definizione di lavoro che il legame che sussiste tra il lavoro e il potenziale.
 2. Poniamo $\sigma_1 = -\sigma_2 > 0$. Al tempo $t = 0$ una carica $q_0 > 0$ si trova in $\vec{r} = (\delta, 0, 0)$ con velocità iniziale $\vec{v} = (v\_{0,x}, v\_{0,y}, v\_{0,z})$. Calcolare il tempo $t^*$ dopo il quale la carica tocca il secondo piano.
 
 ### Soluzione

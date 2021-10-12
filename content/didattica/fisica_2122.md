@@ -146,3 +146,13 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercizi consigliati MNV: 1.13, 1.23, 1.24
 * [Appunti](../../files/appunti/2021/appunti_08_10.pdf)
 {{% /expand %}}
+{{% expand "12/10/2021, <b>L</b>" %}}
+* Superfici equipotenziali
+* Energia potenziale elettrostatica e conservazione dell'energia
+* Dipolo elettrico
+	* Potenziale
+	* Campo
+	* Momento meccanico
+* Riferimenti bibliografici MNV: 2.3, 2.5, 2.7, 2.8 (solo campo uniforme),
+* [Appunti](../../files/appunti/2021/appunti_12_10.pdf)
+{{% /expand %}}
