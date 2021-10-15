@@ -1,10 +1,10 @@
 +++
-title = "Esercitazione del 14/10/2020"
-date = 2020-10-13T09:47:43+02:00
+title = "Esercitazione del 15/10/2021"
+date = 2021-10-13T09:47:43+02:00
 draft = false
 +++
 
-[Esercizio 10](#esercizio-10) -- [Esercizio 11](#esercizio-11) -- [Esercizio 12](#esercizio-12) -- [Esercizio 13](#esercizio-13) -- [Esercizio 14](#esercizio-14)
+[Esercizio 10](#esercizio-10) -- [Esercizio 11](#esercizio-11) -- [Esercizio 12](#esercizio-12) -- [Esercizio 13](#esercizio-13) -- [Esercizio 14](#esercizio-14) -- [Esercizio 15](#esercizio-15)
 
 ## Esercizio 10
 
@@ -186,3 +186,45 @@ $$
 E_x = -\frac{\partial V}{\partial x} = \frac{q}{4\pi\epsilon_0}\frac{x_0}{\left( R^2 + x_0^2 \right)^{3 /2}}
 $$
 Questa espressione coincide con quella calcolata esplicitamente.
+
+---
+
+## Esercizio 15
+<small>Esempio 3.3 del MNV</small>
+
+### Testo
+
+{{< figure src="../images/esercizio_15.png" width="300px">}}
+
+Utilizzare il teorema di Gauss per calcolare 
+
+1. il campo elettrostatico generato da un cilindro indefinito di raggio $R$ caricato uniformemente con densità di carica $\rho$ in ogni punto dello spazio.
+2. La differenza di potenziale tra due punti distanti dal centro del cilindro, rispettivamente, $r_1 > R$ e $r_2 > R$.
+
+### Soluzione
+
+1. Il campo ha sicuramente direzione radiale, cioè $\vec{E}(r ) = E(r ) \hat{r}$. Per calcolare il modulo $E(r )$ applichiamo il teorema di Gauss ad un cilindro di raggio $r$ ed altezza $h$ coassiale al cilindro carico. Poiché il campo è radiale, il suo flusso attraverso le basi del cilindro è nullo. Calcoliamo il flusso attraverso la superficie laterale:
+$$
+\oint\_{\Sigma} \vec{E} \cdot \hat{n} d\Sigma = E(r ) \oint\_{\Sigma} d\Sigma = E(r ) 2 \pi r h
+$$
+La carica totale contenuta all'interno della superficie è data da:
+$$
+\int\_{\tau} \rho d\tau = \rho \pi R^2 h
+$$
+Applicando il teorema di Gauss si trova:
+$$
+E(r ) = \frac{\rho R^2}{2 \epsilon_0 r} = \frac{\lambda}{2 \pi\epsilon_0 r}
+$$
+avendo definito la densità di carica *lineare* $\lambda = \rho \pi R^2$. Questa espressione è valida anche per fili *sottili* caricati con la stessa densità di carica $\lambda$.
+2. La differenza di potenziale si calcola utilizzando la definizione di potenziale:
+$$
+\Delta V = V(r_2) - V(r_1) = - \int\_{r_1}^{r_2} E dr = - \frac{\rho R^2}{2 \epsilon_0 } \int\_{r_1}^{r_2} \frac{1}{r}dr = -\frac{\rho R^2}{2 \epsilon_0} \left ( \log(r_2) - \log(r_1) \right) = \frac{\rho R^2}{2 \epsilon_0} \log{\left ( \frac{r_1}{r_2} \right)}
+$$
+Possiamo usare questa relazione per calcolare la capacità di un condensatore cilindrico di altezza $h$, per il quale si ha $q = \rho \pi R^2 h$, quindi la differenza di potenziale si può scrivere come
+$$
+\Delta V = \frac{q}{2 \pi \epsilon_0 h} \log{\left ( \frac{r_2}{r_1} \right)}
+$$
+e quindi
+$$
+C = \frac{q}{\Delta V} = \frac{2 \pi \epsilon_0 h}{\log\left(\frac{r_2}{r_1}\right)}
+$$

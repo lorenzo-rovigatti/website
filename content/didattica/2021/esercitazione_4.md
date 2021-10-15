@@ -4,7 +4,7 @@ date = 2020-10-19T09:47:43+02:00
 draft = false
 +++
 
-[Richiami di matematica](#richiami-di-matematica-coordinate-sferiche-e-polari) -- [Esercizio 15](#esercizio-15) -- [Esercizio 16](#esercizio-16) -- [Esercizio 17](#esercizio-17) -- [Esercizio 18](#esercizio-18) -- [Esercizio 19](#esercizio-19)
+[Richiami di matematica](#richiami-di-matematica-coordinate-sferiche-e-polari) -- [Esercizio 16](#esercizio-16) -- [Esercizio 17](#esercizio-17) -- [Esercizio 18](#esercizio-18) -- [Esercizio 19](#esercizio-19)
 
 ## Richiami di matematica: coordinate sferiche e polari
 
@@ -68,49 +68,6 @@ Per gli spostamenti infinitesimi:
 * Se ci si muove lungo $\hat{\theta}$ di un angolo $d\theta$, lo spostamento sarà pari a $ds\_\theta = 2 r \sin(d\theta / 2) \approx r d\theta$, dove abbiamo utilizzato il fatto che $\sin (\alpha) \approx \alpha$ per piccoli valori di $\alpha$.
 
 L'espressione di una porzione infinitesimo della superficie è quindi $d\Sigma = dx dy = r dr d\theta$. Se l'integrando non dipende da $\theta$ si ha $d\Sigma = 2 \pi r dr$.
-
----
-
-## Esercizio 15
-<small>Esempio 3.3 del MNV</small>
-
-### Testo
-
-{{< figure src="../images/esercizio_15.png" width="300px">}}
-
-Utilizzare il teorema di Gauss per calcolare 
-
-1. il campo elettrostatico generato da un cilindro indefinito di raggio $R$ caricato uniformemente con densità di carica $\rho$ in ogni punto dello spazio.
-2. La differenza di potenziale tra due punti distanti dal centro del cilindro, rispettivamente, $r_1 > R$ e $r_2 > R$.
-
-### Soluzione
-
-1. Il campo ha sicuramente direzione radiale, cioè $\vec{E}(r ) = E(r ) \hat{r}$. Per calcolare il modulo $E(r )$ applichiamo il teorema di Gauss ad un cilindro di raggio $r$ ed altezza $h$ coassiale al cilindro carico. Poiché il campo è radiale, il suo flusso attraverso le basi del cilindro è nullo. Calcoliamo il flusso attraverso la superficie laterale:
-$$
-\oint\_{\Sigma} \vec{E} \cdot \hat{n} d\Sigma = E(r ) \oint\_{\Sigma} d\Sigma = E(r ) 2 \pi r h
-$$
-La carica totale contenuta all'interno della superficie è data da:
-$$
-\int\_{\tau} \rho d\tau = \rho \pi R^2 h
-$$
-Applicando il teorema di Gauss si trova:
-$$
-E(r ) = \frac{\rho R^2}{2 \epsilon_0 r} = \frac{\lambda}{2 \pi\epsilon_0 r}
-$$
-avendo definito la densità di carica *lineare* $\lambda = \rho \pi R^2$. Questa espressione è valida anche per fili *sottili* caricati con la stessa densità di carica $\lambda$.
-
-2. La differenza di potenziale si calcola utilizzando la definizione di potenziale:
-$$
-\Delta V = - \int\_{r_2}^{r_1} E dr = - \frac{\rho R^2}{2 \epsilon_0 } \int\_{r_2}^{r_1} \frac{1}{r}dr = \frac{\rho R^2}{2 \epsilon_0} \log{\left ( \frac{r_2}{r_1} \right)}
-$$
-Possiamo usare questa relazione per calcolare la capacità di un condensatore cilindrico di altezza $h$, per il quale si ha $q = \rho \pi R^2 h$, quindi la differenza di potenziale si può scrivere come
-$$
-\Delta V = \frac{q}{2 \pi \epsilon_0 h} \log{\left ( \frac{r_2}{r_1} \right)}
-$$
-e quindi
-$$
-C = \frac{q}{\Delta V} = \frac{2 \pi \epsilon_0 h}{\log\left(\frac{r_2}{r_1}\right)}
-$$
 
 ---
 

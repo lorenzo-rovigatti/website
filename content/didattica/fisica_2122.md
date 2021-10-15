@@ -156,3 +156,17 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 2.3, 2.5, 2.7, 2.8 (solo campo uniforme),
 * [Appunti](../../files/appunti/2021/appunti_12_10.pdf)
 {{% /expand %}}
+{{% expand "13/10/2021, <b>L</b>" %}}
+* Teorema (legge) di Gauss
+* Prima equazione di Maxwell
+* Conduttori
+* Teorema di Coulomb
+* Riferimenti bibliografici MNV: 3.1, 3.2 (solo spiegazione grafica), 3.4, 4.1
+* [Appunti](../../files/appunti/2021/appunti_13_10.pdf)
+{{% /expand %}}
+{{% expand "15/10/2021, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_3.md" >}}))
+* Riferimenti bibliografici MNV: Esempi 2.2, 2.6, 2.10, 3.1, 3.2, 3.3, 3.4
+* Esercizi consigliati MNV: 2.3, 2.4, 2.5, 2.6 (consiglio: spostate una carica alla volta ma ricordatevi che le due cariche che spostate erano vicine "all'infinito"), 2.14, 2.17 (per questi due ricordatevi che l'energia si conserva!), 2.26 (solo punto a), 2.27, 3.9, 3.20 (il punto (a) è più difficile, il (b) meno)
+* [Appunti](../../files/appunti/2020/appunti_14_10.pdf)
+{{% /expand %}}
