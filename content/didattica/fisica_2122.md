@@ -168,5 +168,22 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_3.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 2.2, 2.6, 2.10, 3.1, 3.2, 3.3, 3.4
 * Esercizi consigliati MNV: 2.3, 2.4, 2.5, 2.6 (consiglio: spostate una carica alla volta ma ricordatevi che le due cariche che spostate erano vicine "all'infinito"), 2.14, 2.17 (per questi due ricordatevi che l'energia si conserva!), 2.26 (solo punto a), 2.27, 3.9, 3.20 (il punto (a) è più difficile, il (b) meno)
-* [Appunti](../../files/appunti/2020/appunti_14_10.pdf)
+* [Appunti](../../files/appunti/2021/appunti_15_10.pdf)
+{{% /expand %}}
+{{% expand "19/10/2021, <b>L</b>" %}}
+* Induzione completa
+* Gabbia di Faraday
+* Condensatori
+	* In parallelo
+	* In serie
+* Riferimenti bibliografici MNV: 4.2, 4.3, 4.4
+* [Appunti](../../files/appunti/2021/appunti_19_10.pdf)
+{{% /expand %}}
+{{% expand "20/10/2021, <b>L</b>" %}}
+* Energia e densità di energia del campo elettrostatico
+* Dielettrici
+	* Effetti di polarizzazione
+	* Legge di Gauss in presenza di dielettrici
+* Riferimenti bibliografici MNV: 4.5, 4.6, 4.7, 4.8
+* [Appunti](../../files/appunti/2021/appunti_20_10.pdf)
 {{% /expand %}}
