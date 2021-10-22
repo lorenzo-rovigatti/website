@@ -192,7 +192,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Ripasso coordinate sferiche e polari
 * Esercitazione ([testo e soluzioni]({{< ref "2020/esercitazione_4.md" >}}))
 * Riferimenti bibliografici MNV: Esempio 4.1
-* Esercizi consigliati MNV: 3.9, 3.20 (il punto (a) è più difficile, il (b) meno), 4.4, 4.5, 4.6, 4.7, 4.8, 4.16, 4.17, 4.18, 4.20, 4.21
+* Esercizi consigliati MNV: 3.9, 3.20 (il punto (a) è più difficile, il (b) meno), 4.4, 4.5, 4.6, 4.7, 4.8, 4.11, 4.16, 4.17, 4.18, 4.20, 4.21
 * [Appunti](../../files/appunti/2020/appunti_20_10.pdf)
   {{% /expand %}}
   {{% expand "21/10/2020, <b>L</b>" %}}

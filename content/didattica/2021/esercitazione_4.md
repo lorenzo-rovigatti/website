@@ -1,10 +1,10 @@
 +++
-title = "Esercitazione del 20/10/2020"
-date = 2020-10-19T09:47:43+02:00
+title = "Esercitazione del 22/10/2021"
+date = 2021-10-19T09:47:43+02:00
 draft = false
 +++
 
-[Richiami di matematica](#richiami-di-matematica-coordinate-sferiche-e-polari) -- [Esercizio 16](#esercizio-16) -- [Esercizio 17](#esercizio-17) -- [Esercizio 18](#esercizio-18) -- [Esercizio 19](#esercizio-19)
+[Richiami di matematica](#richiami-di-matematica-coordinate-sferiche-e-polari) -- [Esercizio 16](#esercizio-16) -- [Esercizio 17](#esercizio-17) -- [Esercizio 18](#esercizio-18) -- [Esercizio 19](#esercizio-19) -- [Esercizio 20](#esercizio-20) -- [Esercizio 21](#esercizio-21)
 
 ## Richiami di matematica: coordinate sferiche e polari
 
@@ -133,7 +133,6 @@ Un conduttore sferico scarico di raggio $R$ contiene due cavità sferiche, rispe
 2. il campo elettrico all'esterno del conduttore;
 3. i campi elettrici all'interno delle due cavità;
 4. le forze percepite dalle due cariche; c'è interazione tra le cariche?
-5. Come cambierebbe la situazione se $q_a$ e $q_b$ fossero poste inizialmente non esattamente nel centro e fossero libere di muoversi?
 6. Ritorniamo al caso delle cariche poste nel centro delle cavità. Come cambia *qualitativamente* la situazione se una carica $q_c$ viene posta nelle vicinanze della sfera conduttrice?
 
 ### Soluzione
@@ -145,7 +144,6 @@ $$
 $$
 3. Entrambe la cavità sono schermate, dall'esterno tanto quanto l'una dall'altra. In ogni cavità, quindi, il campo sarà quello generato dalla carica al suo interno e varrà $\vec{E}_a = \frac{q_a}{4\pi \epsilon_0} \frac{1}{r^2}\hat{r}$ e $\vec{E}_b = \frac{q_b}{4\pi \epsilon_0} \frac{1}{r^2}\hat{r}$, con $r$ distanza dal centro della cavità.
 4. Le cariche sono al centro delle rispettive cavità, che sono schermate elettrostaticamente dall'esterno: non sentono alcuna forza.
-5. Se le cariche non fossero centrate verrebbero attirate dalla densità di carica indotta sulle superfici interne. Dopo un certo tempo, entrambe le cariche toccherebbero le superfici del conduttore, caricandolo. Si otterrebbe quindi $\sigma_a = \sigma_b = 0$, e quindi i campi all'interno delle cavità si annullerebbero. Date le note proprietà dei conduttori, il campo esterno rimarrebbe invariato (così come $\sigma_R$).
 6. Se avviciniamo una carica $q_c$, il suo effetto sarà quello di indurre spostamenti di carica su $R$ affinché il campo si annulli al suo interno. La carica totale sulla superficie di $R$ non cambierebbe ($q_R = q_a + q_b$), ma la sua distribuzione sì. All'interno invece la presenza di $q_c$ non è avvertita in forza dello schermo elettrostatico.
 
 ---
@@ -202,3 +200,89 @@ V_C = \frac{V_A + 2V_B}{6} = 15\, \mathrm{V}
 $$
 
 ---
+
+## Esercizio 20
+
+### Testo
+
+{{< figure src="../images/esercizio_20.png" width="500px">}}
+
+Una sfera di raggio $R_1$ è posta al centro di una sfera cava di raggio interno $R_2$ ed esterno $R_3$. I due conduttori sono mantenuti da un generatore a valori del potenziale $V_1$ e $V_2$ rispetto al potenziale all'infinito (che poniamo a 0 per comodità). 
+
+1. Calcolare le cariche $q_1$, $q_2$ e $q_3$ depositate sulle tre superfici conduttive.
+2. Calcolare numericamente le cariche se $R_1 = 10$ cm, $R_2 = 20$ cm, $R_3 = 25$ cm, $V_1 = -1000$ V, $V_2 = 200$ V.
+
+### Soluzione
+
+1. La differenza di potenziale tra $R_1$ ed $R_2$ si trova integrando il campo all'interno della cavità:
+$$
+\Delta V = V_1 - V_2 = \frac{q_1}{4\pi\epsilon_0} \left( \frac{1}{R_1} - \frac{1}{R_2} \right)
+$$
+Da cui si ricava la carica della sfera interna:
+$$
+q_1 = 4 \pi \epsilon_0 \Delta V \left( \frac{R_1 R_2}{R_1 - R_2} \right) = \Delta V C
+$$
+Dove l'ultima relazione mostra come il sistema possa essere considerato un condensatore sferico di capacità $C = 4 \pi \epsilon_0 \left( \frac{R_1 R_2}{R_1 - R_2} \right)$. Per il teorema di Gauss, la carica sulla superficie interna della sfera cava non può essere altro che $q_2 = -q_1$.  La carica sulla superficie esterna, invece, si trova integrando direttamente il campo per trovare la differenza di potenziale tra la sfera cava e l'infinito (dove $V = 0$):
+$$
+V_2 = \frac{q_3}{4\pi \epsilon_0} \frac{1}{R_3}
+$$
+Da cui si trova che:
+$$
+q_3 = 4 \pi \epsilon_0 R_3 V_2
+$$
+
+2. Sostituiamo i valori nelle relazioni trovate precedentemente:
+\begin{align}
+q_1 & = -2.67 \times 10^{-8}\\\\\\
+q_2 & = 2.67 \times 10^{-8}\\\\\\
+q_3 & = 5.6 \times 10^{-9}
+\end{align}
+
+---
+
+## Esercizio 21
+<small>MVN: esercizio 4.10</small>
+
+### Testo
+
+{{< figure src="../images/esercizio_21.png" width="250px">}}
+
+Cinque fogli metallici sferici e concentrici (di spessore trascurabile) sono inizialmente scarichi. Il secondo e il terzo e il quarto e il quinto sono collegati da fili conduttori. Una carica $q$ è depositata sulla superficie più interna.
+Calcolare
+
+1. le cariche presenti sulle superfici;
+2. il campo $E(r )$;
+3. l'energia elettrostatica del sistema;
+
+Calcolare le stesse quantità se
+
+{{< figure src="../images/esercizio_21_1.png" width="250px">}}
+4. i conduttori 1 e 2 vengono collegati;
+{{< figure src="../images/esercizio_21_2.png" width="250px">}}
+5. i conduttori 3 e 4 vengono collegati;
+{{< figure src="../images/esercizio_21_3.png" width="300px">}}
+6. il conduttore 5 viene collegato a terra;
+
+### Soluzione
+
+I conduttori collegati possono essere visti come un unico conduttore, quindi il sistema può essere visto come una sfera conduttrice carica al centro di due sfere conduttrici concentriche.
+
+1. La sfera centrale ha carica $q$. La superficie 2 si carica con $-q$ per induzione completa. Per conservazione della carica la superficie 3 acquista quindi una carica $q$. Per i conduttori 4 e 5 vale lo stesso discorso, e quindi si caricano rispettivamente con carica $-q$ e $q$.
+2. Il campo è nullo all'interno dei conduttori e nelle zone comprese tra i conduttori collegati (quindi 2-3 e 4-5). Negli altri punti possiamo utilizzare il teorema di Gauss per trovare il campo, che vale sempre
+$$
+E(r ) = \frac{q}{4 \pi \epsilon_0 r^2}
+$$
+3. Il sistema può essere visto come composto da due condensatori sferici e da una superficie sferica cava. L'energia di un condensatore è semplicemente $U_e = \frac{q^2}{2C}$, dove la capacità di un condensatore sferico di raggi $R_a > R_b$ è
+$$
+C = 4 \pi \epsilon_0 \frac{R_a R_b}{R_a - R_b}
+$$
+L'energia elettrostatica di una sfera conduttrice carica può essere calcolata in due modi equivalenti:
+	1. considerandola come un'armatura di un condensatore piano avente l'altra armatura all'infinito. In questo caso possiamo associarle una capacità $C\_\infty = 4 \pi \epsilon_0 R_b$ che può essere utilizzata per calcolarne l'energia elettrostatica;
+	2. utilizzando la relazione che lega il campo all'energia, $U_e = \frac{1}{2} \epsilon_0 \int\_V E^2 d\tau$
+In entrambi i casi otteniamo $U_e = \frac{q^2}{8 \pi \epsilon_0 R_5}$, e l'energia totale vale quindi
+$$
+U_e = \frac{q^2}{8 \pi \epsilon_0} \left( \frac{1}{R_1} - \frac{1}{R_2} + \frac{1}{R_3} - \frac{1}{R_4} + \frac{1}{R_5}\right)
+$$
+4. Collegare i due conduttori azzera la loro carica e quindi annulla il campo nell'intercapedine (e quindi l'energia elettrostatica associata al condensatore).
+5. Come sopra.
+6. Collegare a terra il conduttore più esterno lo fa scaricare, e quindi carica, campo ed energia si annullano.

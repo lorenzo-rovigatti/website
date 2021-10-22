@@ -187,3 +187,9 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 4.5, 4.6, 4.7, 4.8
 * [Appunti](../../files/appunti/2021/appunti_20_10.pdf)
 {{% /expand %}}
+{{% expand "22/10/2021, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_4.md" >}}))
+* Riferimenti bibliografici MNV: Esempio 4.1
+* Esercizi consigliati MNV: 4.4, 4.5, 4.6, 4.7, 4.8, 4.11, 4.16, 4.17, 4.18, 4.20, 4.21
+* [Appunti](../../files/appunti/2021/appunti_22_10.pdf)
+{{% /expand %}}
