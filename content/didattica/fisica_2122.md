@@ -205,3 +205,15 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Video sul modello di Drude](https://www.youtube.com/watch?v=c6K-kDzhAnA)
 * [Appunti](../../files/appunti/2021/appunti_26_10.pdf)
 {{% /expand %}}
+{{% expand "27/10/2021, <b>L</b>" %}}
+* Forza elettromotrice
+* Circuiti RC
+	* Carica di un condensatore
+	* Scarica di un condensatore
+* Reti elettriche: cenni
+	* Prima legge di Kirchhoff
+	* Seconda legge di Kirchhoff
+* Riferimenti bibliografici MNV: 5.6, 5.7, 5.9, esempi 5.9 e 5.10
+* [Video sui circuiti](https://www.youtube.com/watch?v=m4jzgqZu-4s)
+* [Appunti](../../files/appunti/2021/appunti_27_10.pdf)
+{{% /expand %}}
