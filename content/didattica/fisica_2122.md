@@ -193,3 +193,15 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercizi consigliati MNV: 4.4, 4.5, 4.6, 4.7, 4.8, 4.11, 4.16, 4.17, 4.18, 4.20, 4.21
 * [Appunti](../../files/appunti/2021/appunti_22_10.pdf)
 {{% /expand %}}
+{{% expand "26/10/2021, <b>L</b>" %}}
+* Corrente elettrica
+* Modello classico della conduzione elettrica
+* Legge di Ohm
+* Potenza ed effetto Joule
+* Resistori
+	* In serie
+	* In parallelo
+* Riferimenti bibliografici MNV: 5.1, 5.2, 5.3, 5.4, 5.5
+* [Video sul modello di Drude](https://www.youtube.com/watch?v=c6K-kDzhAnA)
+* [Appunti](../../files/appunti/2021/appunti_26_10.pdf)
+{{% /expand %}}
