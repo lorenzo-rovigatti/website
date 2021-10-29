@@ -217,3 +217,8 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * [Video sui circuiti](https://www.youtube.com/watch?v=m4jzgqZu-4s)
 * [Appunti](../../files/appunti/2021/appunti_27_10.pdf)
 {{% /expand %}}
+{{% expand "29/10/2021, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_5.md" >}}))
+* Esercizi consigliati MNV: 4.32, 4.34, 4.38, 5.12, 5.18, 5.20, 5.21, 5.22 (questi ultimi 4 esercizi potrebbero sembravi difficili: li vedremo meglio la prossima settimana)
+* [Appunti](../../files/appunti/2021/appunti_29_10.pdf) (**Nota Bene:** nell'ultima pagina l'equazione per la maglia di destra ha un segno sbagliato, dovrebbe essere $-\mathcal{E} = R_2 i_2 + R_3(i_2 - i_1)$)
+{{% /expand %}}
