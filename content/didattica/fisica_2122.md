@@ -222,3 +222,8 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercizi consigliati MNV: 4.32, 4.34, 4.38, 5.12, 5.18, 5.20, 5.21, 5.22 (questi ultimi 4 esercizi potrebbero sembravi difficili: li vedremo meglio la prossima settimana)
 * [Appunti](../../files/appunti/2021/appunti_29_10.pdf) (**Nota Bene:** nell'ultima pagina l'equazione per la maglia di destra ha un segno sbagliato, dovrebbe essere $-\mathcal{E} = R_2 i_2 + R_3(i_2 - i_1)$)
 {{% /expand %}}
+{{% expand "02/11/2021, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_6.md" >}}))
+* Esercizi consigliati MNV: 4.34, 4.35, 4.36, 4.37, 4.39, 4.40, 4.41, 4.42, 5.23, 5.24
+* [Appunti](../../files/appunti/2021/appunti_02_11.pdf)
+{{% /expand %}}
