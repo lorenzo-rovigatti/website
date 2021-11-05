@@ -227,3 +227,10 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercizi consigliati MNV: 4.34, 4.35, 4.36, 4.37, 4.39, 4.40, 4.41, 4.42, 5.23, 5.24
 * [Appunti](../../files/appunti/2021/appunti_02_11.pdf)
 {{% /expand %}}
+{{% expand "04/11/2021, <b>L</b>" %}}
+* Laboratorio didattico
+{{% /expand %}}
+{{% expand "05/11/2021, <b>E</b>" %}}
+* Prova scritto ([testo e soluzioni](../2021/soluzioni_prima_prova_scritto.pdf))
+* [Appunti](../../files/appunti/2021/appunti_05_11.pdf)
+{{% /expand %}}
