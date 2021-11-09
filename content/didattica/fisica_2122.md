@@ -234,3 +234,13 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Prova scritto ([testo e soluzioni](../2021/soluzioni_prima_prova_scritto.pdf))
 * [Appunti](../../files/appunti/2021/appunti_05_11.pdf)
 {{% /expand %}}
+{{% expand "09/11/2021, <b>L</b>" %}}
+* Introduzione ai fenomeni magnetici
+* Elettricità e magnetismo
+* Forza magnetica
+	* Carica in moto
+	* Conduttore percorso da corrente
+* Momenti meccanici su circuiti piani
+* Riferimenti bibliografici MNV: 6.1, 6.2, 6.3, 6.4, esempio 6.2, 6.5
+* [Appunti](../../files/appunti/2021/appunti_09_11.pdf)
+{{% /expand %}}
