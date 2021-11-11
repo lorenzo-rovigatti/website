@@ -12,7 +12,8 @@ draft = false
 
 ### Comunicazioni
 
-* **Scritto del 14/09/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210914.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210914.md" >}}). Contattare il docente per visionare i compiti e/o accordarsi per l'orale.
+* **Scritto del 10/11/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20211110.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20211110.md" >}}). Contattare il docente per visionare i compiti e/o accordarsi per l'orale.
+* **Scritto del 14/09/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210914.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210914.md" >}}).
 * **Scritto del 13/07/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210713.md" >}}).
 * **Scritto del 15/06/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210615.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210615.md" >}}).
 * **Scritto del 13/04/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210413.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210413.md" >}}).
