@@ -244,3 +244,8 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 6.1, 6.2, 6.3, 6.4, esempio 6.2, 6.5
 * [Appunti](../../files/appunti/2021/appunti_09_11.pdf)
 {{% /expand %}}
+{{% expand "12/11/2021, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_7.md" >}}))
+* Esercizi consigliati MNV: 6.19, 6.20, 6.21 (difficile), 6.23, 6.24, 6.25 (abbastanza difficile), 6.26
+* [Appunti](../../files/appunti/2021/appunti_12_11.pdf)
+{{% /expand %}}
