@@ -102,8 +102,8 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 
 {{% expand "28/09/2021, <b>L</b>" %}}
 * Presentazione del corso
-{{% /expand %}}
-{{% expand "29/09/2021, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "29/09/2021, <b>L</b>" %}}
 * Introduzione all'elettrostatica
 	* Carica elettrica
 	* Struttura elettrica della materia
@@ -113,20 +113,20 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 1.1 (senza isolanti/conduttori), 1.2 (senza induzione), 1.3, 1.4
 * [Visualizza campi vettoriali in 2D](https://www.geogebra.org/m/QPE4PaDZ)
 * [Appunti](../../files/appunti/2021/appunti_29_09.pdf)
-{{% /expand %}}
-{{% expand "01/10/2021, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "01/10/2021, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_1.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 1.1, 1.3, 1.5
 * Esercizi consigliati MNV: 1.1, 1.2, 1.3, 1.4,1.10 (ricordando che $\sin \theta \approx \theta$ per piccoli angoli), 1.11
 * [Appunti](../../files/appunti/2021/appunti_01_10.pdf)
-{{% /expand %}}
-{{% expand "05/10/2021, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "05/10/2021, <b>L</b>" %}}
 * Distribuzioni continue di cariche
 * Linee di campo (o di forza)
 * Riferimenti bibliografici MNV: 1.5, 1.6
 * [Appunti](../../files/appunti/2021/appunti_05_10.pdf)
-{{% /expand %}}
-{{% expand "06/10/2021, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "06/10/2021, <b>L</b>" %}}
 * Moto di una carica in un campo elettrostatico uniforme
 * Lavoro della forza elettrostatica
 	* Circuitazione del campo
@@ -138,15 +138,15 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Unità di misura
 * Riferimenti bibliografici MNV: 1.7, 2.1, 2.2
 * [Appunti](../../files/appunti/2021/appunti_06_10.pdf) (**N.B.** c'è un'incoerenza nelle note: fino a pagina 6 $\Delta V\_{AB} = V(B) - V(A)$, mentre a pagina 7 $\Delta V\_{AB} = V(A) - V(B)$!)
-{{% /expand %}}
-{{% expand "08/10/2021, <b>E + L</b>" %}}
+  {{% /expand %}}
+  {{% expand "08/10/2021, <b>E + L</b>" %}}
 * Relazione tra potenziale e campo elettrostatico
 * Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_2.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 1.6, 1.7, 1.8, 2.8, paragrafo 2.4
 * Esercizi consigliati MNV: 1.13, 1.23, 1.24
 * [Appunti](../../files/appunti/2021/appunti_08_10.pdf)
-{{% /expand %}}
-{{% expand "12/10/2021, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "12/10/2021, <b>L</b>" %}}
 * Superfici equipotenziali
 * Energia potenziale elettrostatica e conservazione dell'energia
 * Dipolo elettrico
@@ -155,22 +155,22 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* Momento meccanico
 * Riferimenti bibliografici MNV: 2.3, 2.5, 2.7, 2.8 (solo campo uniforme),
 * [Appunti](../../files/appunti/2021/appunti_12_10.pdf)
-{{% /expand %}}
-{{% expand "13/10/2021, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "13/10/2021, <b>L</b>" %}}
 * Teorema (legge) di Gauss
 * Prima equazione di Maxwell
 * Conduttori
 * Teorema di Coulomb
 * Riferimenti bibliografici MNV: 3.1, 3.2 (solo spiegazione grafica), 3.4, 4.1
 * [Appunti](../../files/appunti/2021/appunti_13_10.pdf)
-{{% /expand %}}
-{{% expand "15/10/2021, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "15/10/2021, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_3.md" >}}))
 * Riferimenti bibliografici MNV: Esempi 2.2, 2.6, 2.10, 3.1, 3.2, 3.3, 3.4
 * Esercizi consigliati MNV: 2.3, 2.4, 2.5, 2.6 (consiglio: spostate una carica alla volta ma ricordatevi che le due cariche che spostate erano vicine "all'infinito"), 2.14, 2.17 (per questi due ricordatevi che l'energia si conserva!), 2.26 (solo punto a), 2.27, 3.9, 3.20 (il punto (a) è più difficile, il (b) meno)
 * [Appunti](../../files/appunti/2021/appunti_15_10.pdf)
-{{% /expand %}}
-{{% expand "19/10/2021, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "19/10/2021, <b>L</b>" %}}
 * Induzione completa
 * Gabbia di Faraday
 * Condensatori
@@ -178,22 +178,22 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 	* In serie
 * Riferimenti bibliografici MNV: 4.2, 4.3, 4.4
 * [Appunti](../../files/appunti/2021/appunti_19_10.pdf)
-{{% /expand %}}
-{{% expand "20/10/2021, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "20/10/2021, <b>L</b>" %}}
 * Energia e densità di energia del campo elettrostatico
 * Dielettrici
 	* Effetti di polarizzazione
 	* Legge di Gauss in presenza di dielettrici
 * Riferimenti bibliografici MNV: 4.5, 4.6, 4.7, 4.8
 * [Appunti](../../files/appunti/2021/appunti_20_10.pdf)
-{{% /expand %}}
-{{% expand "22/10/2021, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "22/10/2021, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_4.md" >}}))
 * Riferimenti bibliografici MNV: Esempio 4.1
 * Esercizi consigliati MNV: 4.4, 4.5, 4.6, 4.7, 4.8, 4.11, 4.16, 4.17, 4.18, 4.20, 4.21
 * [Appunti](../../files/appunti/2021/appunti_22_10.pdf)
-{{% /expand %}}
-{{% expand "26/10/2021, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "26/10/2021, <b>L</b>" %}}
 * Corrente elettrica
 * Modello classico della conduzione elettrica
 * Legge di Ohm
@@ -204,8 +204,8 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 5.1, 5.2, 5.3, 5.4, 5.5
 * [Video sul modello di Drude](https://www.youtube.com/watch?v=c6K-kDzhAnA)
 * [Appunti](../../files/appunti/2021/appunti_26_10.pdf)
-{{% /expand %}}
-{{% expand "27/10/2021, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "27/10/2021, <b>L</b>" %}}
 * Forza elettromotrice
 * Circuiti RC
 	* Carica di un condensatore
@@ -216,36 +216,69 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 5.6, 5.7, 5.9, esempi 5.9 e 5.10
 * [Video sui circuiti](https://www.youtube.com/watch?v=m4jzgqZu-4s)
 * [Appunti](../../files/appunti/2021/appunti_27_10.pdf)
-{{% /expand %}}
-{{% expand "29/10/2021, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "29/10/2021, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_5.md" >}}))
 * Esercizi consigliati MNV: 4.32, 4.34, 4.38, 5.12, 5.18, 5.20, 5.21, 5.22 (questi ultimi 4 esercizi potrebbero sembravi difficili: li vedremo meglio la prossima settimana)
 * [Appunti](../../files/appunti/2021/appunti_29_10.pdf) (**Nota Bene:** nell'ultima pagina l'equazione per la maglia di destra ha un segno sbagliato, dovrebbe essere $-\mathcal{E} = R_2 i_2 + R_3(i_2 - i_1)$)
-{{% /expand %}}
-{{% expand "02/11/2021, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "02/11/2021, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_6.md" >}}))
 * Esercizi consigliati MNV: 4.34, 4.35, 4.36, 4.37, 4.39, 4.40, 4.41, 4.42, 5.23, 5.24
 * [Appunti](../../files/appunti/2021/appunti_02_11.pdf)
-{{% /expand %}}
-{{% expand "04/11/2021, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "04/11/2021, <b>L</b>" %}}
 * Laboratorio didattico
-{{% /expand %}}
-{{% expand "05/11/2021, <b>E</b>" %}}
+  {{% /expand %}}
+  {{% expand "05/11/2021, <b>E</b>" %}}
 * Prova scritto ([testo e soluzioni](../2021/soluzioni_prima_prova_scritto.pdf))
 * [Appunti](../../files/appunti/2021/appunti_05_11.pdf)
-{{% /expand %}}
-{{% expand "09/11/2021, <b>L</b>" %}}
+  {{% /expand %}}
+  {{% expand "09/11/2021, <b>L</b>" %}}
 * Introduzione ai fenomeni magnetici
 * Elettricità e magnetismo
 * Forza magnetica
 	* Carica in moto
-	* Conduttore percorso da corrente
-* Momenti meccanici su circuiti piani
+	* Conduttore percorso da corrente* Momenti meccanici su circuiti piani
 * Riferimenti bibliografici MNV: 6.1, 6.2, 6.3, 6.4, esempio 6.2, 6.5
 * [Appunti](../../files/appunti/2021/appunti_09_11.pdf)
 {{% /expand %}}
-{{% expand "12/11/2021, <b>E</b>" %}}
+{{% expand "10/11/2021, <b>L</b>" %}}
+* Il galvanometro
+* Il motore elettrico in corrente continua
+* Moto di una carica in un campo uniforme
+  * nel caso in cui velocità e campo magnetico siano ortogonali;
+  * nel caso generale
+* Il fenomeno della bottiglia magnetica
+* Riferimenti bibliografici MNV: esempio 6.3, 6.7
+* [Appunti](../../files/appunti/2021/appunti_10_11.pdf)
+  {{% /expand %}}
+  {{% expand "12/11/2021, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_7.md" >}}))
 * Esercizi consigliati MNV: 6.19, 6.20, 6.21 (difficile), 6.23, 6.24, 6.25 (abbastanza difficile), 6.26
 * [Appunti](../../files/appunti/2021/appunti_12_11.pdf)
-{{% /expand %}}
+  {{% /expand %}}
+  {{% expand "16/11/2021, <b>L</b>" %}}
+* Lo spettrometro di massa
+* Il ciclotrone
+* Campi magnetici prodotti da correnti
+* Legge di Ampère
+* Riferimenti bibliografici MNV: 6.8, 7.1, 7.4
+* [Appunti](../../files/appunti/2021/appunti_16_11.pdf)
+  {{% /expand %}}
+  {{% expand "17/11/2021, <b>L</b>" %}}
+* Applicazioni della legge di Ampère:
+	* filo indefinito;
+	* filo indefinito di sezione finita;
+	* solenoide indefinito;
+	* solenoide toroidale
+* Forze tra fili percorsi da corrente
+* Primo punto dell'esercizio 45 dell'[esercitazione 8]({{< ref "2021/esercitazione_8.md" >}})
+* Riferimenti bibliografici MNV: 7.3, esempi 7.2, 7.3, 7.4
+* [Appunti](../../files/appunti/2021/appunti_17_11.pdf)
+  {{% /expand %}}
+  {{% expand "19/11/2021, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_8.md" >}}))
+* Esercizi consigliati MNV: 6.3, 6.4, 6.6, 6.8, 6.9, 6.27
+* [Appunti](../../files/appunti/2021/appunti_19_11.pdf)
+  {{% /expand %}}
