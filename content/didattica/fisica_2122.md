@@ -282,3 +282,21 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercizi consigliati MNV: 6.3, 6.4, 6.6, 6.8, 6.9, 6.27
 * [Appunti](../../files/appunti/2021/appunti_19_11.pdf)
   {{% /expand %}}
+{{% expand "23/11/2021, <b>L</b>" %}}
+* Proprietà magnetiche della materia
+	* sostanze diamagnetiche;
+	* sostanze paramagnetiche;
+	* sostanze ferromagnetiche;
+* Ferromagnetismo
+* Meccanismi di magnetizzazione
+* [Video mostrato in aula](https://www.youtube.com/watch?v=u36QpPvEh2c)
+* Riferimenti bibliografici MNV: 7.5, 7.6
+* [Appunti](../../files/appunti/2021/appunti_23_11.pdf)
+{{% /expand %}}
+{{% expand "24/11/2021, <b>L</b>" %}}
+* Il vettore magnetizzazione
+* La legge di Gauss per il campo magnetico
+* Equazioni generali della magnetostatica
+* Riferimenti bibliografici MNV: 7.6, 7.7, 7.8
+* [Appunti](../../files/appunti/2021/appunti_24_11.pdf)
+{{% /expand %}}
