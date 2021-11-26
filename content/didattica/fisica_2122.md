@@ -282,7 +282,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercizi consigliati MNV: 6.3, 6.4, 6.6, 6.8, 6.9, 6.27
 * [Appunti](../../files/appunti/2021/appunti_19_11.pdf)
   {{% /expand %}}
-{{% expand "23/11/2021, <b>L</b>" %}}
+  {{% expand "23/11/2021, <b>L</b>" %}}
 * Proprietà magnetiche della materia
 	* sostanze diamagnetiche;
 	* sostanze paramagnetiche;
@@ -300,3 +300,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 7.6, 7.7, 7.8
 * [Appunti](../../files/appunti/2021/appunti_24_11.pdf)
 {{% /expand %}}
+  {{% expand "26/11/2021, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_9.md" >}}))
+* [Appunti](../../files/appunti/2021/appunti_26_11.pdf)
+  {{% /expand %}}
