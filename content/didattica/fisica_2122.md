@@ -299,8 +299,31 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Equazioni generali della magnetostatica
 * Riferimenti bibliografici MNV: 7.6, 7.7, 7.8
 * [Appunti](../../files/appunti/2021/appunti_24_11.pdf)
-{{% /expand %}}
+  {{% /expand %}}
   {{% expand "26/11/2021, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_9.md" >}}))
 * [Appunti](../../files/appunti/2021/appunti_26_11.pdf)
-  {{% /expand %}}
+{{% /expand %}}
+{{% expand "30/11/2021, <b>L</b>" %}}
+* Campi elettrici e magnetici variabili nel tempo
+* Legge di Faraday
+* Campo elettrico indotto
+* Generatore di tensione (continua e alternata)
+* Riferimenti bibliografici MNV:  8.1, 8.2, 8.3 (prima parte)
+* [Appunti](../../files/appunti/2021/appunti_30_11.pdf)
+{{% /expand %}}
+{{% expand "01/12/2021, <b>L</b>" %}}
+* Correnti di Foucault
+* Misure di campo magnetico
+* Autoflusso
+* Autoinduzione
+	* Apertura di un circuito induttivo
+	* Chiusura di un circuito induttivo
+* Riferimenti bibliografici MNV:  8.3 (seconda parte), 8.4, esempio 8.4
+* [Appunti](../../files/appunti/2021/appunti_01_12.pdf)
+{{% /expand %}}
+{{% expand "03/12/2021, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_10.md" >}}))
+* Esercizi consigliati MNV: 8.1 punto a), 8.3, 8.4
+* [Appunti](../../files/appunti/2021/appunti_03_12.pdf)
+{{% /expand %}}
