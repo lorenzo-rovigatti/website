@@ -327,3 +327,18 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercizi consigliati MNV: 8.1 punto a), 8.3, 8.4
 * [Appunti](../../files/appunti/2021/appunti_03_12.pdf)
 {{% /expand %}}
+{{% expand "07/12/2021, <b>L</b>" %}}
+* Energia magnetica
+* Legge di Ampère-Maxwell
+* Equazioni di Maxwell
+  * Forma integrale
+  * Forma differenziale
+* Conservazione della carica elettrica
+* Riferimenti bibliografici MNV: 8.5, 8.7, 8.8, 8.9
+* [Appunti](../../files/appunti/2021/appunti_07_12.pdf)
+{{% /expand %}}
+{{% expand "10/12/2021, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_11.md" >}}))
+* Esercizi consigliati MNV: 8.2, 8.5, 8.6, 8.7
+* [Appunti](../../files/appunti/2021/appunti_10_12.pdf)
+{{% /expand %}}

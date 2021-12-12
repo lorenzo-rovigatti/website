@@ -5,7 +5,7 @@ draft = false
 
 +++
 
-[Esercizio 54](#esercizio-54) -- [Esercizio 55](#esercizio-55) -- [Esercizio 56](#esercizio-56) -- [Esercizio 57](#esercizio-57) -- [Esercizio 58](#esercizio-58) -- [Esercizio 59](#esercizio-59) -- [Esercizio 60](#esercizio-60)
+[Esercizio 54](#esercizio-54) -- [Esercizio 55](#esercizio-55) -- [Esercizio 56](#esercizio-56) -- [Esercizio 57](#esercizio-57) -- [Esercizio 58](#esercizio-58)
 
 ## Esercizio 54
 
@@ -23,11 +23,9 @@ Una sbarretta conduttrice di massa $m=5$ g e di lunghezza $l=25$ cm scorre liber
 ### Soluzione
 
 1. La corrente deve opporsi all'aumentare del flusso, e quindi, dovendo generare un campo opposto a $B$, scorrerà in verso orario. L'intensità della corrente si trova applicando la legge di Faraday, ricordando che il flusso è 
-
 $$
 \Phi(B) = lBx(t)
 $$
-
 e quindi 
 $$
 \mathcal{E}_i(t) = - \frac{d \Phi(B)}{dt} = -l B v(t)
@@ -36,24 +34,18 @@ che calcolata in 0 vale $\mathcal{E}_i(0) = -l B v(0)$, da cui si ricava
 $$
 i = \frac{l b v(0)}{R} = 0.104\, {\rm A}
 $$
-
 2. La variazione di flusso a cui è sottoposta la spira è semplicemente
-
 $$
 \Delta \Phi = \Phi_1 - \Phi_2 = -\Phi_2 = -lLB
 $$
-
 e quindi la carica è data dalla legge di Felici:
 $$
 q = \frac{\Delta \Phi}{R} = -0.017 \, {\rm C}.
 $$
-
 3. In questo caso la velocità con cui si muove la sbarretta non è costante poiché comincerà a rallentare non appena entrata nella regione di campo come conseguenza della presenza della forza di attrito elettromagnetico data da
-
 $$
 F(t) = - \frac{l^2 B^2}{R}v(t)
 $$
-
 dove omettiamo i simboli di vettore perché forza e velocità sono sempre parallele. Ricordando che $v(t) = dx / dt$ e $a(t) = F(t) / m$ e definendo $t_u$ come il tempo a cui la sbarrretta esce dalla regione di campo possiamo risolvere direttamente l'equazione che lega accelerazione a velocità:
 $$
 v(t_u) = v(0) + \int_0^{t_u} a(t) dt = v(0) - \int_0^{t_u} \frac{l^2 B^2}{mR} v(t) dt = v(0) - \int_0^{t_u} \frac{l^2 B^2}{mR}\frac{dx}{dt} dt = v(0) - \int_0^L \frac{l^2 B^2}{mR} dx
@@ -62,9 +54,7 @@ che si può risolvere immediatamente per ottenere
 $$
 v(t) = v(0) - \frac{l^2 B^2 L}{mR} = 0.42\, {\rm m/s}
 $$
-
 4. Far fermare la sbarretta significa imporre $v(t) = 0$. Sostituendo questo valore nell'equazione precedente si trova
-
 $$
 L = \frac{v(0) mR }{l^2 B^2} = 0.48\, {m}
 $$
@@ -85,11 +75,9 @@ In un piano inclinato di angolo $\theta=\pi / 6 = 30^\circ$ sono poste due rotai
 ### Soluzione
 
 1. Il verso è dato dalla legge di Lenz: poiché il flusso attraverso la spira aumenta, il campo magnetico generato dalla corrente indotta deve opporsi a quello esterno e quindi, nel sistema di riferimento indicato in figura, la corrente scorre lungo $-\hat{z}$ all'interno della sbarretta. Possiamo ricavare la corrente a partire dalla legge di Faraday. Il flusso del campo attraverso la superficie della spira è
-
 $$
 \Phi(B) = l x B \cos \theta
 $$
-
 perché tra la normale alla spira e il campo magnetico vi è un angolo $\theta$. $x$ indica lo spostamento della sbarretta lungo il piano parallelo rispetto alla sua posizione iniziale. La forza elettromotrice indotta sarà quindi
 $$
 \mathcal{E}_i = -\frac{d \Phi(B)}{dt} = - l B \cos \theta v(t)
@@ -98,13 +86,10 @@ perché $dx / dt = v(t)$, quindi la corrente ha intensità
 $$
 i = \frac{l B \cos \theta v(t)}{R}
 $$
-
 2. La velocità limite si raggiunge quando $v$ rimane costante durante il moto. Affinché la velocità sia costante l'accelerazione deve essere nulla, e quindi la somma delle forze deve anch'essa azzerarsi. Le componenti ortogonali al piano si azzerano in forza della reazione normale. Le componenti parallele, d'altro canto, devono azzerarsi perché uguali in modulo ma opposte in verso. Col sistema di riferimento indicato in figura la forza peso ha direzione $-\hat{y}$, mentre quella magnetica vale 
-
 $$
 \vec{F}_m = i \vec{l} \times \vec{B} = \frac{l^2 B^2}{R} \cos \theta v(t) \hat{x}
 $$
-
 poiché la corrente scorre nella sbarretta verso $\hat{z}$ e $\vec{B}$ è diretto lungo $\hat{y}$. Eguagliando le intensità delle componenti delle due forze lungo il piano inclinato si trova
 $$
 mg \sin\theta = \frac{l^2 B^2}{R} \cos^2 \theta v\_{\rm lim}
@@ -131,25 +116,19 @@ Una bobina rettangolare formata da $N = 100$ spire sovrapposte di lati $a = 1$ c
 ### Soluzione
 
 1. Nella posizione data il campo e la normale alla bobina sono paralleli, quindi il flusso è la somma dei flussi che passano attraverso le $N$ spire, quindi
-
 $$
 \Phi(B) = N a b B = 0.02\, {\rm Wb}
 $$
-
 2. Se definiamo $\theta = \omega t$ l'angolo tra la normale alla bobina e il campo, il flusso vale
-
 $$
 \Phi(B) = N a b B \cos \theta = N a b B \cos (\omega t)
 $$
-
 e quindi applicando la legge di Faraday troviamo
 $$
 \mathcal{E}_i = \omega N a b B \sin(\omega t)
 $$
 che è massimo quando $\theta = \omega t = \pi / 2$, cioè quando campo e bobina sono ortogonali.
-
 3. Utilizzando la formula di prima e imponendo $\mathcal{E}_i = 100$ V troviamo
-
 $$
 \omega = \frac{\mathcal{E}_i}{N a b B} = 5000 \, {\rm rad/sec}
 $$
@@ -200,7 +179,7 @@ Una barra conduttrice, di massa $m=100$ g e resistenza $R = 500\, \Omega$, appog
 	3. il lavoro fatto dal generatore fino al tempo $t_1$.
 * Se invece il generatore fornisce una f.e.m. costante pari a $\mathcal{E}_0= 8$ V calcolare
 	1. la potenza fornita dal generatore quando la sbarra ha raggiunto la velocità limite;
-	1. il valore della velocità limite.
+	2. il valore della velocità limite.
 	
 
 ### Soluzione
@@ -251,65 +230,3 @@ che, dati i versi indicati in figura, ha direzione verso destra.
 	$$
 	v = \frac{\mathcal{E}_0}{l B} = 25\, {\rm m/s}
 	$$
-
----
-
-## Esercizio 59
-
-### Testo
-
-Un circuito è composto da una batteria di f.e.m. $\mathcal{E}$, da una resistenza $R = 0.1 \, \Omega$, da un'induttanza ($L = 9.44$ H) e da un interruttore, inizialmente chiuso. Al tempo zero l'interruttore viene aperto. Sapendo che nei primi $15$ s la corrente passa da $1.16$ A a $10.2$ mA. Determinare
-
-1. il valore di $\mathcal{E}$;
-2. il valore della resistenza $R'$ presente tra i due poli dell'interruttore.
-
-### Soluzione
-
-1. La legge oraria con cui varia l'intensità di corrente in un circuito $RL$ che viene scollegato dal generatore è
-$$
-i(t) = i\_{\infty} e^{-\frac{t}{\tau}},
-$$
-dove $i\_{\infty} = \frac{\mathcal{E}}{R}$ è il valore della corrente a circuito chiuso e $\tau = L / R'$. Dal testo si capisce che $i\_{\infty} = 1.16$ A e $i(15 \, {\rm s}) = 10.2$ mA. Utilizzando la prima relazione si trova
-$$
-\mathcal{E} = R i\_{\infty} = 0.116 \, {\rm V}.
-$$
-2. Sapendo che $i(15 \, {\rm s}) = 10.2$ mA e risolvendo per $R'$ si trova
-$$
-R' = \frac{L}{15 \, {\rm s}} \log \left( \frac{i\_{\infty}}{i(15 \, {\rm s})} \right) = 2.98 \, \Omega
-$$
-
----
-
-## Esercizio 60
-
-### Testo
-
-Un induttore ($L=4 \times 10^{-4}$ H) ed una resistenza ($R=5\, \Omega$) sono posti in serie ad un generatore di tensione ($\mathcal{E} = 200$ V) collegato tramite un interruttore, inizialmente aperto. Al tempo zero l'interruttore viene chiuso. Determinare
-
-1. il tempo che occorre affinché la corrente che fluisce nella resistenza raggiunga il 60% della corrente finale;
-2. l'energia accumulata nel campo magnetico dopo che la corrente ha raggiunto il suo valore massimo;
-3. il valore della corrente dopo un tempo pari a 3 costanti di tempo $\tau = L / R$.
-
-### Soluzione
-
-1. La corrente finale è data dalla legge di Ohm e vale
-$$
-i\_{\infty} = \frac{\mathcal{E}}{R} = 40\, {\rm A}.
-$$
-Sapendo che la corrente varia con la legge temporale
-$$
-i(t) = \frac{\mathcal{E}}{R} \left( 1 - e^{-\frac{t}{\tau}}\right),
-$$
-il tempo si trova imponendo $i(t) = 0.6 i\_{\infty}$ e risolvendo per $t$:
-$$
-t = - \frac{L}{R}\log(1 - 0.6) = 7.2 \times 10^{-6} \, {\rm s}
-$$
-2. L'energia è data dalla relazione
-$$
-U = \frac{1}{2} L i\_{\infty}^2 = 0.32 \, {\rm J}
-$$
-3. Il valore si ottiene sostituendo $t = 3 L / R$ in $i(t)$, trovando
-
-$$
-i(3 L / R) = 38\, {\rm A}
-$$
