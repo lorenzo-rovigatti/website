@@ -342,3 +342,12 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Esercizi consigliati MNV: 8.2, 8.5, 8.6, 8.7
 * [Appunti](../../files/appunti/2021/appunti_10_12.pdf)
 {{% /expand %}}
+{{% expand "14/12/2021, <b>L</b>" %}}
+* Onde elettromagnetiche come soluzioni delle equazioni di Maxwell
+* Onde piane
+* Onde armoniche
+* Energia e quantità di moto di un'onda
+* Spettro delle onde elettromagnetiche
+* Riferimenti bibliografici MNV: 10.1, 10.2, 10.3, 10.4, 10.5, 10.8
+* [Appunti](../../files/appunti/2021/appunti_14_12.pdf)
+{{% /expand %}}
