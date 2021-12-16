@@ -351,3 +351,10 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 10.1, 10.2, 10.3, 10.4, 10.5, 10.8
 * [Appunti](../../files/appunti/2021/appunti_14_12.pdf)
 {{% /expand %}}
+{{% expand "15/12/2021, <b>L</b>" %}}
+* La luce e l'indice di rifrazione
+* Riflessione e rifrazione
+* Interferenza: l'esperimento di Young
+* Riferimenti bibliografici MNV: 11.1, 11.3, 13.1, 13.2 (senza la derivazione di $I(\theta)$, senza l'uso della lente convergente e senza l'interferenza da sorgenti incoerenti)
+* [Appunti](../../files/appunti/2021/appunti_15_12.pdf)
+{{% /expand %}}
