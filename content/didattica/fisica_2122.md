@@ -358,3 +358,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: 11.1, 11.3, 13.1, 13.2 (senza la derivazione di $I(\theta)$, senza l'uso della lente convergente e senza l'interferenza da sorgenti incoerenti)
 * [Appunti](../../files/appunti/2021/appunti_15_12.pdf)
 {{% /expand %}}
+{{% expand "17/12/2021, <b>E</b>" %}}
+* Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_12.md" >}}))
+* [Appunti](../../files/appunti/2021/appunti_17_12.pdf)
+{{% /expand %}}
