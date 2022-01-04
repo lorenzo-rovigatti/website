@@ -349,6 +349,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Energia e quantità di moto di un'onda
 * Spettro delle onde elettromagnetiche
 * Riferimenti bibliografici MNV: 10.1, 10.2, 10.3, 10.4, 10.5, 10.8
+* Video sulle onde: [trasporto di energia](https://www.youtube.com/watch?v=LyxLxx3xifo), [altro esempio](https://www.youtube.com/watch?v=ElSIf2_Xmjs), [onde elettromagnetiche](https://www.youtube.com/watch?v=Oo8XMxXY32g), [optical tweezers](https://www.youtube.com/watch?v=ju6wENPtXu8)
 * [Appunti](../../files/appunti/2021/appunti_14_12.pdf)
 {{% /expand %}}
 {{% expand "15/12/2021, <b>L</b>" %}}
@@ -356,9 +357,21 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riflessione e rifrazione
 * Interferenza: l'esperimento di Young
 * Riferimenti bibliografici MNV: 11.1, 11.3, 13.1, 13.2 (senza la derivazione di $I(\theta)$, senza l'uso della lente convergente e senza l'interferenza da sorgenti incoerenti)
+* [Esperimento sulla rifrazione](https://www.youtube.com/watch?v=9n362snGUdw), [esempio di interferenze](https://youtu.be/Iuv6hY6zsd0?t=255)
 * [Appunti](../../files/appunti/2021/appunti_15_12.pdf)
 {{% /expand %}}
 {{% expand "17/12/2021, <b>E</b>" %}}
 * Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_12.md" >}}))
 * [Appunti](../../files/appunti/2021/appunti_17_12.pdf)
 {{% /expand %}}
+{{% expand "21/12/2021, <b>L</b>" %}}
+* Interferenza: l'esperimento di Young
+* Interferenza da lamine sottili
+* Diffrazione
+* Principio di Huygens-Fresnel (cenni)
+* Diffrazione di Fraunhofer per una fenditura rettilinea
+* Riferimenti bibliografici MNV: 13.2 (senza la derivazione di $I(\theta)$, senza l'uso della lente convergente e senza l'interferenza da sorgenti incoerenti), 13.3, 14.1, 11.2 (solo l'enunciato del principio di Huygens-Fresnel), 14.2
+* Video sull'[interferenza da lamine sottili](https://www.youtube.com/watch?v=WTxDyYHaYAI) e sulla [diffrazione](https://www.youtube.com/watch?v=9D8cPrEAGyc)
+* [Appunti](../../files/appunti/2021/appunti_21_12.pdf)
+{{% /expand %}}
+
