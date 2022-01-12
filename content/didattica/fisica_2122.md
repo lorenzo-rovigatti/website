@@ -374,4 +374,12 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Video sull'[interferenza da lamine sottili](https://www.youtube.com/watch?v=WTxDyYHaYAI) e sulla [diffrazione](https://www.youtube.com/watch?v=9D8cPrEAGyc)
 * [Appunti](../../files/appunti/2021/appunti_21_12.pdf)
 {{% /expand %}}
-
+{{% expand "11/01/2022, <b>L + E</b>" %}}
+* Effetti cromatici
+* Diffrazione prodotta da un'apertura circolare
+* Limite di risoluzione delle lenti
+* Interferenza di $N$ sorgenti di onde
+* Esercitazione ([testo e soluzioni]({{< ref "2021/esercitazione_13.md" >}}))
+* Riferimenti bibliografici MNV: esempio 14.2, 14.3, 14.4, 13.6
+* [Appunti](../../files/appunti/2021/appunti_11_01.pdf)
+{{% /expand %}}
