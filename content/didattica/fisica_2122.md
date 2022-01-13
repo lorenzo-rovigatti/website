@@ -383,3 +383,7 @@ Questa sezione riporta il contenuto delle singole lezioni ed è aggiornata volta
 * Riferimenti bibliografici MNV: esempio 14.2, 14.3, 14.4, 13.6
 * [Appunti](../../files/appunti/2021/appunti_11_01.pdf)
 {{% /expand %}}
+{{% expand "12/01/2022, <b>E</b>" %}}
+* Prova scritto ([testo e soluzioni](../2021/soluzioni_seconda_prova_scritto.pdf))
+* [Appunti](../../files/appunti/2021/appunti_12_01.pdf)
+  {{% /expand %}}
