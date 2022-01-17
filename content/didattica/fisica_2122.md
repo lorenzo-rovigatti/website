@@ -12,6 +12,9 @@ draft = false
 
 ### Comunicazioni
 
+* **Scritto del 28/01/2022**: l'esame scritto si terrà alle ore 14:00.
+  * L'esame **online** si terrà a questo [link](meet.google.com/zcr-brmd-xmh). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esame. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
+  * L'esame in presenza si terrà in aula III (edificio Caglioti).
 * Andate sul [sito e-learning del corso](https://elearning.uniroma1.it/course/view.php?id=13879) e iscrivetevi per poter ricevere le comunicazioni del docente
 * [Slide di presentazione]({{< static "didattica/2021/presentazione.pdf" >}})
 
@@ -37,7 +40,11 @@ Il docente riceve nella stanza 104 al primo piano dell'edificio Fermi (nuovo edi
 
 * L'esame prevede una prova scritta ed una prova orale.
 * La validità di una prova scritta è di tre appelli. In altre parole, coloro che abbiano superato una prova scritta possono sostenere la prova orale entro le tre sessioni orali successive (inclusa quella della medesima prova scritta, che comprende sempre la relativa sessione orale). 
-* Durante le prove d'esame non è consentito l'utilizzo di alcun libro o tipo di appunti.
+* Durante le prove d'esame non è consentito l'utilizzo di alcun libro o tipo di appunti ma solo del formulario che verrà fornito dal docente. Gli unici oggetti che possono essere visibili durante lo svolgimento di una prova scritta sono:
+    * penna,
+    * calcolatrice,
+    * documento d’identità valido ai fini del riconoscimento (e non scaduto)
+    * eventuale bottiglia d’acqua.
 
 ### Materiale didattico
 
