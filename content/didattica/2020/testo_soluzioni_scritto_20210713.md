@@ -38,7 +38,7 @@ Una spira di forma pentagonale ($a = 10$ cm, $b = 6$ cm) ha massa $m = 15$ g, è
 {{< figure src="../images/scritto_20210713_esercizio_2.png"  width="500px">}}
 
 1. Determinare verso e intensità di $i$ **(5 punti)**.
-	* I due campi hanno verso opposto ma, poiché la corrente scorre in verso opposto nel segmento in alto e nei due in basso, genereranno forze magnetiche con uguale verso. Affinché queste forze siano dirette verso l'alto la corrente deve scorrere in senso antiorario. Ricordando che la forza magnetica è data da $\vec{F} = i \vec{s} \times \vec{B}$, dove $\vec{s}$ è il vettore che congiunge il primo e l'ultimo punto del segmento, il bilancio delle forze è
+	* I due campi hanno verso opposto ma, poiché la corrente scorre in verso opposto nel segmento in alto e nei due in basso, genereranno forze magnetiche con uguale verso. Affinché queste forze siano dirette verso l'alto la corrente deve scorrere in senso orario. Ricordando che la forza magnetica è data da $\vec{F} = i \vec{s} \times \vec{B}$, dove $\vec{s}$ è il vettore che congiunge il primo e l'ultimo punto del segmento, il bilancio delle forze è
 	$$
 	i a (B_2 + B_1) = mg
 	$$
