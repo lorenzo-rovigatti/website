@@ -22,8 +22,13 @@ draft = false
 
 ### Comunicazioni
 
+<<<<<<< HEAD
 * **Scritto del 28/01/2022**: l'esame scritto si terrà alle ore 14:00.
   * L'esame **online** si terrà a questo [link](http://meet.google.com/zcr-brmd-xmh). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esame. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
+=======
+* **Scritto del 28/01/2022**: l'esame scritto si terrà alle ore 14:00. A [questo link]({{< static "didattica/2021/formulario.pdf" >}}) potete scaricare il "bignami" del corso che è permesso utilizzare durante l'esame.
+  * L'esame **online** si terrà a questo [link](meet.google.com/zcr-brmd-xmh). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esame. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
+>>>>>>> 9cbae7eddbdf7ad30b061a26da2e2a209a00a516
   * L'esame in presenza si terrà in aula III (edificio Caglioti).
 * **Scritto del 10/11/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20211110.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20211110.md" >}}). Contattare il docente per visionare i compiti e/o accordarsi per l'orale.
 * **Scritto del 14/09/2021**: [testo e soluzioni]({{< ref "2020/testo_soluzioni_scritto_20210914.md" >}}), [risultati]({{< ref "2020/risultati_scritto_20210914.md" >}}).

@@ -12,8 +12,13 @@ draft = false
 
 ### Comunicazioni
 
+<<<<<<< HEAD
 * **Scritto del 28/01/2022**: l'esame scritto si terrà alle ore 14:00.
   * L'esame **online** si terrà a questo [link](http://meet.google.com/zcr-brmd-xmh). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esame. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
+=======
+* **Scritto del 28/01/2022**: l'esame scritto si terrà alle ore 14:00. A [questo link]({{< static "didattica/2021/formulario.pdf" >}}) potete scaricare il "bignami" del corso che è permesso utilizzare durante l'esame.
+  * L'esame **online** si terrà a questo [link](meet.google.com/zcr-brmd-xmh). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esame. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
+>>>>>>> 9cbae7eddbdf7ad30b061a26da2e2a209a00a516
   * L'esame in presenza si terrà in aula III (edificio Caglioti).
 * Andate sul [sito e-learning del corso](https://elearning.uniroma1.it/course/view.php?id=13879) e iscrivetevi per poter ricevere le comunicazioni del docente
 * [Slide di presentazione]({{< static "didattica/2021/presentazione.pdf" >}})
@@ -45,6 +50,7 @@ Il docente riceve nella stanza 104 al primo piano dell'edificio Fermi (nuovo edi
     * calcolatrice,
     * documento d’identità valido ai fini del riconoscimento (e non scaduto)
     * eventuale bottiglia d’acqua.
+    * il ["bignami" del corso]({{< static "didattica/2021/formulario.pdf" >}})
 
 ### Materiale didattico
 
