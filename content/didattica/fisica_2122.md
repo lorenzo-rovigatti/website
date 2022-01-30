@@ -13,7 +13,7 @@ draft = false
 ### Comunicazioni
 
 * **Scritto del 28/01/2022**: l'esame scritto si terrà alle ore 14:00.
-  * L'esame **online** si terrà a questo [link](meet.google.com/zcr-brmd-xmh). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esame. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
+  * L'esame **online** si terrà a questo [link](http://meet.google.com/zcr-brmd-xmh). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esame. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
   * L'esame in presenza si terrà in aula III (edificio Caglioti).
 * Andate sul [sito e-learning del corso](https://elearning.uniroma1.it/course/view.php?id=13879) e iscrivetevi per poter ricevere le comunicazioni del docente
 * [Slide di presentazione]({{< static "didattica/2021/presentazione.pdf" >}})
