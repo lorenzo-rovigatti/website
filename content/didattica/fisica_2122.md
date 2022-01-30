@@ -12,14 +12,10 @@ draft = false
 
 ### Comunicazioni
 
-<<<<<<< HEAD
-* **Scritto del 28/01/2022**: l'esame scritto si terrà alle ore 14:00.
+<!--* **Scritto del 28/01/2022**: l'esame scritto si terrà alle ore 14:00.
   * L'esame **online** si terrà a questo [link](http://meet.google.com/zcr-brmd-xmh). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esame. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
-=======
-* **Scritto del 28/01/2022**: l'esame scritto si terrà alle ore 14:00. A [questo link]({{< static "didattica/2021/formulario.pdf" >}}) potete scaricare il "bignami" del corso che è permesso utilizzare durante l'esame.
-  * L'esame **online** si terrà a questo [link](meet.google.com/zcr-brmd-xmh). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esame. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
->>>>>>> 9cbae7eddbdf7ad30b061a26da2e2a209a00a516
-  * L'esame in presenza si terrà in aula III (edificio Caglioti).
+  * L'esame in presenza si terrà in aula III (edificio Caglioti).-->
+  * **Scritto del 28/01/2022**: [testo e soluzioni]({{< static "didattica/2021/testo_soluzioni_scritto_20220128.pdf" >}}), [risultati scienze chimiche]({{< ref "2021/risultati_scritto_20220128_SC.md" >}}), [risultati chimica industriale]({{< ref "2021/risultati_scritto_20220128_CI.md" >}}). Gli orali si terranno mercoledì 2, lunedì 7 e mercoledì 9 febbraio a partire dalle ore 14. Entro domani manderò il calendario definitivo: se avete preferenze inviatemi una e-mail.
 * Andate sul [sito e-learning del corso](https://elearning.uniroma1.it/course/view.php?id=13879) e iscrivetevi per poter ricevere le comunicazioni del docente
 * [Slide di presentazione]({{< static "didattica/2021/presentazione.pdf" >}})
 
