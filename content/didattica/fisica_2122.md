@@ -12,11 +12,14 @@ draft = false
 
 ### Comunicazioni
 
-* **Scritto del 18/02/2022**: l'esame scritto si terrà alle ore 14:00.
+<!--* **Scritto del 18/02/2022**: l'esame scritto si terrà alle ore 14:00.
   * L'esame **online** si terrà a questo [link](meet.google.com/ozk-uxsw-nqs). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esame. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
-  * L'esame in presenza si terrà in aula III (edificio Caglioti).
-* **Orale I appello**: [qui]({{< static "didattica/2021/calendario_orali_20220128.pdf" >}}) il calendario orali. Gli orali si terranno in Aula 2 del nuovo edificio di fisica (CU033). Vedrete anche un orario nella convocazione: a parte i primi di ciascuna giornata, gli altri sono tenuti a presentarsi almeno 40 minuti prima (l'orario serve solo a darvi una indicazione che massima). Siete tenuti al rispetto delle norme anti-Covid e dovrete aspettare il vostro turno restando ben distanziati. Chi volesse sostenere l'orale da remoto è pregato di contattarmi *quanto prima*.
-* **Scritto del 28/01/2022**: [testo e soluzioni]({{< static "didattica/2021/testo_soluzioni_scritto_20220128.pdf" >}}), [risultati scienze chimiche]({{< ref "2021/risultati_scritto_20220128_SC.md" >}}), [risultati chimica industriale]({{< ref "2021/risultati_scritto_20220128_CI.md" >}}). Gli orali si terranno mercoledì 2, lunedì 7 e mercoledì 9 febbraio a partire dalle ore 14. Entro domani manderò il calendario definitivo: se avete preferenze inviatemi una e-mail.
+  * L'esame in presenza si terrà in aula III (edificio Caglioti).-->
+* **Scritto del 18/02/2022**: 
+  * [testo e soluzioni scienze chimiche]({{< static "didattica/2021/testo_soluzioni_scritto_20220218_SC.pdf" >}}), [risultati scienze chimiche]({{< ref "2021/risultati_scritto_20220218_SC.md" >}})
+  *   [testo e soluzioni chimica industriale]({{< static "didattica/2021/testo_soluzioni_scritto_20220218_CI.pdf" >}}), [risultati scienze chimiche]({{< ref "2021/risultati_scritto_20220218_CI.md" >}})
+Contattatemi per gli esami orali: sicuramente sono disponibile i pomeriggi di lunedì 21 e martedì 22, ma possiamo trovare altre date compatibili con i vostri orari.
+* **Scritto del 28/01/2022**: [testo e soluzioni]({{< static "didattica/2021/testo_soluzioni_scritto_20220128.pdf" >}}), [risultati scienze chimiche]({{< ref "2021/risultati_scritto_20220128_SC.md" >}}), [risultati chimica industriale]({{< ref "2021/risultati_scritto_20220128_CI.md" >}}).
 * Andate sul [sito e-learning del corso](https://elearning.uniroma1.it/course/view.php?id=13879) e iscrivetevi per poter ricevere le comunicazioni del docente
 * [Slide di presentazione]({{< static "didattica/2021/presentazione.pdf" >}})
 
