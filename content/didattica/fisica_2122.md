@@ -17,7 +17,7 @@ draft = false
   * L'esame in presenza si terrà in aula III (edificio Caglioti).-->
 * **Scritto del 18/02/2022**: 
   * [testo e soluzioni scienze chimiche]({{< static "didattica/2021/testo_soluzioni_scritto_20220218_SC.pdf" >}}), [risultati scienze chimiche]({{< ref "2021/risultati_scritto_20220218_SC.md" >}})
-  *   [testo e soluzioni chimica industriale]({{< static "didattica/2021/testo_soluzioni_scritto_20220218_CI.pdf" >}}), [risultati scienze chimiche]({{< ref "2021/risultati_scritto_20220218_CI.md" >}})
+  *   [testo e soluzioni chimica industriale]({{< static "didattica/2021/testo_soluzioni_scritto_20220218_CI.pdf" >}}), [risultati chimica industriale]({{< ref "2021/risultati_scritto_20220218_CI.md" >}})
 Contattatemi per gli esami orali: sicuramente sono disponibile i pomeriggi di lunedì 21 e martedì 22, ma possiamo trovare altre date compatibili con i vostri orari.
 * **Scritto del 28/01/2022**: [testo e soluzioni]({{< static "didattica/2021/testo_soluzioni_scritto_20220128.pdf" >}}), [risultati scienze chimiche]({{< ref "2021/risultati_scritto_20220128_SC.md" >}}), [risultati chimica industriale]({{< ref "2021/risultati_scritto_20220128_CI.md" >}}).
 * Andate sul [sito e-learning del corso](https://elearning.uniroma1.it/course/view.php?id=13879) e iscrivetevi per poter ricevere le comunicazioni del docente
