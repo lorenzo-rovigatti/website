@@ -12,9 +12,10 @@ draft = false
 
 ### Comunicazioni
 
-* **Esame del 13/06/2022**: Chi deve fare solo l'orale mi contatti. Per gli altri, l'esame scritto si terrà il giorno **Giovedì 16/06** ore 11:00.
+<!--* **Esame del 13/06/2022**: Chi deve fare solo l'orale mi contatti. Per gli altri, l'esame scritto si terrà il giorno **Giovedì 16/06** ore 11:00.
   * L'esame **online** si terrà a questo [link](https://meet.google.com/fyn-afoo-jnm). [Qui]({{< ref "2020/linee_guida_online.md" >}}) trovate le linee guida per l'esame. **Durante l'esame ricordatevi di utilizzare le cuffie per evitare sgradevoli ritorni dell'audio**.
-  * L'esame in presenza si terrà in aula 4 (primo piano dell'edificio Fermi, CU0033).
+  * L'esame in presenza si terrà in aula 4 (primo piano dell'edificio Fermi, CU0033).-->
+* **Scritto del 16/06/2022**:  [testo e soluzioni]({{< static "didattica/2021/testo_soluzioni_scritto_20220616.pdf" >}}), [risultati]({{< ref "2021/risultati_scritto_20220616.md" >}}). Vi ricordo che chi ha passato lo scritto potrà sostenere l'esame orale fino all'appello di Settembre (compreso). Gli orali si terranno la prossima settimana, martedì 21 dalle 14 o giovedì 23 dalle 11. Nello stesso orario sarà possibile visionare i compiti. Scrivetemi per esprimere le vostre preferenze.
 * **Scritto del 20/04/2022**:  [testo e soluzioni scienze chimiche]({{< static "didattica/2021/testo_soluzioni_scritto_20220420.pdf" >}}), [risultati scienze chimiche]({{< ref "2021/risultati_scritto_20220420.md" >}}). Vi ricordo che chi ha passato lo scritto potrà sostenere l'esame orale fino all'appello di Luglio (compreso). Chi volesse fare l'orale in questa sessione mi scriva.
 * **Scritto del 18/02/2022**: 
   * [testo e soluzioni scienze chimiche]({{< static "didattica/2021/testo_soluzioni_scritto_20220218_SC.pdf" >}}), [risultati scienze chimiche]({{< ref "2021/risultati_scritto_20220218_SC.md" >}})
